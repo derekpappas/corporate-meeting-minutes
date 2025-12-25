@@ -1,5 +1,6 @@
 import json
 from datetime import datetime
+from docx import Document
 
 # 1. DATA STRUCTURES
 locations_timeline = [
@@ -80,13 +81,31 @@ _____________________
 **Date:** {date}
 **Name:** {name}"""
 
+# 3. OUTPUT HELPERS
+
+def write_docx_from_minutes(content: str, filepath: str):
+    doc = Document()
+    for raw_line in content.splitlines():
+        line = raw_line.rstrip()
+        if not line.strip():
+            doc.add_paragraph()
+            continue
+        if line.startswith("**") and line.endswith("**") and len(line) >= 4:
+            text = line.strip("*")
+            p = doc.add_paragraph()
+            run = p.add_run(text)
+            run.bold = True
+        else:
+            doc.add_paragraph(line)
+    doc.save(filepath)
+
 # 3. GENERATORS
 def generate_agm(co_name, year):
     co = companies[co_name]
     date = f"{year}-12-15"
     loc = get_location(date)
     issued = co["shares_issued"].get(year, "4,000,000")
-    
+
     bank_clause = ""
     voting_bank = ""
     if year == co["inc_year"]:
@@ -94,6 +113,7 @@ def generate_agm(co_name, year):
         voting_bank = "The motion to authorize Chase Bank accounts passed unanimously."
 
     return f"""
+**{year} Annual General Meeting**
 **Minutes of the Annual Meeting of Directors - {year}**
 **{co_name}**
 
@@ -102,20 +122,31 @@ def generate_agm(co_name, year):
 **Address:** {co['address']}
 **Date of Meeting:** {date}
 **Time of Meeting:** 1:00 PM
-**Location of Meeting:** {loc}
+**Location of Meeting:** {loc} (via Digital Communication)
+**Purpose of Meeting:** Annual meeting
 
 **I. Call to Order:**
-Meeting called to order at 1:00 PM by Derek E. Pappas.
+The Annual Meeting of Directors of {co_name} was called to order at 1:00 PM on {date} by Derek E. Pappas.
 
-**II. Reports:**
-**Chairperson's Report:** Reviewed the {year} management cycle. All IP developed in {loc} is corporate property.
-**Treasurer's Report:** Presented financial statements. {issued} shares issued at {co['par']} par. Solvency confirmed.{bank_clause}
+**II. Roll Call:**
+**Directors Present:** Derek E. Pappas.
+**Directors Absent:** none.
 
-**III. Voting Items:**
-Approved financial reports. {voting_bank}
+**III. Approval of the Minutes from the Last Meeting:**
+The minutes of the previous Annual Meeting held on {year-1}-12-15 were reviewed and approved.
 
-**IV. Adjournment:**
-Meeting adjourned at 1:30 PM.
+**IV. Reports:**
+**Chairperson's Report:** Derek E. Pappas provided a comprehensive update on the {year} global management cycle, noting oversight across multiple international locations. The Director confirmed that despite the geographical rotation, all management decisions were centralized and recorded via corporate digital channels. The Board reviewed the successful completion of engineering milestones during the year, including scaling of back-end infrastructure. The Director reaffirmed that all work product, including source code and algorithmic designs developed in international jurisdictions, is owned solely by the Corporation.
+**Treasurer's Report:** Derek E. Pappas presented the financial statements for the fiscal year {year}. The Corporation remains debt-free. A Statement of Solvency was issued, and the Director confirmed that the Franchise Tax and Registered Agent fees for the current year are fully paid. {issued} shares issued at {co['par']} par.{bank_clause}
+
+**V. Discussion Items:**
+The Board discussed the {year+1} transition plan as the company moves toward commercial readiness. Plans for final security penetration testing and third-party audits were reviewed.
+
+**VI. Voting Items:**
+The motion to approve the {year} financial reports was passed unanimously. The motion to approve the {year+1} engineering and marketing budget was passed unanimously. {voting_bank}
+
+**VII. Adjournment:**
+The meeting was adjourned at 1:30 PM.
 
 {signature_block('Derek E. Pappas', date)}
 ---"""
@@ -162,59 +193,73 @@ The Director reviewed quarterly infrastructure stability and confirmed that all 
 {signature_block('Derek E. Pappas', date)}
 ---"""
 
-# 4. EXECUTION
-for name in companies.keys():
-     # Write to files
-    import os
-    root_dir = "."
-    os.chdir(root_dir)
+def generate_quarterly_summary(company_name_year, year, quarter):
+    """Generate a summary of the quarterly meeting for reporting purposes."""
+    # Write Quarterly meeting minutes
+    quarterly_docx = f"{company_name_year}_quarterly_{year}_{quarter}.docx"
+    quarterly_content = generate_quarterly(name, year, quarter)
+    print(f"Writing Quarterly meeting minutes to {quarterly_docx}")
+    write_docx_from_minutes(quarterly_content, quarterly_docx)
+    print(f"Generating file for {name} {year} {quarter} in dir: {company_dir}")
 
+def sanitize_company_name(name):
     # remove the comma from company name for file naming
-    safe_company_name = name.replace(", ", "_").replace(" ", "_")
-
-    # remove "Inc" or "inc" from the end
-    if safe_company_name.lower().endswith("inc"):
-        safe_company_name = safe_company_name[:-3]
-
-    # lowercase the company name for file naming
-    safe_company_name = safe_company_name.lower()
-
-    # remove trailing underscores
-    safe_company_name = safe_company_name.rstrip('_')
-
+    safe_name = name.replace(", ", "_").replace(" ", "_")
     
-    company_dir = f"{root_dir}/{safe_company_name}"
+    # remove "Inc" or "inc" from the end
+    if safe_name.lower().endswith("inc"):
+        safe_name = safe_name[:-3]
+    
+    # lowercase the company name for file naming
+    safe_name = safe_name.lower()
+    
+    # remove trailing underscores
+    safe_name = safe_name.rstrip('_')
+    
+    # replace . with underscore
+    safe_name = safe_name.replace('.', '_')
+    
+    return safe_name
+
+def generate_annual(name, year):
+    # Write AGM minutes
+    agm_title = f"{company_name_year}_agm"
+    agm_docx = f"{agm_title}.docx"
+    agm_content = generate_agm(name, year)
+    print(f"Writing AGM minutes to {agm_docx}")
+    write_docx_from_minutes(agm_content, agm_docx)
+
+def generate_special_meeting(name, year):
+    """Generate special meeting minutes."""
+    # Write Special meeting minutes
+    special_title = f"{company_name_year}_yearly_special_meeting"
+    special_docx = f"{special_title}.docx"
+    special_content = generate_special(name, year)
+    print(f"Writing Special meeting minutes to {special_docx}")
+    write_docx_from_minutes(special_content, special_docx)
+
+import os
+root_dir = "./generated"
+# create root directory if it doesn't exist
+os.makedirs(root_dir, exist_ok=True)
+os.chdir(root_dir)
+
+for name in companies.keys():
+    safe_company_name = sanitize_company_name(name)
+    
+    company_dir = f"{safe_company_name}"
     os.makedirs(company_dir, exist_ok=True)
     # cd to company_dir    
     os.chdir(company_dir)
     
     for year in [2022, 2023, 2024, 2025]:
         company_name_year = f"{safe_company_name}_{year}"
-        agm_title = f"{company_name_year}_agm"
+
+        # Generate AGM minutes first
+        generate_annual(name, year)
+
+        # Generate special meeting minutes
+        generate_special_meeting(name, year)
 
         for quarter in ['Q1', 'Q2', 'Q3', 'Q4']:
-            print(f"--- {name} {year} {quarter} ---")
-            #
-            print(f"Generating files for {name} {year} {quarter} in dir: {company_dir}")
-
-            # Write AGM minutes
-            agm_file = f"{agm_title}.txt"
-            print(f"Writing AGM minutes to {agm_file}")
-            with open(agm_file, "w") as f:
-                f.write(generate_agm(name, year))
-
-            special_title = f"{company_name_year}_yearly_special_meeting"
-
-            # Write Special meeting minutes
-            special_file = f"{special_title}.txt"
-            print(f"Writing Special meeting minutes to {special_file}")
-            with open(special_file, "w") as f:
-                f.write(generate_special(name, year))
-            
-            # Write Quarterly meeting minutes
-            quarterly_file = f"{company_name_year}_quarterly_{year}_{quarter}.txt"
-            print(f"Writing Quarterly meeting minutes to {quarterly_file}")
-            with open(quarterly_file, "w") as f:
-                f.write(generate_quarterly(name, year, quarter))
-            
-            print(f"Written minutes for {name} {year} to files")
+            generate_quarterly_summary(company_name_year, year, quarter)
