@@ -206,6 +206,13 @@ def sanitize_company_name(name):
     # remove the comma from company name for file naming
     safe_name = name.replace(", ", "_").replace(" ", "_")
     
+    # remove a dot at the end
+    if safe_name.endswith("."):
+        safe_name = safe_name[:-1]
+    
+    # remove any remaining dots
+    
+
     # remove "Inc" or "inc" from the end
     if safe_name.lower().endswith("inc"):
         safe_name = safe_name[:-3]
@@ -239,12 +246,18 @@ def generate_special_meeting(name, year):
     write_docx_from_minutes(special_content, special_docx)
 
 import os
-root_dir = "./generated"
+# pwd
+print(f"Current working directory: {os.getcwd()}")
+pwd = os.getcwd()
+
+root_dir = f"{pwd}/generated"
 # create root directory if it doesn't exist
 os.makedirs(root_dir, exist_ok=True)
-os.chdir(root_dir)
 
 for name in companies.keys():
+    print(f"Company {name} Current working directory: {os.getcwd()}")
+
+    os.chdir(root_dir)
     safe_company_name = sanitize_company_name(name)
     
     company_dir = f"{safe_company_name}"
