@@ -90,13 +90,29 @@ def write_docx_from_minutes(content: str, filepath: str):
         if not line.strip():
             doc.add_paragraph()
             continue
-        if line.startswith("**") and line.endswith("**") and len(line) >= 4:
-            text = line.strip("*")
-            p = doc.add_paragraph()
-            run = p.add_run(text)
-            run.bold = True
-        else:
-            doc.add_paragraph(line)
+        # Render inline markdown-style bold using **...** into bold runs
+        p = doc.add_paragraph()
+        i = 0
+        while i < len(line):
+            if line[i:i+2] == "**":
+                j = line.find("**", i + 2)
+                if j != -1:
+                    bold_text = line[i+2:j]
+                    run = p.add_run(bold_text)
+                    run.bold = True
+                    i = j + 2
+                else:
+                    # No closing ** found; write the remaining text as-is
+                    p.add_run(line[i:])
+                    break
+            else:
+                next_bold = line.find("**", i)
+                if next_bold == -1:
+                    p.add_run(line[i:])
+                    break
+                else:
+                    p.add_run(line[i:next_bold])
+                    i = next_bold
     doc.save(filepath)
 
 # 3. GENERATORS
