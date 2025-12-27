@@ -60,6 +60,39 @@ companies = {
     }
 }
 
+from datetime import date
+
+def office_locations_for_year(ranges, year):
+    year_start = date(year, 1, 1)
+    year_end = date(year, 12, 31)
+
+    locations = []
+
+    for start, end, location in ranges:
+        start_d = date.fromisoformat(start)
+        end_d = date.fromisoformat(end)
+
+        # overlap test
+        if start_d <= year_end and end_d >= year_start:
+            if location not in locations:
+                locations.append(location)
+
+    return locations
+
+
+def normalize_locations(locations):
+    normalized = []
+    for loc in locations:
+        if loc == "Denver, NC":
+            normalized.append("Denver, North Carolina, USA")
+        elif loc == "Lantana, FL":
+            normalized.append("Lantana, Florida, USA")
+        elif loc == "Wayne, Pennsylvania":
+            normalized.append("Wayne, Pennsylvania, USA")
+        else:
+            normalized.append(loc)
+    return "; ".join(normalized)
+
 # 2. HELPER LOGIC
 def get_location(date_str):
     target = datetime.strptime(date_str, "%Y-%m-%d")
@@ -122,58 +155,84 @@ def generate_agm(co_name, year):
     loc = get_location(date)
     issued = co["shares_issued"].get(year, "4,000,000")
 
-    bank_clause = ""
-    voting_bank = ""
-    if year == co["inc_year"]:
-        bank_clause = "\n**VI. Banking Resolution:**\nThe Board hereby authorizes Derek E. Pappas to open corporate bank accounts at Chase Bank and acts as the sole signatory."
-        voting_bank = "The motion to authorize Chase Bank accounts passed unanimously."
+    # select locations for the given year
+    locations = office_locations_for_year(locations_timeline, year)
+
+    # normalize and format for template insertion
+    office_locations = normalize_locations(locations)
+
+    director_name = "Derek E. Pappas"
 
     return f"""
-**{year} Annual General Meeting**
-**Minutes of the Annual Meeting of Directors - {year}**
-**{co_name}**
+**Minutes of the Annual Meeting of the Board of Directors**
+*(Delaware Corporation)*
 
-**Meeting Details**
+**I. Meeting Information**
 **Company Name:** {co_name}
-**Address:** {co['address']}
-**Date of Meeting:** {date}
-**Time of Meeting:** 1:00 PM
-**Location of Meeting:** {loc} (via Digital Communication)
-**Purpose of Meeting:** Annual meeting
+**Principal Address:** {co['address']}
+**Date:** {date}
+**Time:** 1:00 PM
+**Place:** {loc}, via digital communication
+**Type of Meeting:** Annual Meeting of the Board of Directors
 
-**I. Call to Order:**
-The Annual Meeting of Directors of {co_name} was called to order at 1:00 PM on {date} by Derek E. Pappas.
+**II. Call to Order**
+The Annual Meeting of the Board of Directors of {co_name} (the “Corporation”) was called to order at 1:00 PM on {date} by {director_name}, acting as Sole Director, President, and Treasurer of the Corporation.
 
-**II. Roll Call:**
-**Directors Present:** Derek E. Pappas.
-**Directors Absent:** none.
+**III. Roll Call and Quorum**
+**Director Present:**  
+{director_name} (Sole Director)
 
-**III. Approval of the Minutes from the Last Meeting:**
-The minutes of the previous Annual Meeting held on {year-1}-12-15 were reviewed and approved.
+**Director Absent:**  
+None
 
-**IV. Reports:**
-**Chairperson's Report:** Derek E. Pappas provided a comprehensive update on the {year} global management cycle, noting oversight across multiple international locations. The Director confirmed that despite the geographical rotation, all management decisions were centralized and recorded via corporate digital channels. The Board reviewed the successful completion of engineering milestones during the year, including scaling of back-end infrastructure. The Director reaffirmed that all work product, including source code and algorithmic designs developed in international jurisdictions, is owned solely by the Corporation.
-**Treasurer's Report:** Derek E. Pappas presented the financial statements for the fiscal year {year}. The Corporation remains debt-free. A Statement of Solvency was issued, and the Director confirmed that the Franchise Tax and Registered Agent fees for the current year are fully paid. {issued} shares issued at {co['par']} par.{bank_clause}
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.  
+The Sole Director confirmed that notice of the meeting was duly given or waived.
 
-**V. Discussion Items:**
-The Board discussed the {year+1} transition plan as the company moves toward commercial readiness. Plans for final security penetration testing and third-party audits were reviewed.
+**IV. Approval of Prior Minutes**
+The minutes of the prior Annual Meeting of the Board of Directors held on {year - 1}-12-15 were reviewed and approved by the Sole Director.
 
-**VI. Voting Items:**
-The motion to approve the {year} financial reports was passed unanimously. The motion to approve the {year+1} engineering and marketing budget was passed unanimously. {voting_bank}
+**V. Reports of Officers**
 
-**VII. Adjournment:**
-The meeting was adjourned at 1:30 PM.
+**President’s Report:**  
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from {office_locations}, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
 
-{signature_block('Derek E. Pappas', date)}
----"""
+**Treasurer’s Report:**  
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has {issued} shares of common stock issued and outstanding at a par value of {co['par']} per share.
+
+**VI. Discussion Items**
+The Sole Director discussed the Corporation’s transition plan for {year + 1}, including security audits, penetration testing, and commercialization readiness.
+
+**VII. Resolutions**
+Upon consideration, the Sole Director adopted the following resolutions:
+
+**Approval of Financial Reports**  
+RESOLVED, that the financial statements for the fiscal year {year} are hereby approved.
+
+**Approval of {year + 1} Budget**  
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year {year + 1} is hereby approved.
+
+**Banking Authorization**  
+RESOLVED, that {director_name} is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+**VIII. Adjournment**
+There being no further business to come before the Board, the meeting was adjourned.
+
+{signature_block(director_name, date)}
+---
+"""
+
 
 def generate_special(co_name, year):
     co = companies[co_name]
     date = f"{year}-12-15"
     loc = get_location(date)
+
+    director_name = "Derek E. Pappas"
+
     return f"""
 **Minutes of the Special Meeting of the Board of Directors - {year}**
 **{co_name}**
+*(Board of Directors – Delaware Corporation)*
 
 **Meeting Details**
 **Date of Meeting:** {date}
@@ -182,31 +241,65 @@ def generate_special(co_name, year):
 **Purpose:** Pre-AGM Review of International Operations
 
 **I. Call to Order:**
-Meeting called to order at 11:00 AM.
+The Special Meeting of the Board of Directors of {co_name} (the “Corporation”) was called to order at 11:00 AM on {date} by {director_name}, acting as Sole Director of the Corporation.
 
-**II. Resolution:**
-The Board reviewed and ratified all operational decisions made during the international nomad cycle for the year {year}.
+**II. Roll Call and Quorum:**
+**Director Present:** {director_name} (Sole Director)  
+**Director Absent:** None  
 
-{signature_block('Derek E. Pappas', date)}
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.  
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+
+**III. Resolution:**
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year {year} are hereby ratified, confirmed, and approved in all respects.
+
+**IV. Adjournment:**
+There being no further business to come before the Board, the meeting was adjourned.
+
+{signature_block(director_name, date)}
 ---"""
+
 
 def generate_quarterly(co_name, year, quarter):
     co = companies[co_name]
     # Standardizing on April 1st for the main quarterly governance check
     date = f"{year}-04-01"
     loc = get_location(date)
+
+    present_list = "Derek E. Pappas"
+
     return f"""
 **Minutes of the Quarterly Governance Meeting - {year} {quarter}**
 **{co_name}**
+*(Board of Directors – Delaware Corporation)*
 
 **Meeting Details**
 **Date of Meeting:** {date}
 **Location of Meeting:** {loc}
 
-**I. Business Review:**
-The Director reviewed quarterly infrastructure stability and confirmed that all assets created in {loc} are correctly titled to the Corporation.
+**I. Call to Order:**
+The Quarterly Governance Meeting of the Board of Directors of {co_name} (the “Corporation”) was called to order on {date} by the Chairperson of the Board.
 
-{signature_block('Derek E. Pappas', date)}
+**II. Roll Call and Quorum:**
+**Directors Present:** {present_list}  
+
+A majority of the directors of the Corporation being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.  
+The Board confirmed that notice of the meeting was duly given or waived by all directors.
+
+**III. Business Review:**
+The Board reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in {loc} are properly titled to and are the exclusive property of the Corporation.
+
+**IV. Resolution:**
+Upon motion duly made and seconded, the following resolution was adopted by the affirmative vote of a majority of the directors present:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+**V. Adjournment:**
+There being no further business to come before the Board, the meeting was adjourned.
+
+{signature_block("Chairperson of the Board", date)}
 ---"""
 
 def generate_quarterly_summary(company_name_year, year, quarter):
@@ -244,6 +337,8 @@ def sanitize_company_name(name):
     
     return safe_name
 
+
+
 def generate_annual(name, year):
     # Write AGM minutes
     agm_title = f"{company_name_year}_agm"
@@ -260,6 +355,41 @@ def generate_special_meeting(name, year):
     special_content = generate_special(name, year)
     print(f"Writing Special meeting minutes to {special_docx}")
     write_docx_from_minutes(special_content, special_docx)
+
+def generate_written_consent(company_name_year: str, year: int, company_name: str):
+    """Generate Stockholder Written Consent in Lieu of Annual Meeting (.docx)."""
+    date = f"{year}-12-15"
+    as_of = datetime.strptime(date, "%Y-%m-%d").strftime("%B %d, %Y")
+    shareholder_term = "Majority Stockholder" if company_name == "DATA RECORD SCIENCE, INC." else "Sole Stockholder"
+
+    content = f"""
+**{company_name}.**
+**Written Consent of {shareholder_term}**
+**In Lieu of Annual Meeting**
+(Delaware General Corporation Law §211)
+
+The undersigned, being the {shareholder_term.lower()} of {company_name}, a Delaware corporation (the "Corporation"), hereby adopts the following resolutions by Written Consent in Lieu of an Annual Meeting of Stockholders, pursuant to Section 211 of the Delaware General Corporation Law:
+
+**Approval of Board Actions**
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on {as_of}, including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+**Waiver of Annual Meeting**
+RESOLVED, that the undersigned hereby waives the requirement of holding a formal annual meeting of stockholders for the year {year}.
+
+**Effective Date**
+This Written Consent shall be effective as of {as_of}, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+**Stockholder Certification**
+{shareholder_term}:
+Derek E. Pappas
+
+**Signature:** ___________________________
+**Date:** {as_of}
+---"""
+    output = f"{company_name_year}_written_consent_in_lieu_of_annual_meeting.docx"
+    print(f"Writing Stockholder Written Consent to {output}")
+    write_docx_from_minutes(content, output)
+    
 
 import os
 # pwd
@@ -290,5 +420,8 @@ for name in companies.keys():
         # Generate special meeting minutes
         generate_special_meeting(name, year)
 
+        # Generate Written Consent (.docx)
+        generate_written_consent(company_name_year, year, name)
+        
         for quarter in ['Q1', 'Q2', 'Q3', 'Q4']:
             generate_quarterly_summary(company_name_year, year, quarter)
