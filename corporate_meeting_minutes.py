@@ -93,6 +93,13 @@ def normalize_locations(locations):
             normalized.append(loc)
     return "; ".join(normalized)
 
+def development_locations():
+    normalized = []
+    normalized.append("Bosnia and Herzegovina")
+    normalized.append("Serbia")
+    normalized.append("Tunisia")
+    return "; ".join(normalized)
+
 # 2. HELPER LOGIC
 def get_location(date_str):
     target = datetime.strptime(date_str, "%Y-%m-%d")
@@ -101,7 +108,7 @@ def get_location(date_str):
         e_dt = datetime.strptime(end, "%Y-%m-%d")
         if s_dt <= target <= e_dt:
             return loc
-    return "Wayne, Pennsylvania"
+    raise Exception("Location not found for date: " + date_str)
 
 def signature_block(name, date):
     return f"""**Signature:**
@@ -161,6 +168,8 @@ def generate_agm(co_name, year):
     # normalize and format for template insertion
     office_locations = normalize_locations(locations)
 
+    dev_locations = development_locations()
+
     director_name = "Derek E. Pappas"
 
     return f"""
@@ -194,7 +203,7 @@ The minutes of the prior Annual Meeting of the Board of Directors held on {year 
 **V. Reports of Officers**
 
 **President’s Report:**  
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from {office_locations}, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from {office_locations} and development from {dev_locations}, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
 
 **Treasurer’s Report:**  
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has {issued} shares of common stock issued and outstanding at a par value of {co['par']} per share.
@@ -268,6 +277,8 @@ def generate_quarterly(co_name, year, quarter):
     date = f"{year}-04-01"
     loc = get_location(date)
 
+    dev_locations = development_locations()
+
     present_list = "Derek E. Pappas"
 
     return f"""
@@ -289,7 +300,7 @@ A majority of the directors of the Corporation being present, a quorum was prese
 The Board confirmed that notice of the meeting was duly given or waived by all directors.
 
 **III. Business Review:**
-The Board reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in {loc} are properly titled to and are the exclusive property of the Corporation.
+The Board reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in {dev_locations} are properly titled to and are the exclusive property of the Corporation.
 
 **IV. Resolution:**
 Upon motion duly made and seconded, the following resolution was adopted by the affirmative vote of a majority of the directors present:
