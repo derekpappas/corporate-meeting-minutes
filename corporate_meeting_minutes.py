@@ -16,7 +16,7 @@ locations_timeline = [
     ("2023-10-19", "2023-10-25", "Palo Alto, California"),
     ("2023-10-25", "2023-10-29", "Surrey, Canada"),
     ("2023-10-29", "2023-11-07", "Knoxville, TN"),
-    ("2023-11-08", "2023-11-27", "Belgrade, Serbia"),
+    ("2023-11-08", "2023-11-27", "Bepoetry show python-docxlgrade, Serbia"),
     ("2023-11-27", "2024-01-13", "Thessaloniki, Greece"),
     ("2024-01-13", "2024-01-27", "Valencia, Spain"),
     ("2024-01-28", "2024-02-14", "Knoxville, TN"),
