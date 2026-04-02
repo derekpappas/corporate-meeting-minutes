@@ -1,0 +1,68 @@
+Minutes of the Annual Meeting of the Board of Directors
+*(Delaware Corporation)*
+
+I. Meeting Information
+Company Name: TeamBoost.ai, Inc.
+Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Date: 2024-12-12
+Time: 1:00 PM
+Place: Denver, NC, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-12 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+
+III. Roll Call and Quorum
+Director Present:
+Derek E. Pappas (Sole Director)
+
+Director Absent:
+None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-14 were reviewed and approved by the Sole Director.
+
+V. Reports of Officers
+
+President’s Report:
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements presented by officers of the Corporation and other persons as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+VI. Discussion Items
+The Sole Director discussed the Corporation’s transition plan for 2025, including security audits, penetration testing, and commercialization readiness.
+
+VII. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for the fiscal year 2024 are hereby approved.
+
+Approval of 2025 Budget
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2025 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-12-12
+Name: Derek E. Pappas
+---
