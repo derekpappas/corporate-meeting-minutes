@@ -1,39 +1,5 @@
 Ritual Growth, Inc.
 
-2022-04-02
-  Ritual Growth, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
-
-2022-07-02
-  Ritual Growth, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
-
-2022-10-02
-  Ritual Growth, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
-
-2022-12-02
-  Ritual Growth, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
-
-2022-12-13
-  Ritual Growth, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
-  Ritual Growth, Inc. - Stockholder Written Consent (DGCL §228) - 1:00 PM
-  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 1:00 PM
-
-2023-04-02
-  Ritual Growth, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
-
-2023-07-02
-  Ritual Growth, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
-
-2023-10-02
-  Ritual Growth, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
-
-2023-12-02
-  Ritual Growth, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
-
-2023-12-12
-  Ritual Growth, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
-  Ritual Growth, Inc. - Stockholder Written Consent (DGCL §228) - 1:00 PM
-  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 1:00 PM
-
 2024-04-02
   Ritual Growth, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
 
@@ -49,7 +15,7 @@ Ritual Growth, Inc.
 2024-12-10
   Ritual Growth, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
   Ritual Growth, Inc. - Stockholder Written Consent (DGCL §228) - 1:00 PM
-  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 1:00 PM
+  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 12:00 PM
 
 2025-04-02
   Ritual Growth, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
@@ -66,4 +32,21 @@ Ritual Growth, Inc.
 2025-12-09
   Ritual Growth, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
   Ritual Growth, Inc. - Stockholder Written Consent (DGCL §228) - 1:00 PM
-  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 1:00 PM
+  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+
+2026-04-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2026-07-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2026-10-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2026-12-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2026-12-15
+  Ritual Growth, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  Ritual Growth, Inc. - Stockholder Written Consent (DGCL §228) - 1:00 PM
+  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 12:00 PM

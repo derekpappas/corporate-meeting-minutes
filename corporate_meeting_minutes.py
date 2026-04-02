@@ -28,8 +28,9 @@ locations_timeline = [
     ("2024-08-19", "2024-10-31", "Hoegaarden, Belgium"),
     ("2024-10-31", "2024-11-18", "Birmingham, England"),
     ("2024-11-18", "2025-02-15", "Denver, NC"),
-    ("2025-02-15", "2025-04-28", "Lantana, FL"),
-    ("2025-04-28", "2025-12-31", "Wayne, Pennsylvania")
+    ("2025-02-15", "2025-03-31", "Lantana, FL"),
+    ("2025-04-01", "2026-04-30", "Wayne, Pennsylvania"),
+    ("2026-05-01", "2026-12-31", "Wayne, Pennsylvania")
 ]
 
 # Stockholder-side instruments:
@@ -49,7 +50,7 @@ locations_timeline = [
 STOCKHOLDER_MEETING_TIME = "1:00 PM"
 BOARD_AGM_TIME = "1:00 PM"
 QUARTERLY_MEETING_TIME = "1:00 PM"
-SPECIAL_MEETING_TIME = "1:00 PM"
+SPECIAL_MEETING_TIME = "12:00 PM"
 
 companies = {
     "Hippo, Inc": {
@@ -686,7 +687,7 @@ def _company_years_for_calendar(co: dict, years: tuple[int, ...]) -> list[int]:
     return [y for y in years if y >= start]
 
 
-def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...] = (2022, 2023, 2024, 2025)) -> None:
+def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...] = (2024, 2025, 2026)) -> None:
     """
     Produce one .txt file per company with meetings grouped by date.
 
@@ -803,7 +804,7 @@ def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...
                 f.write("\n")
 
 
-def print_schedule(years=(2022, 2023, 2024, 2025)):
+def print_schedule(years=(2024, 2025, 2026)):
     """Print the computed meeting schedule without generating .docx files."""
     print("Schedule (all times local):")
     for year in years:
@@ -822,7 +823,7 @@ def print_schedule(years=(2022, 2023, 2024, 2025)):
                 print(f"- {co_name}: Board {board_date} {BOARD_AGM_TIME}; Written consent dated {board_date}")
 
 
-def generate_all(output_root: str, years=(2022, 2023, 2024, 2025)):
+def generate_all(output_root: str, years=(2024, 2025, 2026)):
     print(f"Current working directory: {os.getcwd()}")
     root_dir = os.path.join(os.getcwd(), output_root)
     os.makedirs(root_dir, exist_ok=True)
