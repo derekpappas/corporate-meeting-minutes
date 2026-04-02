@@ -59,7 +59,7 @@ companies = {
         "inc_year": 2022,
         "minutes_start_year": 2022,
         "director_election_standard": "plurality",
-        "shares_issued": {2022: "8,000,000", 2023: "8,160,000", 2024: "8,160,000", 2025: "8,160,000"},
+        "shares_issued": {2022: "8,000,000", 2023: "8,160,000", 2024: "8,160,000", 2025: "8,160,000", 2026: "8,160,000"},
         "annual_day_offset": 0,
         "meeting_stagger_day": 0,
         "stockholder_meeting": "written_consent",
@@ -71,7 +71,7 @@ companies = {
         "par": "$.0001",
         "inc_year": 2022,
         "minutes_start_year": 2022,
-        "shares_issued": {2022: "4,000,000", 2023: "4,000,000", 2024: "4,000,000", 2025: "4,000,000"},
+        "shares_issued": {2022: "4,000,000", 2023: "4,000,000", 2024: "4,000,000", 2025: "4,000,000", 2026: "4,000,000"},
         "annual_day_offset": 1,
         "meeting_stagger_day": 1,
         "stockholder_meeting": "written_consent",
@@ -85,7 +85,7 @@ companies = {
         "inc_year": 2006,
         "minutes_start_year": 2022,
         "director_election_standard": "plurality",
-        "shares_issued": {2022: "5,346,132", 2023: "5,346,132", 2024: "5,346,132", 2025: "5,346,132"},
+        "shares_issued": {2022: "5,346,132", 2023: "5,346,132", 2024: "5,346,132", 2025: "5,346,132", 2026: "5,346,132"},
         "annual_day_offset": 2,
         "meeting_stagger_day": 2,
         "stockholder_meeting": "annual_meeting_stockholders",
@@ -97,8 +97,9 @@ companies = {
         "par": "$.0001",
         # Filed January 30, 2023 (Delaware).
         "inc_year": 2023,
-        "minutes_start_year": 2023,
-        "shares_issued": {2023: "10,000,000", 2024: "10,000,000", 2025: "10,000,000"},
+        # For consolidated minute-book continuity, generate from 2022 onward.
+        "minutes_start_year": 2022,
+        "shares_issued": {2022: "10,000,000", 2023: "10,000,000", 2024: "10,000,000", 2025: "10,000,000", 2026: "10,000,000"},
         "annual_day_offset": 3,
         "meeting_stagger_day": 3,
         "stockholder_meeting": "written_consent",
@@ -687,7 +688,7 @@ def _company_years_for_calendar(co: dict, years: tuple[int, ...]) -> list[int]:
     return [y for y in years if y >= start]
 
 
-def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...] = (2024, 2025, 2026)) -> None:
+def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...] = (2022, 2023, 2024, 2025, 2026)) -> None:
     """
     Produce one .txt file per company with meetings grouped by date.
 
@@ -804,13 +805,13 @@ def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...
                 f.write("\n")
 
 
-def print_schedule(years=(2024, 2025, 2026)):
+def print_schedule(years=(2022, 2023, 2024, 2025, 2026)):
     """Print the computed meeting schedule without generating .docx files."""
     print("Schedule (all times local):")
     for year in years:
         print(f"\nYear {year}")
         for co_name, co in companies.items():
-            if year < co.get("inc_year", year):
+            if year < co.get("minutes_start_year", co.get("inc_year", year)):
                 continue
             board_date = annual_meeting_date_str(co, year)
             if co.get("stockholder_meeting") == "annual_meeting_stockholders":
@@ -823,7 +824,7 @@ def print_schedule(years=(2024, 2025, 2026)):
                 print(f"- {co_name}: Board {board_date} {BOARD_AGM_TIME}; Written consent dated {board_date}")
 
 
-def generate_all(output_root: str, years=(2024, 2025, 2026)):
+def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
     print(f"Current working directory: {os.getcwd()}")
     root_dir = os.path.join(os.getcwd(), output_root)
     os.makedirs(root_dir, exist_ok=True)
@@ -839,7 +840,7 @@ def generate_all(output_root: str, years=(2024, 2025, 2026)):
         os.chdir(company_dir)
 
         for year in years:
-            if year < companies[name].get("inc_year", year):
+            if year < companies[name].get("minutes_start_year", companies[name].get("inc_year", year)):
                 continue
             company_name_year = f"{safe_company_name}_{year}"
 
