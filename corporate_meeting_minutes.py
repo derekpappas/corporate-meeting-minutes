@@ -97,9 +97,8 @@ companies = {
         "par": "$.0001",
         # Filed January 30, 2023 (Delaware).
         "inc_year": 2023,
-        # For consolidated minute-book continuity, generate from 2022 onward.
-        "minutes_start_year": 2022,
-        "shares_issued": {2022: "10,000,000", 2023: "10,000,000", 2024: "10,000,000", 2025: "10,000,000", 2026: "10,000,000"},
+        "minutes_start_year": 2023,
+        "shares_issued": {2023: "10,000,000", 2024: "10,000,000", 2025: "10,000,000", 2026: "10,000,000"},
         "annual_day_offset": 3,
         "meeting_stagger_day": 3,
         "stockholder_meeting": "written_consent",
@@ -170,6 +169,15 @@ def annual_meeting_date_str(co, year):
     offset_days = co.get("annual_day_offset", 0)
     d = _annual_series_date(year, offset_days)
     return d.strftime("%Y-%m-%d")
+
+
+def stockholder_annual_record_date_str(co, year: int) -> str:
+    """ISO date for stockholders entitled to vote at the annual meeting (DGCL §213), prior to meeting date.
+
+    Fixed offset (calendar days) for template continuity; adjust per bylaws if a business-day or different window applies.
+    """
+    meeting = datetime.strptime(annual_meeting_date_str(co, year), "%Y-%m-%d").date()
+    return (meeting - timedelta(days=10)).strftime("%Y-%m-%d")
 
 
 def quarterly_meeting_date_str(co, year, quarter):
@@ -321,6 +329,8 @@ The Sole Director reported on the Corporation’s operational and engineering ac
 **Treasurer’s Report:**  
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has {issued} shares of common stock issued and outstanding at a par value of {co['par']} per share.
 
+The Sole Director reviewed the officer reports and materials considered at this meeting, asked questions regarding financial and operational items as appropriate, and caused the substance of the discussion to be reflected in these minutes for the governance record.
+
 {reliance_141e_line}
 
 **VI. Discussion Items**
@@ -436,7 +446,7 @@ The Sole Director confirmed that notice of the meeting was duly given or waived.
 {remote_meeting_line}
 
 **III. Business Review:**
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in {dev_locations} are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and materials furnished for the meeting and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in {dev_locations} are properly titled to and are the exclusive property of the Corporation. The Sole Director asked questions regarding operational and risk items as appropriate, and the discussion was reflected in these minutes for the governance record.
 
 {reliance_141e_line}
 
@@ -464,6 +474,7 @@ def generate_annual_meeting_stockholders(co_name, year):
     """Formal annual meeting minutes for corporations with more than one stockholder (e.g. DATA RECORD SCIENCE, INC.)."""
     co = companies[co_name]
     date = annual_meeting_date_str(co, year)
+    record_date = stockholder_annual_record_date_str(co, year)
     board_date = date
     place = meeting_place_line(co, date)
     board_as_of = datetime.strptime(board_date, "%Y-%m-%d").strftime("%B %d, %Y")
@@ -488,12 +499,15 @@ def generate_annual_meeting_stockholders(co_name, year):
 **Date:** {date}
 **Time:** {STOCKHOLDER_MEETING_TIME}
 **Place:** {place}
+**Record Date (stockholders entitled to vote; DGCL §213):** {record_date}
 **Type of Meeting:** Annual Meeting of Stockholders
 
 **II. Call to Order and Organization**
 The Annual Meeting of Stockholders of {co_name} (the “Corporation”) was called to order commencing at {STOCKHOLDER_MEETING_TIME} on {date}. Pursuant to the Corporation’s bylaws, {chair}, acting as President of the Corporation, served as Chairperson of the meeting, and the Secretary (or a person designated by the Chairperson) served as Secretary of the meeting.
 
 **III. Roll Call and Quorum**
+The Chairperson confirmed that **{record_date}** had been fixed as the **record date** for determining the stockholders entitled to vote at this meeting, in accordance with the Corporation’s bylaws and Section 213 of the Delaware General Corporation Law.
+
 The following stockholders were present in person or by remote participation (as permitted under the Corporation’s bylaws and the Delaware General Corporation Law) and were entitled to vote at the meeting:
 
 **Stockholders Present:**  
@@ -505,11 +519,14 @@ None.
 The Chairperson declared that a quorum of stockholders was present and that the meeting was duly constituted to transact business.
 The Chairperson further confirmed that any stockholders participating remotely were able to hear and be heard contemporaneously and that the Corporation had reasonable means to verify that each such person was a stockholder or proxyholder entitled to vote at the meeting.
 
+**Stock Ledger / Voting List; Proxies (DGCL §218 and bylaws)**
+The Chairperson confirmed that an **alphabetized list of the names of the stockholders of record** entitled to vote at this meeting (or a certified extract of the stock ledger) as of the record date was produced and made available for inspection by stockholders at the meeting in accordance with the Corporation’s bylaws, and that **proxies** and votes received in accordance with the bylaws were accepted for shares entitled to vote in accordance with such proxies.
+
 **IV. Notice**
-The Chairperson confirmed that notice of this meeting had been duly given in accordance with the Corporation’s bylaws and the Delaware General Corporation Law, or that any required notice had been waived in writing by the requisite holders.
+The Chairperson confirmed that **notice** of this annual meeting was given to each stockholder entitled to vote, **not less than** the minimum time period required by **Section 222** of the Delaware General Corporation Law and the Corporation’s bylaws, and that such notice stated the date, time, and principal place (if any) of the meeting and the **means of remote communication**, if any, for participating in the meeting. The Chairperson further confirmed that, to the extent notice was waived, **written waivers of notice** executed by stockholders entitled to cast sufficient votes to satisfy the requirements of the DGCL and the bylaws are **on file** with the records of the Corporation.
 
 **V. Reports**
-The Chairperson reported briefly on the Corporation’s operational activities for the fiscal year.
+The Chairperson presented and summarized the Corporation’s **operational and financial highlights** for the fiscal year. Stockholders had a reasonable opportunity to **ask questions** regarding the Chairperson’s report; the matters were discussed for the governance record of the meeting.
 
 **VI. Election of Directors**
 The following resolution was presented and adopted by the stockholders by the requisite vote under the Corporation’s bylaws and applicable law:
