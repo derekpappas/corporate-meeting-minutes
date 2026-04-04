@@ -562,7 +562,7 @@ def generate_board_waiver_of_notice(
 
 The undersigned, **{director_name}**, Sole Director of **{co_name}** (the “Corporation”), intending to be legally bound, **waives all notice** of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the **Delaware General Corporation Law**, the Corporation’s **certificate of incorporation**, and {co.get("board_notice_waiver_bylaws_ref", "**the Corporation\u2019s bylaws**")}. This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given **or waived**.
 
-**Meetings covered (as reflected in the Corporation’s minutes for {year})**
+**Meetings covered**
 
 {bullet_lines}
 
@@ -710,8 +710,6 @@ The Sole Director reported on the Corporation’s operational and engineering ac
 **Treasurer’s Report:**  
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has {issued} shares of common stock issued and outstanding at a par value of {co['par']} per share.
 
-The Sole Director reviewed the officer reports and materials considered at this meeting, asked questions regarding financial and operational items as appropriate, and caused the substance of the discussion to be reflected in these minutes for the governance record.
-
 {reliance_141e_line}
 
 **VI. Discussion Items**
@@ -768,7 +766,7 @@ RESOLVED, that **{rd}** is hereby fixed as the record date for determining the s
 **Date of Meeting:** {date}
 **Time of Meeting:** {SPECIAL_MEETING_TIME}
 **Location of Meeting:** {place}
-**Purpose:** Pre-AGM Review of International Operations (held prior to this corporation’s annual stockholder and board meetings for {year})
+**Purpose:** Pre-annual review of international operations
 
 **I. Call to Order:**
 The Special Meeting of the Board of Directors of {co_name} (the “Corporation”) was called to order at {SPECIAL_MEETING_TIME} on {date} by {director_name}, acting as Sole Director of the Corporation.
@@ -833,7 +831,7 @@ The Sole Director confirmed that notice of the meeting was duly given or waived.
 {remote_meeting_line}
 
 **III. Business Review:**
-The Sole Director reviewed quarterly infrastructure stability and materials furnished for the meeting and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in {dev_locations} are properly titled to and are the exclusive property of the Corporation. The Sole Director asked questions regarding operational and risk items as appropriate, and the discussion was reflected in these minutes for the governance record.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in {dev_locations} are properly titled to and are the exclusive property of the Corporation.
 
 {reliance_141e_line}
 
@@ -915,7 +913,7 @@ The Chairperson confirmed that an **alphabetized list of the names of the stockh
 {_annual_stockholder_notice_section_iv(co)}
 
 **V. Reports**
-The Chairperson presented and summarized the Corporation’s **operational and financial highlights** for the fiscal year. Stockholders had a reasonable opportunity to **ask questions** regarding the Chairperson’s report; the matters were discussed for the governance record of the meeting.
+The Chairperson presented and summarized the Corporation’s **operational and financial highlights** for the fiscal year. Stockholders had a reasonable opportunity to **ask questions** regarding the Chairperson’s report.
 
 **VI. Election of Directors**
 The following resolution was presented and adopted by the stockholders by the requisite vote under the Corporation’s bylaws and applicable law:

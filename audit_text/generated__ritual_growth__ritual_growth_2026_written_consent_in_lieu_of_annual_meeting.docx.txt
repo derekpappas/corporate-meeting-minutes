@@ -4,6 +4,10 @@ Written Consent of Sole Stockholder
 Action by Written Consent of Stockholders
 (Delaware General Corporation Law §228; annual meeting of stockholders under §211)
 
+Sole stockholder — why a §228 consent?
+When one stockholder holds all votes entitled to be cast on the matters below, those votes can still be recorded either at a meeting of stockholders or by written consent under §228. This instrument is that sole holder’s consent—the same approvals that could be given at a meeting—without holding a separate stockholder meeting. Counsel should confirm the certificate of incorporation and bylaws permit this path.
+
+
 The undersigned, being the sole stockholder of Ritual Growth, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
 The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of Ritual Growth, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
 
@@ -16,8 +20,11 @@ RESOLVED, that the matters set forth in this Written Consent, including ratifica
 Section 228 Mechanics
 This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
 
+Execution (required)
+This Written Consent is not effective as a corporate record until signed and dated by the Sole Stockholder (or a duly authorized representative, if applicable) and filed with the minutes of the stockholders. The signature and date below satisfy the dated-signature mechanics under the DGCL and the Corporation’s bylaws where applicable.
+
 Effective Date
-This Written Consent shall be effective as of December 15, 2026, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+Upon execution, this Written Consent is dated effective as of December 15, 2026 and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
 
 Stockholder Certification
 Sole Stockholder:
