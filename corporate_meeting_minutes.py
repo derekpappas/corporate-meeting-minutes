@@ -1,3 +1,4 @@
+import re
 from datetime import date, datetime, timedelta
 from docx import Document
 
@@ -855,6 +856,17 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
         company_dir = f"{safe_company_name}"
         os.makedirs(company_dir, exist_ok=True)
         os.chdir(company_dir)
+
+        start_year = companies[name].get(
+            "minutes_start_year", companies[name].get("inc_year", min(years))
+        )
+        year_prefix = re.compile(rf"^{re.escape(safe_company_name)}_(\d{{4}})_")
+        for entry in os.listdir("."):
+            if not entry.endswith(".docx"):
+                continue
+            m = year_prefix.match(entry)
+            if m and int(m.group(1)) < start_year:
+                os.remove(entry)
 
         for year in years:
             if year < companies[name].get("minutes_start_year", companies[name].get("inc_year", year)):
