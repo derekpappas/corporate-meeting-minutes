@@ -1,92 +1,132 @@
-## Privileged internal memo — **Aggressive** DGCL senior-counsel audit (generated minutes)
+## Privileged internal memo — DGCL senior-counsel audit (prompt run)
 
-**Posture**: Delaware corporate counsel (25+ year, litigation-heavy) reviewing these documents as if they were handed to you **on the eve of a books-and-records demand, inspection fight, or fiduciary challenge**. This is **not** a “check the boxes” QA pass. **Not legal advice.**
+**Posture**: Delaware corporate counsel (25+ year, litigation-heavy) reviewing these documents as if on the eve of a **books-and-records demand, inspection fight, or fiduciary challenge**. **Not legal advice.**
 
-**Method**: `Senior counsel prompt/senior_counsel_audit_prompt.md` (Sections I–VI + Add-ons A–F), applied **strictly** (“silence is risk”).
+**Method**: `Senior counsel prompt/senior_counsel_audit_prompt.md` (Sections I–VI + Add-ons A–F), **strict** application (“silence is risk”).
 
-**Corpus**: `audit_text/` — **145** plain-text extracts from `generated/` (timestamp of review: **2026-04-02**).
+**Corpus**: `audit_text/` — **167** plain-text extracts from `generated/` (`corporate_meeting_minutes.py --output-root generated` + `scripts/extract_audit_text.py`, **2026-04-04**). Set includes quarterly, AGM, special, stockholder consent (or DRS stockholder meeting stack), **board notice waivers** (`waiver_of_notice_board_meetings`), and DRS notice/waiver/ratification where applicable.
 
----
-
-### Executive risk assessment — **YELLOW / RED edges** (aggressive)
-
-| Band | Call |
-|---|---|
-| **YELLOW (default for this book)** | The set is **synthetic, parallel, and thin** on **proof** (no attached notices, waivers, ledgers, proxies, vote tabulations, or board resolutions fixing record dates). For **uncontested, closely held** companies, many judges will tolerate that—but a motivated plaintiff or counterparty will **not**. |
-| **RED (integrity)** | **`audit_text/` still contains TeamBoost.ai, Inc. documents dated in calendar year 2022**, while `corporate_meeting_minutes.py` lists **`inc_year`: 2023** and **`minutes_start_year`: 2023**. If those 2022 files are presented as historical Delaware company minutes, the book is **internally inconsistent** and **factually suspect** unless another entity or preamble explains them. **Treat as a minute-book defect until the corpus matches the program dictionaries or the narrative is corrected.** |
-
-**Bottom line**: I would **not** certify this book as “clean” for high-stakes litigation without **(1)** reconciling TeamBoost’s 2022 artifacts, **(2)** backing key assertions with **exhibits** (notice, waiver, ledger excerpt, consent signatures), and **(3)** tightening multi-holder stockholder mechanics for DRS.
+**COI / bylaws**: Charter OCR text under `ocr_text/` for **Hippo** (`Hippo, Inc. - Certificate of Incorporation (filed).ocr.docx.txt`), **Ritual**, **TeamBoost**, and **DRS**. **Hippo** consents/waivers cite **Amended and Restated Bylaws** (**Article III §13**, **Article IV §21**). **Ritual** and **TeamBoost** cite **By-Laws** (**Article II §9** consent; **Article III §8** and **Article VIII §4** board notice/waiver). **DRS** stockholder-side docs remain generic “bylaws” unless extended. Spot-check live filed charters and bylaws for amendments.
 
 ---
 
-## Section VI — DGCL coverage map (aggressive grading)
+### 1. Executive risk assessment
 
-| Topic | Anchor | Grade | Aggressive notes |
-|---|---|---|---|
-| Board powers / quorum | §141(a)–(b) | **YELLOW** | Sole-director **form** is fine mechanically; **Caremark / independence** story is weak if anyone ever argues the board is a fiction. |
-| Committees | §141(c), §143 | **N/A** | No committee paper trail—OK only if no committee action is claimed. |
-| Board remote | §141(i) | **GREEN** | Boilerplate is **adequate** for contemporaneous participation. |
-| Board written consent | §141(f) | **GREEN** | No fake “majority email board consent” spotted; board acts at meetings in corpus. |
-| §141(e) | §141(e) | **YELLOW** | Language is present; **substance** of what was relied on is usually **not** specified (reports, models, counsel letters). |
-| Stockholder annual cadence | §211 | **YELLOW** | Written-consent-in-lieu path for sole holders is common; **waiver** language in consent is aggressive—confirm it matches **COI** (some charters require an actual meeting). |
-| Record date | §213 | **RED / YELLOW** | DRS minutes **state** a record date and cite bylaws/DGCL, but the book contains **no board resolution** fixing that date. Generator uses **meeting minus 10 calendar days**—at the **bylaw minimum** band for a board-fixed date, but **DRS bylaws** also describe **defaults if the board does not fix** a date (often **day before notice** or **day before meeting**). **Mismatch risk** if no real board action adopted the template date. |
-| Quorum / vote | §216 | **YELLOW** | DRS: quorum described as holders of **majority of outstanding** present—OK if true; **no named stockholders**, **no share count vote math** on elections. |
-| Proxies / list | §218 | **YELLOW** | DRS adds **narrative** on list/proxies—good—but **no exhibit**. Contested election = **weak**. |
-| Notice | §222 | **YELLOW** | Assertions of compliance without **notice text** or **mailing/email log** = classic **§220** follow-up target. |
-| §228 | §228 | **YELLOW** | Mechanics paragraph helps; **prompt notice** to non-consenting holders for **non-unanimous** actions—**DRS majority consent** authorizes notice but **does not prove** it was given. Sole-holder path: prompt notice often **inapplicable**—confirm. |
-| §204 / §205 | ratification | **N/A** | No remediation narrative; if defects exist, **paper minutes alone do not cure**. |
-| §220 | inspection | **RED / YELLOW** | Book reads as **template**. A §220 demand for “purpose of investigating mismanagement” would seek **underlying materials**; these minutes **under-disclose** process for anything beyond routine ratifications. |
-| §145 / §102(b)(7) | | **N/A** | No obvious contradiction in text (light review). |
-| §109 | bylaws | **N/A** | No bylaw amendment minutes. |
+| Level | Rationale |
+|------|-----------|
+| **GREEN** | No obvious **void**-tier statutory traps in the synthetic set (no §271 asset sale as board-only, etc.). Board acts at meetings; **§141(f)** email-majority fiction not present. **DRS** has **board §213 resolution** in **special** minutes, **stockholder cross-reference**, **majority-holder-only quorum** narrative, **waiver-focused** stockholder minutes, **standalone §222 notice** and **waiver** `.docx` in the corpus, and **§228** consent forms. |
+| **YELLOW** | **Default book risk**: templates remain **parallel** and many lines still assume **exhibits** or **signatures** that are **not proven** in the extract (blank lines, “annexed as Exhibit A” while the **signed** PDF may not yet be merged). **§220** depth for **material** acts is thin. **Record-date math** (meeting − 10 days) must match **real bylaws and facts**. |
+| **RED (integrity)** | **None** on corpus sync (TeamBoost starts **2023**; `audit_text` matches `generated`). |
 
 ---
 
-## Material defect / risk register (aggressive)
+### 2. Material defect / risk register (representative)
 
-| # | Issue | Severity | DGCL / practice hook | What I’d demand in a real file |
-|---:|---|---|---|---|
-| 1 | **TeamBoost 2022** files vs **incorporation 2023** | **RED** | Minute-book integrity / fraud-adjacent narrative if misrepresented | Delete stale outputs; regenerate; or add cover memorandum tying 2022 to a **different** legal entity. |
-| 2 | **Record date** asserted without **board resolution** in book | **RED/YELLOW** | §213 + bylaws (board fixes date within 10–60 day band, or defaults apply) | Board consent or meeting minutes resolving: “record date for [meeting] is [date].” |
-| 3 | **DRS** “stockholders present” as **anonymous block** | **YELLOW** | §220 / inspection / vote proof | Roll call with **names and votes**, or attach **inspector** report / unanimous written consent of all holders. |
-| 4 | **Notice & waiver** bare assertions | **YELLOW** | §222 + bylaws | Attach notice (or email), or executed waivers; identify **record date** relative to notice timing for default bylaw logic. |
-| 5 | **Majority written consent** signature blocks **blank** in extracts | **YELLOW** | §228 delivery / evidence | Executed counterparts on file; dated signatures; evidence of **holdings** at record date if contested. |
-| 6 | **Typo / style**: “Hippo, Inc,” (comma) in consent heading | **LOW** | Professionalism | Fix in template (`Hippo, Inc.`). |
-| 7 | **Parallelism** across four companies | **YELLOW** | §220 “form book” impeachment | Expect a plaintiff’s counsel to argue **rote** governance; for real companies, introduce **company-specific** facts and exhibits. |
-| 8 | No **transactional** minutes (issuance, dividend, §271, loans, comp) | **N/A** here | §151–152, §170, §271, §144, etc. | Use `senior_counsel_transactional_minutes_prompt.md` when those appear—this book does **not** test those statutes. |
+| Date / scope | Action / document | Defect type | Legal hook | Risk | Remediation |
+|--------------|-------------------|-------------|------------|------|-------------|
+| DRS annual cycle | Stockholder minutes say waiver **“annexed as Exhibit A”** | **Voidable** (if untrue) | §222 + practice | **Medium** | **Sign** generated waiver; **merge** as Exhibit A, or **remove** annex sentence until filed. |
+| DRS annual cycle | **Notice** `.docx` — “Date of notice” blank | **Voidable** (if notice path used) | §222 timing | **Medium** | Fill **send date**; keep **delivery proof** if you rely on notice (not waiver). |
+| DRS | Majority **§228** ratification consent | **Voidable** (evidence) | §228 | **Medium** | **Execute** signatures; **prompt notice** only if **non-unanimous** among voting holders (often **N/A** if sole voting holder). |
+| Hippo / Ritual / TeamBoost | Sole **§228** consent | **Voidable** (evidence) | §228 | **Low–Med** | **Sign**; **Hippo** COI extract in `ocr_text/` (confirm no later amendments); Ritual/TeamBoost as before. |
+| All | Board minutes “notice given or waived” | **Low** | Bylaws | **Low** | Optional **signed board waiver** in appendix for belt-and-suspenders. |
+| All | No transactional minutes | **N/A** | §151+, §170, §271… | **N/A** | Use transactional prompt when events exist. |
 
 ---
 
-## Add-on modules (A–F) — aggressive read
+### 3. Remote governance (Section II)
 
-- **A (hard constraints)**: You must **reconcile** generator defaults (record date math) with **each** company’s bylaws **and** actual board actions—not just “charter says 10–60.”
-- **B (§211)**: Cadence exists in files, but **TeamBoost 2022** breaks **trust** in cadence reporting.
-- **C (§228 mechanics)**: **Authorization ≠ proof** of prompt notice or dated consent delivery.
-- **D (integrity)**: **Duplicate-year / wrong-year** artifacts are a **hard fail** until removed.
-- **E (COI/bylaw contradiction)**: Written consent “waives separate annual meeting” language—**verify** against **COI** (some companies **require** meetings).
-- **F (§204/§205)**: If you discover **voidable** defects, map ratification—**do not** assume templates substitute for stockholder ratification.
+- **Board §141(i)**: Contemporaneous remote participation stated; **adequate** boilerplate. **Gap** if contested: no **disconnect / per-vote quorum** narrative.
+- **Stockholders §211 / §222**: **DRS** notice form includes **date, time, place/remote, record date, purpose**; minutes use **waiver_focus** and match. **Remote verification** line present at meeting. **Gap**: **delivery** and **timeliness** are **not** in the corpus (logs, certificates of mailing).
 
 ---
 
-## Deliverables checklist (prompt format) — completed
+### 4. Stockholder actions (§228; §§211–213, 216–222)
 
-1. **Executive risk**: **YELLOW** book; **RED** TeamBoost chronology inconsistency in corpus vs code.  
-2. **Defect log**: Table above.  
-3. **Remote governance**: Board language **OK**; stockholder remote **OK** on DRS face; **disconnect / per-vote quorum** not documented (add if contested).  
-4. **Stockholder actions**: §228 + (for DRS) meeting path—**notice/list/proxy** still **evidence-deficient**.  
-5. **Fiduciary / §220**: **Thin**; improved **narrative** on DRS reports and board quarterly/AGM is still **not** transaction-grade.  
-6. **§VI map**: Completed in aggressive table.
+- **Sole-holder §228** (Hippo, Ritual, TeamBoost): Forms + **AGM cross-reference** to consent **on file** / **Exhibit A** when label set. **Execute** consents; verify **COI**.
+- **DRS annual meeting**: **§213** record date **board-fixed** in special minutes; **§216** quorum = **majority holder present alone** (per your fact pattern). **§218** list/proxy narrative; no tabulation exhibit.
+- **DRS §228 majority ratification**: Template **authorizes** prompt notice; **proof** not in extracts.
+- **DRS notice/waiver forms**: **Generated** and extracted—**stronger** than minutes-only; still require **signature**, **dating**, and **filing** the path you actually use (**waiver OR notice**, not necessarily both in practice).
 
 ---
 
-## Immediate remediation (non-optional if you want a defensible book)
+### 5. Fiduciary record / §220 (Sections IV–V)
 
-1. **Reconcile TeamBoost**: Remove **2022** `generated/` and `audit_text/` artifacts **or** align `minutes_start_year` / narrative—**pick one truth**.  
-2. **Record dates**: Add **board resolution** minutes (or unanimous written consent) adopting the record date used in DRS stockholder minutes **or** switch template to **bylaw default** logic with accurate notice dating.  
-3. **Exhibits**: Build a **minute-book appendix** index: notices, waivers, consents, ledger excerpts, proxies—**even for closely held cos.**  
-4. **Regenerate** `audit_text/` from `generated/` after fixes; re-run this audit.
+- **§141(e)**: Improved boilerplate (materials + officers); **not** deal-specific for **material** transactions.
+- **Caremark / Van Gorkom**: Quarterly/AGM **routine** ratification tone; **acceptable** for low-stakes closely held use, **thin** for contested **M&A**-style facts.
+- **§220**: Opposing counsel would still seek **underlying** notices, consents, ledger—extracts **point** to them more cleanly for DRS; **execution** remains the user’s burden.
+
+---
+
+### 6. DGCL coverage map (Section VI — pass / gap / N/A)
+
+| Topic | Result | Note |
+|-------|--------|------|
+| Board existence & powers §141(a)–(b) | **pass** | Sole director; quorum stated. |
+| Committees §141(c), §143 | **N/A** | No committee actions. |
+| Board vacancies / removal | **N/A** | Not addressed. |
+| Board meetings §141(i) | **pass** | Remote boilerplate. |
+| Board written consent §141(f) | **pass** | No improper email-majority board consent. |
+| §141(e) | **gap** (stakes-dependent) | Generic reliance; OK for routine. |
+| Stockholder annual §211 | **pass / gap** | **pass** as narrative; **gap** vs **COI** for consent-only corps—verify. |
+| Record date §213 | **pass** (DRS) | Board resolution + cross-ref; **gap** vs **bylaw defaults** if facts differ. |
+| Quorum / vote §216 | **pass** (DRS, stated facts) | Majority holder only present—matches provided fact pattern; **gap** if cap table differs. |
+| Proxies §218 | **gap** | Narrative only; no exhibit. |
+| Notice §222 | **pass** (form) / **gap** (proof) | **Notice** + **waiver** documents generated for DRS; **execution + delivery** proof still **gap**. |
+| §228 | **gap** (execution) | Mechanics yes; **signatures** and **prompt notice proof** when required. |
+| §204 / §205 | **N/A** | No ratification of defective acts described. |
+| §220 | **gap** | Template-leaning without executed exhibits. |
+| §145 / §102(b)(7) | **N/A** | Light review; no obvious conflict. |
+| Bylaws §109 | **N/A** | No bylaw amendment minutes. |
+
+---
+
+## Section VI — Aggressive grading (summary table)
+
+| Topic | Anchor | Grade | Notes |
+|-------|--------|-------|-------|
+| Notice | §222 | **YELLOW → improving** | Standalone **notice** + **waiver** in corpus for DRS; minutes **waiver_focus** + Exhibit A callout—**honor it or soften**. |
+| Quorum / vote | §216 | **YELLOW** | **Sole voting presence** narrative for DRS; still no **vote tabulation** figures. |
+| §220 | inspection | **YELLOW** | Better **paper trail design** for DRS; execution still **out of band**. |
+
+---
+
+## Add-ons A–F (abbreviated)
+
+- **A**: Reconcile **10-day** record date and **notice dates** to **bylaws** and **facts**.
+- **B**: §211 cadence present; TeamBoost from **2023**.
+- **C**: §228 **authorization ≠ proof** (signatures, prompt notice when applicable).
+- **D**: Run **extract** after every regen.
+- **E**: **COI** vs written consent / waiver of separate meeting.
+- **F**: §204/§205 if **voidable** defects appear in **live** records.
+
+---
+
+## Deliverables checklist (prompt format)
+
+1. **Executive risk**: **YELLOW** book; **no integrity RED**.  
+2. **Defect log**: Table in §2.  
+3. **Remote governance**: §3.  
+4. **Stockholder actions**: §4.  
+5. **Fiduciary / §220**: §5.  
+6. **§VI map**: pass/gap table in §6.
+
+---
+
+## Immediate remediation
+
+1. **Sign and file** DRS **waiver** (if using waiver path) before relying on **Exhibit A** language—or **edit** minutes to drop annex until filed.  
+2. If using **notice** path: complete **date of notice**, **send**, retain **proof**.  
+3. **Execute** all **§228** consents; keep in minute book.  
+4. **Regen → extract → refresh this memo + PDF** when templates change.
+
+---
+
+## Closed / improved in this generator cycle
+
+- **Hippo** display name; **DRS** special-meeting **§213** resolution; stockholder **cross-reference**; **majority-only** quorum text; **waiver_focus** §IV; **notice + waiver** standalone `.docx`; board **AGM** references to **sole stockholder consent** (written-consent companies).
 
 ---
 
 ## PDF
 
-This memo is rendered to: `audit_reports/senior_counsel_audit_2022_2026.pdf` (same stem; regenerate with `poetry run python scripts/audit_md_to_pdf.py …`).
+Render with: `poetry run python scripts/audit_md_to_pdf.py audit_reports/senior_counsel_audit_2022_2026.md --out audit_reports/senior_counsel_audit_2022_2026.pdf`

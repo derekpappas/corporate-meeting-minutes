@@ -38,7 +38,7 @@ The Treasurer reported that the Corporation remains solvent and that certain out
 
 The Sole Director reviewed the officer reports and materials considered at this meeting, asked questions regarding financial and operational items as appropriate, and caused the substance of the discussion to be reflected in these minutes for the governance record.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements presented by officers of the Corporation and other persons as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
@@ -55,6 +55,10 @@ RESOLVED, that the operating, engineering, and marketing budget for the fiscal y
 
 Banking Authorization
 RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+Stockholder Written Consent (2023)
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 14, 2023, adopting stockholder resolutions under Section 228 of the DGCL for the year 2023, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+
 
 VIII. Adjournment
 There being no further business to come before the Board, the meeting was adjourned.
