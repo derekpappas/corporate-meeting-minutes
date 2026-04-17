@@ -21,7 +21,7 @@ The Sole Director participated via communications equipment by means of which al
 
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and materials furnished for the meeting and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation. The Sole Director asked questions regarding operational and risk items as appropriate, and the discussion was reflected in these minutes for the governance record.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
 
@@ -30,6 +30,8 @@ IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
 RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
 
 V. Adjournment:
 There being no further business to come before the Board, the meeting was adjourned.

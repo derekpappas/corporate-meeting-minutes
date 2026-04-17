@@ -1,0 +1,1592 @@
+Minute book compilation — all meetings
+TeamBoost.ai, Inc.
+*(single document: all meetings generated for calendar years 2023 through 2026)*
+
+---
+
+Calendar year 2023
+
+
+Minutes of the Annual Meeting of the Board of Directors
+*(Delaware Corporation)*
+
+I. Meeting Information
+Company Name: TeamBoost.ai, Inc.
+Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Date: 2023-12-14
+Time: 1:00 PM
+Place: Thessaloniki, Greece, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-14 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+
+III. Roll Call and Quorum
+Director Present:
+Derek E. Pappas (Sole Director)
+
+Director Absent:
+None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+IV. Approval of Prior Minutes
+This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2023; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
+
+V. Reports of Officers
+
+President’s Report:
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2023: Initial development phase: core platform architecture, mobile app creation, and foundational features were established, with a private beta release. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+VI. Discussion Items
+The Sole Director discussed the Corporation’s transition plan for 2024, including security audits, penetration testing, and commercialization readiness.
+
+VII. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for the fiscal year 2023 are hereby approved.
+
+Approval of 2024 Budget
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2024 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2023)
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 14, 2023, adopting stockholder resolutions under Section 228 of the DGCL for the year 2023, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-12-14
+Name: Derek E. Pappas
+---
+
+Operating addendum (Exhibit B)
+TeamBoost.ai, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2023)
+
+- Defined and documented technical specifications for the Teamboost API and mobile application
+- Developed the Teamboost mobile and web applications
+- Released the mobile application for private beta testing
+- Implemented core features including tasks, projects, task groups, and labels
+- Developed onboarding, notifications, and organization management services
+- Established backend architecture supporting onboarding, real-time notifications, and organizational workflows
+- Designed and developed the tasks service enabling core task management functionality
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+Minutes of the Special Meeting of the Board of Directors - 2023
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2023-12-14
+Time of Meeting: 12:00 PM
+Location of Meeting: Thessaloniki, Greece, via digital communication
+Purpose: Pre-annual review of international operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2023-12-14 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Resolutions:
+Upon consideration, the Sole Director adopted the following resolution:
+
+Ratification of International Operations
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2023 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-12-14
+Name: Derek E. Pappas
+---
+
+
+TeamBoost.ai, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+
+The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of TeamBoost.ai, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 14, 2023 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2023 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Section 228 Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 14, 2023, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Signature: ___________________________
+Date: December 14, 2023
+---
+
+
+Waiver of Notice of Meetings of the Board of Directors
+TeamBoost.ai, Inc.
+*(Delaware corporation)*
+
+Calendar year 2023
+
+The undersigned, Derek E. Pappas, Sole Director of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2023 Q1 — Date: 2023-04-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q2 — Date: 2023-07-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q3 — Date: 2023-10-04; Time: 1:00 PM; Place / remote means: Knoxville, TN, via digital communication
+- Quarterly Governance Meeting – 2023 Q4 — Date: 2023-12-04; Time: 1:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+- Special Meeting of the Board of Directors — Date: 2023-12-14; Time: 12:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2023-12-14; Time: 1:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-12-14
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q1
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2023-04-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-04-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q2
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2023-07-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-07-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q3
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2023-10-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Knoxville, TN, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-10-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q4
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2023-12-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Thessaloniki, Greece, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-12-04
+Name: Derek E. Pappas
+---
+
+Calendar year 2024
+
+
+Minutes of the Annual Meeting of the Board of Directors
+*(Delaware Corporation)*
+
+I. Meeting Information
+Company Name: TeamBoost.ai, Inc.
+Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Date: 2024-12-12
+Time: 1:00 PM
+Place: Denver, NC, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-12 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+
+III. Roll Call and Quorum
+Director Present:
+Derek E. Pappas (Sole Director)
+
+Director Absent:
+None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-14 were reviewed and approved by the Sole Director.
+
+V. Reports of Officers
+
+President’s Report:
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2024: Expansion phase: major feature rollout, backend scalability improvements, and introduction of collaboration, reporting, and internationalization capabilities. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+VI. Discussion Items
+The Sole Director discussed the Corporation’s transition plan for 2025, including security audits, penetration testing, and commercialization readiness.
+
+VII. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for the fiscal year 2024 are hereby approved.
+
+Approval of 2025 Budget
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2025 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2024)
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 12, 2024, adopting stockholder resolutions under Section 228 of the DGCL for the year 2024, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-12-12
+Name: Derek E. Pappas
+---
+
+Operating addendum (Exhibit B)
+TeamBoost.ai, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2024)
+
+- Continued development of the Teamboost mobile and web applications
+- Implemented key features including Questions, Releases, Insights, and Daily Reports
+- Added internationalization support for multiple languages and regional formats
+- Designed and built an in-app reporting system for user feedback
+- Created and maintained technical specifications for the Teamboost API
+- Enhanced onboarding, organization management, and notifications services
+- Expanded backend with services including DMS, reminders, EWS, requests/questions, comments, and attachments
+- Improved backend scalability for communication, collaboration, and content management
+- Enhanced the tasks service to support new features and evolving requirements
+- Performed testing, product ideation, and backend operational support
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+Minutes of the Special Meeting of the Board of Directors - 2024
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2024-12-12
+Time of Meeting: 12:00 PM
+Location of Meeting: Denver, NC, via digital communication
+Purpose: Pre-annual review of international operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2024-12-12 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Resolutions:
+Upon consideration, the Sole Director adopted the following resolution:
+
+Ratification of International Operations
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2024 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-12-12
+Name: Derek E. Pappas
+---
+
+
+TeamBoost.ai, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+
+The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of TeamBoost.ai, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 12, 2024 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2024 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Section 228 Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 12, 2024, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Signature: ___________________________
+Date: December 12, 2024
+---
+
+
+Waiver of Notice of Meetings of the Board of Directors
+TeamBoost.ai, Inc.
+*(Delaware corporation)*
+
+Calendar year 2024
+
+The undersigned, Derek E. Pappas, Sole Director of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2024 Q1 — Date: 2024-04-04; Time: 1:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
+- Quarterly Governance Meeting – 2024 Q2 — Date: 2024-07-04; Time: 1:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
+- Quarterly Governance Meeting – 2024 Q3 — Date: 2024-10-04; Time: 1:00 PM; Place / remote means: Hoegaarden, Belgium, via digital communication
+- Quarterly Governance Meeting – 2024 Q4 — Date: 2024-12-04; Time: 1:00 PM; Place / remote means: Denver, NC, via digital communication
+- Special Meeting of the Board of Directors — Date: 2024-12-12; Time: 12:00 PM; Place / remote means: Denver, NC, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2024-12-12; Time: 1:00 PM; Place / remote means: Denver, NC, via digital communication
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-12-12
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q1
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2024-04-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Belgrade, Serbia, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-04-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q2
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2024-07-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Belgrade, Serbia, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-07-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q3
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2024-10-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Hoegaarden, Belgium, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-10-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q4
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2024-12-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Denver, NC, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-12-04
+Name: Derek E. Pappas
+---
+
+Calendar year 2025
+
+
+Minutes of the Annual Meeting of the Board of Directors
+*(Delaware Corporation)*
+
+I. Meeting Information
+Company Name: TeamBoost.ai, Inc.
+Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Date: 2025-12-11
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-11 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+
+III. Roll Call and Quorum
+Director Present:
+Derek E. Pappas (Sole Director)
+
+Director Absent:
+None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2024-12-12 were reviewed and approved by the Sole Director.
+
+V. Reports of Officers
+
+President’s Report:
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2025: Release and stabilization phase: public rollout, improved reliability through testing, and continued enhancement of core features and system performance. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+VI. Discussion Items
+The Sole Director discussed the Corporation’s transition plan for 2026, including security audits, penetration testing, and commercialization readiness.
+
+VII. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for the fiscal year 2025 are hereby approved.
+
+Approval of 2026 Budget
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2026 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2025)
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 11, 2025, adopting stockholder resolutions under Section 228 of the DGCL for the year 2025, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-12-11
+Name: Derek E. Pappas
+---
+
+Operating addendum (Exhibit B)
+TeamBoost.ai, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2025)
+
+- Released the first private version via TestFlight and coordinated initial App Store launch
+- Continued improving the mobile and web applications, enhancing core features and user experience
+- Expanded automated test coverage across the platform
+- Enhanced onboarding, organization management, and notifications services
+- Extended backend services (DMS, reminders, EWS, requests/questions, comments, attachments) with new features
+- Improved system stability and performance
+- Enhanced the tasks service and related workflows
+- Implemented automated tests for task-related functionality
+- Introduced new web application design and continued feature development
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+Minutes of the Special Meeting of the Board of Directors - 2025
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2025-12-11
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Purpose: Pre-annual review of international operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2025-12-11 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Resolutions:
+Upon consideration, the Sole Director adopted the following resolution:
+
+Ratification of International Operations
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2025 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-12-11
+Name: Derek E. Pappas
+---
+
+
+TeamBoost.ai, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+
+The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of TeamBoost.ai, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 11, 2025 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2025 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Section 228 Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 11, 2025, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Signature: ___________________________
+Date: December 11, 2025
+---
+
+
+Waiver of Notice of Meetings of the Board of Directors
+TeamBoost.ai, Inc.
+*(Delaware corporation)*
+
+Calendar year 2025
+
+The undersigned, Derek E. Pappas, Sole Director of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2025 Q1 — Date: 2025-04-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q2 — Date: 2025-07-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q3 — Date: 2025-10-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q4 — Date: 2025-12-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2025-12-11; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2025-12-11; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-12-11
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q1
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2025-04-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-04-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q2
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2025-07-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-07-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q3
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2025-10-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-10-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q4
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2025-12-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-12-04
+Name: Derek E. Pappas
+---
+
+Calendar year 2026
+
+
+Minutes of the Annual Meeting of the Board of Directors
+*(Delaware Corporation)*
+
+I. Meeting Information
+Company Name: TeamBoost.ai, Inc.
+Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Date: 2026-12-17
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-17 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+
+III. Roll Call and Quorum
+Director Present:
+Derek E. Pappas (Sole Director)
+
+Director Absent:
+None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2025-12-11 were reviewed and approved by the Sole Director.
+
+V. Reports of Officers
+
+President’s Report:
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. A written addendum annexed as Exhibit B to these minutes sets forth additional detail furnished for the meeting, including technical specifications, roadmaps, KPIs, and architecture diagrams. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+VI. Discussion Items
+The Sole Director discussed the Corporation’s transition plan for 2027, including security audits, penetration testing, and commercialization readiness.
+
+VII. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for the fiscal year 2026 are hereby approved.
+
+Approval of 2027 Budget
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2027 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2026)
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 17, 2026, adopting stockholder resolutions under Section 228 of the DGCL for the year 2026, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-12-17
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Special Meeting of the Board of Directors - 2026
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2026-12-17
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Purpose: Pre-annual review of international operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-17 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Resolutions:
+Upon consideration, the Sole Director adopted the following resolution:
+
+Ratification of International Operations
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2026 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-12-17
+Name: Derek E. Pappas
+---
+
+
+TeamBoost.ai, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+
+The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of TeamBoost.ai, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 17, 2026 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2026 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Section 228 Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 17, 2026, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Signature: ___________________________
+Date: December 17, 2026
+---
+
+
+Waiver of Notice of Meetings of the Board of Directors
+TeamBoost.ai, Inc.
+*(Delaware corporation)*
+
+Calendar year 2026
+
+The undersigned, Derek E. Pappas, Sole Director of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2026 Q1 — Date: 2026-04-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q2 — Date: 2026-07-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q3 — Date: 2026-10-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q4 — Date: 2026-12-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2026-12-17; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2026-12-17; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-12-17
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q1
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2026-04-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-04-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q2
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2026-07-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-07-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q3
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2026-10-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-10-04
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q4
+TeamBoost.ai, Inc.
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2026-12-04
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-12-04
+Name: Derek E. Pappas
+---

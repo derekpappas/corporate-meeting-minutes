@@ -1,0 +1,23 @@
+Operating addendum (Exhibit B)
+Hippo, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2022 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2022)
+
+- Led project management and coordinated development timelines
+- Refactored and redesigned the application to improve performance and maintainability
+- Implemented critical API updates aligned with product requirements
+- Developed UI screens for products, collections, and deals
+- Introduced social features including likes and comments
+- Implemented CI/CD pipelines and testing infrastructure
+- Enhanced scraping systems, improving data quality and coverage
+- Decommissioned legacy Hadoop-based pipeline after infrastructure failure
+- Avoided high-cost vendor lock-in and initiated transition to new data solutions
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---

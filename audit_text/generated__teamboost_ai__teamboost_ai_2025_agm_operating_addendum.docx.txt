@@ -1,0 +1,23 @@
+Operating addendum (Exhibit B)
+TeamBoost.ai, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2025)
+
+- Released the first private version via TestFlight and coordinated initial App Store launch
+- Continued improving the mobile and web applications, enhancing core features and user experience
+- Expanded automated test coverage across the platform
+- Enhanced onboarding, organization management, and notifications services
+- Extended backend services (DMS, reminders, EWS, requests/questions, comments, attachments) with new features
+- Improved system stability and performance
+- Enhanced the tasks service and related workflows
+- Implemented automated tests for task-related functionality
+- Introduced new web application design and continued feature development
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---

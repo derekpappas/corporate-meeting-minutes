@@ -1,0 +1,22 @@
+Operating addendum (Exhibit B)
+Hippo, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2025)
+
+- Deployed application to internal testing environments
+- Released Android application to Google Play Store
+- Designed and implemented new indexing and search services
+- Expanded API capabilities for search and data workflows
+- Scaled data processing pipelines across all partitions
+- Enhanced data structures for large-scale product processing
+- Improved recommendation, grouping, and search data pipelines
+- Stabilized and optimized data processing systems
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---

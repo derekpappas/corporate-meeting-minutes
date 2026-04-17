@@ -1,0 +1,21 @@
+Operating addendum (Exhibit B)
+TeamBoost.ai, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2023)
+
+- Defined and documented technical specifications for the Teamboost API and mobile application
+- Developed the Teamboost mobile and web applications
+- Released the mobile application for private beta testing
+- Implemented core features including tasks, projects, task groups, and labels
+- Developed onboarding, notifications, and organization management services
+- Established backend architecture supporting onboarding, real-time notifications, and organizational workflows
+- Designed and developed the tasks service enabling core task management functionality
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---

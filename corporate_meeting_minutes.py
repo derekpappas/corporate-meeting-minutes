@@ -1,3 +1,4 @@
+import json
 import os
 import random
 import re
@@ -56,6 +57,16 @@ locations_timeline = [
 # stockholders_roll_call — for annual_meeting_stockholders only: list of {"name": str, "presence": str} for roll call.
 # stockholders_quorum_collective_sentence — follows roll call; explains majority quorum.
 # stockholders_absent_line — text under Stockholders Absent (default "None.").
+# annual_board_resolution_blocks — optional list of markdown strings (each: optional **title** line + RESOLVED, …). If key
+#   omitted, AGM uses the default three resolutions. If [] (empty list), minutes use “no resolutions” language.
+# quarterly_resolution_blocks — same for quarterly board minutes; default one ratification. [] for no resolutions.
+# agm_president_report_product_line — optional AGM sentence(s) after the standard ops/dev locations paragraph: factual product
+#   scope (e.g. API / web / mobile). If omitted, a short generic “continued development…” sentence is used.
+# agm_president_report_infrastructure_line — optional sentence on hosting / infrastructure (e.g. named providers).
+# agm_president_report_operating_exhibit_label — if set (e.g. "Exhibit B"), minutes may reference a written addendum with deeper
+#   specs, roadmaps, KPIs, and diagrams. When `audit_reports/all_corp_accomplishments_2021-2025.json` lists detailed
+#   `annual_report` bullets for the year, an operating addendum .docx is generated and the minutes reference **detailed accomplishments**.
+#   If detailed bullets exist but this key is omitted, **Exhibit B** is used by default for that addendum.
 STOCKHOLDER_MEETING_TIME = "1:00 PM"
 BOARD_AGM_TIME = "1:00 PM"
 QUARTERLY_MEETING_TIME = "1:00 PM"
@@ -90,7 +101,8 @@ RELIANCE_141E_STANDARD = (
     "as contemplated by Section 141(e) of the Delaware General Corporation Law.\n"
 )
 
-companies = {
+# Company information (canonical registry for minute generation)
+company_information = {
     "Hippo, Inc": {
         "minutes_display_name": "Hippo, Inc.",
         "address": "30 N Gould St Ste 21106, Sheridan, WY 82801",
@@ -148,6 +160,14 @@ companies = {
             "the **By-Laws of Ritual Growth, Inc.**, including **Article III, Section 8** (notice and place of meetings of "
             "the Board of Directors) and **Article VIII, Section 4** (waiver of notice)"
         ),
+        "agm_president_report_product_line": (
+            "The Sole Director summarized continued product development during the year, including API servers and services "
+            "and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized."
+        ),
+        "agm_president_report_infrastructure_line": (
+            "The Corporation continued to operate hardware and cloud infrastructure using hosting providers including **DigitalOcean** and **Hetzner**."
+        ),
+        "agm_president_report_operating_exhibit_label": "Exhibit B",
     },
     "DATA RECORD SCIENCE, INC.": {
         "address": "30 N Gould St Ste 24165, Sheridan, WY 82801",
@@ -204,8 +224,170 @@ companies = {
             "the **By-Laws of TeamBoost.ai, Inc.**, including **Article III, Section 8** (notice and place of meetings of "
             "the Board of Directors) and **Article VIII, Section 4** (waiver of notice)"
         ),
+        "agm_president_report_product_line": (
+            "The Sole Director summarized continued product development during the year, including API servers and services, "
+            "web applications, and mobile applications."
+        ),
+        "agm_president_report_infrastructure_line": (
+            "The Corporation continued to operate hardware and cloud infrastructure using hosting providers including **DigitalOcean** and **Hetzner**."
+        ),
+        "agm_president_report_operating_exhibit_label": "Exhibit B",
+    },
+    "SurveyTeams, Inc.": {
+        "minutes_display_name": "SurveyTeams, Inc.",
+        # Lease address (also used as principal address in minutes unless you provide a separate mailing/principal line).
+        "address": "30 N Gould St #58611, Sheridan, WY 82801, USA",
+        "par": "$.0001",
+        # Inc/year not provided; defaulting minutes generation to start in 2026.
+        "inc_year": 2026,
+        "minutes_start_year": 2026,
+        "director_election_standard": "plurality",
+        "shares_issued": {2026: "10,000,000"},
+        "annual_day_offset": 4,
+        "meeting_stagger_day": 4,
+        # Two named stockholders: generate formal annual stockholder meeting minutes + notice/waiver instruments.
+        "stockholder_meeting": "annual_meeting_stockholders",
+        "annual_stockholder_notice_record": "waiver_focus",
+        "annual_stockholder_notice_exhibit_label": "Exhibit A",
+        "use_timeline_place": True,
+        "virtual_ok": True,
+        "stockholders_roll_call": [
+            {"name": "Mohamed Mohamed", "presence": "present in person"},
+            {"name": "Derek E. Pappas", "presence": "present in person"},
+        ],
+        "stockholders_quorum_collective_sentence": (
+            "Collectively, the stockholders present at the meeting held a **majority** of the outstanding shares of the Corporation "
+            "entitled to vote at the meeting, and their presence satisfied the quorum requirement under the DGCL and the Corporation’s bylaws."
+        ),
+        # Optional metadata captured from intake (not currently used by templates).
+        "irs_ein": "41-3602747",
+        "irs_legal_name": "SURVEYTEAMS INC",
+        "officers": {"CEO": "Mohamed Mohamed", "CTO": "Derek E. Pappas"},
+    },
+    "Loki Sports Enterprises, Inc.": {
+        "minutes_display_name": "Loki Sports Enterprises, Inc.",
+        "address": "30 N Gould St Ste 24709, Sheridan, WY 82801",
+        "par": "$.0001",
+        # WY domestic profit corporation filing (2023).
+        "inc_year": 2023,
+        "minutes_start_year": 2023,
+        "shares_issued": {
+            2023: "10,000,000",
+            2024: "10,000,000",
+            2025: "10,000,000",
+            2026: "10,000,000",
+        },
+        "annual_day_offset": 5,
+        "meeting_stagger_day": 5,
+        # Sole stockholder: use written consent pack (DGCL-style templates; adjust if you later add WY-specific variants).
+        "stockholder_meeting": "written_consent",
+        "sole_stockholder_consent_exhibit_label": "Exhibit A",
+        "use_timeline_place": True,
+        "virtual_ok": True,
+        # Optional metadata captured from intake (not currently used by templates).
+        "irs_ein": "93-2976555",
+        "irs_legal_name": "LOKI SPORTS ENTERPRISES INC",
+        "wy_sos_filing_id": "2023-001316332",
+        "dba": "DEREK EDWIN PAPPAS",
+        "mailing_address": "1317 Edgewater Dr Num 1961, Orlando, FL 32804",
     },
 }
+
+# Backwards-compatible alias (existing generator code expects `companies`).
+companies = company_information
+
+# Accomplishments (President’s report summary + operating addendum detail) — `audit_reports/all_corp_accomplishments_2021-2025.json`.
+# Top-level keys in JSON: "Hippo", "TB", "RG", … mapped from `companies` dict keys below.
+_ACCOMPLISHMENTS_JSON_KEY: dict[str, str] = {
+    "Hippo, Inc": "Hippo",
+    "TeamBoost.ai, Inc.": "TB",
+    "Ritual Growth, Inc.": "RG",
+}
+_ACCOMPLISHMENTS_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "audit_reports",
+    "all_corp_accomplishments_2021-2025.json",
+)
+_accomplishments_cache: dict | None = None
+
+
+def _accomplishments_root() -> dict:
+    global _accomplishments_cache
+    if _accomplishments_cache is None:
+        if os.path.isfile(_ACCOMPLISHMENTS_PATH):
+            with open(_ACCOMPLISHMENTS_PATH, encoding="utf-8") as f:
+                _accomplishments_cache = json.load(f)
+        else:
+            _accomplishments_cache = {}
+    return _accomplishments_cache
+
+
+def accomplishments_for_year(co_name: str, year: int) -> tuple[str | None, list[str]]:
+    """Return (summary text or None, cleaned detail bullets) from accomplishments JSON for this company and calendar year."""
+    jkey = _ACCOMPLISHMENTS_JSON_KEY.get(co_name)
+    if not jkey:
+        return None, []
+    block = _accomplishments_root().get(jkey)
+    if not isinstance(block, dict):
+        return None, []
+    yblock = block.get(str(year))
+    if not isinstance(yblock, dict):
+        return None, []
+    summary_raw = yblock.get("summary")
+    summary = summary_raw.strip() if isinstance(summary_raw, str) and summary_raw.strip() else None
+    raw_list = yblock.get("annual_report", [])
+    details: list[str] = []
+    if isinstance(raw_list, list):
+        for x in raw_list:
+            if isinstance(x, str) and x.strip():
+                details.append(x.strip())
+    return summary, details
+
+
+def agm_operating_addendum_markdown(
+    co_name: str, year: int, exhibit_label: str, detail_lines: list[str]
+) -> str:
+    """Markdown body for the AGM operating addendum (same text as standalone .docx)."""
+    if not detail_lines:
+        return ""
+    display = minutes_display_name(co_name)
+    bullets = "\n".join(f"- {line}" for line in detail_lines)
+    return f"""
+**Operating addendum ({exhibit_label})**
+**{display}**
+*(Delaware Corporation)*
+
+**Purpose**
+This addendum supplements the **Minutes of the Annual Meeting of the Board of Directors** of the Corporation for **{year}** and is annexed to those minutes as **{exhibit_label}**.
+
+**Detailed accomplishments ({year})**
+
+{bullets}
+
+**Other materials**
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+""".strip() + "\n"
+
+
+def _generate_agm_operating_addendum_docx(
+    company_name_year: str,
+    co_name: str,
+    year: int,
+    exhibit_label: str,
+    detail_lines: list[str],
+) -> None:
+    """Write `{company_name_year}_agm_operating_addendum.docx` (Exhibit referenced in AGM minutes)."""
+    if not detail_lines:
+        return
+    co = companies[co_name]
+    mdate = annual_meeting_date_str(co, year)
+    content = agm_operating_addendum_markdown(co_name, year, exhibit_label, detail_lines)
+    path = f"{company_name_year}_agm_operating_addendum.docx"
+    print(f"Writing AGM operating addendum to {path}")
+    write_docx_from_minutes(content, path, mdate, co_name)
+
 
 def office_locations_for_year(ranges, year):
     year_start = date(year, 1, 1)
@@ -414,18 +596,17 @@ def _stockholder_waiver_signature_blocks(co: dict) -> str:
     return "\n\n".join(parts)
 
 
-def generate_stockholder_waiver_of_notice_annual_meeting(
+def stockholder_waiver_of_notice_annual_meeting_markdown(
     company_name_year: str, year: int, co_name: str
-) -> None:
-    """Standalone waiver of notice for the annual stockholder meeting (file alongside minutes; sign and annex as Exhibit A if used)."""
+) -> str:
+    """Markdown for standalone waiver of notice (annual stockholders)."""
     co = companies[co_name]
     date_iso = annual_meeting_date_str(co, year)
     record_date = stockholder_annual_record_date_str(co, year)
     place = meeting_place_line(co, date_iso)
     as_meeting = datetime.strptime(date_iso, "%Y-%m-%d").strftime("%B %d, %Y")
     sig_blocks = _stockholder_waiver_signature_blocks(co)
-
-    content = f"""
+    return f"""
 **Waiver of Notice of Annual Meeting of Stockholders**
 **{co_name}**
 *(Delaware corporation)*
@@ -446,15 +627,24 @@ The meeting may include election of directors and any other annual business prop
 {sig_blocks}
 ---
 """
+
+
+def generate_stockholder_waiver_of_notice_annual_meeting(
+    company_name_year: str, year: int, co_name: str
+) -> None:
+    """Standalone waiver of notice for the annual stockholder meeting (file alongside minutes; sign and annex as Exhibit A if used)."""
+    co = companies[co_name]
+    date_iso = annual_meeting_date_str(co, year)
+    content = stockholder_waiver_of_notice_annual_meeting_markdown(company_name_year, year, co_name)
     path = f"{company_name_year}_waiver_of_notice_annual_stockholder_meeting.docx"
     print(f"Writing Waiver of Notice (annual stockholders) to {path}")
     write_docx_from_minutes(content, path, date_iso, co_name)
 
 
-def generate_notice_of_annual_stockholder_meeting(
+def notice_of_annual_stockholder_meeting_markdown(
     company_name_year: str, year: int, co_name: str
-) -> None:
-    """Standalone §222-style notice of annual stockholder meeting (deliver or file as required; may annex to minute book)."""
+) -> str:
+    """Markdown for §222-style notice of annual stockholder meeting."""
     co = companies[co_name]
     date_iso = annual_meeting_date_str(co, year)
     record_date = stockholder_annual_record_date_str(co, year)
@@ -462,8 +652,7 @@ def generate_notice_of_annual_stockholder_meeting(
     as_meeting = datetime.strptime(date_iso, "%Y-%m-%d").strftime("%B %d, %Y")
     principal = co["address"]
     officer = co.get("notice_signatory_line", "Derek E. Pappas, President")
-
-    content = f"""
+    return f"""
 **Notice of Annual Meeting of Stockholders**
 **{co_name}**
 *(Delaware corporation)*
@@ -494,6 +683,15 @@ By order of the Board of Directors,
 **Date of this notice:** _________________________________
 ---
 """
+
+
+def generate_notice_of_annual_stockholder_meeting(
+    company_name_year: str, year: int, co_name: str
+) -> None:
+    """Standalone §222-style notice of annual stockholder meeting (deliver or file as required; may annex to minute book)."""
+    co = companies[co_name]
+    date_iso = annual_meeting_date_str(co, year)
+    content = notice_of_annual_stockholder_meeting_markdown(company_name_year, year, co_name)
     path = f"{company_name_year}_notice_of_annual_stockholder_meeting.docx"
     print(f"Writing Notice of Annual Stockholder Meeting to {path}")
     write_docx_from_minutes(content, path, date_iso, co_name)
@@ -537,13 +735,8 @@ def _board_meeting_rows_for_year(co: dict, year: int) -> list[tuple[str, str, st
     return [(r[0], r[2], r[3], r[4]) for r in rows]
 
 
-def generate_board_waiver_of_notice(
-    company_name_year: str, year: int, co_name: str
-) -> None:
-    """Optional standalone waiver: sole director waives notice of board meetings minuted for this year (file with minute book).
-
-    Supports the board minutes line that notice of each meeting was duly given **or waived** (Delaware DGCL + typical bylaws).
-    """
+def board_waiver_of_notice_markdown(company_name_year: str, year: int, co_name: str) -> str:
+    """Markdown for sole director waiver of notice (board meetings listed for the year)."""
     co = companies[co_name]
     director_name = "Derek E. Pappas"
     doc_date_iso = annual_meeting_date_str(co, year)
@@ -552,15 +745,15 @@ def generate_board_waiver_of_notice(
         f"- **{title}** — **Date:** {d_iso}; **Time:** {t_str}; **Place / remote means:** {place}"
         for d_iso, title, t_str, place in rows
     )
-
-    content = f"""
+    bylaws_ref = co.get("board_notice_waiver_bylaws_ref") or "**the Corporation\u2019s bylaws**"
+    return f"""
 **Waiver of Notice of Meetings of the Board of Directors**
 **{co_name}**
 *(Delaware corporation)*
 
 **Calendar year {year}**
 
-The undersigned, **{director_name}**, Sole Director of **{co_name}** (the “Corporation”), intending to be legally bound, **waives all notice** of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the **Delaware General Corporation Law**, the Corporation’s **certificate of incorporation**, and {co.get("board_notice_waiver_bylaws_ref", "**the Corporation\u2019s bylaws**")}. This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given **or waived**.
+The undersigned, **{director_name}**, Sole Director of **{co_name}** (the “Corporation”), intending to be legally bound, **waives all notice** of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the **Delaware General Corporation Law**, the Corporation’s **certificate of incorporation**, and {bylaws_ref}. This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given **or waived**.
 
 **Meetings covered**
 
@@ -569,6 +762,18 @@ The undersigned, **{director_name}**, Sole Director of **{co_name}** (the “Cor
 {signature_block(director_name, doc_date_iso)}
 ---
 """
+
+
+def generate_board_waiver_of_notice(
+    company_name_year: str, year: int, co_name: str
+) -> None:
+    """Optional standalone waiver: sole director waives notice of board meetings minuted for this year (file with minute book).
+
+    Supports the board minutes line that notice of each meeting was duly given **or waived** (Delaware DGCL + typical bylaws).
+    """
+    co = companies[co_name]
+    doc_date_iso = annual_meeting_date_str(co, year)
+    content = board_waiver_of_notice_markdown(company_name_year, year, co_name)
     path = f"{company_name_year}_waiver_of_notice_board_meetings.docx"
     print(f"Writing Waiver of Notice (board meetings) to {path}")
     write_docx_from_minutes(content, path, doc_date_iso, co_name)
@@ -584,6 +789,113 @@ _____________________
 
 **Date:** {date}
 **Name:** {name}"""
+
+
+def _sole_director_adopted_resolutions_section(section_heading: str, resolution_parts: list[str]) -> str:
+    """Sole-director minutes: resolution list, or explicit none if every part is blank."""
+    cleaned = [p.strip() for p in resolution_parts if p and p.strip()]
+    if not cleaned:
+        return f"{section_heading}\nNone. No resolutions were presented for adoption.\n\n"
+    if len(cleaned) == 1:
+        intro = "Upon consideration, the Sole Director adopted the following resolution:\n\n"
+    else:
+        intro = "Upon consideration, the Sole Director adopted the following resolutions:\n\n"
+    body = "\n\n".join(cleaned) + "\n\n"
+    return f"{section_heading}\n{intro}{body}"
+
+
+def _agm_president_report_body(co: dict, office_locations: str, dev_locations: str, co_name: str, year: int) -> str:
+    """President’s Report narrative: operational baseline, optional product/hosting lines, accomplishments summary, addendum."""
+    base = (
+        "The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, "
+        "including centralized management of globally distributed development and the use of operational office location(s) "
+        f"during the fiscal year, with operations conducted from {office_locations} and development from {dev_locations}, "
+        "while confirming that management, oversight, and decision-making remained centralized and continuously recorded "
+        "through the Corporation’s official records. "
+    )
+    product = co.get(
+        "agm_president_report_product_line",
+        "The Sole Director summarized continued development of the Corporation’s software and service offerings. ",
+    )
+    if not product.endswith(" "):
+        product = product.rstrip() + " "
+    infra_raw = co.get("agm_president_report_infrastructure_line") or ""
+    infra = (" " + infra_raw.strip()) if infra_raw.strip() else ""
+
+    summary, detail_items = accomplishments_for_year(co_name, year)
+    summary_sentence = ""
+    if summary:
+        summary_sentence = (
+            f" The President’s report included the following **accomplishments summary** for the calendar year {year}: "
+            f"{summary}"
+        )
+
+    lab = co.get("agm_president_report_operating_exhibit_label")
+    if detail_items and not lab:
+        lab = "Exhibit B"
+
+    exhibit = ""
+    if detail_items and lab:
+        exhibit = (
+            f" A written addendum annexed as **{lab}** to these minutes sets forth **detailed accomplishments** "
+            "for the period covered by the President’s report, together with supplemental technical materials furnished "
+            "for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable."
+        )
+    elif lab:
+        exhibit = (
+            f" A written addendum annexed as **{lab}** to these minutes sets forth additional detail furnished for the meeting, "
+            "including technical specifications, roadmaps, KPIs, and architecture diagrams."
+        )
+
+    ip_close = (
+        " All software, algorithms, and intellectual property developed during the year, regardless of development location, "
+        "were reaffirmed as the exclusive property of the Corporation."
+    )
+    return base + product + infra + summary_sentence + exhibit + ip_close
+
+
+def _agm_resolutions_block(co: dict, director_name: str, year: int) -> str:
+    if "annual_board_resolution_blocks" in co:
+        parts = list(co["annual_board_resolution_blocks"])
+    else:
+        parts = [
+            f"""**Approval of Financial Reports**  
+RESOLVED, that the financial statements for the fiscal year {year} are hereby approved.""",
+            f"""**Approval of {year + 1} Budget**  
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year {year + 1} is hereby approved.""",
+            f"""**Banking Authorization**  
+RESOLVED, that {director_name} is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.""",
+        ]
+    return _sole_director_adopted_resolutions_section("**VII. Resolutions**", parts)
+
+
+def _special_resolutions_block(year: int, record_date_resolution: str) -> str:
+    parts = [
+        f"""**Ratification of International Operations**  
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year {year} are hereby ratified, confirmed, and approved in all respects."""
+    ]
+    extra = record_date_resolution.strip()
+    if extra:
+        parts.append(extra)
+    return _sole_director_adopted_resolutions_section("**III. Resolutions:**", parts)
+
+
+def _quarterly_resolutions_block(co: dict) -> str:
+    if "quarterly_resolution_blocks" in co:
+        parts = list(co["quarterly_resolution_blocks"])
+    else:
+        parts = [
+            "RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation."
+        ]
+    n = len([p for p in parts if p and str(p).strip()])
+    if n == 0:
+        heading = "**IV. Resolutions**"
+    elif n == 1:
+        heading = "**IV. Resolution:**"
+    else:
+        heading = "**IV. Resolutions**"
+    return _sole_director_adopted_resolutions_section(heading, parts)
+
 
 # 3. OUTPUT HELPERS
 
@@ -705,7 +1017,7 @@ The Sole Director confirmed that notice of the meeting was duly given or waived.
 **V. Reports of Officers**
 
 **President’s Report:**  
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from {office_locations} and development from {dev_locations}, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+{_agm_president_report_body(co, office_locations, dev_locations, co_name, year)}
 
 **Treasurer’s Report:**  
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has {issued} shares of common stock issued and outstanding at a par value of {co['par']} per share.
@@ -715,17 +1027,7 @@ The Treasurer reported that the Corporation remains solvent and that certain out
 **VI. Discussion Items**
 The Sole Director discussed the Corporation’s transition plan for {year + 1}, including security audits, penetration testing, and commercialization readiness.
 
-**VII. Resolutions**
-Upon consideration, the Sole Director adopted the following resolutions:
-
-**Approval of Financial Reports**  
-RESOLVED, that the financial statements for the fiscal year {year} are hereby approved.
-
-**Approval of {year + 1} Budget**  
-RESOLVED, that the operating, engineering, and marketing budget for the fiscal year {year + 1} is hereby approved.
-
-**Banking Authorization**  
-RESOLVED, that {director_name} is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+{_agm_resolutions_block(co, director_name, year)}
 {consent_cross_ref}
 **VIII. Adjournment**
 There being no further business to come before the Board, the meeting was adjourned.
@@ -779,12 +1081,7 @@ The Sole Director being present, a quorum was present, and the meeting was duly 
 The Sole Director confirmed that notice of the meeting was duly given or waived.
 {remote_meeting_line}
 
-**III. Resolutions:**
-Upon consideration, the Sole Director adopted the following resolutions:
-
-**Ratification of International Operations**  
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year {year} are hereby ratified, confirmed, and approved in all respects.
-{record_date_resolution}
+{_special_resolutions_block(year, record_date_resolution)}
 {reliance_141e_line}
 
 **IV. Adjournment:**
@@ -835,10 +1132,7 @@ The Sole Director reviewed quarterly infrastructure stability and confirmed that
 
 {reliance_141e_line}
 
-**IV. Resolution:**
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+{_quarterly_resolutions_block(co)}
 
 **V. Adjournment:**
 There being no further business to come before the Board, the meeting was adjourned.
@@ -941,16 +1235,16 @@ _____________________
 """
 
 
-def generate_majority_stockholder_written_consent_ratification(company_name_year: str, year: int, co_name: str):
-    """Majority stockholder written consent ratifying same-year annual board actions (DGCL §228), for multi-stockholder corporations."""
+def majority_stockholder_written_consent_ratification_markdown(
+    company_name_year: str, year: int, co_name: str
+) -> str:
+    """Markdown for majority stockholder written consent (DGCL §228 ratification)."""
     co = companies[co_name]
     board_date = annual_meeting_date_str(co, year)
     as_of = datetime.strptime(board_date, "%Y-%m-%d").strftime("%B %d, %Y")
-
     mechanics = f"""**Section 228 Mechanics**
 This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required to non-consenting stockholders under Section 228 of the DGCL, the certificate of incorporation, and the bylaws."""
-
-    content = f"""
+    return f"""
 **{co_name}.**
 **Written Consent of Majority Stockholders**
 **Action by Written Consent of Stockholders**
@@ -975,8 +1269,15 @@ ______________________________
 ______________________________
 
 **Date:** {as_of}
----"""
+---
+"""
 
+
+def generate_majority_stockholder_written_consent_ratification(company_name_year: str, year: int, co_name: str):
+    """Majority stockholder written consent ratifying same-year annual board actions (DGCL §228), for multi-stockholder corporations."""
+    co = companies[co_name]
+    board_date = annual_meeting_date_str(co, year)
+    content = majority_stockholder_written_consent_ratification_markdown(company_name_year, year, co_name)
     output = f"{company_name_year}_majority_stockholders_written_consent_ratification_of_annual_board_actions.docx"
     print(f"Writing Majority Stockholders Written Consent (ratification) to {output}")
     write_docx_from_minutes(content, output, board_date, co_name)
@@ -1018,6 +1319,16 @@ def generate_annual(company_name_year: str, co_name: str, year: int):
     print(f"Writing AGM minutes to {agm_docx}")
     write_docx_from_minutes(agm_content, agm_docx, mdate, co_name)
 
+    _summary, detail_items = accomplishments_for_year(co_name, year)
+    exhibit = co.get("agm_president_report_operating_exhibit_label")
+    if detail_items and not exhibit:
+        exhibit = "Exhibit B"
+    addendum_path = f"{company_name_year}_agm_operating_addendum.docx"
+    if detail_items and exhibit:
+        _generate_agm_operating_addendum_docx(company_name_year, co_name, year, exhibit, detail_items)
+    elif os.path.isfile(addendum_path):
+        os.remove(addendum_path)
+
 
 def generate_special_meeting(company_name_year: str, co_name: str, year: int):
     """Generate special meeting minutes."""
@@ -1030,10 +1341,10 @@ def generate_special_meeting(company_name_year: str, co_name: str, year: int):
     write_docx_from_minutes(special_content, special_docx, mdate, co_name)
 
 
-def generate_written_consent(company_name_year: str, year: int, company_name: str):
-    """Generate sole stockholder written consent under DGCL § 228 (.docx)."""
-    co = companies[company_name]
-    display_name = minutes_display_name(company_name)
+def sole_stockholder_written_consent_markdown(co_name: str, year: int) -> str:
+    """Markdown for sole stockholder written consent (DGCL §228)."""
+    co = companies[co_name]
+    display_name = minutes_display_name(co_name)
     date = annual_meeting_date_str(co, year)
     as_of = datetime.strptime(date, "%Y-%m-%d").strftime("%B %d, %Y")
     shareholder_term = "Sole Stockholder"
@@ -1041,16 +1352,13 @@ def generate_written_consent(company_name_year: str, year: int, company_name: st
         "voting_shares_description",
         "all of the outstanding shares of the Corporation entitled to vote on the following matters",
     )
-
     bylaws_ack = co.get("stockholder_consent_bylaws_acknowledgment")
     bylaws_ack_block = f"\n{bylaws_ack}\n" if bylaws_ack else ""
     mech_suffix = co.get("stockholder_consent_bylaws_mechanics_suffix")
     mech_tail = f" {mech_suffix}" if mech_suffix else ""
-
     mechanics = f"""**Section 228 Mechanics**
 This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures.{mech_tail} The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable)."""
-
-    content = f"""
+    return f"""
 **{display_name}**
 **Written Consent of {shareholder_term}**
 **Action by Written Consent of Stockholders**
@@ -1075,6 +1383,13 @@ Derek E. Pappas
 **Signature:** ___________________________
 **Date:** {as_of}
 ---"""
+
+
+def generate_written_consent(company_name_year: str, year: int, company_name: str):
+    """Generate sole stockholder written consent under DGCL § 228 (.docx)."""
+    co = companies[company_name]
+    date = annual_meeting_date_str(co, year)
+    content = sole_stockholder_written_consent_markdown(company_name, year)
     output = f"{company_name_year}_written_consent_in_lieu_of_annual_meeting.docx"
     print(f"Writing Stockholder Written Consent to {output}")
     write_docx_from_minutes(content, output, date, company_name)
@@ -1239,10 +1554,149 @@ def print_schedule(years=(2022, 2023, 2024, 2025, 2026)):
                 print(f"- {co_name}: Board {board_date} {BOARD_AGM_TIME}; Written consent dated {board_date}")
 
 
+# Between meeting bodies in the per-company compilation: one empty paragraph (“hard” break) in the .docx output.
+MEETING_BOOK_SEPARATOR = "\n\n"
+
+
+def _minute_book_line_to_paragraph_xml(line: str) -> str:
+    """Escape for ReportLab Paragraph XML; convert **bold** to <b>."""
+    s = line.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
+
+
+def _write_minute_book_pdf(markdown: str, pdf_path: str) -> None:
+    """Letter-size PDF, continuous page numbers in footer (single volume)."""
+    try:
+        from reportlab.lib import colors
+        from reportlab.lib.enums import TA_LEFT
+        from reportlab.lib.pagesizes import letter
+        from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+        from reportlab.lib.units import inch
+        from reportlab.platypus import HRFlowable, Paragraph, SimpleDocTemplate, Spacer
+    except ModuleNotFoundError as e:
+        raise RuntimeError(
+            "minute book PDF requires reportlab (see pyproject.toml). "
+            "Install project deps: poetry install"
+        ) from e
+
+    styles = getSampleStyleSheet()
+    body_style = ParagraphStyle(
+        "MinuteBookBody",
+        parent=styles["Normal"],
+        fontName="Helvetica",
+        fontSize=10,
+        leading=12,
+        spaceAfter=4,
+        alignment=TA_LEFT,
+    )
+
+    story: list = []
+    for raw in markdown.splitlines():
+        line = raw.rstrip()
+        if not line.strip():
+            story.append(Spacer(1, 10))
+        elif line.strip() == "---":
+            story.append(Spacer(1, 6))
+            story.append(
+                HRFlowable(
+                    width=letter[0] - 1.5 * inch,
+                    thickness=0.5,
+                    color=colors.HexColor("#bbbbbb"),
+                    hAlign="CENTER",
+                )
+            )
+            story.append(Spacer(1, 6))
+        else:
+            story.append(Paragraph(_minute_book_line_to_paragraph_xml(line), body_style))
+
+    def _page_footer(canvas, doc):
+        canvas.saveState()
+        canvas.setFont("Helvetica", 9)
+        canvas.drawRightString(letter[0] - 0.75 * inch, 0.55 * inch, f"Page {canvas.getPageNumber()}")
+        canvas.restoreState()
+
+    doc = SimpleDocTemplate(
+        pdf_path,
+        pagesize=letter,
+        rightMargin=0.75 * inch,
+        leftMargin=0.75 * inch,
+        topMargin=0.75 * inch,
+        bottomMargin=0.85 * inch,
+        onFirstPage=_page_footer,
+        onLaterPages=_page_footer,
+    )
+    doc.build(story)
+
+
+def _markdown_chunks_for_calendar_year(company_name_year: str, co_name: str, year: int) -> list[str]:
+    """Same meeting set/order as `generate_all` for one year: AGM (+ addendum if any), special, stockholder pack, board waiver, quarterlies."""
+    co = companies[co_name]
+    chunks: list[str] = [generate_agm(co_name, year).rstrip()]
+    _summary, detail_items = accomplishments_for_year(co_name, year)
+    exhibit = co.get("agm_president_report_operating_exhibit_label")
+    if detail_items and not exhibit:
+        exhibit = "Exhibit B"
+    if detail_items and exhibit:
+        chunks.append(agm_operating_addendum_markdown(co_name, year, exhibit, detail_items).rstrip())
+    chunks.append(generate_special(co_name, year).rstrip())
+    if co.get("stockholder_meeting") == "annual_meeting_stockholders":
+        chunks.append(generate_annual_meeting_stockholders(co_name, year).rstrip())
+        chunks.append(
+            stockholder_waiver_of_notice_annual_meeting_markdown(company_name_year, year, co_name).rstrip()
+        )
+        chunks.append(notice_of_annual_stockholder_meeting_markdown(company_name_year, year, co_name).rstrip())
+        chunks.append(
+            majority_stockholder_written_consent_ratification_markdown(company_name_year, year, co_name).rstrip()
+        )
+    else:
+        chunks.append(sole_stockholder_written_consent_markdown(co_name, year).rstrip())
+    chunks.append(board_waiver_of_notice_markdown(company_name_year, year, co_name).rstrip())
+    for quarter in ("Q1", "Q2", "Q3", "Q4"):
+        chunks.append(generate_quarterly(co_name, year, quarter).rstrip())
+    return chunks
+
+
+def generate_company_all_meetings_book(
+    safe_company_name: str,
+    co_name: str,
+    years: tuple[int, ...],
+    books_dir: str,
+) -> None:
+    """Compiled minute book per company: .docx (editable) + .pdf (distribution), written to `books_dir`."""
+    co = companies[co_name]
+    start_year = co.get("minutes_start_year", co.get("inc_year", min(years)))
+    applicable = [y for y in years if y >= start_year]
+    if not applicable:
+        return
+    parts: list[str] = [
+        f"""**Minute book compilation — all meetings**
+**{minutes_display_name(co_name)}**
+*(single document: all meetings generated for calendar years {applicable[0]} through {applicable[-1]})*
+
+---
+""".strip()
+    ]
+    for y in applicable:
+        parts.append(f"**Calendar year {y}**")
+        cny = f"{safe_company_name}_{y}"
+        parts.extend(_markdown_chunks_for_calendar_year(cny, co_name, y))
+    book = MEETING_BOOK_SEPARATOR.join(p for p in parts if p)
+    os.makedirs(books_dir, exist_ok=True)
+    out_docx = os.path.join(books_dir, f"{safe_company_name}_all_meetings_book.docx")
+    out_pdf = os.path.join(books_dir, f"{safe_company_name}_all_meetings_book.pdf")
+    mdate = annual_meeting_date_str(co, applicable[-1])
+    print(f"Writing compiled minute book to {out_docx}")
+    write_docx_from_minutes(book, out_docx, mdate, co_name)
+    print(f"Writing compiled minute book PDF to {out_pdf}")
+    _write_minute_book_pdf(book, out_pdf)
+
+
 def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
     print(f"Current working directory: {os.getcwd()}")
     root_dir = os.path.join(os.getcwd(), output_root)
     os.makedirs(root_dir, exist_ok=True)
+    books_dir = os.path.join(root_dir, "books")
+    os.makedirs(books_dir, exist_ok=True)
 
     for name in companies.keys():
         print(f"Company {name} Current working directory: {os.getcwd()}")
@@ -1277,6 +1731,8 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
 
             for quarter in ["Q1", "Q2", "Q3", "Q4"]:
                 generate_quarterly_summary(company_name_year, year, quarter, name)
+
+        generate_company_all_meetings_book(safe_company_name, name, years, books_dir)
 
 
 def main():

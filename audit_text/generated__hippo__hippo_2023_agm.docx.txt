@@ -23,7 +23,6 @@ None
 The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
 The Sole Director confirmed that notice of the meeting was duly given or waived.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-The Sole Director confirmed that remote participation remained available through each matter considered, that quorum was maintained at all times during the meeting, and that no vote was taken during an interruption of the communications link used for the meeting.
 
 
 IV. Approval of Prior Minutes
@@ -32,15 +31,12 @@ The minutes of the prior Annual Meeting of the Board of Directors held on 2022-1
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  The President’s report included the following accomplishments summary for the calendar year 2023: Platform evolution phase: major backend upgrades, data pipeline modernization, and introduction of real-time and media capabilities. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-The Sole Director reviewed the officer reports and materials considered at this meeting, asked questions regarding financial and operational items as appropriate, and caused the substance of the discussion to be reflected in these minutes for the governance record.
-
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
-The Sole Director also confirmed that written materials furnished for this meeting were received and reviewed as needed to deliberate on the matters before the Board, and that the discussion summarized in these minutes reflects that review.
 
 
 VI. Discussion Items
@@ -58,8 +54,10 @@ RESOLVED, that the operating, engineering, and marketing budget for the fiscal y
 Banking Authorization
 RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
+
+
 Stockholder Written Consent (2023)
-The Sole Director noted that stockholder matters for 2023 under Section 228 of the DGCL are reflected in a Written Consent of Sole Stockholder dated December 11, 2023 (separate instrument for this year). The executed consent will be filed with the minutes of the stockholders upon signature.
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 11, 2023, adopting stockholder resolutions under Section 228 of the DGCL for the year 2023, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
 
 
 VIII. Adjournment

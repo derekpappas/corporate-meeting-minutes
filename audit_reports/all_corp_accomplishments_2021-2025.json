@@ -1,0 +1,158 @@
+{
+  "Hippo": {
+    "2021": {
+      "summary": "Foundation phase: initial product, backend API, and data ingestion systems were established to support core functionality.",
+      "annual_report": [
+        "Delivered the initial version of the Hippo application",
+        "Defined API structure aligning mobile and backend systems",
+        "Developed core backend API and service communication",
+        "Established endpoints for product, deal, and user workflows",
+        "Built initial product and deal scraping systems",
+        "Developed metadata and link crawlers to enrich datasets",
+        "Established the foundation of the data acquisition pipeline"
+      ]
+    },
+    "2022": {
+      "summary": "Stabilization and growth phase: improved application architecture, introduced social features, and strengthened infrastructure and data pipelines.",
+      "annual_report": [
+        "Led project management and coordinated development timelines",
+        "Refactored and redesigned the application to improve performance and maintainability",
+        "Implemented critical API updates aligned with product requirements",
+        "Developed UI screens for products, collections, and deals",
+        "Introduced social features including likes and comments",
+        "Implemented CI/CD pipelines and testing infrastructure",
+        "Enhanced scraping systems, improving data quality and coverage",
+        "Decommissioned legacy Hadoop-based pipeline after infrastructure failure",
+        "Avoided high-cost vendor lock-in and initiated transition to new data solutions"
+      ]
+    },
+    "2023": {
+      "summary": "Platform evolution phase: major backend upgrades, data pipeline modernization, and introduction of real-time and media capabilities.",
+      "annual_report": [
+        "Refactored the application to improve scalability, performance, and maintainability",
+        "Developed and deployed notifications and video services",
+        "Maintained and enhanced core backend with new features and bug fixes",
+        "Migrated database from H2 to PostgreSQL for improved reliability",
+        "Extended product lookup capabilities with URL-based support",
+        "Improved codebase structure and overall system stability",
+        "Built scalable scraping and data processing workflows in Python",
+        "Reverse engineered external APIs to enrich product datasets",
+        "Rebuilt and modernized the data processing pipeline",
+        "Decommissioned legacy Hadoop infrastructure and simplified the tech stack",
+        "Initiated development of distributed processing using Spark",
+        "Rebuilt browser extension to align with updated platform requirements"
+      ]
+    },
+    "2024": {
+      "summary": "Rebuild and optimization phase: full system redesign, infrastructure simplification, and significant cost reduction with improved scalability.",
+      "annual_report": [
+        "Rebuilt the application with a scalable and maintainable architecture",
+        "Improved code quality, stability, and development velocity",
+        "Simplified system architecture by removing unused components",
+        "Integrated Apache Solr for scalable search capabilities",
+        "Designed and implemented a new indexing pipeline",
+        "Built and scaled data processing pipelines across all partitions",
+        "Developed recommendation systems and product grouping features",
+        "Generated product collections from external data sources",
+        "Developed a new web platform and admin panel for product management",
+        "Decommissioned distributed data pipelines and reduced infrastructure complexity",
+        "Reduced cloud infrastructure footprint by 75%",
+        "Improved overall system performance and reliability"
+      ]
+    },
+    "2025": {
+      "summary": "Release and scaling phase: public launch, continued backend improvements, and scaling of data processing and search capabilities.",
+      "annual_report": [
+        "Deployed application to internal testing environments",
+        "Released Android application to Google Play Store",
+        "Designed and implemented new indexing and search services",
+        "Expanded API capabilities for search and data workflows",
+        "Scaled data processing pipelines across all partitions",
+        "Enhanced data structures for large-scale product processing",
+        "Improved recommendation, grouping, and search data pipelines",
+        "Stabilized and optimized data processing systems"
+      ]
+    }
+  },
+  "TB": {
+    "2023": {
+      "summary": "Initial development phase: core platform architecture, mobile app creation, and foundational features were established, with a private beta release.",
+      "annual_report": [
+        "Defined and documented technical specifications for the Teamboost API and mobile application",
+        "Developed the Teamboost mobile and web applications",
+        "Released the mobile application for private beta testing",
+        "Implemented core features including tasks, projects, task groups, and labels",
+        "Developed onboarding, notifications, and organization management services",
+        "Established backend architecture supporting onboarding, real-time notifications, and organizational workflows",
+        "Designed and developed the tasks service enabling core task management functionality"
+      ]
+    },
+    "2024": {
+      "summary": "Expansion phase: major feature rollout, backend scalability improvements, and introduction of collaboration, reporting, and internationalization capabilities.",
+      "annual_report": [
+        "Continued development of the Teamboost mobile and web applications",
+        "Implemented key features including Questions, Releases, Insights, and Daily Reports",
+        "Added internationalization support for multiple languages and regional formats",
+        "Designed and built an in-app reporting system for user feedback",
+        "Created and maintained technical specifications for the Teamboost API",
+        "Enhanced onboarding, organization management, and notifications services",
+        "Expanded backend with services including DMS, reminders, EWS, requests/questions, comments, and attachments",
+        "Improved backend scalability for communication, collaboration, and content management",
+        "Enhanced the tasks service to support new features and evolving requirements",
+        "Performed testing, product ideation, and backend operational support"
+      ]
+    },
+    "2025": {
+      "summary": "Release and stabilization phase: public rollout, improved reliability through testing, and continued enhancement of core features and system performance.",
+      "annual_report": [
+        "Released the first private version via TestFlight and coordinated initial App Store launch",
+        "Continued improving the mobile and web applications, enhancing core features and user experience",
+        "Expanded automated test coverage across the platform",
+        "Enhanced onboarding, organization management, and notifications services",
+        "Extended backend services (DMS, reminders, EWS, requests/questions, comments, attachments) with new features",
+        "Improved system stability and performance",
+        "Enhanced the tasks service and related workflows",
+        "Implemented automated tests for task-related functionality",
+        "Introduced new web application design and continued feature development"
+      ]
+    }
+  },
+  "RG": {
+    "2021": {
+      "summary": "Early exploration phase: initial campaign-management server work.",
+      "annual_report": [
+        "Worked on a ghost server for campaign management."
+      ]
+    },
+    "2022": {
+      "summary": "No material product development was recorded for the Corporation during the period.",
+      "annual_report": [
+        "No work was performed."
+      ]
+    },
+    "2023": {
+      "summary": "No material product development was recorded for the Corporation during the period.",
+      "annual_report": [
+        "No work was performed."
+      ]
+    },
+    "2024": {
+      "summary": "Limited development phase: summer intern contributions to the project.",
+      "annual_report": [
+        "Interns worked on the project during the summer."
+      ]
+    },
+    "2025": {
+      "summary": "Limited development phase: summer intern contributions to the project.",
+      "annual_report": [
+        "Interns worked on the project during the summer."
+      ]
+    },
+    "2026": {
+      "summary": "Planning and build-out phase: system flow definition and initial data systems.",
+      "annual_report": [
+        "Defined the full system flow and began building data collection and aggregation systems."
+      ]
+    }
+  }
+}

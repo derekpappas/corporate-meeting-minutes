@@ -12,17 +12,25 @@ from __future__ import annotations
 
 import argparse
 import re
+import sys
 from pathlib import Path
 
-from reportlab.lib import colors
-from reportlab.lib.enums import TA_LEFT
-from reportlab.lib.pagesizes import letter
-from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.lib.units import inch
-from reportlab.platypus import HRFlowable, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+try:
+    from reportlab.lib import colors
+    from reportlab.lib.enums import TA_LEFT
+    from reportlab.lib.pagesizes import letter
+    from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+    from reportlab.lib.units import inch
+    from reportlab.platypus import HRFlowable, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+except ModuleNotFoundError as e:
+    sys.stderr.write(
+        "audit_md_to_pdf.py needs reportlab (see pyproject.toml).\n"
+        "From the repo root: poetry install && poetry run python scripts/audit_md_to_pdf.py\n"
+    )
+    raise SystemExit(1) from e
 
-DEFAULT_MD = Path("audit_reports/senior_counsel_audit_2022_2026.md")
-DEFAULT_PDF = Path("audit_reports/senior_counsel_audit_2022_2026.pdf")
+DEFAULT_MD = Path("doc/audit_reports/senior_counsel_audit_2022_2026.md")
+DEFAULT_PDF = Path("doc/audit_reports/senior_counsel_audit_2022_2026.pdf")
 
 COLOR_GREEN = colors.HexColor("#0d6e3d")
 COLOR_YELLOW = colors.HexColor("#b8860b")

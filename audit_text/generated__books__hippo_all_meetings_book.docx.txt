@@ -1,0 +1,2001 @@
+Minute book compilation — all meetings
+Hippo, Inc.
+*(single document: all meetings generated for calendar years 2022 through 2026)*
+
+---
+
+Calendar year 2022
+
+
+Minutes of the Annual Meeting of the Board of Directors
+*(Delaware Corporation)*
+
+I. Meeting Information
+Company Name: Hippo, Inc
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Date: 2022-12-12
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2022-12-12 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+
+III. Roll Call and Quorum
+Director Present:
+Derek E. Pappas (Sole Director)
+
+Director Absent:
+None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+IV. Approval of Prior Minutes
+This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2022; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
+
+V. Reports of Officers
+
+President’s Report:
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Sunny Isles, Florida; Wayne, Pennsylvania, USA; Portland, Oregon and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  The President’s report included the following accomplishments summary for the calendar year 2022: Stabilization and growth phase: improved application architecture, introduced social features, and strengthened infrastructure and data pipelines. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+VI. Discussion Items
+The Sole Director discussed the Corporation’s transition plan for 2023, including security audits, penetration testing, and commercialization readiness.
+
+VII. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for the fiscal year 2022 are hereby approved.
+
+Approval of 2023 Budget
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2023 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2022)
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 12, 2022, adopting stockholder resolutions under Section 228 of the DGCL for the year 2022, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2022-12-12
+Name: Derek E. Pappas
+---
+
+Operating addendum (Exhibit B)
+Hippo, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2022 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2022)
+
+- Led project management and coordinated development timelines
+- Refactored and redesigned the application to improve performance and maintainability
+- Implemented critical API updates aligned with product requirements
+- Developed UI screens for products, collections, and deals
+- Introduced social features including likes and comments
+- Implemented CI/CD pipelines and testing infrastructure
+- Enhanced scraping systems, improving data quality and coverage
+- Decommissioned legacy Hadoop-based pipeline after infrastructure failure
+- Avoided high-cost vendor lock-in and initiated transition to new data solutions
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+Minutes of the Special Meeting of the Board of Directors - 2022
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2022-12-12
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Purpose: Pre-annual review of international operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 12:00 PM on 2022-12-12 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Resolutions:
+Upon consideration, the Sole Director adopted the following resolution:
+
+Ratification of International Operations
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2022 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2022-12-12
+Name: Derek E. Pappas
+---
+
+
+Hippo, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+
+The undersigned, being the sole stockholder of Hippo, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article III, Section 13 of the Corporation’s Amended and Restated Bylaws (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 12, 2022 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2022 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Section 228 Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article III, Section 13(b) of those Bylaws, written consents must be delivered to the Corporation within sixty (60) days of the earliest dated consent; delivery to the registered office, if used, must be by hand or by certified or registered mail, return receipt requested, as set forth in the Bylaws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 12, 2022, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Signature: ___________________________
+Date: December 12, 2022
+---
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Hippo, Inc
+*(Delaware corporation)*
+
+Calendar year 2022
+
+The undersigned, Derek E. Pappas, Sole Director of Hippo, Inc (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s Amended and Restated Bylaws, including Article IV, Section 21 (meetings of the Board of Directors; notice; and waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2022 Q1 — Date: 2022-04-01; Time: 1:00 PM; Place / remote means: Sunny Isles, Florida, via digital communication
+- Quarterly Governance Meeting – 2022 Q2 — Date: 2022-07-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2022 Q3 — Date: 2022-10-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2022 Q4 — Date: 2022-12-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2022-12-12; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2022-12-12; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2022-12-12
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q1
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2022-04-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Sunny Isles, Florida, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2022-04-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2022-04-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q2
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2022-07-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2022-07-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2022-07-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q3
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2022-10-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2022-10-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2022-10-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q4
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2022-12-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2022-12-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2022-12-01
+Name: Derek E. Pappas
+---
+
+Calendar year 2023
+
+
+Minutes of the Annual Meeting of the Board of Directors
+*(Delaware Corporation)*
+
+I. Meeting Information
+Company Name: Hippo, Inc
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Date: 2023-12-11
+Time: 1:00 PM
+Place: Thessaloniki, Greece, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2023-12-11 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+
+III. Roll Call and Quorum
+Director Present:
+Derek E. Pappas (Sole Director)
+
+Director Absent:
+None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2022-12-12 were reviewed and approved by the Sole Director.
+
+V. Reports of Officers
+
+President’s Report:
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  The President’s report included the following accomplishments summary for the calendar year 2023: Platform evolution phase: major backend upgrades, data pipeline modernization, and introduction of real-time and media capabilities. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+VI. Discussion Items
+The Sole Director discussed the Corporation’s transition plan for 2024, including security audits, penetration testing, and commercialization readiness.
+
+VII. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for the fiscal year 2023 are hereby approved.
+
+Approval of 2024 Budget
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2024 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2023)
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 11, 2023, adopting stockholder resolutions under Section 228 of the DGCL for the year 2023, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-12-11
+Name: Derek E. Pappas
+---
+
+Operating addendum (Exhibit B)
+Hippo, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2023)
+
+- Refactored the application to improve scalability, performance, and maintainability
+- Developed and deployed notifications and video services
+- Maintained and enhanced core backend with new features and bug fixes
+- Migrated database from H2 to PostgreSQL for improved reliability
+- Extended product lookup capabilities with URL-based support
+- Improved codebase structure and overall system stability
+- Built scalable scraping and data processing workflows in Python
+- Reverse engineered external APIs to enrich product datasets
+- Rebuilt and modernized the data processing pipeline
+- Decommissioned legacy Hadoop infrastructure and simplified the tech stack
+- Initiated development of distributed processing using Spark
+- Rebuilt browser extension to align with updated platform requirements
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+Minutes of the Special Meeting of the Board of Directors - 2023
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2023-12-11
+Time of Meeting: 12:00 PM
+Location of Meeting: Thessaloniki, Greece, via digital communication
+Purpose: Pre-annual review of international operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 12:00 PM on 2023-12-11 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Resolutions:
+Upon consideration, the Sole Director adopted the following resolution:
+
+Ratification of International Operations
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2023 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-12-11
+Name: Derek E. Pappas
+---
+
+
+Hippo, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+
+The undersigned, being the sole stockholder of Hippo, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article III, Section 13 of the Corporation’s Amended and Restated Bylaws (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 11, 2023 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2023 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Section 228 Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article III, Section 13(b) of those Bylaws, written consents must be delivered to the Corporation within sixty (60) days of the earliest dated consent; delivery to the registered office, if used, must be by hand or by certified or registered mail, return receipt requested, as set forth in the Bylaws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 11, 2023, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Signature: ___________________________
+Date: December 11, 2023
+---
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Hippo, Inc
+*(Delaware corporation)*
+
+Calendar year 2023
+
+The undersigned, Derek E. Pappas, Sole Director of Hippo, Inc (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s Amended and Restated Bylaws, including Article IV, Section 21 (meetings of the Board of Directors; notice; and waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2023 Q1 — Date: 2023-04-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q2 — Date: 2023-07-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q3 — Date: 2023-10-01; Time: 1:00 PM; Place / remote means: Knoxville, TN, via digital communication
+- Quarterly Governance Meeting – 2023 Q4 — Date: 2023-12-01; Time: 1:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+- Special Meeting of the Board of Directors — Date: 2023-12-11; Time: 12:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2023-12-11; Time: 1:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-12-11
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q1
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2023-04-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2023-04-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-04-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q2
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2023-07-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2023-07-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-07-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q3
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2023-10-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Knoxville, TN, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2023-10-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-10-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q4
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2023-12-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Thessaloniki, Greece, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2023-12-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2023-12-01
+Name: Derek E. Pappas
+---
+
+Calendar year 2024
+
+
+Minutes of the Annual Meeting of the Board of Directors
+*(Delaware Corporation)*
+
+I. Meeting Information
+Company Name: Hippo, Inc
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Date: 2024-12-09
+Time: 1:00 PM
+Place: Denver, NC, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2024-12-09 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+
+III. Roll Call and Quorum
+Director Present:
+Derek E. Pappas (Sole Director)
+
+Director Absent:
+None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-11 were reviewed and approved by the Sole Director.
+
+V. Reports of Officers
+
+President’s Report:
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  The President’s report included the following accomplishments summary for the calendar year 2024: Rebuild and optimization phase: full system redesign, infrastructure simplification, and significant cost reduction with improved scalability. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+VI. Discussion Items
+The Sole Director discussed the Corporation’s transition plan for 2025, including security audits, penetration testing, and commercialization readiness.
+
+VII. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for the fiscal year 2024 are hereby approved.
+
+Approval of 2025 Budget
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2025 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2024)
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 09, 2024, adopting stockholder resolutions under Section 228 of the DGCL for the year 2024, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-12-09
+Name: Derek E. Pappas
+---
+
+Operating addendum (Exhibit B)
+Hippo, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2024)
+
+- Rebuilt the application with a scalable and maintainable architecture
+- Improved code quality, stability, and development velocity
+- Simplified system architecture by removing unused components
+- Integrated Apache Solr for scalable search capabilities
+- Designed and implemented a new indexing pipeline
+- Built and scaled data processing pipelines across all partitions
+- Developed recommendation systems and product grouping features
+- Generated product collections from external data sources
+- Developed a new web platform and admin panel for product management
+- Decommissioned distributed data pipelines and reduced infrastructure complexity
+- Reduced cloud infrastructure footprint by 75%
+- Improved overall system performance and reliability
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+Minutes of the Special Meeting of the Board of Directors - 2024
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2024-12-09
+Time of Meeting: 12:00 PM
+Location of Meeting: Denver, NC, via digital communication
+Purpose: Pre-annual review of international operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 12:00 PM on 2024-12-09 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Resolutions:
+Upon consideration, the Sole Director adopted the following resolution:
+
+Ratification of International Operations
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2024 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-12-09
+Name: Derek E. Pappas
+---
+
+
+Hippo, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+
+The undersigned, being the sole stockholder of Hippo, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article III, Section 13 of the Corporation’s Amended and Restated Bylaws (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 09, 2024 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2024 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Section 228 Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article III, Section 13(b) of those Bylaws, written consents must be delivered to the Corporation within sixty (60) days of the earliest dated consent; delivery to the registered office, if used, must be by hand or by certified or registered mail, return receipt requested, as set forth in the Bylaws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 09, 2024, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Signature: ___________________________
+Date: December 09, 2024
+---
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Hippo, Inc
+*(Delaware corporation)*
+
+Calendar year 2024
+
+The undersigned, Derek E. Pappas, Sole Director of Hippo, Inc (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s Amended and Restated Bylaws, including Article IV, Section 21 (meetings of the Board of Directors; notice; and waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2024 Q1 — Date: 2024-04-01; Time: 1:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
+- Quarterly Governance Meeting – 2024 Q2 — Date: 2024-07-01; Time: 1:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
+- Quarterly Governance Meeting – 2024 Q3 — Date: 2024-10-01; Time: 1:00 PM; Place / remote means: Hoegaarden, Belgium, via digital communication
+- Quarterly Governance Meeting – 2024 Q4 — Date: 2024-12-01; Time: 1:00 PM; Place / remote means: Denver, NC, via digital communication
+- Special Meeting of the Board of Directors — Date: 2024-12-09; Time: 12:00 PM; Place / remote means: Denver, NC, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2024-12-09; Time: 1:00 PM; Place / remote means: Denver, NC, via digital communication
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-12-09
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q1
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2024-04-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Belgrade, Serbia, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2024-04-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-04-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q2
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2024-07-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Belgrade, Serbia, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2024-07-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-07-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q3
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2024-10-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Hoegaarden, Belgium, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2024-10-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-10-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q4
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2024-12-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Denver, NC, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2024-12-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2024-12-01
+Name: Derek E. Pappas
+---
+
+Calendar year 2025
+
+
+Minutes of the Annual Meeting of the Board of Directors
+*(Delaware Corporation)*
+
+I. Meeting Information
+Company Name: Hippo, Inc
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Date: 2025-12-08
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2025-12-08 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+
+III. Roll Call and Quorum
+Director Present:
+Derek E. Pappas (Sole Director)
+
+Director Absent:
+None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2024-12-09 were reviewed and approved by the Sole Director.
+
+V. Reports of Officers
+
+President’s Report:
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  The President’s report included the following accomplishments summary for the calendar year 2025: Release and scaling phase: public launch, continued backend improvements, and scaling of data processing and search capabilities. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+VI. Discussion Items
+The Sole Director discussed the Corporation’s transition plan for 2026, including security audits, penetration testing, and commercialization readiness.
+
+VII. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for the fiscal year 2025 are hereby approved.
+
+Approval of 2026 Budget
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2026 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2025)
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 08, 2025, adopting stockholder resolutions under Section 228 of the DGCL for the year 2025, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-12-08
+Name: Derek E. Pappas
+---
+
+Operating addendum (Exhibit B)
+Hippo, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2025)
+
+- Deployed application to internal testing environments
+- Released Android application to Google Play Store
+- Designed and implemented new indexing and search services
+- Expanded API capabilities for search and data workflows
+- Scaled data processing pipelines across all partitions
+- Enhanced data structures for large-scale product processing
+- Improved recommendation, grouping, and search data pipelines
+- Stabilized and optimized data processing systems
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+Minutes of the Special Meeting of the Board of Directors - 2025
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2025-12-08
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Purpose: Pre-annual review of international operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 12:00 PM on 2025-12-08 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Resolutions:
+Upon consideration, the Sole Director adopted the following resolution:
+
+Ratification of International Operations
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2025 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-12-08
+Name: Derek E. Pappas
+---
+
+
+Hippo, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+
+The undersigned, being the sole stockholder of Hippo, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article III, Section 13 of the Corporation’s Amended and Restated Bylaws (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 08, 2025 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2025 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Section 228 Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article III, Section 13(b) of those Bylaws, written consents must be delivered to the Corporation within sixty (60) days of the earliest dated consent; delivery to the registered office, if used, must be by hand or by certified or registered mail, return receipt requested, as set forth in the Bylaws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 08, 2025, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Signature: ___________________________
+Date: December 08, 2025
+---
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Hippo, Inc
+*(Delaware corporation)*
+
+Calendar year 2025
+
+The undersigned, Derek E. Pappas, Sole Director of Hippo, Inc (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s Amended and Restated Bylaws, including Article IV, Section 21 (meetings of the Board of Directors; notice; and waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2025 Q1 — Date: 2025-04-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q2 — Date: 2025-07-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q3 — Date: 2025-10-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q4 — Date: 2025-12-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2025-12-08; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2025-12-08; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-12-08
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q1
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2025-04-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2025-04-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-04-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q2
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2025-07-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2025-07-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-07-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q3
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2025-10-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2025-10-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-10-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q4
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2025-12-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2025-12-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2025-12-01
+Name: Derek E. Pappas
+---
+
+Calendar year 2026
+
+
+Minutes of the Annual Meeting of the Board of Directors
+*(Delaware Corporation)*
+
+I. Meeting Information
+Company Name: Hippo, Inc
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Date: 2026-12-14
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2026-12-14 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+
+III. Roll Call and Quorum
+Director Present:
+Derek E. Pappas (Sole Director)
+
+Director Absent:
+None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2025-12-08 were reviewed and approved by the Sole Director.
+
+V. Reports of Officers
+
+President’s Report:
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+VI. Discussion Items
+The Sole Director discussed the Corporation’s transition plan for 2027, including security audits, penetration testing, and commercialization readiness.
+
+VII. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for the fiscal year 2026 are hereby approved.
+
+Approval of 2027 Budget
+RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2027 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2026)
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 14, 2026, adopting stockholder resolutions under Section 228 of the DGCL for the year 2026, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-12-14
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Special Meeting of the Board of Directors - 2026
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2026-12-14
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Purpose: Pre-annual review of international operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 12:00 PM on 2026-12-14 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Resolutions:
+Upon consideration, the Sole Director adopted the following resolution:
+
+Ratification of International Operations
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2026 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-12-14
+Name: Derek E. Pappas
+---
+
+
+Hippo, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+
+The undersigned, being the sole stockholder of Hippo, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article III, Section 13 of the Corporation’s Amended and Restated Bylaws (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 14, 2026 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2026 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Section 228 Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article III, Section 13(b) of those Bylaws, written consents must be delivered to the Corporation within sixty (60) days of the earliest dated consent; delivery to the registered office, if used, must be by hand or by certified or registered mail, return receipt requested, as set forth in the Bylaws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 14, 2026, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Signature: ___________________________
+Date: December 14, 2026
+---
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Hippo, Inc
+*(Delaware corporation)*
+
+Calendar year 2026
+
+The undersigned, Derek E. Pappas, Sole Director of Hippo, Inc (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s Amended and Restated Bylaws, including Article IV, Section 21 (meetings of the Board of Directors; notice; and waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2026 Q1 — Date: 2026-04-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q2 — Date: 2026-07-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q3 — Date: 2026-10-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q4 — Date: 2026-12-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2026-12-14; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2026-12-14; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-12-14
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q1
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2026-04-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2026-04-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-04-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q2
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2026-07-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2026-07-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-07-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q3
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2026-10-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2026-10-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-10-01
+Name: Derek E. Pappas
+---
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q4
+Hippo, Inc
+*(Board of Directors – Delaware Corporation)*
+
+Meeting Details
+Date of Meeting: 2026-12-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc (the “Corporation”) was called to order at 1:00 PM on 2026-12-01 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+
+
+IV. Resolution:
+Upon consideration, the Sole Director adopted the following resolution:
+
+RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+
+Director Name: Derek E. Pappas
+
+Signature:
+_____________________
+
+Date: 2026-12-01
+Name: Derek E. Pappas
+---

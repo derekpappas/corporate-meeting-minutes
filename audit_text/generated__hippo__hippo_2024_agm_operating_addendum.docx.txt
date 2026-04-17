@@ -1,0 +1,26 @@
+Operating addendum (Exhibit B)
+Hippo, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2024)
+
+- Rebuilt the application with a scalable and maintainable architecture
+- Improved code quality, stability, and development velocity
+- Simplified system architecture by removing unused components
+- Integrated Apache Solr for scalable search capabilities
+- Designed and implemented a new indexing pipeline
+- Built and scaled data processing pipelines across all partitions
+- Developed recommendation systems and product grouping features
+- Generated product collections from external data sources
+- Developed a new web platform and admin panel for product management
+- Decommissioned distributed data pipelines and reduced infrastructure complexity
+- Reduced cloud infrastructure footprint by 75%
+- Improved overall system performance and reliability
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---

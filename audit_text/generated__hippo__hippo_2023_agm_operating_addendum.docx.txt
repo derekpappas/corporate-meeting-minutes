@@ -1,0 +1,26 @@
+Operating addendum (Exhibit B)
+Hippo, Inc.
+*(Delaware Corporation)*
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is annexed to those minutes as Exhibit B.
+
+Detailed accomplishments (2023)
+
+- Refactored the application to improve scalability, performance, and maintainability
+- Developed and deployed notifications and video services
+- Maintained and enhanced core backend with new features and bug fixes
+- Migrated database from H2 to PostgreSQL for improved reliability
+- Extended product lookup capabilities with URL-based support
+- Improved codebase structure and overall system stability
+- Built scalable scraping and data processing workflows in Python
+- Reverse engineered external APIs to enrich product datasets
+- Rebuilt and modernized the data processing pipeline
+- Decommissioned legacy Hadoop infrastructure and simplified the tech stack
+- Initiated development of distributed processing using Spark
+- Rebuilt browser extension to align with updated platform requirements
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
