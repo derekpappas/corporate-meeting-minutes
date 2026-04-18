@@ -68,6 +68,17 @@ locations_timeline = [
 #   specs, roadmaps, KPIs, and diagrams. When `audit_reports/all_corp_accomplishments_2021-2025.json` lists detailed
 #   `annual_report` bullets for the year, an operating addendum .docx is generated and the minutes reference **detailed accomplishments**.
 #   If detailed bullets exist but this key is omitted, **Exhibit B** is used by default for that addendum.
+#
+# Cookie-cutter controls (optional; each company in `company_information` should set these for distinct minutes):
+# - development_centers_line — semicolon-separated regions for President’s Report / quarterlies (replaces shared default).
+# - primary_banking_institution — bank name in the default banking RESOLVED (e.g. "JPMorgan Chase Bank, N.A.").
+# - agm_discussion_items_line — AGM §VI paragraph; may include `{next_year}` / `{year}` placeholders.
+# - special_meeting_purpose — one-line Purpose field in the annual special board meeting.
+# - special_meeting_ratification_resolution_markdown — first special-meeting resolution block; `{year}` / `{next_year}` allowed.
+# - treasurer_contingent_obligations_clause — sentence fragment after "certain outstanding obligations, " in Treasurer’s Report.
+# - treasurer_report_minutes_paragraph — optional full Treasurer’s Report paragraph; `{issued}` and `{par}` placeholders.
+# - quarterly_default_ratification_resolution — default quarterly RESOLVED when quarterly_resolution_blocks omitted.
+# - agm_ip_affirmation_sentence — optional closing sentence for President’s Report IP affirmation.
 STOCKHOLDER_MEETING_TIME = "1:00 PM"
 BOARD_AGM_TIME = "1:00 PM"
 QUARTERLY_MEETING_TIME = "1:00 PM"
@@ -117,11 +128,16 @@ def _corporation_statute_name(co: dict) -> str:
 
 
 def _corp_law_section_ref(co: dict, section: str) -> str:
-    """Short section citation; DE uses DGCL §X, other jurisdictions omit section numbers to avoid mis-citation."""
+    """Short section citation; DE uses DGCL §X. WY maps template placeholders to W.S. 1977 WBCA sections used in generators."""
     j = _jurisdiction(co)
     if j == "DE":
         return f"DGCL §{section}"
-    # Non-DE: avoid inventing section numbers; cite the governing statute generically (shorter than “applicable provisions…”).
+    if j == "WY":
+        # Title 17 Ch. 16 — map DGCL-shaped placeholders only (do not guess for unknown sections).
+        wy_map = {"228": "17-16-704", "213": "17-16-707"}  # written consent without meeting; record date
+        wy_sec = wy_map.get(section)
+        if wy_sec:
+            return f"W.S. 1977 § {wy_sec}"
     return f"the {_corporation_statute_name(co)}"
 
 
@@ -161,6 +177,14 @@ def reliance_standard(co: dict) -> str:
             "Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, "
             "as contemplated by Section 141(e) of the Delaware General Corporation Law.\n"
         )
+    if j == "WY":
+        return (
+            "In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and "
+            "statements—including financial and operational materials prepared for this meeting and presentations from officers of the "
+            "Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, "
+            "as contemplated by **W.S. 1977 § 17-16-830** (Wyoming Business Corporation Act; standards for directors and reliance on "
+            "information from officers and others reasonably believed reliable in their areas of competence).\n"
+        )
     return (
         "In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and "
         "statements—including financial and operational materials prepared for this meeting and presentations from officers of the "
@@ -185,6 +209,29 @@ company_information = {
         "sole_stockholder_consent_exhibit_label": "Exhibit A",
         "use_timeline_place": True,
         "virtual_ok": True,
+        "development_centers_line": "Bosnia and Herzegovina; Serbia; Tunisia",
+        "primary_banking_institution": "JPMorgan Chase Bank, N.A.",
+        "agm_discussion_items_line": (
+            "The Sole Director discussed the Corporation’s product and data roadmap for {next_year}, including API reliability targets, "
+            "merchant integration milestones, and fraud-prevention initiatives."
+        ),
+        "special_meeting_purpose": "Pre-annual review of marketplace, scraping, and data-pipeline operations",
+        "special_meeting_ratification_resolution_markdown": (
+            "**Ratification of Marketplace and Data Operations**  \n"
+            "RESOLVED, that operational and engineering decisions affecting the Corporation’s consumer marketplace, merchant integrations, "
+            "and data ingestion pipelines during {year} are hereby ratified, confirmed, and approved in all respects."
+        ),
+        "treasurer_contingent_obligations_clause": (
+            "including notes payable and similar obligations that remain contingent on a future liquidity event, "
+            "the timing of which has not yet been determined."
+        ),
+        "quarterly_default_ratification_resolution": (
+            "RESOLVED, that marketplace, data-pipeline, and supporting cloud infrastructure work completed during the quarter—and related "
+            "intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation."
+        ),
+        "agm_ip_affirmation_sentence": (
+            "All software, data models, algorithms, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
+        ),
         # Cite filed Amended and Restated Bylaws (`bylaws_text/Hippo, Inc. - Bylaws.docx.pdf.txt`).
         "stockholder_consent_bylaws_acknowledgment": (
             "The undersigned acknowledges that this consent is intended to comply with **Article III, Section 13** "
@@ -235,6 +282,29 @@ company_information = {
             "The Corporation continued to operate hardware and cloud infrastructure using hosting providers including **DigitalOcean** and **Hetzner**."
         ),
         "agm_president_report_operating_exhibit_label": "Exhibit B",
+        "development_centers_line": "Poland; Romania; Portugal",
+        "primary_banking_institution": "Bank of America, N.A.",
+        "agm_discussion_items_line": (
+            "The Sole Director discussed go-to-market and client delivery priorities for {next_year}, including mobile companion workstreams, "
+            "partner channel commitments, and release scheduling for the Corporation’s core web stack."
+        ),
+        "special_meeting_purpose": "Pre-annual review of product delivery, hosting footprint, and partner commitments",
+        "special_meeting_ratification_resolution_markdown": (
+            "**Ratification of Product Delivery and Hosting Operations**  \n"
+            "RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s web applications and API services during {year} "
+            "are hereby ratified, confirmed, and approved in all respects."
+        ),
+        "treasurer_contingent_obligations_clause": (
+            "including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, "
+            "the timing of which has not yet been determined."
+        ),
+        "quarterly_default_ratification_resolution": (
+            "RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby "
+            "ratified, confirmed, and approved as assets of the Corporation."
+        ),
+        "agm_ip_affirmation_sentence": (
+            "All application code, APIs, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
+        ),
     },
     "DATA RECORD SCIENCE, INC.": {
         "address": "30 N Gould St Ste 24165, Sheridan, WY 82801",
@@ -261,6 +331,29 @@ company_information = {
             "**Derek E. Pappas** holds a **majority** of the outstanding shares of the Corporation entitled to vote at the meeting; "
             "he was the **only stockholder present** (in person or by proxy) entitled to vote at the meeting, and his presence "
             "**alone satisfied** the quorum requirement under the DGCL and the Corporation’s bylaws."
+        ),
+        "development_centers_line": "United States (distributed engineering); Germany; United Kingdom",
+        "primary_banking_institution": "Wells Fargo Bank, N.A.",
+        "agm_discussion_items_line": (
+            "The Sole Director discussed enterprise data governance and platform reliability for {next_year}, including retention policies, "
+            "audit logging posture, and customer-facing transparency milestones for the Corporation’s hosted analytics products."
+        ),
+        "special_meeting_purpose": "Pre-annual review of hosted data platforms and enterprise customer operations",
+        "special_meeting_ratification_resolution_markdown": (
+            "**Ratification of Data Platform and Customer Operations**  \n"
+            "RESOLVED, that engineering, security, and customer-success decisions affecting the Corporation’s hosted data products and enterprise deployments "
+            "during {year} are hereby ratified, confirmed, and approved in all respects."
+        ),
+        "treasurer_contingent_obligations_clause": (
+            "including legacy acquisition-related holdbacks and similar obligations that remain contingent on a future liquidity event, "
+            "the timing of which has not yet been determined."
+        ),
+        "quarterly_default_ratification_resolution": (
+            "RESOLVED, that all data-processing, security, and supporting infrastructure changes implemented during the quarter—and related intellectual property—"
+            "are hereby ratified, confirmed, and approved as assets of the Corporation."
+        ),
+        "agm_ip_affirmation_sentence": (
+            "All datasets, processing pipelines, analytics models, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
         ),
     },
     "TeamBoost.ai, Inc.": {
@@ -299,6 +392,29 @@ company_information = {
             "The Corporation continued to operate hardware and cloud infrastructure using hosting providers including **DigitalOcean** and **Hetzner**."
         ),
         "agm_president_report_operating_exhibit_label": "Exhibit B",
+        "development_centers_line": "Brazil; Nigeria; Portugal",
+        "primary_banking_institution": "First Citizens Bank & Trust Company",
+        "agm_discussion_items_line": (
+            "The Sole Director discussed mobile product velocity and infrastructure scaling for {next_year}, including app-store release cadence, "
+            "on-device performance budgets, and push-notification reliability targets."
+        ),
+        "special_meeting_purpose": "Pre-annual review of mobile applications, APIs, and cloud delivery",
+        "special_meeting_ratification_resolution_markdown": (
+            "**Ratification of Mobile and API Delivery Operations**  \n"
+            "RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during {year} "
+            "are hereby ratified, confirmed, and approved in all respects."
+        ),
+        "treasurer_contingent_obligations_clause": (
+            "including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, "
+            "the timing of which has not yet been determined."
+        ),
+        "quarterly_default_ratification_resolution": (
+            "RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby "
+            "ratified, confirmed, and approved as assets of the Corporation."
+        ),
+        "agm_ip_affirmation_sentence": (
+            "All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
+        ),
     },
     "SurveyTeams, Inc.": {
         "minutes_display_name": "SurveyTeams, Inc.",
@@ -338,6 +454,29 @@ company_information = {
         "irs_ein": "41-3602747",
         "irs_legal_name": "SURVEYTEAMS INC",
         "officers": {"CEO": "Mohamed Mohamed", "CTO": "Derek E. Pappas"},
+        "development_centers_line": "Egypt; United Arab Emirates; United States (distributed)",
+        "primary_banking_institution": "Mercury Bank",
+        "agm_discussion_items_line": (
+            "The Sole Director discussed survey research tooling and fieldwork coverage for {next_year}, including respondent privacy controls, "
+            "sample-weighting methodology, and multilingual instrument delivery."
+        ),
+        "special_meeting_purpose": "Pre-annual review of survey platform operations and research compliance workflows",
+        "special_meeting_ratification_resolution_markdown": (
+            "**Ratification of Survey Platform and Research Operations**  \n"
+            "RESOLVED, that engineering and operations decisions affecting the Corporation’s survey tooling, sampling workflows, and research compliance posture during {year} "
+            "are hereby ratified, confirmed, and approved in all respects."
+        ),
+        "treasurer_contingent_obligations_clause": (
+            "including founder advances, deferred vendor invoices, and similar items that remain contingent on a future liquidity event, "
+            "the timing of which has not yet been determined."
+        ),
+        "quarterly_default_ratification_resolution": (
+            "RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby "
+            "ratified, confirmed, and approved as assets of the Corporation."
+        ),
+        "agm_ip_affirmation_sentence": (
+            "All survey instruments, weighting libraries, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
+        ),
     },
     "Loki Sports Enterprises, Inc.": {
         "minutes_display_name": "Loki Sports Enterprises, Inc.",
@@ -366,6 +505,29 @@ company_information = {
         "wy_sos_filing_id": "2023-001316332",
         "dba": "DEREK EDWIN PAPPAS",
         "mailing_address": "1317 Edgewater Dr Num 1961, Orlando, FL 32804",
+        "development_centers_line": "Greece; United States (Florida); United Kingdom",
+        "primary_banking_institution": "Truist Bank",
+        "agm_discussion_items_line": (
+            "The Sole Director discussed fan engagement, venue partnerships, and media integrations for {next_year}, including tournament-season logistics, "
+            "rights-holder coordination, and in-venue mobile experiences."
+        ),
+        "special_meeting_purpose": "Pre-annual review of sports media products and venue-facing integrations",
+        "special_meeting_ratification_resolution_markdown": (
+            "**Ratification of Sports Media and Venue Integration Work**  \n"
+            "RESOLVED, that engineering and commercial decisions affecting the Corporation’s sports media stack and venue-facing integrations during {year} "
+            "are hereby ratified, confirmed, and approved in all respects."
+        ),
+        "treasurer_contingent_obligations_clause": (
+            "including equipment financing and season-cycle receivables that remain contingent on a future liquidity event, "
+            "the timing of which has not yet been determined."
+        ),
+        "quarterly_default_ratification_resolution": (
+            "RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby "
+            "ratified, confirmed, and approved as assets of the Corporation."
+        ),
+        "agm_ip_affirmation_sentence": (
+            "All broadcast-adjacent software, venue integrations, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
+        ),
     },
 }
 
@@ -484,6 +646,23 @@ def office_locations_for_year(ranges, year):
     return locations
 
 
+def office_locations_for_year_after_incorporation(ranges, year: int, inc_year: int) -> list:
+    """Like `office_locations_for_year`, but drops timeline segments that end before `inc_year` begins (calendar year)."""
+    year_start = date(year, 1, 1)
+    year_end = date(year, 12, 31)
+    corp_start = date(inc_year, 1, 1)
+    locations: list[str] = []
+    for start, end, location in ranges:
+        start_d = date.fromisoformat(start)
+        end_d = date.fromisoformat(end)
+        if end_d < corp_start:
+            continue
+        if start_d <= year_end and end_d >= year_start:
+            if location not in locations:
+                locations.append(location)
+    return locations
+
+
 def normalize_locations(locations):
     normalized = []
     for loc in locations:
@@ -498,11 +677,54 @@ def normalize_locations(locations):
     return "; ".join(normalized)
 
 def development_locations():
-    normalized = []
-    normalized.append("Bosnia and Herzegovina")
-    normalized.append("Serbia")
-    normalized.append("Tunisia")
-    return "; ".join(normalized)
+    """Legacy default development-region list (used only if `development_centers_line` is omitted)."""
+    return "Bosnia and Herzegovina; Serbia; Tunisia"
+
+
+def development_centers_line_for_company(co: dict) -> str:
+    """Semicolon-separated development centers for minutes (per-company; avoids identical boilerplate across corporations)."""
+    v = co.get("development_centers_line")
+    if isinstance(v, str) and v.strip():
+        return v.strip()
+    return development_locations()
+
+
+def _agm_discussion_items_line(co: dict, year: int) -> str:
+    """AGM §VI discussion paragraph; supports optional `{next_year}` in company override."""
+    raw = co.get("agm_discussion_items_line")
+    if isinstance(raw, str) and raw.strip():
+        return raw.strip().format(year=year, next_year=year + 1)
+    return (
+        f"The Sole Director discussed the Corporation’s transition plan for {year + 1}, including security audits, "
+        "penetration testing, and commercialization readiness."
+    )
+
+
+def _special_meeting_primary_resolution_block(co: dict, year: int) -> str:
+    """First resolution in the annual-cycle special board meeting (ratification theme differs by company)."""
+    custom = co.get("special_meeting_ratification_resolution_markdown")
+    if isinstance(custom, str) and custom.strip():
+        return custom.strip().format(year=year, next_year=year + 1)
+    return f"""**Ratification of International Operations**  
+RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year {year} are hereby ratified, confirmed, and approved in all respects."""
+
+
+def _treasurer_report_minutes_paragraph(co: dict, issued: str) -> str:
+    """Treasurer’s Report body in AGM minutes; optional full override or contingent-obligations clause only."""
+    full = co.get("treasurer_report_minutes_paragraph")
+    if isinstance(full, str) and full.strip():
+        return full.strip().format(issued=issued, par=co["par"])
+    clause = co.get(
+        "treasurer_contingent_obligations_clause",
+        "including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined.",
+    )
+    return (
+        "The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, "
+        f"{clause.strip()} "
+        "The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. "
+        f"Franchise taxes and registered agent fees are paid and current. The Corporation has {issued} shares of common stock "
+        f"issued and outstanding at a par value of {co['par']} per share."
+    )
 
 # 2. HELPER LOGIC
 def get_location(date_str):
@@ -574,6 +796,18 @@ def stockholder_annual_record_date_str(co, year: int) -> str:
     """
     meeting = datetime.strptime(annual_meeting_date_str(co, year), "%Y-%m-%d").date()
     return (meeting - timedelta(days=10)).strftime("%Y-%m-%d")
+
+
+def board_special_meeting_date_str(co: dict, year: int) -> str:
+    """ISO date for the annual-cycle special board meeting.
+
+    For corporations that hold an annual meeting of stockholders, this is the **record date** so the
+    board may adopt the record-date resolution **on** that date (avoiding a record date that precedes
+    the board action that fixes it under Delaware-style sequencing used in these templates).
+    """
+    if co.get("stockholder_meeting") == "annual_meeting_stockholders":
+        return stockholder_annual_record_date_str(co, year)
+    return annual_meeting_date_str(co, year)
 
 
 def quarterly_meeting_date_str(co, year, quarter):
@@ -653,14 +887,15 @@ The stockholders of the Corporation holding a majority of the outstanding shares
 {absent}"""
 
 
-def _stockholder_waiver_signature_blocks(co: dict) -> str:
+def _stockholder_waiver_signature_blocks(co: dict, execution_date: str) -> str:
+    """`execution_date` is the meeting date (or signing date) printed on the form so the instrument is not left with a blank date line."""
     roll = co.get("stockholders_roll_call")
     if not roll:
-        return """**Stockholder (print name):** _________________________________
+        return f"""**Stockholder (print name):** _________________________________
 
 **Signature:** _________________________________
 
-**Date:** _________________________________"""
+**Date:** {execution_date}"""
     parts = []
     for r in roll:
         parts.append(
@@ -668,7 +903,7 @@ def _stockholder_waiver_signature_blocks(co: dict) -> str:
 
 **Signature:** _________________________________
 
-**Date:** _________________________________"""
+**Date:** {execution_date}"""
         )
     return "\n\n".join(parts)
 
@@ -682,13 +917,14 @@ def stockholder_waiver_of_notice_annual_meeting_markdown(
     record_date = stockholder_annual_record_date_str(co, year)
     place = meeting_place_line(co, date_iso)
     as_meeting = datetime.strptime(date_iso, "%Y-%m-%d").strftime("%B %d, %Y")
-    sig_blocks = _stockholder_waiver_signature_blocks(co)
+    display_company = minutes_display_name(co_name)
+    sig_blocks = _stockholder_waiver_signature_blocks(co, as_meeting)
     return f"""
 **Waiver of Notice of Annual Meeting of Stockholders**
-**{co_name}**
+**{display_company}**
 {_corporation_parenthetical(co)}
 
-The undersigned record stockholder(s) of **{co_name}** (the “Corporation”) entitled to vote at the annual meeting described below, intending to be legally bound, **waive notice** of that meeting and of any postponement or adjournment thereof to the extent permitted by the {_corporation_statute_name(co)}, the Corporation’s **certificate of incorporation**, and **bylaws**.
+The undersigned record stockholder(s) of **{display_company}** (the “Corporation”) entitled to vote at the annual meeting described below, intending to be legally bound, **waive notice** of that meeting and of any postponement or adjournment thereof to the extent permitted by the {_corporation_statute_name(co)}, the Corporation’s **certificate of incorporation**, and **bylaws**.
 
 **Meeting**  
 **Date:** {date_iso} ({as_meeting})  
@@ -727,16 +963,19 @@ def notice_of_annual_stockholder_meeting_markdown(
     record_date = stockholder_annual_record_date_str(co, year)
     place = meeting_place_line(co, date_iso)
     as_meeting = datetime.strptime(date_iso, "%Y-%m-%d").strftime("%B %d, %Y")
+    notice_date_iso = board_special_meeting_date_str(co, year)
+    as_notice = datetime.strptime(notice_date_iso, "%Y-%m-%d").strftime("%B %d, %Y")
+    display_company = minutes_display_name(co_name)
     principal = co["address"]
     officer = co.get("notice_signatory_line", "Derek E. Pappas, President")
     return f"""
 **Notice of Annual Meeting of Stockholders**
-**{co_name}**
+**{display_company}**
 {_corporation_parenthetical(co)}
 
 To the stockholders of the Corporation:
 
-Notice is hereby given that an **annual meeting of stockholders** of **{co_name}** (the “Corporation”) will be held:
+Notice is hereby given that an **annual meeting of stockholders** of **{display_company}** (the “Corporation”) will be held:
 
 **Date:** {as_meeting} ({date_iso})  
 **Time:** {STOCKHOLDER_MEETING_TIME}  
@@ -757,7 +996,7 @@ By order of the Board of Directors,
 
 {officer}
 
-**Date of this notice:** _________________________________
+**Date of this notice:** {as_notice} ({notice_date_iso})
 ---
 """
 
@@ -777,15 +1016,16 @@ def generate_notice_of_annual_stockholder_meeting(
 def _board_meeting_rows_for_year(co: dict, year: int) -> list[tuple[str, str, str, str]]:
     """(date_iso, meeting_title, time_str, place_line) sorted chronologically; matches minuted board meetings for the year."""
     annual = annual_meeting_date_str(co, year)
+    special = board_special_meeting_date_str(co, year)
     rows: list[tuple[str, int, str, str, str]] = []
-    # Same calendar day as annual series: special (noon) then annual board (afternoon), per generate_special / generate_agm.
+    # Special board meeting (often on record date for stockholder-annual corps) precedes the December annual board block.
     rows.append(
         (
-            annual,
+            special,
             12 * 60,
             "Special Meeting of the Board of Directors",
             SPECIAL_MEETING_TIME,
-            meeting_place_line(co, annual),
+            meeting_place_line(co, special),
         )
     )
     rows.append(
@@ -924,10 +1164,15 @@ def _agm_president_report_body(co: dict, office_locations: str, dev_locations: s
             "including technical specifications, roadmaps, KPIs, and architecture diagrams."
         )
 
-    ip_close = (
+    ip_default = (
         " All software, algorithms, and intellectual property developed during the year, regardless of development location, "
         "were reaffirmed as the exclusive property of the Corporation."
     )
+    ip_custom = co.get("agm_ip_affirmation_sentence")
+    if isinstance(ip_custom, str) and ip_custom.strip():
+        ip_close = " " + ip_custom.strip()
+    else:
+        ip_close = ip_default
     return base + product + infra + summary_sentence + exhibit + ip_close
 
 
@@ -941,16 +1186,13 @@ RESOLVED, that the financial statements for the fiscal year {year} are hereby ap
             f"""**Approval of {year + 1} Budget**  
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year {year + 1} is hereby approved.""",
             f"""**Banking Authorization**  
-RESOLVED, that {director_name} is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.""",
+RESOLVED, that {director_name} is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at {co.get("primary_banking_institution", "JPMorgan Chase Bank, N.A.")}, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.""",
         ]
     return _sole_director_adopted_resolutions_section("**VII. Resolutions**", parts)
 
 
-def _special_resolutions_block(year: int, record_date_resolution: str) -> str:
-    parts = [
-        f"""**Ratification of International Operations**  
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year {year} are hereby ratified, confirmed, and approved in all respects."""
-    ]
+def _special_resolutions_block(co: dict, year: int, record_date_resolution: str) -> str:
+    parts = [_special_meeting_primary_resolution_block(co, year)]
     extra = record_date_resolution.strip()
     if extra:
         parts.append(extra)
@@ -961,9 +1203,11 @@ def _quarterly_resolutions_block(co: dict) -> str:
     if "quarterly_resolution_blocks" in co:
         parts = list(co["quarterly_resolution_blocks"])
     else:
-        parts = [
-            "RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation."
-        ]
+        qdef = co.get(
+            "quarterly_default_ratification_resolution",
+            "RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.",
+        )
+        parts = [qdef]
     n = len([p for p in parts if p and str(p).strip()])
     if n == 0:
         heading = "**IV. Resolutions**"
@@ -1021,14 +1265,20 @@ def generate_agm(co_name, year):
     date = annual_meeting_date_str(co, year)
     place = meeting_place_line(co, date)
     issued = co["shares_issued"].get(year, "4,000,000")
+    display_company = minutes_display_name(co_name)
 
-    # select locations for the given year
-    locations = office_locations_for_year(locations_timeline, year)
+    # select locations for the given year (clip pre-incorporation timeline unless opted out)
+    if co.get("agm_locations_respect_incorporation_year", True):
+        locations = office_locations_for_year_after_incorporation(
+            locations_timeline, year, co["inc_year"]
+        )
+    else:
+        locations = office_locations_for_year(locations_timeline, year)
 
     # normalize and format for template insertion
     office_locations = normalize_locations(locations)
 
-    dev_locations = development_locations()
+    dev_locations = development_centers_line_for_company(co)
 
     director_name = "Derek E. Pappas"
     inc_year = co["inc_year"]
@@ -1068,7 +1318,7 @@ The Sole Director noted that the **Written Consent of Sole Stockholder** dated {
 {_corporation_parenthetical(co)}
 
 **I. Meeting Information**
-**Company Name:** {co_name}
+**Company Name:** {display_company}
 **Principal Address:** {co['address']}
 **Date:** {date}
 **Time:** {BOARD_AGM_TIME}
@@ -1076,7 +1326,7 @@ The Sole Director noted that the **Written Consent of Sole Stockholder** dated {
 **Type of Meeting:** Annual Meeting of the Board of Directors
 
 **II. Call to Order**
-{call_intro}The Annual Meeting of the Board of Directors of {co_name} (the “Corporation”) was called to order at {BOARD_AGM_TIME} on {date} by {director_name}, acting as Sole Director, President, and Treasurer of the Corporation.
+{call_intro}The Annual Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {BOARD_AGM_TIME} on {date} by {director_name}, acting as Sole Director, President, and Treasurer of the Corporation.
 
 **III. Roll Call and Quorum**
 **Director Present:**  
@@ -1097,12 +1347,12 @@ The Sole Director confirmed that notice of the meeting was duly given or waived.
 {_agm_president_report_body(co, office_locations, dev_locations, co_name, year)}
 
 **Treasurer’s Report:**  
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has {issued} shares of common stock issued and outstanding at a par value of {co['par']} per share.
+{_treasurer_report_minutes_paragraph(co, issued)}
 
 {reliance_141e_line}
 
 **VI. Discussion Items**
-The Sole Director discussed the Corporation’s transition plan for {year + 1}, including security audits, penetration testing, and commercialization readiness.
+{_agm_discussion_items_line(co, year)}
 
 {_agm_resolutions_block(co, director_name, year)}
 {consent_cross_ref}
@@ -1116,7 +1366,8 @@ There being no further business to come before the Board, the meeting was adjour
 
 def generate_special(co_name, year):
     co = companies[co_name]
-    date = annual_meeting_date_str(co, year)
+    annual_date = annual_meeting_date_str(co, year)
+    date = board_special_meeting_date_str(co, year)
     place = meeting_place_line(co, date)
 
     director_name = "Derek E. Pappas"
@@ -1132,7 +1383,7 @@ def generate_special(co_name, year):
         rd = stockholder_annual_record_date_str(co, year)
         record_date_resolution = f"""
 **Record Date for Annual Meeting of Stockholders ({_corp_law_section_ref(co, "213")})**  
-RESOLVED, that **{rd}** is hereby fixed as the record date for determining the stockholders entitled to notice of and to vote at the Annual Meeting of Stockholders of the Corporation to be held on **{date}** commencing at **{STOCKHOLDER_MEETING_TIME}**, in accordance with the Corporation’s bylaws and the {_corporation_statute_name(co)}.
+RESOLVED, that **{rd}** is hereby fixed as the record date for determining the stockholders entitled to notice of and to vote at the Annual Meeting of Stockholders of the Corporation to be held on **{annual_date}** commencing at **{STOCKHOLDER_MEETING_TIME}**, in accordance with the Corporation’s bylaws and the {_corporation_statute_name(co)}.
 
 """
 
@@ -1145,7 +1396,7 @@ RESOLVED, that **{rd}** is hereby fixed as the record date for determining the s
 **Date of Meeting:** {date}
 **Time of Meeting:** {SPECIAL_MEETING_TIME}
 **Location of Meeting:** {place}
-**Purpose:** Pre-annual review of international operations
+**Purpose:** {co.get("special_meeting_purpose", "Pre-annual board review of operations")}
 
 **I. Call to Order:**
 The Special Meeting of the Board of Directors of {co_name} (the “Corporation”) was called to order at {SPECIAL_MEETING_TIME} on {date} by {director_name}, acting as Sole Director of the Corporation.
@@ -1158,7 +1409,7 @@ The Sole Director being present, a quorum was present, and the meeting was duly 
 The Sole Director confirmed that notice of the meeting was duly given or waived.
 {remote_meeting_line}
 
-{_special_resolutions_block(year, record_date_resolution)}
+{_special_resolutions_block(co, year, record_date_resolution)}
 {reliance_141e_line}
 
 **IV. Adjournment:**
@@ -1173,7 +1424,7 @@ def generate_quarterly(co_name, year, quarter):
     date = quarterly_meeting_date_str(co, year, quarter)
     place = meeting_place_line(co, date)
 
-    dev_locations = development_locations()
+    dev_locations = development_centers_line_for_company(co)
 
     director_name = "Derek E. Pappas"
 
@@ -1233,8 +1484,10 @@ def generate_annual_meeting_stockholders(co_name, year):
     co = companies[co_name]
     date = annual_meeting_date_str(co, year)
     record_date = stockholder_annual_record_date_str(co, year)
+    special_board_date = board_special_meeting_date_str(co, year)
     place = meeting_place_line(co, date)
     issued = co["shares_issued"].get(year, co["shares_issued"].get(2025))
+    display_company = minutes_display_name(co_name)
 
     chair = "Derek E. Pappas"
     election_standard = co.get("director_election_standard", "plurality")
@@ -1246,18 +1499,20 @@ def generate_annual_meeting_stockholders(co_name, year):
 
     roll_block = format_stockholders_roll_call_block(co)
     record_date_source = (
-        f"The Chairperson confirmed that **{record_date}** had been fixed as the **record date** for determining the stockholders entitled to vote at this meeting "
-        f"by the Board of Directors pursuant to resolutions adopted at the **Special Meeting of the Board of Directors** held on **{date}** "
-        f"(as reflected in the minutes of such meeting), in accordance with the Corporation’s bylaws and the {_corporation_statute_name(co)}."
+        f"The Chairperson confirmed that **{record_date}** is the **record date** for determining the stockholders entitled to vote at this meeting, "
+        f"having been fixed by the Board of Directors pursuant to resolutions adopted at the **Special Meeting of the Board of Directors** held on "
+        f"**{special_board_date}** (as reflected in the minutes of such meeting), in accordance with the Corporation’s bylaws and the "
+        f"{_corporation_statute_name(co)}. The Chairperson further confirmed that the record date is **not less than** the minimum interval before "
+        "this annual meeting required by applicable law and the Corporation’s bylaws."
     )
 
     return f"""
 **Minutes of the Annual Meeting of Stockholders**
-**{co_name}**
+**{display_company}**
 {_corporation_parenthetical(co)}
 
 **I. Meeting Information**
-**Company Name:** {co_name}
+**Company Name:** {display_company}
 **Principal Address:** {co['address']}
 **Date:** {date}
 **Time:** {STOCKHOLDER_MEETING_TIME}
@@ -1266,7 +1521,7 @@ def generate_annual_meeting_stockholders(co_name, year):
 **Type of Meeting:** Annual Meeting of Stockholders
 
 **II. Call to Order and Organization**
-The Annual Meeting of Stockholders of {co_name} (the “Corporation”) was called to order commencing at {STOCKHOLDER_MEETING_TIME} on {date}. Pursuant to the Corporation’s bylaws, {chair}, acting as President of the Corporation, served as Chairperson of the meeting, and the Secretary (or a person designated by the Chairperson) served as Secretary of the meeting.
+The Annual Meeting of Stockholders of {display_company} (the “Corporation”) was called to order commencing at {STOCKHOLDER_MEETING_TIME} on {date}. Pursuant to the Corporation’s bylaws, {chair}, acting as President of the Corporation, served as Chairperson of the meeting, and the Secretary (or a person designated by the Chairperson) served as Secretary of the meeting.
 
 **III. Roll Call and Quorum**
 {record_date_source}
@@ -1410,7 +1665,7 @@ def generate_annual(company_name_year: str, co_name: str, year: int):
 def generate_special_meeting(company_name_year: str, co_name: str, year: int):
     """Generate special meeting minutes."""
     co = companies[co_name]
-    mdate = annual_meeting_date_str(co, year)
+    mdate = board_special_meeting_date_str(co, year)
     special_title = f"{company_name_year}_yearly_special_meeting"
     special_docx = f"{special_title}.docx"
     special_content = generate_special(co_name, year)
@@ -1435,18 +1690,32 @@ def sole_stockholder_written_consent_markdown(co_name: str, year: int) -> str:
     mech_tail = f" {mech_suffix}" if mech_suffix else ""
     mechanics = f"""**Written Consent Mechanics**
 This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the {_corporation_statute_name(co)} and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures.{mech_tail} The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable)."""
-    consent_heading = (
-        f"({_corp_law_section_ref(co, '228')}; annual meeting of stockholders)"
-        if _jurisdiction(co) == "DE"
-        else "(annual meeting of stockholders)"
-    )
+    consent_heading = f"({_corp_law_section_ref(co, '228')}; annual meeting of stockholders)"
+    if _jurisdiction(co) == "WY":
+        consent_intro = (
+            f"The undersigned, being the {shareholder_term.lower()} of {display_name}, a {_jurisdiction(co)} corporation (the \"Corporation\"), "
+            "and constituting **all** shareholders entitled to vote on the following matters, hereby adopts the following resolutions by **written consent without a meeting** "
+            f"pursuant to **{_corp_law_section_ref(co, '228')}** and the {_corporation_statute_name(co)}, to the same extent as if the resolutions were approved at a duly held "
+            "shareholders’ meeting by the unanimous vote of all shares entitled to vote thereon. The undersigned directs that this consent be delivered to the Corporation for "
+            "inclusion in the minutes or filing with the corporate records as required by law. The undersigned acknowledges that, to the best of the undersigned’s knowledge, "
+            f"the articles of incorporation do not prohibit shareholder action by written consent in the manner set forth herein.{bylaws_ack_block}"
+        )
+    else:
+        consent_intro = (
+            f"The undersigned, being the {shareholder_term.lower()} of {display_name}, a {_jurisdiction(co)} corporation (the \"Corporation\"), and holding {voting_shares}, "
+            f"hereby adopts the following resolutions by written consent of the stockholders pursuant to the {_corporation_statute_name(co)}, effective without a meeting to the "
+            "same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of "
+            "incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock "
+            "having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon "
+            f"were present and voted.{bylaws_ack_block}"
+        )
     return f"""
 **{display_name}**
 **Written Consent of {shareholder_term}**
 **Action by Written Consent of Stockholders**
 {consent_heading}
 
-The undersigned, being the {shareholder_term.lower()} of {display_name}, a {_jurisdiction(co)} corporation (the "Corporation"), and holding {voting_shares}, hereby adopts the following resolutions by written consent of the stockholders pursuant to the {_corporation_statute_name(co)}, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.{bylaws_ack_block}
+{consent_intro}
 **Approval of Board Actions**
 RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on {as_of} (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
 
@@ -1522,8 +1791,7 @@ def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...
 
         for year in _company_years_for_calendar(co, years):
             annual_date = annual_meeting_date_str(co, year)
-            # Special meeting template currently uses the same date as the annual board meeting.
-            special_date = annual_date
+            special_date = board_special_meeting_date_str(co, year)
 
             if co.get("stockholder_meeting") == "annual_meeting_stockholders":
                 entries_by_date.setdefault(annual_date, []).append(f"{co_name} - Annual Meeting of Stockholders - {STOCKHOLDER_MEETING_TIME}")
@@ -1626,14 +1894,20 @@ def print_schedule(years=(2022, 2023, 2024, 2025, 2026)):
             if year < co.get("minutes_start_year", co.get("inc_year", year)):
                 continue
             board_date = annual_meeting_date_str(co, year)
+            special_date = board_special_meeting_date_str(co, year)
             if co.get("stockholder_meeting") == "annual_meeting_stockholders":
                 stock_date = annual_meeting_date_str(co, year)
+                rd = stockholder_annual_record_date_str(co, year)
                 print(
-                    f"- {co_name}: Stockholders {stock_date} {STOCKHOLDER_MEETING_TIME}; "
-                    f"Board {board_date} {BOARD_AGM_TIME}"
+                    f"- {co_name}: Board (special; record-date cycle) {special_date} {SPECIAL_MEETING_TIME} "
+                    f"(record date {rd}); Stockholders {stock_date} {STOCKHOLDER_MEETING_TIME}; "
+                    f"Board (annual) {board_date} {BOARD_AGM_TIME}"
                 )
             else:
-                print(f"- {co_name}: Board {board_date} {BOARD_AGM_TIME}; Written consent dated {board_date}")
+                print(
+                    f"- {co_name}: Board (special) {special_date} {SPECIAL_MEETING_TIME}; "
+                    f"Board (annual) {board_date} {BOARD_AGM_TIME}; Written consent dated {board_date}"
+                )
 
 
 # Between meeting bodies in the per-company compilation: one empty paragraph (“hard” break) in the .docx output.
@@ -1754,6 +2028,8 @@ def generate_company_all_meetings_book(
         f"""**Minute book compilation — all meetings**
 **{minutes_display_name(co_name)}**
 *(single document: all meetings generated for calendar years {applicable[0]} through {applicable[-1]})*
+
+*Exhibits referenced in these minutes (including Exhibit A / Exhibit B) are maintained in the Corporation’s minute books and corporate records and may appear as separate signed instruments annexed to this compilation.*
 
 ---
 """.strip()

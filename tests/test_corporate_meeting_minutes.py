@@ -19,7 +19,8 @@ def test_corp_law_section_ref_de_vs_wy() -> None:
     de_co: dict = {"jurisdiction": "DE"}
     wy_co: dict = {"jurisdiction": "WY"}
     assert cmm._corp_law_section_ref(de_co, "228") == "DGCL §228"
-    assert "Wyoming Business Corporation Act" in cmm._corp_law_section_ref(wy_co, "228")
+    assert cmm._corp_law_section_ref(wy_co, "228") == "W.S. 1977 § 17-16-704"
+    assert cmm._corp_law_section_ref(wy_co, "213") == "W.S. 1977 § 17-16-707"
     assert "DGCL" not in cmm._corp_law_section_ref(wy_co, "228")
 
 
@@ -37,6 +38,7 @@ def test_reliance_standard_de_cites_141e() -> None:
 
 def test_reliance_standard_wy_uses_wyoming_act_not_dgcl() -> None:
     text = cmm.reliance_standard({"jurisdiction": "WY"})
+    assert "17-16-830" in text
     assert "Wyoming Business Corporation Act" in text
     assert "141(e)" not in text
     assert "DGCL" not in text
@@ -103,6 +105,27 @@ def test_generate_all_restores_cwd_after_run(monkeypatch: pytest.MonkeyPatch, tm
     before = os.getcwd()
     cmm.generate_all(str(out_root.relative_to(tmp_path)), years=(2023,))
     assert os.getcwd() == before == str(tmp_path)
+
+
+def test_development_centers_and_banking_differ_across_registry() -> None:
+    """Regression: per-company lines avoid identical cross-corp boilerplate."""
+    h = cmm.companies["Hippo, Inc"]
+    d = cmm.companies["DATA RECORD SCIENCE, INC."]
+    assert cmm.development_centers_line_for_company(h) != cmm.development_centers_line_for_company(d)
+    assert h["primary_banking_institution"] != d["primary_banking_institution"]
+
+
+def test_board_special_meeting_on_record_date_for_annual_stockholder_corps() -> None:
+    co = cmm.companies["DATA RECORD SCIENCE, INC."]
+    y = 2022
+    assert cmm.board_special_meeting_date_str(co, y) == cmm.stockholder_annual_record_date_str(co, y)
+    assert cmm.board_special_meeting_date_str(co, y) != cmm.annual_meeting_date_str(co, y)
+
+
+def test_sole_written_consent_wy_uses_unanimous_shareholder_formulation() -> None:
+    md = cmm.sole_stockholder_written_consent_markdown("Loki Sports Enterprises, Inc.", 2023)
+    assert "W.S. 1977 § 17-16-704" in md
+    assert "minimum number of votes" not in md.lower()
 
 
 def test_loki_registry_has_wy_jurisdiction_no_dgcl_in_scanned_fields() -> None:
