@@ -94,12 +94,50 @@ _TIMELINE_LOCATION_TZ: dict[str, str] = {
     "Lantana, FL": "America/New_York",
 }
 
-RELIANCE_141E_STANDARD = (
-    "In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and "
-    "statements—including financial and operational materials prepared for this meeting and presentations from officers of the "
-    "Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, "
-    "as contemplated by Section 141(e) of the Delaware General Corporation Law.\n"
-)
+def _jurisdiction(co: dict) -> str:
+    """Two-letter jurisdiction code (default: DE)."""
+    return str(co.get("jurisdiction") or "DE").strip().upper()
+
+
+def _corporation_parenthetical(co: dict) -> str:
+    """Parenthetical used on covers (e.g., *(Delaware corporation)*)."""
+    j = _jurisdiction(co)
+    if j == "WY":
+        return "*(Wyoming corporation)*"
+    return "*(Delaware corporation)*"
+
+
+def _corporation_statute_name(co: dict) -> str:
+    """Full statute name for narrative references."""
+    j = _jurisdiction(co)
+    if j == "WY":
+        return "Wyoming Business Corporation Act"
+    return "Delaware General Corporation Law"
+
+
+def _corp_law_section_ref(co: dict, section: str) -> str:
+    """Short section citation; DE uses DGCL §X, other jurisdictions omit section numbers to avoid mis-citation."""
+    j = _jurisdiction(co)
+    if j == "DE":
+        return f"DGCL §{section}"
+    return f"the applicable provisions of the {_corporation_statute_name(co)}"
+
+
+def reliance_standard(co: dict) -> str:
+    j = _jurisdiction(co)
+    if j == "DE":
+        return (
+            "In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and "
+            "statements—including financial and operational materials prepared for this meeting and presentations from officers of the "
+            "Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, "
+            "as contemplated by Section 141(e) of the Delaware General Corporation Law.\n"
+        )
+    return (
+        "In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and "
+        "statements—including financial and operational materials prepared for this meeting and presentations from officers of the "
+        "Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, "
+        f"as contemplated by the {_corporation_statute_name(co)}.\n"
+    )
 
 # Company information (canonical registry for minute generation)
 company_information = {
@@ -242,7 +280,15 @@ company_information = {
         "inc_year": 2026,
         "minutes_start_year": 2026,
         "director_election_standard": "plurality",
-        "shares_issued": {2026: "10,000,000"},
+        # Share data per intake:
+        # - 10,000,000 authorized
+        # - 8,000,000 issued/outstanding (4,000,000 Derek; 4,000,000 Mohamed)
+        "shares_authorized": "10,000,000",
+        "shares_issued": {2026: "8,000,000"},
+        "stockholder_shares": {
+            "Derek E. Pappas": "4,000,000",
+            "Mohamed Mohamed": "4,000,000",
+        },
         "annual_day_offset": 4,
         "meeting_stagger_day": 4,
         # Two named stockholders: generate formal annual stockholder meeting minutes + notice/waiver instruments.
@@ -267,6 +313,7 @@ company_information = {
     "Loki Sports Enterprises, Inc.": {
         "minutes_display_name": "Loki Sports Enterprises, Inc.",
         "address": "30 N Gould St Ste 24709, Sheridan, WY 82801",
+        "jurisdiction": "WY",
         "par": "$.0001",
         # WY domestic profit corporation filing (2023).
         "inc_year": 2023,
@@ -350,12 +397,13 @@ def agm_operating_addendum_markdown(
     """Markdown body for the AGM operating addendum (same text as standalone .docx)."""
     if not detail_lines:
         return ""
+    co = companies[co_name]
     display = minutes_display_name(co_name)
     bullets = "\n".join(f"- {line}" for line in detail_lines)
     return f"""
 **Operating addendum ({exhibit_label})**
 **{display}**
-*(Delaware Corporation)*
+{_corporation_parenthetical(co)}
 
 **Purpose**
 This addendum supplements the **Minutes of the Annual Meeting of the Board of Directors** of the Corporation for **{year}** and is annexed to those minutes as **{exhibit_label}**.
@@ -491,7 +539,7 @@ def annual_meeting_date_str(co, year):
 
 
 def stockholder_annual_record_date_str(co, year: int) -> str:
-    """ISO date for stockholders entitled to vote at the annual meeting (DGCL §213), prior to meeting date.
+    """ISO date for stockholders entitled to vote at the annual meeting (record date), prior to meeting date.
 
     Fixed offset (calendar days) for template continuity; adjust per bylaws if a business-day or different window applies.
     """
@@ -541,15 +589,15 @@ def _annual_stockholder_notice_section_iv(co: dict) -> str:
 
     if mode == "waiver_focus":
         return f"""**IV. Notice; Waiver**
-The Chairperson confirmed that **written waivers of notice** of this annual meeting, executed by stockholders entitled to cast the votes required by the DGCL and the Corporation’s bylaws, are **on file** with the records of the Corporation, and that the meeting was held in reliance on such waivers in accordance with **Section 222** of the Delaware General Corporation Law and the bylaws.{annex}"""
+The Chairperson confirmed that **written waivers of notice** of this annual meeting, executed by stockholders entitled to cast the votes required by applicable law and the Corporation’s bylaws, are **on file** with the records of the Corporation, and that the meeting was held in reliance on such waivers in accordance with the {_corporation_statute_name(co)} and the bylaws.{annex}"""
 
     if mode == "notice_focus":
         return f"""**IV. Notice**
-The Chairperson confirmed that **notice** of this annual meeting was given to each stockholder entitled to vote, **not less than** the minimum time period required by **Section 222** of the Delaware General Corporation Law and the Corporation’s bylaws, and that such notice stated the date, time, and principal place (if any) of the meeting and the **means of remote communication**, if any, for participating in the meeting.{annex}"""
+The Chairperson confirmed that **notice** of this annual meeting was given to each stockholder entitled to vote, **not less than** the minimum time period required by the {_corporation_statute_name(co)} and the Corporation’s bylaws, and that such notice stated the date, time, and principal place (if any) of the meeting and the **means of remote communication**, if any, for participating in the meeting.{annex}"""
 
     annex_w = f" Waivers, if any, may be **annexed to these minutes as {ex}**." if ex else ""
     return f"""**IV. Notice**
-The Chairperson confirmed that **notice** of this annual meeting was given to each stockholder entitled to vote, **not less than** the minimum time period required by **Section 222** of the Delaware General Corporation Law and the Corporation’s bylaws, and that such notice stated the date, time, and principal place (if any) of the meeting and the **means of remote communication**, if any, for participating in the meeting. The Chairperson further confirmed that, to the extent notice was waived, **written waivers of notice** executed by stockholders entitled to cast sufficient votes to satisfy the requirements of the DGCL and the bylaws are **on file** with the records of the Corporation.{annex_w}"""
+The Chairperson confirmed that **notice** of this annual meeting was given to each stockholder entitled to vote, **not less than** the minimum time period required by the {_corporation_statute_name(co)} and the Corporation’s bylaws, and that such notice stated the date, time, and principal place (if any) of the meeting and the **means of remote communication**, if any, for participating in the meeting. The Chairperson further confirmed that, to the extent notice was waived, **written waivers of notice** executed by stockholders entitled to cast sufficient votes to satisfy the requirements of applicable law and the bylaws are **on file** with the records of the Corporation.{annex_w}"""
 
 
 def format_stockholders_roll_call_block(co: dict) -> str:
@@ -609,16 +657,16 @@ def stockholder_waiver_of_notice_annual_meeting_markdown(
     return f"""
 **Waiver of Notice of Annual Meeting of Stockholders**
 **{co_name}**
-*(Delaware corporation)*
+{_corporation_parenthetical(co)}
 
-The undersigned record stockholder(s) of **{co_name}** (the “Corporation”) entitled to vote at the annual meeting described below, intending to be legally bound, **waive notice** of that meeting and of any postponement or adjournment thereof to the extent permitted by the **Delaware General Corporation Law**, the Corporation’s **certificate of incorporation**, and **bylaws**.
+The undersigned record stockholder(s) of **{co_name}** (the “Corporation”) entitled to vote at the annual meeting described below, intending to be legally bound, **waive notice** of that meeting and of any postponement or adjournment thereof to the extent permitted by the {_corporation_statute_name(co)}, the Corporation’s **certificate of incorporation**, and **bylaws**.
 
 **Meeting**  
 **Date:** {date_iso} ({as_meeting})  
 **Time:** {STOCKHOLDER_MEETING_TIME}  
 **Place / remote means:** {place}
 
-**Record date (DGCL §213):** {record_date}  
+**Record date ({_corp_law_section_ref(co, "213")}):** {record_date}  
 (Stockholders of record as of this date are entitled to notice of, and to vote at, the meeting, subject to the certificate of incorporation and bylaws.)
 
 **Business**  
@@ -655,7 +703,7 @@ def notice_of_annual_stockholder_meeting_markdown(
     return f"""
 **Notice of Annual Meeting of Stockholders**
 **{co_name}**
-*(Delaware corporation)*
+{_corporation_parenthetical(co)}
 
 To the stockholders of the Corporation:
 
@@ -665,14 +713,14 @@ Notice is hereby given that an **annual meeting of stockholders** of **{co_name}
 **Time:** {STOCKHOLDER_MEETING_TIME}  
 **Place / means of participation:** {place}
 
-**Record date:** The **record date** for determining stockholders entitled to notice of and to vote at the meeting (or any adjournment or postponement) is **{record_date}**, as fixed by the Board of Directors in accordance with the bylaws and **Section 213** of the Delaware General Corporation Law.
+**Record date:** The **record date** for determining stockholders entitled to notice of and to vote at the meeting (or any adjournment or postponement) is **{record_date}**, as fixed by the Board of Directors in accordance with the bylaws and the {_corporation_statute_name(co)}.
 
 **Purpose**  
 To elect directors and to transact such other business as may properly come before the meeting and any adjournment or postponement, in accordance with the certificate of incorporation and bylaws.
 
-Stockholders may attend and vote in person or, where permitted by the bylaws and **Section 211** of the Delaware General Corporation Law, by remote communication in the manner described in this notice or in supplemental instructions provided by the Corporation.
+Stockholders may attend and vote in person or, where permitted by the bylaws and applicable law, by remote communication in the manner described in this notice or in supplemental instructions provided by the Corporation.
 
-This notice is given pursuant to **Section 222** of the Delaware General Corporation Law and the Corporation’s bylaws. Notice may be delivered by hand, United States mail, or electronic transmission in the manner and within the time frames permitted by the DGCL and the bylaws.
+This notice is given pursuant to the {_corporation_statute_name(co)} and the Corporation’s bylaws. Notice may be delivered by hand, United States mail, or electronic transmission in the manner and within the time frames permitted by applicable law and the bylaws.
 
 **Principal executive office:** {principal}
 
@@ -749,11 +797,11 @@ def board_waiver_of_notice_markdown(company_name_year: str, year: int, co_name: 
     return f"""
 **Waiver of Notice of Meetings of the Board of Directors**
 **{co_name}**
-*(Delaware corporation)*
+{_corporation_parenthetical(co)}
 
 **Calendar year {year}**
 
-The undersigned, **{director_name}**, Sole Director of **{co_name}** (the “Corporation”), intending to be legally bound, **waives all notice** of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the **Delaware General Corporation Law**, the Corporation’s **certificate of incorporation**, and {bylaws_ref}. This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given **or waived**.
+The undersigned, **{director_name}**, Sole Director of **{co_name}** (the “Corporation”), intending to be legally bound, **waives all notice** of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the **{_corporation_statute_name(co)}**, the Corporation’s **certificate of incorporation**, and {bylaws_ref}. This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given **or waived**.
 
 **Meetings covered**
 
@@ -973,7 +1021,7 @@ This was the first Annual Meeting of the Board of Directors following incorporat
     if co.get("virtual_ok", True):
         remote_meeting_line = "The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.\n"
 
-    reliance_141e_line = RELIANCE_141E_STANDARD
+    reliance_141e_line = reliance_standard(co)
 
     consent_cross_ref = ""
     if co.get("stockholder_meeting") == "written_consent":
@@ -982,13 +1030,13 @@ This was the first Annual Meeting of the Board of Directors following incorporat
         annex = f" (annexed as **{lab}**)" if lab else ""
         consent_cross_ref = f"""
 **Stockholder Written Consent ({year})**  
-The Sole Director noted that the **Written Consent of Sole Stockholder** dated {as_of_fmt}, adopting stockholder resolutions under **Section 228** of the DGCL for the year {year}, is **on file** with the minutes of the stockholders of the Corporation{annex}.
+The Sole Director noted that the **Written Consent of Sole Stockholder** dated {as_of_fmt}, adopting stockholder resolutions under **{_corp_law_section_ref(co, "228")}** for the year {year}, is **on file** with the minutes of the stockholders of the Corporation{annex}.
 
 """
 
     return f"""
 **Minutes of the Annual Meeting of the Board of Directors**
-*(Delaware Corporation)*
+{_corporation_parenthetical(co)}
 
 **I. Meeting Information**
 **Company Name:** {co_name}
@@ -1008,7 +1056,7 @@ The Sole Director noted that the **Written Consent of Sole Stockholder** dated {
 **Director Absent:**  
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.  
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the {_corporation_statute_name(co)}.  
 The Sole Director confirmed that notice of the meeting was duly given or waived.
 {remote_meeting_line}
 
@@ -1048,21 +1096,21 @@ def generate_special(co_name, year):
     if co.get("virtual_ok", True):
         remote_meeting_line = "The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.\n"
 
-    reliance_141e_line = RELIANCE_141E_STANDARD
+    reliance_141e_line = reliance_standard(co)
 
     record_date_resolution = ""
     if co.get("stockholder_meeting") == "annual_meeting_stockholders":
         rd = stockholder_annual_record_date_str(co, year)
         record_date_resolution = f"""
-**Record Date for Annual Meeting of Stockholders (DGCL §213)**  
-RESOLVED, that **{rd}** is hereby fixed as the record date for determining the stockholders entitled to notice of and to vote at the Annual Meeting of Stockholders of the Corporation to be held on **{date}** commencing at **{STOCKHOLDER_MEETING_TIME}**, in accordance with the Corporation’s bylaws and Section 213 of the Delaware General Corporation Law.
+**Record Date for Annual Meeting of Stockholders ({_corp_law_section_ref(co, "213")})**  
+RESOLVED, that **{rd}** is hereby fixed as the record date for determining the stockholders entitled to notice of and to vote at the Annual Meeting of Stockholders of the Corporation to be held on **{date}** commencing at **{STOCKHOLDER_MEETING_TIME}**, in accordance with the Corporation’s bylaws and the {_corporation_statute_name(co)}.
 
 """
 
     return f"""
 **Minutes of the Special Meeting of the Board of Directors - {year}**
 **{co_name}**
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – {_jurisdiction(co)} corporation)*
 
 **Meeting Details**
 **Date of Meeting:** {date}
@@ -1077,7 +1125,7 @@ The Special Meeting of the Board of Directors of {co_name} (the “Corporation�
 **Director Present:** {director_name} (Sole Director)  
 **Director Absent:** None  
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.  
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the {_corporation_statute_name(co)}.  
 The Sole Director confirmed that notice of the meeting was duly given or waived.
 {remote_meeting_line}
 
@@ -1104,12 +1152,12 @@ def generate_quarterly(co_name, year, quarter):
     if co.get("virtual_ok", True):
         remote_meeting_line = "The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.\n"
 
-    reliance_141e_line = RELIANCE_141E_STANDARD
+    reliance_141e_line = reliance_standard(co)
 
     return f"""
 **Minutes of the Quarterly Governance Meeting - {year} {quarter}**
 **{co_name}**
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – {_jurisdiction(co)} corporation)*
 
 **Meeting Details**
 **Date of Meeting:** {date}
@@ -1123,7 +1171,7 @@ The Quarterly Governance Meeting of the Board of Directors of {co_name} (the “
 **Director Present:** {director_name} (Sole Director)  
 **Director Absent:** None  
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.  
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the {_corporation_statute_name(co)}.  
 The Sole Director confirmed that notice of the meeting was duly given or waived.
 {remote_meeting_line}
 
@@ -1171,13 +1219,13 @@ def generate_annual_meeting_stockholders(co_name, year):
     record_date_source = (
         f"The Chairperson confirmed that **{record_date}** had been fixed as the **record date** for determining the stockholders entitled to vote at this meeting "
         f"by the Board of Directors pursuant to resolutions adopted at the **Special Meeting of the Board of Directors** held on **{date}** "
-        f"(as reflected in the minutes of such meeting), in accordance with the Corporation’s bylaws and Section 213 of the Delaware General Corporation Law."
+        f"(as reflected in the minutes of such meeting), in accordance with the Corporation’s bylaws and the {_corporation_statute_name(co)}."
     )
 
     return f"""
 **Minutes of the Annual Meeting of Stockholders**
 **{co_name}**
-*(Delaware Corporation)*
+{_corporation_parenthetical(co)}
 
 **I. Meeting Information**
 **Company Name:** {co_name}
@@ -1185,7 +1233,7 @@ def generate_annual_meeting_stockholders(co_name, year):
 **Date:** {date}
 **Time:** {STOCKHOLDER_MEETING_TIME}
 **Place:** {place}
-**Record Date (stockholders entitled to vote; DGCL §213):** {record_date}
+**Record Date (stockholders entitled to vote; {_corp_law_section_ref(co, "213")}):** {record_date}
 **Type of Meeting:** Annual Meeting of Stockholders
 
 **II. Call to Order and Organization**
@@ -1194,14 +1242,14 @@ The Annual Meeting of Stockholders of {co_name} (the “Corporation”) was call
 **III. Roll Call and Quorum**
 {record_date_source}
 
-The following stockholders were present in person or by remote participation (as permitted under the Corporation’s bylaws and the Delaware General Corporation Law) and were entitled to vote at the meeting:
+The following stockholders were present in person or by remote participation (as permitted under the Corporation’s bylaws and applicable law) and were entitled to vote at the meeting:
 
 {roll_block}
 
 The Chairperson declared that a quorum of stockholders was present and that the meeting was duly constituted to transact business.
 The Chairperson further confirmed that any stockholders participating remotely were able to hear and be heard contemporaneously and that the Corporation had reasonable means to verify that each such person was a stockholder or proxyholder entitled to vote at the meeting.
 
-**Stock Ledger / Voting List; Proxies (DGCL §218 and bylaws)**
+**Stock Ledger / Voting List; Proxies (bylaws and applicable law)**
 The Chairperson confirmed that an **alphabetized list of the names of the stockholders of record** entitled to vote at this meeting (or a certified extract of the stock ledger) as of the record date was produced and made available for inspection by stockholders at the meeting in accordance with the Corporation’s bylaws, and that **proxies** and votes received in accordance with the bylaws were accepted for shares entitled to vote in accordance with such proxies.
 
 {_annual_stockholder_notice_section_iv(co)}
@@ -1238,25 +1286,25 @@ _____________________
 def majority_stockholder_written_consent_ratification_markdown(
     company_name_year: str, year: int, co_name: str
 ) -> str:
-    """Markdown for majority stockholder written consent (DGCL §228 ratification)."""
+    """Markdown for majority stockholder written consent (ratification; action by written consent)."""
     co = companies[co_name]
     board_date = annual_meeting_date_str(co, year)
     as_of = datetime.strptime(board_date, "%Y-%m-%d").strftime("%B %d, %Y")
-    mechanics = f"""**Section 228 Mechanics**
-This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required to non-consenting stockholders under Section 228 of the DGCL, the certificate of incorporation, and the bylaws."""
+    mechanics = f"""**Written Consent Mechanics**
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the {_corporation_statute_name(co)} and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws."""
     return f"""
 **{co_name}.**
 **Written Consent of Majority Stockholders**
 **Action by Written Consent of Stockholders**
-(Delaware General Corporation Law §228)
+({_corp_law_section_ref(co, "228")})
 
-The undersigned, being the stockholders of {co_name}, a Delaware corporation (the "Corporation"), holding not less than the minimum number of votes that would be necessary to authorize the following action at a meeting at which all shares entitled to vote thereon were present and voted, hereby adopt the following resolutions by written consent pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective as of the date set forth below.
+The undersigned, being the stockholders of {co_name}, a {_jurisdiction(co)} corporation (the "Corporation"), holding not less than the minimum number of votes that would be necessary to authorize the following action at a meeting at which all shares entitled to vote thereon were present and voted, hereby adopt the following resolutions by written consent pursuant to the {_corporation_statute_name(co)}, effective as of the date set forth below.
 
 **Ratification of Annual Board Meeting**
 RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on {as_of} (or as otherwise recorded in the minutes of such meeting), including the approval of financial statements, the budget for the ensuing fiscal year, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
 
 **Notice to Non-Consenting Stockholders**
-RESOLVED, that the Corporation is authorized and directed to provide prompt notice of the taking of the foregoing corporate action by written consent, to the extent required by Section 228 of the DGCL, the Corporation’s certificate of incorporation, and the Corporation’s bylaws.
+RESOLVED, that the Corporation is authorized and directed to provide prompt notice of the taking of the foregoing corporate action by written consent, to the extent required by applicable law, the Corporation’s certificate of incorporation, and the Corporation’s bylaws.
 
 {mechanics}
 
@@ -1274,7 +1322,7 @@ ______________________________
 
 
 def generate_majority_stockholder_written_consent_ratification(company_name_year: str, year: int, co_name: str):
-    """Majority stockholder written consent ratifying same-year annual board actions (DGCL §228), for multi-stockholder corporations."""
+    """Majority stockholder written consent ratifying same-year annual board actions, for multi-stockholder corporations."""
     co = companies[co_name]
     board_date = annual_meeting_date_str(co, year)
     content = majority_stockholder_written_consent_ratification_markdown(company_name_year, year, co_name)
@@ -1342,7 +1390,7 @@ def generate_special_meeting(company_name_year: str, co_name: str, year: int):
 
 
 def sole_stockholder_written_consent_markdown(co_name: str, year: int) -> str:
-    """Markdown for sole stockholder written consent (DGCL §228)."""
+    """Markdown for sole stockholder written consent (action by written consent)."""
     co = companies[co_name]
     display_name = minutes_display_name(co_name)
     date = annual_meeting_date_str(co, year)
@@ -1356,20 +1404,25 @@ def sole_stockholder_written_consent_markdown(co_name: str, year: int) -> str:
     bylaws_ack_block = f"\n{bylaws_ack}\n" if bylaws_ack else ""
     mech_suffix = co.get("stockholder_consent_bylaws_mechanics_suffix")
     mech_tail = f" {mech_suffix}" if mech_suffix else ""
-    mechanics = f"""**Section 228 Mechanics**
-This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures.{mech_tail} The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable)."""
+    mechanics = f"""**Written Consent Mechanics**
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the {_corporation_statute_name(co)} and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures.{mech_tail} The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable)."""
+    consent_heading = (
+        f"({_corp_law_section_ref(co, '228')}; annual meeting of stockholders)"
+        if _jurisdiction(co) == "DE"
+        else "(annual meeting of stockholders)"
+    )
     return f"""
 **{display_name}**
 **Written Consent of {shareholder_term}**
 **Action by Written Consent of Stockholders**
-(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+{consent_heading}
 
-The undersigned, being the {shareholder_term.lower()} of {display_name}, a Delaware corporation (the "Corporation"), and holding {voting_shares}, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.{bylaws_ack_block}
+The undersigned, being the {shareholder_term.lower()} of {display_name}, a {_jurisdiction(co)} corporation (the "Corporation"), and holding {voting_shares}, hereby adopts the following resolutions by written consent of the stockholders pursuant to the {_corporation_statute_name(co)}, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.{bylaws_ack_block}
 **Approval of Board Actions**
 RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on {as_of} (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
 
 **Annual Meeting of Stockholders**
-RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year {year} to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year {year} to the extent permitted by the {_corporation_statute_name(co)}, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
 
 {mechanics}
 
@@ -1386,7 +1439,7 @@ Derek E. Pappas
 
 
 def generate_written_consent(company_name_year: str, year: int, company_name: str):
-    """Generate sole stockholder written consent under DGCL § 228 (.docx)."""
+    """Generate sole stockholder written consent under applicable corporate law (.docx)."""
     co = companies[company_name]
     date = annual_meeting_date_str(co, year)
     content = sole_stockholder_written_consent_markdown(company_name, year)
@@ -1453,10 +1506,10 @@ def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...
                 unified_entries.append((annual_date, STOCKHOLDER_MEETING_TIME, co_name, "Majority Stockholders Written Consent (Ratification)"))
             else:
                 entries_by_date.setdefault(annual_date, []).append(f"{co_name} - Annual Meeting of the Board of Directors - {BOARD_AGM_TIME}")
-                entries_by_date.setdefault(annual_date, []).append(f"{co_name} - Stockholder Written Consent (DGCL §228) - {STOCKHOLDER_MEETING_TIME}")
+                entries_by_date.setdefault(annual_date, []).append(f"{co_name} - Stockholder Written Consent - {STOCKHOLDER_MEETING_TIME}")
 
                 unified_entries.append((annual_date, BOARD_AGM_TIME, co_name, "Annual Meeting of the Board of Directors"))
-                unified_entries.append((annual_date, STOCKHOLDER_MEETING_TIME, co_name, "Stockholder Written Consent (DGCL §228)"))
+                unified_entries.append((annual_date, STOCKHOLDER_MEETING_TIME, co_name, "Stockholder Written Consent"))
 
             entries_by_date.setdefault(special_date, []).append(
                 f"{co_name} - Yearly Special Meeting (Board) - {SPECIAL_MEETING_TIME}"

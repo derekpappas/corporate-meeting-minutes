@@ -8,7 +8,7 @@ Calendar year 2023
 
 
 Minutes of the Annual Meeting of the Board of Directors
-*(Delaware Corporation)*
+*(Delaware corporation)*
 
 I. Meeting Information
 Company Name: TeamBoost.ai, Inc.
@@ -65,7 +65,7 @@ RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one o
 
 
 Stockholder Written Consent (2023)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 14, 2023, adopting stockholder resolutions under Section 228 of the DGCL for the year 2023, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 14, 2023, adopting stockholder resolutions under DGCL §228 for the year 2023, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
 
 
 VIII. Adjournment
@@ -84,7 +84,7 @@ Name: Derek E. Pappas
 
 Operating addendum (Exhibit B)
 TeamBoost.ai, Inc.
-*(Delaware Corporation)*
+*(Delaware corporation)*
 
 Purpose
 This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is annexed to those minutes as Exhibit B.
@@ -107,7 +107,7 @@ To the extent referenced in the minutes, this addendum may also include or incor
 
 Minutes of the Special Meeting of the Board of Directors - 2023
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2023-12-14
@@ -155,9 +155,9 @@ Name: Derek E. Pappas
 TeamBoost.ai, Inc.
 Written Consent of Sole Stockholder
 Action by Written Consent of Stockholders
-(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+(DGCL §228; annual meeting of stockholders)
 
-The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
 The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of TeamBoost.ai, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
 
 Approval of Board Actions
@@ -166,8 +166,8 @@ RESOLVED, that all actions taken and resolutions adopted by the Board of Directo
 Annual Meeting of Stockholders
 RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2023 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
 
-Section 228 Mechanics
-This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
 
 Effective Date
 This Written Consent shall be effective as of December 14, 2023, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
@@ -212,7 +212,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2023 Q1
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2023-04-04
@@ -261,7 +261,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2023 Q2
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2023-07-04
@@ -310,7 +310,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2023 Q3
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2023-10-04
@@ -359,7 +359,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2023 Q4
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2023-12-04
@@ -409,7 +409,7 @@ Calendar year 2024
 
 
 Minutes of the Annual Meeting of the Board of Directors
-*(Delaware Corporation)*
+*(Delaware corporation)*
 
 I. Meeting Information
 Company Name: TeamBoost.ai, Inc.
@@ -466,7 +466,7 @@ RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one o
 
 
 Stockholder Written Consent (2024)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 12, 2024, adopting stockholder resolutions under Section 228 of the DGCL for the year 2024, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 12, 2024, adopting stockholder resolutions under DGCL §228 for the year 2024, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
 
 
 VIII. Adjournment
@@ -485,7 +485,7 @@ Name: Derek E. Pappas
 
 Operating addendum (Exhibit B)
 TeamBoost.ai, Inc.
-*(Delaware Corporation)*
+*(Delaware corporation)*
 
 Purpose
 This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is annexed to those minutes as Exhibit B.
@@ -511,7 +511,7 @@ To the extent referenced in the minutes, this addendum may also include or incor
 
 Minutes of the Special Meeting of the Board of Directors - 2024
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2024-12-12
@@ -559,9 +559,9 @@ Name: Derek E. Pappas
 TeamBoost.ai, Inc.
 Written Consent of Sole Stockholder
 Action by Written Consent of Stockholders
-(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+(DGCL §228; annual meeting of stockholders)
 
-The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
 The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of TeamBoost.ai, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
 
 Approval of Board Actions
@@ -570,8 +570,8 @@ RESOLVED, that all actions taken and resolutions adopted by the Board of Directo
 Annual Meeting of Stockholders
 RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2024 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
 
-Section 228 Mechanics
-This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
 
 Effective Date
 This Written Consent shall be effective as of December 12, 2024, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
@@ -616,7 +616,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2024 Q1
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2024-04-04
@@ -665,7 +665,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2024 Q2
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2024-07-04
@@ -714,7 +714,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2024 Q3
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2024-10-04
@@ -763,7 +763,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2024 Q4
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2024-12-04
@@ -813,7 +813,7 @@ Calendar year 2025
 
 
 Minutes of the Annual Meeting of the Board of Directors
-*(Delaware Corporation)*
+*(Delaware corporation)*
 
 I. Meeting Information
 Company Name: TeamBoost.ai, Inc.
@@ -870,7 +870,7 @@ RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one o
 
 
 Stockholder Written Consent (2025)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 11, 2025, adopting stockholder resolutions under Section 228 of the DGCL for the year 2025, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 11, 2025, adopting stockholder resolutions under DGCL §228 for the year 2025, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
 
 
 VIII. Adjournment
@@ -889,7 +889,7 @@ Name: Derek E. Pappas
 
 Operating addendum (Exhibit B)
 TeamBoost.ai, Inc.
-*(Delaware Corporation)*
+*(Delaware corporation)*
 
 Purpose
 This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is annexed to those minutes as Exhibit B.
@@ -914,7 +914,7 @@ To the extent referenced in the minutes, this addendum may also include or incor
 
 Minutes of the Special Meeting of the Board of Directors - 2025
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2025-12-11
@@ -962,9 +962,9 @@ Name: Derek E. Pappas
 TeamBoost.ai, Inc.
 Written Consent of Sole Stockholder
 Action by Written Consent of Stockholders
-(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+(DGCL §228; annual meeting of stockholders)
 
-The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
 The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of TeamBoost.ai, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
 
 Approval of Board Actions
@@ -973,8 +973,8 @@ RESOLVED, that all actions taken and resolutions adopted by the Board of Directo
 Annual Meeting of Stockholders
 RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2025 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
 
-Section 228 Mechanics
-This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
 
 Effective Date
 This Written Consent shall be effective as of December 11, 2025, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
@@ -1019,7 +1019,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2025 Q1
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2025-04-04
@@ -1068,7 +1068,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2025 Q2
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2025-07-04
@@ -1117,7 +1117,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2025 Q3
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2025-10-04
@@ -1166,7 +1166,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2025 Q4
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2025-12-04
@@ -1216,7 +1216,7 @@ Calendar year 2026
 
 
 Minutes of the Annual Meeting of the Board of Directors
-*(Delaware Corporation)*
+*(Delaware corporation)*
 
 I. Meeting Information
 Company Name: TeamBoost.ai, Inc.
@@ -1273,7 +1273,7 @@ RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one o
 
 
 Stockholder Written Consent (2026)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 17, 2026, adopting stockholder resolutions under Section 228 of the DGCL for the year 2026, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 17, 2026, adopting stockholder resolutions under DGCL §228 for the year 2026, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
 
 
 VIII. Adjournment
@@ -1293,7 +1293,7 @@ Name: Derek E. Pappas
 
 Minutes of the Special Meeting of the Board of Directors - 2026
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2026-12-17
@@ -1341,9 +1341,9 @@ Name: Derek E. Pappas
 TeamBoost.ai, Inc.
 Written Consent of Sole Stockholder
 Action by Written Consent of Stockholders
-(Delaware General Corporation Law §228; annual meeting of stockholders under §211)
+(DGCL §228; annual meeting of stockholders)
 
-The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a Delaware corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to Section 228 of the Delaware General Corporation Law (the "DGCL"), effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned, being the sole stockholder of TeamBoost.ai, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
 The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of TeamBoost.ai, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
 
 Approval of Board Actions
@@ -1352,8 +1352,8 @@ RESOLVED, that all actions taken and resolutions adopted by the Board of Directo
 Annual Meeting of Stockholders
 RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2026 to the extent permitted by the DGCL, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
 
-Section 228 Mechanics
-This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with Section 228 of the DGCL and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required under Section 228 of the DGCL, the certificate of incorporation, and the bylaws (to the extent applicable).
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
 
 Effective Date
 This Written Consent shall be effective as of December 17, 2026, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
@@ -1398,7 +1398,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2026 Q1
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2026-04-04
@@ -1447,7 +1447,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2026 Q2
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2026-07-04
@@ -1496,7 +1496,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2026 Q3
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2026-10-04
@@ -1545,7 +1545,7 @@ Name: Derek E. Pappas
 
 Minutes of the Quarterly Governance Meeting - 2026 Q4
 TeamBoost.ai, Inc.
-*(Board of Directors – Delaware Corporation)*
+*(Board of Directors – DE corporation)*
 
 Meeting Details
 Date of Meeting: 2026-12-04

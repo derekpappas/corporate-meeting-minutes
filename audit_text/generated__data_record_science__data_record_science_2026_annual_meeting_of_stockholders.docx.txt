@@ -1,7 +1,7 @@
 
 Minutes of the Annual Meeting of Stockholders
 DATA RECORD SCIENCE, INC.
-*(Delaware Corporation)*
+*(Delaware corporation)*
 
 I. Meeting Information
 Company Name: DATA RECORD SCIENCE, INC.
@@ -16,9 +16,9 @@ II. Call to Order and Organization
 The Annual Meeting of Stockholders of DATA RECORD SCIENCE, INC. (the “Corporation”) was called to order commencing at 1:00 PM on 2026-12-16. Pursuant to the Corporation’s bylaws, Derek E. Pappas, acting as President of the Corporation, served as Chairperson of the meeting, and the Secretary (or a person designated by the Chairperson) served as Secretary of the meeting.
 
 III. Roll Call and Quorum
-The Chairperson confirmed that 2026-12-06 had been fixed as the record date for determining the stockholders entitled to vote at this meeting by the Board of Directors pursuant to resolutions adopted at the Special Meeting of the Board of Directors held on 2026-12-16 (as reflected in the minutes of such meeting), in accordance with the Corporation’s bylaws and Section 213 of the Delaware General Corporation Law.
+The Chairperson confirmed that 2026-12-06 had been fixed as the record date for determining the stockholders entitled to vote at this meeting by the Board of Directors pursuant to resolutions adopted at the Special Meeting of the Board of Directors held on 2026-12-16 (as reflected in the minutes of such meeting), in accordance with the Corporation’s bylaws and the Delaware General Corporation Law.
 
-The following stockholders were present in person or by remote participation (as permitted under the Corporation’s bylaws and the Delaware General Corporation Law) and were entitled to vote at the meeting:
+The following stockholders were present in person or by remote participation (as permitted under the Corporation’s bylaws and applicable law) and were entitled to vote at the meeting:
 
 Stockholders Present:
 - Derek E. Pappas, present in person
@@ -31,11 +31,11 @@ None.
 The Chairperson declared that a quorum of stockholders was present and that the meeting was duly constituted to transact business.
 The Chairperson further confirmed that any stockholders participating remotely were able to hear and be heard contemporaneously and that the Corporation had reasonable means to verify that each such person was a stockholder or proxyholder entitled to vote at the meeting.
 
-Stock Ledger / Voting List; Proxies (DGCL §218 and bylaws)
+Stock Ledger / Voting List; Proxies (bylaws and applicable law)
 The Chairperson confirmed that an alphabetized list of the names of the stockholders of record entitled to vote at this meeting (or a certified extract of the stock ledger) as of the record date was produced and made available for inspection by stockholders at the meeting in accordance with the Corporation’s bylaws, and that proxies and votes received in accordance with the bylaws were accepted for shares entitled to vote in accordance with such proxies.
 
 IV. Notice; Waiver
-The Chairperson confirmed that written waivers of notice of this annual meeting, executed by stockholders entitled to cast the votes required by the DGCL and the Corporation’s bylaws, are on file with the records of the Corporation, and that the meeting was held in reliance on such waivers in accordance with Section 222 of the Delaware General Corporation Law and the bylaws. A copy is annexed to these minutes as Exhibit A.
+The Chairperson confirmed that written waivers of notice of this annual meeting, executed by stockholders entitled to cast the votes required by applicable law and the Corporation’s bylaws, are on file with the records of the Corporation, and that the meeting was held in reliance on such waivers in accordance with the Delaware General Corporation Law and the bylaws. A copy is annexed to these minutes as Exhibit A.
 
 V. Reports
 The Chairperson presented and summarized the Corporation’s operational and financial highlights for the fiscal year. Stockholders had a reasonable opportunity to ask questions regarding the Chairperson’s report.
