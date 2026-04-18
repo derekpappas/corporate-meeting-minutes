@@ -2,6 +2,7 @@ import json
 import os
 import random
 import re
+import warnings
 from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -120,7 +121,35 @@ def _corp_law_section_ref(co: dict, section: str) -> str:
     j = _jurisdiction(co)
     if j == "DE":
         return f"DGCL §{section}"
-    return f"the applicable provisions of the {_corporation_statute_name(co)}"
+    # Non-DE: avoid inventing section numbers; cite the governing statute generically (shorter than “applicable provisions…”).
+    return f"the {_corporation_statute_name(co)}"
+
+
+def _warn_if_non_de_company_has_delaware_snippets(co_name: str, co: dict) -> None:
+    """Emit a runtime warning if `jurisdiction` is not DE but per-company strings still cite Delaware/DGCL."""
+    if _jurisdiction(co) == "DE":
+        return
+    keys = (
+        "stockholder_consent_bylaws_acknowledgment",
+        "stockholder_consent_bylaws_mechanics_suffix",
+        "stockholders_quorum_collective_sentence",
+        "board_notice_waiver_bylaws_ref",
+    )
+    bad: list[str] = []
+    for k in keys:
+        v = co.get(k)
+        if not isinstance(v, str):
+            continue
+        low = v.lower()
+        if "dgcl" in low or "delaware general corporation law" in low:
+            bad.append(k)
+    if bad:
+        warnings.warn(
+            f"{co_name}: jurisdiction is {_jurisdiction(co)} but company_information fields still reference "
+            f"Delaware/DGCL: {', '.join(bad)}. Update those strings or set jurisdiction to DE.",
+            UserWarning,
+            stacklevel=2,
+        )
 
 
 def reliance_standard(co: dict) -> str:
@@ -1745,47 +1774,53 @@ def generate_company_all_meetings_book(
 
 
 def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
-    print(f"Current working directory: {os.getcwd()}")
-    root_dir = os.path.join(os.getcwd(), output_root)
+    start_cwd = os.getcwd()
+    print(f"Current working directory: {start_cwd}")
+    root_dir = os.path.join(start_cwd, output_root)
     os.makedirs(root_dir, exist_ok=True)
     books_dir = os.path.join(root_dir, "books")
     os.makedirs(books_dir, exist_ok=True)
 
-    for name in companies.keys():
-        print(f"Company {name} Current working directory: {os.getcwd()}")
+    try:
+        for name in companies.keys():
+            co = companies[name]
+            _warn_if_non_de_company_has_delaware_snippets(name, co)
+            print(f"Company {name} Current working directory: {os.getcwd()}")
 
-        os.chdir(root_dir)
-        safe_company_name = sanitize_company_name(name)
+            os.chdir(root_dir)
+            safe_company_name = sanitize_company_name(name)
 
-        company_dir = f"{safe_company_name}"
-        os.makedirs(company_dir, exist_ok=True)
-        os.chdir(company_dir)
+            company_dir = f"{safe_company_name}"
+            os.makedirs(company_dir, exist_ok=True)
+            os.chdir(company_dir)
 
-        start_year = companies[name].get(
-            "minutes_start_year", companies[name].get("inc_year", min(years))
-        )
-        year_prefix = re.compile(rf"^{re.escape(safe_company_name)}_(\d{{4}})_")
-        for entry in os.listdir("."):
-            if not entry.endswith(".docx"):
-                continue
-            m = year_prefix.match(entry)
-            if m and int(m.group(1)) < start_year:
-                os.remove(entry)
+            start_year = co.get(
+                "minutes_start_year", co.get("inc_year", min(years))
+            )
+            year_prefix = re.compile(rf"^{re.escape(safe_company_name)}_(\d{{4}})_")
+            for entry in os.listdir("."):
+                if not entry.endswith(".docx"):
+                    continue
+                m = year_prefix.match(entry)
+                if m and int(m.group(1)) < start_year:
+                    os.remove(entry)
 
-        for year in years:
-            if year < companies[name].get("minutes_start_year", companies[name].get("inc_year", year)):
-                continue
-            company_name_year = f"{safe_company_name}_{year}"
+            for year in years:
+                if year < co.get("minutes_start_year", co.get("inc_year", year)):
+                    continue
+                company_name_year = f"{safe_company_name}_{year}"
 
-            generate_annual(company_name_year, name, year)
-            generate_special_meeting(company_name_year, name, year)
-            generate_stockholder_side(company_name_year, year, name)
-            generate_board_waiver_of_notice(company_name_year, year, name)
+                generate_annual(company_name_year, name, year)
+                generate_special_meeting(company_name_year, name, year)
+                generate_stockholder_side(company_name_year, year, name)
+                generate_board_waiver_of_notice(company_name_year, year, name)
 
-            for quarter in ["Q1", "Q2", "Q3", "Q4"]:
-                generate_quarterly_summary(company_name_year, year, quarter, name)
+                for quarter in ["Q1", "Q2", "Q3", "Q4"]:
+                    generate_quarterly_summary(company_name_year, year, quarter, name)
 
-        generate_company_all_meetings_book(safe_company_name, name, years, books_dir)
+            generate_company_all_meetings_book(safe_company_name, name, years, books_dir)
+    finally:
+        os.chdir(start_cwd)
 
 
 def main():
