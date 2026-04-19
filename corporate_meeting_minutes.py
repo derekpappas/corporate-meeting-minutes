@@ -1934,10 +1934,15 @@ def write_docx_from_minutes(
     filepath: str,
     meeting_date_iso: str | None = None,
     co_name: str | None = None,
+    *,
+    minute_book_page_breaks: bool = False,
 ):
     doc = Document()
     for raw_line in content.splitlines():
         line = raw_line.rstrip()
+        if minute_book_page_breaks and line.strip() == MEETING_BOOK_PAGE_BREAK_MARKER:
+            doc.add_page_break()
+            continue
         if not line.strip():
             doc.add_paragraph()
             continue
@@ -2645,6 +2650,10 @@ def print_schedule(years=(2022, 2023, 2024, 2025, 2026)):
 # Between meeting bodies in the per-company compilation: one empty paragraph (“hard” break) in the .docx output.
 MEETING_BOOK_SEPARATOR = "\n\n"
 
+# Sentinel line only in `*_all_meetings_book` markdown; `write_docx_from_minutes(..., minute_book_page_breaks=True)`
+# and `_write_minute_book_pdf` turn it into a hard page break so each included document prints as a standalone piece.
+MEETING_BOOK_PAGE_BREAK_MARKER = "<<<MINUTE_BOOK_PAGE_BREAK>>>"
+
 
 def _minute_book_line_to_paragraph_xml(line: str) -> str:
     """Escape for ReportLab Paragraph XML; convert **bold** to <b>."""
@@ -2660,7 +2669,7 @@ def _write_minute_book_pdf(markdown: str, pdf_path: str) -> None:
         from reportlab.lib.pagesizes import letter
         from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
         from reportlab.lib.units import inch
-        from reportlab.platypus import HRFlowable, Paragraph, SimpleDocTemplate, Spacer
+        from reportlab.platypus import HRFlowable, PageBreak, Paragraph, SimpleDocTemplate, Spacer
     except ModuleNotFoundError as e:
         raise RuntimeError(
             "minute book PDF requires reportlab (see pyproject.toml). "
@@ -2681,7 +2690,9 @@ def _write_minute_book_pdf(markdown: str, pdf_path: str) -> None:
     story: list = []
     for raw in markdown.splitlines():
         line = raw.rstrip()
-        if not line.strip():
+        if line.strip() == MEETING_BOOK_PAGE_BREAK_MARKER:
+            story.append(PageBreak())
+        elif not line.strip():
             story.append(Spacer(1, 10))
         elif line.strip() == "---":
             story.append(Spacer(1, 6))
@@ -2780,17 +2791,24 @@ def generate_company_all_meetings_book(
     if not applicable:
         return
     parts: list[str] = [_minute_book_compilation_header_markdown(co_name, co, applicable)]
+    parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
     for y in applicable:
-        parts.append(f"**Calendar year {y}**")
         cny = f"{safe_company_name}_{y}"
-        parts.extend(_markdown_chunks_for_calendar_year(cny, co_name, y))
+        chunks = _markdown_chunks_for_calendar_year(cny, co_name, y)
+        for i, ch in enumerate(chunks):
+            if i == 0:
+                parts.append(f"**Calendar year {y}**\n\n{ch}")
+            else:
+                parts.append(f"{MEETING_BOOK_PAGE_BREAK_MARKER}\n{ch}")
     book = MEETING_BOOK_SEPARATOR.join(p for p in parts if p)
     os.makedirs(books_dir, exist_ok=True)
     out_docx = os.path.join(books_dir, f"{safe_company_name}_all_meetings_book.docx")
     out_pdf = os.path.join(books_dir, f"{safe_company_name}_all_meetings_book.pdf")
     mdate = annual_meeting_date_str(co, applicable[-1])
     print(f"Writing compiled minute book to {out_docx}")
-    write_docx_from_minutes(book, out_docx, mdate, co_name)
+    write_docx_from_minutes(
+        book, out_docx, mdate, co_name, minute_book_page_breaks=True
+    )
     print(f"Writing compiled minute book PDF to {out_pdf}")
     _write_minute_book_pdf(book, out_pdf)
 
