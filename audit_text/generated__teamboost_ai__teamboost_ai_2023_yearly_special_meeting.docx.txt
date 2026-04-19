@@ -7,7 +7,8 @@ Meeting Details
 Date of Meeting: 2023-12-14
 Time of Meeting: 12:00 PM
 Location of Meeting: Thessaloniki, Greece, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2023-12-14 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -16,16 +17,14 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2023 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Mobile and API Delivery Operations
+RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2023 are hereby ratified, confirmed, and approved in all respects.
 
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.

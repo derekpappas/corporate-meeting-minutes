@@ -115,6 +115,74 @@ def test_development_centers_and_banking_differ_across_registry() -> None:
     assert h["primary_banking_institution"] != d["primary_banking_institution"]
 
 
+def test_board_meeting_materials_acknowledgment_block() -> None:
+    assert cmm.board_meeting_materials_acknowledgment_block({}) == ""
+    assert cmm.board_meeting_materials_acknowledgment_block({"board_meeting_materials_acknowledgment_markdown": ""}) == ""
+    assert cmm.board_meeting_materials_acknowledgment_block({"board_meeting_materials_acknowledgment_markdown": "   "}) == ""
+    out = cmm.board_meeting_materials_acknowledgment_block(
+        {"board_meeting_materials_acknowledgment_markdown": "The Sole Director reviewed **Exhibit C**."}
+    )
+    assert "Exhibit C" in out
+    assert out.endswith("\n\n")
+
+
+def test_board_remote_presence_and_reliance_helpers() -> None:
+    assert "communications equipment" in cmm.board_remote_presence_paragraph({"virtual_ok": True})
+    assert cmm.board_remote_presence_paragraph({"virtual_ok": True, "board_meeting_remote_presence_markdown": ""}) == ""
+    custom = "The Sole Director joined by secure video in accordance with the bylaws."
+    assert custom in cmm.board_remote_presence_paragraph(
+        {"virtual_ok": True, "board_meeting_remote_presence_markdown": custom}
+    )
+    assert "141(e)" in cmm.board_director_reliance_paragraph({"jurisdiction": "DE"})
+    assert cmm.board_director_reliance_paragraph({"jurisdiction": "DE", "board_meeting_reliance_markdown": ""}) == ""
+
+
+def test_principal_address_note_for_wy_filing_address_de_corp() -> None:
+    md = cmm.generate_agm("DATA RECORD SCIENCE, INC.", 2024)
+    assert "**Address note:**" in md
+    assert "designated notice and filing address" in md.lower()
+    assert "delaware general corporation law" in md.lower() or "dgcl" in md.lower()
+
+
+def test_principal_address_note_suppressed_when_empty_override(monkeypatch: pytest.MonkeyPatch) -> None:
+    drs = dict(cmm.companies["DATA RECORD SCIENCE, INC."])
+    drs["minutes_principal_address_note"] = ""
+    reg = {"DATA RECORD SCIENCE, INC.": drs}
+    monkeypatch.setattr(cmm, "companies", reg, raising=False)
+    monkeypatch.setattr(cmm, "company_information", reg, raising=False)
+    md = cmm.generate_agm("DATA RECORD SCIENCE, INC.", 2024)
+    assert "**Address note:**" not in md
+
+
+def test_agm_prior_minutes_first_series_year_after_incorporation_not_denying_history() -> None:
+    """DATA RECORD SCIENCE: inc 2006 but minute series starts 2022—IV must not claim no board meetings ever occurred."""
+    co = cmm.companies["DATA RECORD SCIENCE, INC."]
+    assert co["inc_year"] < co.get("minutes_start_year", co["inc_year"])
+    md = cmm.generate_agm("DATA RECORD SCIENCE, INC.", 2022)
+    assert "no prior annual meeting of the Board was held" not in md
+    low = md.lower()
+    assert "compiled minute book series" in low
+    assert "within this compilation series" in low
+    assert "2006" in md
+    assert "2022" in md
+
+
+def test_agm_prior_minutes_true_first_year_after_incorporation_uses_original_language() -> None:
+    """New corp whose series starts in the incorporation year still uses the true-first-annual wording."""
+    md = cmm.generate_agm("SurveyTeams, Inc.", 2026)
+    assert "no prior annual meeting of the Board was held" in md
+    assert "following incorporation" in md
+
+
+def test_agm_prior_minutes_non_drs_first_year_matches_incorporation_start() -> None:
+    """Registry companies (except DRS) have minutes_start_year == inc_year; first AGM uses incorporation-first wording."""
+    h = cmm.companies["Hippo, Inc"]
+    assert h.get("minutes_start_year", h["inc_year"]) == h["inc_year"]
+    md = cmm.generate_agm("Hippo, Inc", 2022)
+    assert "following incorporation" in md
+    assert "compiled minute book series" not in md.lower()
+
+
 def test_board_special_meeting_on_record_date_for_annual_stockholder_corps() -> None:
     co = cmm.companies["DATA RECORD SCIENCE, INC."]
     y = 2022
@@ -126,6 +194,110 @@ def test_sole_written_consent_wy_uses_unanimous_shareholder_formulation() -> Non
     md = cmm.sole_stockholder_written_consent_markdown("Loki Sports Enterprises, Inc.", 2023)
     assert "W.S. 1977 § 17-16-704" in md
     assert "minimum number of votes" not in md.lower()
+
+
+def test_schedule_seed_from_environment_parses_int_and_hex(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv("CORPORATE_MINUTES_SCHEDULE_SEED", "42")
+    assert cmm.schedule_seed_from_environment() == 42
+    monkeypatch.setenv("CORPORATE_MINUTES_SCHEDULE_SEED", "0x10")
+    assert cmm.schedule_seed_from_environment() == 16
+
+
+def test_scheduled_stockholder_time_without_env_seed_is_nominal(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.delenv("CORPORATE_MINUTES_SCHEDULE_SEED", raising=False)
+    co = {"jurisdiction": "DE", "inc_year": 2020, "minutes_start_year": 2020, "schedule_time_jitter_minutes": 120}
+    reg = {"OnlyCo": co}
+    monkeypatch.setattr(cmm, "companies", reg, raising=False)
+    monkeypatch.setattr(cmm, "company_information", reg, raising=False)
+    assert cmm.scheduled_stockholder_meeting_time(co, 2025) == cmm.STOCKHOLDER_MEETING_TIME
+
+
+def test_q4_quarterly_never_collides_with_december_annual_or_special_board() -> None:
+    """Regression: Q4 anchor can land on the annual weekday; quarterly date must shift within December."""
+    co = cmm.companies["Hippo, Inc"]
+    for year in (2022, 2023, 2024, 2025, 2026):
+        if year < co.get("minutes_start_year", co.get("inc_year", year)):
+            continue
+        annual = cmm.annual_meeting_date_str(co, year)
+        special = cmm.board_special_meeting_date_str(co, year)
+        q4 = cmm.quarterly_meeting_date_str(co, year, "Q4")
+        assert q4 != annual
+        assert q4 != special
+
+
+def test_same_day_meeting_times_ordered_special_then_board_written_consent(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """Heavy jitter must not put annual board AGM before the same-day special board block."""
+    co = {
+        "jurisdiction": "DE",
+        "inc_year": 2020,
+        "minutes_start_year": 2020,
+        "stockholder_meeting": "written_consent",
+        "annual_day_offset": 0,
+        "meeting_stagger_day": 0,
+        "schedule_time_jitter_minutes": 180,
+        "schedule_time_round_minutes": 5,
+    }
+    reg = {"WrittenCo": co}
+    monkeypatch.setattr(cmm, "companies", reg, raising=False)
+    monkeypatch.setattr(cmm, "company_information", reg, raising=False)
+    monkeypatch.setenv("CORPORATE_MINUTES_SCHEDULE_SEED", "99")
+    sp = cmm.scheduled_special_meeting_time(co, 2025)
+    bd = cmm.scheduled_board_agm_time(co, 2025)
+    assert cmm._clock_to_minutes_since_midnight(sp) <= cmm._clock_to_minutes_since_midnight(bd)
+
+
+def test_scheduled_times_deterministic_and_differ_by_company_key(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    co_a = {
+        "jurisdiction": "DE",
+        "inc_year": 2020,
+        "minutes_start_year": 2020,
+        "schedule_time_jitter_minutes": 120,
+    }
+    co_b = {
+        "jurisdiction": "DE",
+        "inc_year": 2020,
+        "minutes_start_year": 2020,
+        "schedule_time_jitter_minutes": 120,
+    }
+    reg = {"AlphaScheduleCo": co_a, "BetaScheduleCo": co_b}
+    monkeypatch.setattr(cmm, "companies", reg, raising=False)
+    monkeypatch.setattr(cmm, "company_information", reg, raising=False)
+    monkeypatch.setenv("CORPORATE_MINUTES_SCHEDULE_SEED", "7")
+    ta = cmm.scheduled_stockholder_meeting_time(co_a, 2025)
+    assert ta == cmm.scheduled_stockholder_meeting_time(co_a, 2025)
+    tb = cmm.scheduled_stockholder_meeting_time(co_b, 2025)
+    assert ta != tb
+
+
+def test_stockholder_minutes_default_does_not_claim_waivers_on_file() -> None:
+    """Default: annual stockholder minutes use to-be-filed exhibit wording (DRS waiver_focus)."""
+    md = cmm.generate_annual_meeting_stockholders("DATA RECORD SCIENCE, INC.", 2024)
+    assert "on file" not in md.lower()
+    assert "to be filed" in md.lower() or "are to be filed" in md.lower()
+
+
+def test_stockholder_minutes_may_claim_on_file_when_assert_exhibits_flag(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    co = dict(cmm.companies["DATA RECORD SCIENCE, INC."])
+    co["minutes_assert_exhibits_filed"] = True
+    reg = {"DATA RECORD SCIENCE, INC.": co}
+    monkeypatch.setattr(cmm, "companies", reg, raising=False)
+    monkeypatch.setattr(cmm, "company_information", reg, raising=False)
+    md = cmm.generate_annual_meeting_stockholders("DATA RECORD SCIENCE, INC.", 2024)
+    assert "on file" in md.lower()
+
+
+def test_agm_written_consent_cross_ref_default_pending_filing() -> None:
+    md = cmm.generate_agm("Hippo, Inc", 2023)
+    assert "will be filed" in md.lower()
+    assert "upon execution" in md.lower()
 
 
 def test_loki_registry_has_wy_jurisdiction_no_dgcl_in_scanned_fields() -> None:

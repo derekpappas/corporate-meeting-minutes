@@ -5,6 +5,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: SurveyTeams, Inc.
 Principal Address: 30 N Gould St #58611, Sheridan, WY 82801, USA
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2026-12-18
 Time: 1:00 PM
 Place: Wayne, Pennsylvania, via digital communication
@@ -20,27 +21,25 @@ Derek E. Pappas (Sole Director)
 Director Absent:
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law.
 The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 IV. Approval of Prior Minutes
 This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2026; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Egypt; United Arab Emirates; United States (distributed), while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  All survey instruments, weighting libraries, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including founder advances, deferred vendor invoices, and similar items that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2027, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed survey research tooling and fieldwork coverage for 2027, including respondent privacy controls, sample-weighting methodology, and multilingual instrument delivery.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -52,7 +51,7 @@ Approval of 2027 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2027 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Mercury Bank, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 

@@ -3,11 +3,14 @@ Ritual Growth, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2024)
 
-- Interns worked on the project during the summer.
+- Interns contributed to web features and QA during the summer program
+- Maintained API and web application releases through the remainder of the year
+- Continued use of contractor development centers in Poland, Romania, and Portugal
+- Kept hosting footprint on DigitalOcean and Hetzner under review
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).

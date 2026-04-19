@@ -5,6 +5,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: Ritual Growth, Inc.
 Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2022-12-13
 Time: 1:00 PM
 Place: Wayne, Pennsylvania, via digital communication
@@ -17,30 +18,24 @@ III. Roll Call and Quorum
 Director Present:
 Derek E. Pappas (Sole Director)
 
-Director Absent:
-None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+There were no additional directors and no absences. The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 IV. Approval of Prior Minutes
 This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2022; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Sunny Isles, Florida; Wayne, Pennsylvania, USA; Portland, Oregon and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2022: No material product development was recorded for the Corporation during the period. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Sunny Isles, Florida; Wayne, Pennsylvania, USA; Portland, Oregon and development from Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2022: Continued delivery on the Corporation’s web stack and APIs with contractor teams in Poland, Romania, and Portugal. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2023, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed go-to-market and client delivery priorities for 2023, including mobile companion workstreams, partner channel commitments, and release scheduling for the Corporation’s core web stack.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -52,12 +47,12 @@ Approval of 2023 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2023 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2022)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 13, 2022, adopting stockholder resolutions under DGCL §228 for the year 2022, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 13, 2022, adopting stockholder resolutions under DGCL §228 for the year 2022, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment

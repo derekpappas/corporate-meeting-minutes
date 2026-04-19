@@ -125,33 +125,47 @@
       ]
     },
     "2022": {
-      "summary": "No material product development was recorded for the Corporation during the period.",
+      "summary": "Continued delivery on the Corporation’s web stack and APIs with contractor teams in Poland, Romania, and Portugal.",
       "annual_report": [
-        "No work was performed."
+        "Maintained and extended core HTTP APIs and server-side services for the Corporation’s web applications",
+        "Released iterative UI and workflow improvements on the primary web product",
+        "Coordinated contractor engineering across Poland, Romania, and Portugal (no development work was performed in Bosnia and Herzegovina)",
+        "Ran staging and production workloads on DigitalOcean and Hetzner"
       ]
     },
     "2023": {
-      "summary": "No material product development was recorded for the Corporation during the period.",
+      "summary": "Ongoing web and API development with distributed contractors in Poland, Romania, and Portugal.",
       "annual_report": [
-        "No work was performed."
+        "Extended API coverage and reliability for customer-facing web workflows",
+        "Hardened authentication and session handling paths on the web stack",
+        "Continued contractor-led development in Poland, Romania, and Portugal",
+        "Refined deployment and monitoring on DigitalOcean and Hetzner"
       ]
     },
     "2024": {
-      "summary": "Limited development phase: summer intern contributions to the project.",
+      "summary": "Product and intern contributions: summer intern work alongside core web and API maintenance.",
       "annual_report": [
-        "Interns worked on the project during the summer."
+        "Interns contributed to web features and QA during the summer program",
+        "Maintained API and web application releases through the remainder of the year",
+        "Continued use of contractor development centers in Poland, Romania, and Portugal",
+        "Kept hosting footprint on DigitalOcean and Hetzner under review"
       ]
     },
     "2025": {
-      "summary": "Limited development phase: summer intern contributions to the project.",
+      "summary": "Continued web/API iteration with intern support and contractor teams in Poland, Romania, and Portugal.",
       "annual_report": [
-        "Interns worked on the project during the summer."
+        "Summer interns supported feature development and testing on the web stack",
+        "Shipped maintenance releases for APIs and supporting services",
+        "Sustained contractor coordination in Poland, Romania, and Portugal",
+        "Documented hosting and backup posture on DigitalOcean and Hetzner"
       ]
     },
     "2026": {
       "summary": "Planning and build-out phase: system flow definition and initial data systems.",
       "annual_report": [
-        "Defined the full system flow and began building data collection and aggregation systems."
+        "Defined end-to-end system flows for upcoming releases",
+        "Started data collection and aggregation prototypes aligned with the web stack",
+        "Aligned contractor roadmap across Poland, Romania, and Portugal"
       ]
     }
   }

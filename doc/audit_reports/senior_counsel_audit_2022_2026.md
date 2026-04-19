@@ -4,7 +4,7 @@
 
 **Method**: `Senior counsel prompt/senior_counsel_audit_prompt.md` (Sections I–VI + Add-ons A–F), **strict** application (“silence is risk”).
 
-**Corpus**: `audit_text/` — **167** plain-text extracts from `generated/` (`corporate_meeting_minutes.py --output-root generated` + `scripts/extract_audit_text.py`, **2026-04-04**). Set includes quarterly, AGM, special, stockholder consent (or DRS stockholder meeting stack), **board notice waivers** (`waiver_of_notice_board_meetings`), and DRS notice/waiver/ratification where applicable.
+**Corpus**: `audit_text/` — **232** plain-text extracts from `generated/` (`corporate_meeting_minutes.py --output-root generated` + `scripts/extract_audit_text.py`, **2026-04-18**). Set includes quarterly, AGM, special, stockholder consent (or DRS / SurveyTeams stockholder meeting stacks), **board notice waivers** (`waiver_of_notice_board_meetings`), compiled **all_meetings_book** extracts, DRS notice/waiver/ratification where applicable, and **Loki** (Wyoming) board minutes.
 
 **COI / bylaws**: Charter OCR text under `ocr_text/` for **Hippo** (`Hippo, Inc. - Certificate of Incorporation (filed).ocr.docx.txt`), **Ritual**, **TeamBoost**, and **DRS**. **Hippo** consents/waivers cite **Amended and Restated Bylaws** (**Article III §13**, **Article IV §21**). **Ritual** and **TeamBoost** cite **By-Laws** (**Article II §9** consent; **Article III §8** and **Article VIII §4** board notice/waiver). **DRS** stockholder-side docs remain generic “bylaws” unless extended. Spot-check live filed charters and bylaws for amendments.
 

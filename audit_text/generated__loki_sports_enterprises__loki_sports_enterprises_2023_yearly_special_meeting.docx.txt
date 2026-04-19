@@ -7,7 +7,8 @@ Meeting Details
 Date of Meeting: 2023-12-16
 Time of Meeting: 12:00 PM
 Location of Meeting: Thessaloniki, Greece, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
+Purpose: Pre-annual review of sports media products and venue-facing integrations
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 12:00 PM on 2023-12-16 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -16,19 +17,17 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2023 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Sports Media and Venue Integration Work
+RESOLVED, that engineering and commercial decisions affecting the Corporation’s sports media stack and venue-facing integrations during 2023 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+The Sole Director stated that he relied in good faith on officer-prepared financial and operational materials and on other information reasonably believed reliable on matters within the presenters’ areas of competence, consistent with W.S. 1977 § 17-16-830 of the Wyoming Business Corporation Act.
 
 
 IV. Adjournment:

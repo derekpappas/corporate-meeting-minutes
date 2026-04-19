@@ -3,11 +3,14 @@ Ritual Growth, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2022 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2022 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2022)
 
-- No work was performed.
+- Maintained and extended core HTTP APIs and server-side services for the Corporation’s web applications
+- Released iterative UI and workflow improvements on the primary web product
+- Coordinated contractor engineering across Poland, Romania, and Portugal (no development work was performed in Bosnia and Herzegovina)
+- Ran staging and production workloads on DigitalOcean and Hetzner
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).

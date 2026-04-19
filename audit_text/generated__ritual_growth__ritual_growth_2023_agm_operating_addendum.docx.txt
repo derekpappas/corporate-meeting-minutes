@@ -3,11 +3,14 @@ Ritual Growth, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2023)
 
-- No work was performed.
+- Extended API coverage and reliability for customer-facing web workflows
+- Hardened authentication and session handling paths on the web stack
+- Continued contractor-led development in Poland, Romania, and Portugal
+- Refined deployment and monitoring on DigitalOcean and Hetzner
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).

@@ -1,6 +1,8 @@
-Minute book compilation — all meetings
-Ritual Growth, Inc.
-*(single document: all meetings generated for calendar years 2022 through 2026)*
+Ritual Growth, Inc. — board minute compilation
+
+*Years 2022–2026 (inclusive). This compilation is not represented as exhaustive of all corporate acts.*
+
+*Exhibits are referenced only where the underlying minutes call for them; physical execution copies may be cross-filed.*
 
 ---
 
@@ -13,6 +15,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: Ritual Growth, Inc.
 Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2022-12-13
 Time: 1:00 PM
 Place: Wayne, Pennsylvania, via digital communication
@@ -25,30 +28,24 @@ III. Roll Call and Quorum
 Director Present:
 Derek E. Pappas (Sole Director)
 
-Director Absent:
-None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+There were no additional directors and no absences. The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 IV. Approval of Prior Minutes
 This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2022; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Sunny Isles, Florida; Wayne, Pennsylvania, USA; Portland, Oregon and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2022: No material product development was recorded for the Corporation during the period. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Sunny Isles, Florida; Wayne, Pennsylvania, USA; Portland, Oregon and development from Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2022: Continued delivery on the Corporation’s web stack and APIs with contractor teams in Poland, Romania, and Portugal. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2023, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed go-to-market and client delivery priorities for 2023, including mobile companion workstreams, partner channel commitments, and release scheduling for the Corporation’s core web stack.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -60,12 +57,12 @@ Approval of 2023 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2023 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2022)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 13, 2022, adopting stockholder resolutions under DGCL §228 for the year 2022, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 13, 2022, adopting stockholder resolutions under DGCL §228 for the year 2022, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -87,11 +84,14 @@ Ritual Growth, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2022 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2022 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2022)
 
-- No work was performed.
+- Maintained and extended core HTTP APIs and server-side services for the Corporation’s web applications
+- Released iterative UI and workflow improvements on the primary web product
+- Coordinated contractor engineering across Poland, Romania, and Portugal (no development work was performed in Bosnia and Herzegovina)
+- Ran staging and production workloads on DigitalOcean and Hetzner
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
@@ -107,28 +107,26 @@ Meeting Details
 Date of Meeting: 2022-12-13
 Time of Meeting: 12:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of product delivery, hosting footprint, and partner commitments
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 12:00 PM on 2022-12-13 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2022 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Product Delivery and Hosting Operations
+RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s web applications and API services during 2022 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Adjournment:
@@ -212,29 +210,27 @@ Meeting Details
 Date of Meeting: 2022-04-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Sunny Isles, Florida, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-04-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -261,29 +257,27 @@ Meeting Details
 Date of Meeting: 2022-07-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-07-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -310,29 +304,27 @@ Meeting Details
 Date of Meeting: 2022-10-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-10-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -359,29 +351,27 @@ Meeting Details
 Date of Meeting: 2022-12-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-12-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -408,6 +398,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: Ritual Growth, Inc.
 Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2023-12-12
 Time: 1:00 PM
 Place: Thessaloniki, Greece, via digital communication
@@ -420,30 +411,24 @@ III. Roll Call and Quorum
 Director Present:
 Derek E. Pappas (Sole Director)
 
-Director Absent:
-None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+There were no additional directors and no absences. With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2022-12-13 were reviewed and approved by the Sole Director.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2023: No material product development was recorded for the Corporation during the period. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2023: Ongoing web and API development with distributed contractors in Poland, Romania, and Portugal. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2024, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed go-to-market and client delivery priorities for 2024, including mobile companion workstreams, partner channel commitments, and release scheduling for the Corporation’s core web stack.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -455,12 +440,12 @@ Approval of 2024 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2024 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2023)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 12, 2023, adopting stockholder resolutions under DGCL §228 for the year 2023, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 12, 2023, adopting stockholder resolutions under DGCL §228 for the year 2023, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -482,11 +467,14 @@ Ritual Growth, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2023)
 
-- No work was performed.
+- Extended API coverage and reliability for customer-facing web workflows
+- Hardened authentication and session handling paths on the web stack
+- Continued contractor-led development in Poland, Romania, and Portugal
+- Refined deployment and monitoring on DigitalOcean and Hetzner
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
@@ -502,28 +490,26 @@ Meeting Details
 Date of Meeting: 2023-12-12
 Time of Meeting: 12:00 PM
 Location of Meeting: Thessaloniki, Greece, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of product delivery, hosting footprint, and partner commitments
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 12:00 PM on 2023-12-12 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2023 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Product Delivery and Hosting Operations
+RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s web applications and API services during 2023 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Adjournment:
@@ -607,29 +593,27 @@ Meeting Details
 Date of Meeting: 2023-04-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-04-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -656,29 +640,27 @@ Meeting Details
 Date of Meeting: 2023-07-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-07-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -705,29 +687,27 @@ Meeting Details
 Date of Meeting: 2023-10-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Knoxville, TN, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-10-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -754,29 +734,27 @@ Meeting Details
 Date of Meeting: 2023-12-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Thessaloniki, Greece, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -803,6 +781,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: Ritual Growth, Inc.
 Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2024-12-10
 Time: 1:00 PM
 Place: Denver, NC, via digital communication
@@ -815,30 +794,24 @@ III. Roll Call and Quorum
 Director Present:
 Derek E. Pappas (Sole Director)
 
-Director Absent:
-None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+There were no additional directors and no absences. With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-12 were reviewed and approved by the Sole Director.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2024: Limited development phase: summer intern contributions to the project. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2024: Product and intern contributions: summer intern work alongside core web and API maintenance. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2025, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed go-to-market and client delivery priorities for 2025, including mobile companion workstreams, partner channel commitments, and release scheduling for the Corporation’s core web stack.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -850,12 +823,12 @@ Approval of 2025 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2025 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2024)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 10, 2024, adopting stockholder resolutions under DGCL §228 for the year 2024, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 10, 2024, adopting stockholder resolutions under DGCL §228 for the year 2024, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -877,11 +850,14 @@ Ritual Growth, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2024)
 
-- Interns worked on the project during the summer.
+- Interns contributed to web features and QA during the summer program
+- Maintained API and web application releases through the remainder of the year
+- Continued use of contractor development centers in Poland, Romania, and Portugal
+- Kept hosting footprint on DigitalOcean and Hetzner under review
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
@@ -897,25 +873,23 @@ Meeting Details
 Date of Meeting: 2024-12-10
 Time of Meeting: 12:00 PM
 Location of Meeting: Denver, NC, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of product delivery, hosting footprint, and partner commitments
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 12:00 PM on 2024-12-10 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2024 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Product Delivery and Hosting Operations
+RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s web applications and API services during 2024 are hereby ratified, confirmed, and approved in all respects.
 
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
@@ -1002,29 +976,27 @@ Meeting Details
 Date of Meeting: 2024-04-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-04-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1051,29 +1023,27 @@ Meeting Details
 Date of Meeting: 2024-07-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-07-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1100,21 +1070,19 @@ Meeting Details
 Date of Meeting: 2024-10-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Hoegaarden, Belgium, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-10-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
 
@@ -1122,7 +1090,7 @@ In taking the actions reflected in these minutes, the Sole Director relied in go
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1149,29 +1117,27 @@ Meeting Details
 Date of Meeting: 2024-12-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Denver, NC, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1198,6 +1164,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: Ritual Growth, Inc.
 Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2025-12-09
 Time: 1:00 PM
 Place: Wayne, Pennsylvania, via digital communication
@@ -1210,30 +1177,24 @@ III. Roll Call and Quorum
 Director Present:
 Derek E. Pappas (Sole Director)
 
-Director Absent:
-None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+There were no additional directors and no absences. The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2024-12-10 were reviewed and approved by the Sole Director.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2025: Limited development phase: summer intern contributions to the project. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and development from Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2025: Continued web/API iteration with intern support and contractor teams in Poland, Romania, and Portugal. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2026, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed go-to-market and client delivery priorities for 2026, including mobile companion workstreams, partner channel commitments, and release scheduling for the Corporation’s core web stack.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -1245,12 +1206,12 @@ Approval of 2026 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2026 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2025)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 09, 2025, adopting stockholder resolutions under DGCL §228 for the year 2025, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 09, 2025, adopting stockholder resolutions under DGCL §228 for the year 2025, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -1272,11 +1233,14 @@ Ritual Growth, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2025)
 
-- Interns worked on the project during the summer.
+- Summer interns supported feature development and testing on the web stack
+- Shipped maintenance releases for APIs and supporting services
+- Sustained contractor coordination in Poland, Romania, and Portugal
+- Documented hosting and backup posture on DigitalOcean and Hetzner
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
@@ -1292,28 +1256,26 @@ Meeting Details
 Date of Meeting: 2025-12-09
 Time of Meeting: 12:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of product delivery, hosting footprint, and partner commitments
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 12:00 PM on 2025-12-09 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2025 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Product Delivery and Hosting Operations
+RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s web applications and API services during 2025 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Adjournment:
@@ -1397,29 +1359,27 @@ Meeting Details
 Date of Meeting: 2025-04-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-04-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1446,29 +1406,27 @@ Meeting Details
 Date of Meeting: 2025-07-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-07-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1495,29 +1453,27 @@ Meeting Details
 Date of Meeting: 2025-10-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-10-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1544,29 +1500,27 @@ Meeting Details
 Date of Meeting: 2025-12-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1593,6 +1547,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: Ritual Growth, Inc.
 Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2026-12-15
 Time: 1:00 PM
 Place: Wayne, Pennsylvania, via digital communication
@@ -1605,30 +1560,24 @@ III. Roll Call and Quorum
 Director Present:
 Derek E. Pappas (Sole Director)
 
-Director Absent:
-None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+There were no additional directors and no absences. The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2025-12-09 were reviewed and approved by the Sole Director.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2026: Planning and build-out phase: system flow definition and initial data systems. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2026: Planning and build-out phase: system flow definition and initial data systems. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2027, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed go-to-market and client delivery priorities for 2027, including mobile companion workstreams, partner channel commitments, and release scheduling for the Corporation’s core web stack.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -1640,12 +1589,12 @@ Approval of 2027 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2027 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2026)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 15, 2026, adopting stockholder resolutions under DGCL §228 for the year 2026, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 15, 2026, adopting stockholder resolutions under DGCL §228 for the year 2026, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -1667,11 +1616,13 @@ Ritual Growth, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2026 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2026 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2026)
 
-- Defined the full system flow and began building data collection and aggregation systems.
+- Defined end-to-end system flows for upcoming releases
+- Started data collection and aggregation prototypes aligned with the web stack
+- Aligned contractor roadmap across Poland, Romania, and Portugal
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
@@ -1687,28 +1638,26 @@ Meeting Details
 Date of Meeting: 2026-12-15
 Time of Meeting: 12:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of product delivery, hosting footprint, and partner commitments
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-15 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2026 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Product Delivery and Hosting Operations
+RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s web applications and API services during 2026 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Adjournment:
@@ -1792,21 +1741,19 @@ Meeting Details
 Date of Meeting: 2026-04-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-04-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
 
@@ -1814,7 +1761,7 @@ In taking the actions reflected in these minutes, the Sole Director relied in go
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1841,29 +1788,27 @@ Meeting Details
 Date of Meeting: 2026-07-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-07-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1890,21 +1835,19 @@ Meeting Details
 Date of Meeting: 2026-10-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-10-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
 
@@ -1912,7 +1855,7 @@ In taking the actions reflected in these minutes, the Sole Director relied in go
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1939,29 +1882,27 @@ Meeting Details
 Date of Meeting: 2026-12-02
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-02 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Poland; Romania; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 

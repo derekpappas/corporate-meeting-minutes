@@ -1,6 +1,8 @@
-Minute book compilation — all meetings
-Loki Sports Enterprises, Inc.
-*(single document: all meetings generated for calendar years 2023 through 2026)*
+Wyoming corporation — compiled board minutes
+
+Loki Sports Enterprises, Inc. (2023–2026).
+
+*Wyoming-law references in these minutes follow the Wyoming Business Corporation Act. Exhibit cross-references are to records on file for the Corporation.*
 
 ---
 
@@ -13,6 +15,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: Loki Sports Enterprises, Inc.
 Principal Address: 30 N Gould St Ste 24709, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 Date: 2023-12-16
 Time: 1:00 PM
 Place: Thessaloniki, Greece, via digital communication
@@ -28,27 +31,24 @@ Derek E. Pappas (Sole Director)
 Director Absent:
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Wyoming Business Corporation Act. The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 IV. Approval of Prior Minutes
 This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2023; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from United States; Pakistan, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized sports-media and venue-integration work during the year, including coordination with domestic (United States) operations and hockey stick manufacturing run through Pakistan-based production partners, with inventory and quality oversight centralized through the Corporation.  All sports-media software, venue-integration tooling, product designs, manufacturing specifications for hockey sticks produced through the Corporation’s supply chain, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including equipment financing and season-cycle receivables that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+For the resolutions adopted here, the Sole Director relied in good faith on materials furnished for the meeting and on oral and written presentations from officers, in each case on subjects treated as within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act).
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2024, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed fan engagement, venue partnerships, and media integrations for 2024, including tournament-season logistics, rights-holder coordination, and in-venue mobile experiences.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -60,12 +60,12 @@ Approval of 2024 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2024 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Truist Bank, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2023)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 16, 2023, adopting stockholder resolutions under the applicable provisions of the Wyoming Business Corporation Act for the year 2023, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 16, 2023, adopting stockholder resolutions under W.S. 1977 § 17-16-704 for the year 2023, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -91,7 +91,8 @@ Meeting Details
 Date of Meeting: 2023-12-16
 Time of Meeting: 12:00 PM
 Location of Meeting: Thessaloniki, Greece, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
+Purpose: Pre-annual review of sports media products and venue-facing integrations
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 12:00 PM on 2023-12-16 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -100,19 +101,17 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2023 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Sports Media and Venue Integration Work
+RESOLVED, that engineering and commercial decisions affecting the Corporation’s sports media stack and venue-facing integrations during 2023 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+The Sole Director stated that he relied in good faith on officer-prepared financial and operational materials and on other information reasonably believed reliable on matters within the presenters’ areas of competence, consistent with W.S. 1977 § 17-16-830 of the Wyoming Business Corporation Act.
 
 
 IV. Adjournment:
@@ -133,9 +132,9 @@ Name: Derek E. Pappas
 Loki Sports Enterprises, Inc.
 Written Consent of Sole Stockholder
 Action by Written Consent of Stockholders
-(annual meeting of stockholders)
+(W.S. 1977 § 17-16-704; annual meeting of stockholders)
 
-The undersigned, being the sole stockholder of Loki Sports Enterprises, Inc., a WY corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Wyoming Business Corporation Act, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned, being the sole stockholder of Loki Sports Enterprises, Inc., a WY corporation (the "Corporation"), and constituting all shareholders entitled to vote on the following matters, hereby adopts the following resolutions by written consent without a meeting pursuant to W.S. 1977 § 17-16-704 and the Wyoming Business Corporation Act, to the same extent as if the resolutions were approved at a duly held shareholders’ meeting by the unanimous vote of all shares entitled to vote thereon. The undersigned directs that this consent be delivered to the Corporation for inclusion in the minutes or filing with the corporate records as required by law. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the articles of incorporation do not prohibit shareholder action by written consent in the manner set forth herein.
 Approval of Board Actions
 RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 16, 2023 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
 
@@ -194,6 +193,7 @@ Meeting Details
 Date of Meeting: 2023-04-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-04-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -202,21 +202,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Wyoming Business Corporation Act. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+For the resolutions adopted here, the Sole Director relied in good faith on materials furnished for the meeting and on oral and written presentations from officers, in each case on subjects treated as within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -243,6 +241,7 @@ Meeting Details
 Date of Meeting: 2023-07-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-07-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -251,21 +250,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Wyoming Business Corporation Act. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -292,6 +289,7 @@ Meeting Details
 Date of Meeting: 2023-10-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Knoxville, TN, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-10-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -300,21 +298,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Wyoming Business Corporation Act. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+For the resolutions adopted here, the Sole Director relied in good faith on materials furnished for the meeting and on oral and written presentations from officers, in each case on subjects treated as within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -341,6 +337,7 @@ Meeting Details
 Date of Meeting: 2023-12-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Thessaloniki, Greece, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -349,21 +346,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Wyoming Business Corporation Act. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+The Sole Director stated that he relied in good faith on officer-prepared financial and operational materials and on other information reasonably believed reliable on matters within the presenters’ areas of competence, consistent with W.S. 1977 § 17-16-830 of the Wyoming Business Corporation Act.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -390,6 +385,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: Loki Sports Enterprises, Inc.
 Principal Address: 30 N Gould St Ste 24709, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 Date: 2024-12-14
 Time: 1:00 PM
 Place: Denver, NC, via digital communication
@@ -405,27 +401,24 @@ Derek E. Pappas (Sole Director)
 Director Absent:
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Wyoming Business Corporation Act. The Sole Director confirmed that notice of the meeting was duly given or waived.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-16 were reviewed and approved by the Sole Director.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from United States; Pakistan, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized sports-media and venue-integration work during the year, including coordination with domestic (United States) operations and hockey stick manufacturing run through Pakistan-based production partners, with inventory and quality oversight centralized through the Corporation.  All sports-media software, venue-integration tooling, product designs, manufacturing specifications for hockey sticks produced through the Corporation’s supply chain, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including equipment financing and season-cycle receivables that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+The Sole Director stated that he relied in good faith on officer-prepared financial and operational materials and on other information reasonably believed reliable on matters within the presenters’ areas of competence, consistent with W.S. 1977 § 17-16-830 of the Wyoming Business Corporation Act.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2025, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed fan engagement, venue partnerships, and media integrations for 2025, including tournament-season logistics, rights-holder coordination, and in-venue mobile experiences.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -437,12 +430,12 @@ Approval of 2025 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2025 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Truist Bank, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2024)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 14, 2024, adopting stockholder resolutions under the applicable provisions of the Wyoming Business Corporation Act for the year 2024, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 14, 2024, adopting stockholder resolutions under W.S. 1977 § 17-16-704 for the year 2024, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -468,7 +461,8 @@ Meeting Details
 Date of Meeting: 2024-12-14
 Time of Meeting: 12:00 PM
 Location of Meeting: Denver, NC, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
+Purpose: Pre-annual review of sports media products and venue-facing integrations
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 12:00 PM on 2024-12-14 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -477,19 +471,17 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2024 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Sports Media and Venue Integration Work
+RESOLVED, that engineering and commercial decisions affecting the Corporation’s sports media stack and venue-facing integrations during 2024 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 IV. Adjournment:
@@ -510,9 +502,9 @@ Name: Derek E. Pappas
 Loki Sports Enterprises, Inc.
 Written Consent of Sole Stockholder
 Action by Written Consent of Stockholders
-(annual meeting of stockholders)
+(W.S. 1977 § 17-16-704; annual meeting of stockholders)
 
-The undersigned, being the sole stockholder of Loki Sports Enterprises, Inc., a WY corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Wyoming Business Corporation Act, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned, being the sole stockholder of Loki Sports Enterprises, Inc., a WY corporation (the "Corporation"), and constituting all shareholders entitled to vote on the following matters, hereby adopts the following resolutions by written consent without a meeting pursuant to W.S. 1977 § 17-16-704 and the Wyoming Business Corporation Act, to the same extent as if the resolutions were approved at a duly held shareholders’ meeting by the unanimous vote of all shares entitled to vote thereon. The undersigned directs that this consent be delivered to the Corporation for inclusion in the minutes or filing with the corporate records as required by law. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the articles of incorporation do not prohibit shareholder action by written consent in the manner set forth herein.
 Approval of Board Actions
 RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 14, 2024 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
 
@@ -571,6 +563,7 @@ Meeting Details
 Date of Meeting: 2024-04-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-04-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -579,21 +572,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Wyoming Business Corporation Act. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -620,6 +611,7 @@ Meeting Details
 Date of Meeting: 2024-07-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-07-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -628,21 +620,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Wyoming Business Corporation Act. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+For the resolutions adopted here, the Sole Director relied in good faith on materials furnished for the meeting and on oral and written presentations from officers, in each case on subjects treated as within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -669,6 +659,7 @@ Meeting Details
 Date of Meeting: 2024-10-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Hoegaarden, Belgium, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-10-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -677,21 +668,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act. The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -718,6 +707,7 @@ Meeting Details
 Date of Meeting: 2024-12-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Denver, NC, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -726,21 +716,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Wyoming Business Corporation Act. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+The Sole Director stated that he relied in good faith on officer-prepared financial and operational materials and on other information reasonably believed reliable on matters within the presenters’ areas of competence, consistent with W.S. 1977 § 17-16-830 of the Wyoming Business Corporation Act.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -767,6 +755,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: Loki Sports Enterprises, Inc.
 Principal Address: 30 N Gould St Ste 24709, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 Date: 2025-12-13
 Time: 1:00 PM
 Place: Wayne, Pennsylvania, via digital communication
@@ -782,27 +771,24 @@ Derek E. Pappas (Sole Director)
 Director Absent:
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2024-12-14 were reviewed and approved by the Sole Director.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and development from United States; Pakistan, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized sports-media and venue-integration work during the year, including coordination with domestic (United States) operations and hockey stick manufacturing run through Pakistan-based production partners, with inventory and quality oversight centralized through the Corporation.  All sports-media software, venue-integration tooling, product designs, manufacturing specifications for hockey sticks produced through the Corporation’s supply chain, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including equipment financing and season-cycle receivables that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2026, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed fan engagement, venue partnerships, and media integrations for 2026, including tournament-season logistics, rights-holder coordination, and in-venue mobile experiences.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -814,12 +800,12 @@ Approval of 2026 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2026 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Truist Bank, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2025)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 13, 2025, adopting stockholder resolutions under the applicable provisions of the Wyoming Business Corporation Act for the year 2025, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 13, 2025, adopting stockholder resolutions under W.S. 1977 § 17-16-704 for the year 2025, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -845,7 +831,8 @@ Meeting Details
 Date of Meeting: 2025-12-13
 Time of Meeting: 12:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
+Purpose: Pre-annual review of sports media products and venue-facing integrations
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 12:00 PM on 2025-12-13 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -854,19 +841,17 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Wyoming Business Corporation Act. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2025 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Sports Media and Venue Integration Work
+RESOLVED, that engineering and commercial decisions affecting the Corporation’s sports media stack and venue-facing integrations during 2025 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 IV. Adjournment:
@@ -887,9 +872,9 @@ Name: Derek E. Pappas
 Loki Sports Enterprises, Inc.
 Written Consent of Sole Stockholder
 Action by Written Consent of Stockholders
-(annual meeting of stockholders)
+(W.S. 1977 § 17-16-704; annual meeting of stockholders)
 
-The undersigned, being the sole stockholder of Loki Sports Enterprises, Inc., a WY corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Wyoming Business Corporation Act, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned, being the sole stockholder of Loki Sports Enterprises, Inc., a WY corporation (the "Corporation"), and constituting all shareholders entitled to vote on the following matters, hereby adopts the following resolutions by written consent without a meeting pursuant to W.S. 1977 § 17-16-704 and the Wyoming Business Corporation Act, to the same extent as if the resolutions were approved at a duly held shareholders’ meeting by the unanimous vote of all shares entitled to vote thereon. The undersigned directs that this consent be delivered to the Corporation for inclusion in the minutes or filing with the corporate records as required by law. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the articles of incorporation do not prohibit shareholder action by written consent in the manner set forth herein.
 Approval of Board Actions
 RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 13, 2025 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
 
@@ -948,6 +933,7 @@ Meeting Details
 Date of Meeting: 2025-04-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-04-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -956,21 +942,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Wyoming Business Corporation Act. The Sole Director confirmed that notice of the meeting was duly given or waived.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+For the resolutions adopted here, the Sole Director relied in good faith on materials furnished for the meeting and on oral and written presentations from officers, in each case on subjects treated as within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -997,6 +981,7 @@ Meeting Details
 Date of Meeting: 2025-07-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-07-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1005,21 +990,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act. The Sole Director confirmed that notice of the meeting was duly given or waived.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+For the resolutions adopted here, the Sole Director relied in good faith on materials furnished for the meeting and on oral and written presentations from officers, in each case on subjects treated as within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1046,6 +1029,7 @@ Meeting Details
 Date of Meeting: 2025-10-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-10-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1054,21 +1038,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Wyoming Business Corporation Act. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1095,6 +1077,7 @@ Meeting Details
 Date of Meeting: 2025-12-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1103,21 +1086,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Wyoming Business Corporation Act. The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+The Sole Director stated that he relied in good faith on officer-prepared financial and operational materials and on other information reasonably believed reliable on matters within the presenters’ areas of competence, consistent with W.S. 1977 § 17-16-830 of the Wyoming Business Corporation Act.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1144,6 +1125,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: Loki Sports Enterprises, Inc.
 Principal Address: 30 N Gould St Ste 24709, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 Date: 2026-12-19
 Time: 1:00 PM
 Place: Wayne, Pennsylvania, via digital communication
@@ -1159,27 +1141,24 @@ Derek E. Pappas (Sole Director)
 Director Absent:
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Wyoming Business Corporation Act. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2025-12-13 were reviewed and approved by the Sole Director.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from United States; Pakistan, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized sports-media and venue-integration work during the year, including coordination with domestic (United States) operations and hockey stick manufacturing run through Pakistan-based production partners, with inventory and quality oversight centralized through the Corporation.  All sports-media software, venue-integration tooling, product designs, manufacturing specifications for hockey sticks produced through the Corporation’s supply chain, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including equipment financing and season-cycle receivables that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+For the resolutions adopted here, the Sole Director relied in good faith on materials furnished for the meeting and on oral and written presentations from officers, in each case on subjects treated as within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act).
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2027, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed fan engagement, venue partnerships, and media integrations for 2027, including tournament-season logistics, rights-holder coordination, and in-venue mobile experiences.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -1191,12 +1170,12 @@ Approval of 2027 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2027 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Truist Bank, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2026)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 19, 2026, adopting stockholder resolutions under the applicable provisions of the Wyoming Business Corporation Act for the year 2026, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 19, 2026, adopting stockholder resolutions under W.S. 1977 § 17-16-704 for the year 2026, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -1222,7 +1201,8 @@ Meeting Details
 Date of Meeting: 2026-12-19
 Time of Meeting: 12:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
+Purpose: Pre-annual review of sports media products and venue-facing integrations
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-19 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1231,19 +1211,17 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Wyoming Business Corporation Act. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2026 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Sports Media and Venue Integration Work
+RESOLVED, that engineering and commercial decisions affecting the Corporation’s sports media stack and venue-facing integrations during 2026 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+For the resolutions adopted here, the Sole Director relied in good faith on materials furnished for the meeting and on oral and written presentations from officers, in each case on subjects treated as within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act).
 
 
 IV. Adjournment:
@@ -1264,9 +1242,9 @@ Name: Derek E. Pappas
 Loki Sports Enterprises, Inc.
 Written Consent of Sole Stockholder
 Action by Written Consent of Stockholders
-(annual meeting of stockholders)
+(W.S. 1977 § 17-16-704; annual meeting of stockholders)
 
-The undersigned, being the sole stockholder of Loki Sports Enterprises, Inc., a WY corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Wyoming Business Corporation Act, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned, being the sole stockholder of Loki Sports Enterprises, Inc., a WY corporation (the "Corporation"), and constituting all shareholders entitled to vote on the following matters, hereby adopts the following resolutions by written consent without a meeting pursuant to W.S. 1977 § 17-16-704 and the Wyoming Business Corporation Act, to the same extent as if the resolutions were approved at a duly held shareholders’ meeting by the unanimous vote of all shares entitled to vote thereon. The undersigned directs that this consent be delivered to the Corporation for inclusion in the minutes or filing with the corporate records as required by law. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the articles of incorporation do not prohibit shareholder action by written consent in the manner set forth herein.
 Approval of Board Actions
 RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 19, 2026 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
 
@@ -1325,6 +1303,7 @@ Meeting Details
 Date of Meeting: 2026-04-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-04-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1333,21 +1312,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Wyoming Business Corporation Act. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1374,6 +1351,7 @@ Meeting Details
 Date of Meeting: 2026-07-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-07-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1382,21 +1360,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Wyoming Business Corporation Act. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1423,6 +1399,7 @@ Meeting Details
 Date of Meeting: 2026-10-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-10-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1431,21 +1408,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Wyoming Business Corporation Act. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1472,6 +1447,7 @@ Meeting Details
 Date of Meeting: 2026-12-06
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Wyoming Business Corporation Act. Place identifies where the meeting was conducted for the stated date (including by approved remote means).
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of Loki Sports Enterprises, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1480,21 +1456,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Wyoming Business Corporation Act.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Wyoming Business Corporation Act. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by the Wyoming Business Corporation Act.
+In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 

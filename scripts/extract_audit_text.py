@@ -3,6 +3,10 @@
 
 Naming: audit_text/generated__<folder>__<stem>.docx.txt
 Removes .txt files with no matching .docx under generated/.
+
+Run after regenerating minutes so audit mirrors match the books, e.g.:
+  poetry run python corporate_meeting_minutes.py --output-root generated --extract-audit-text
+or:  poetry run python scripts/extract_audit_text.py
 """
 
 from __future__ import annotations

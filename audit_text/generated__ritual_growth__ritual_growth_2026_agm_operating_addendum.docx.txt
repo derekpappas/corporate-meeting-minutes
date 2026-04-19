@@ -3,11 +3,13 @@ Ritual Growth, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2026 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2026 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2026)
 
-- Defined the full system flow and began building data collection and aggregation systems.
+- Defined end-to-end system flows for upcoming releases
+- Started data collection and aggregation prototypes aligned with the web stack
+- Aligned contractor roadmap across Poland, Romania, and Portugal
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).

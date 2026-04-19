@@ -6,6 +6,7 @@ DATA RECORD SCIENCE, INC.
 I. Meeting Information
 Company Name: DATA RECORD SCIENCE, INC.
 Principal Address: 30 N Gould St Ste 24165, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2025-12-10
 Time: 1:00 PM
 Place: Wayne, Pennsylvania, via digital communication
@@ -16,7 +17,7 @@ II. Call to Order and Organization
 The Annual Meeting of Stockholders of DATA RECORD SCIENCE, INC. (the “Corporation”) was called to order commencing at 1:00 PM on 2025-12-10. Pursuant to the Corporation’s bylaws, Derek E. Pappas, acting as President of the Corporation, served as Chairperson of the meeting, and the Secretary (or a person designated by the Chairperson) served as Secretary of the meeting.
 
 III. Roll Call and Quorum
-The Chairperson confirmed that 2025-11-30 had been fixed as the record date for determining the stockholders entitled to vote at this meeting by the Board of Directors pursuant to resolutions adopted at the Special Meeting of the Board of Directors held on 2025-12-10 (as reflected in the minutes of such meeting), in accordance with the Corporation’s bylaws and the Delaware General Corporation Law.
+The Chairperson confirmed that 2025-11-30 is the record date for determining the stockholders entitled to vote at this meeting, having been fixed by the Board of Directors pursuant to resolutions adopted at the Special Meeting of the Board of Directors held on 2025-11-30 (as reflected in the minutes of such meeting), in accordance with the Corporation’s bylaws and the Delaware General Corporation Law. The Chairperson further confirmed that the record date is not less than the minimum interval before this annual meeting required by applicable law and the Corporation’s bylaws.
 
 The following stockholders were present in person or by remote participation (as permitted under the Corporation’s bylaws and applicable law) and were entitled to vote at the meeting:
 
@@ -35,7 +36,7 @@ Stock Ledger / Voting List; Proxies (bylaws and applicable law)
 The Chairperson confirmed that an alphabetized list of the names of the stockholders of record entitled to vote at this meeting (or a certified extract of the stock ledger) as of the record date was produced and made available for inspection by stockholders at the meeting in accordance with the Corporation’s bylaws, and that proxies and votes received in accordance with the bylaws were accepted for shares entitled to vote in accordance with such proxies.
 
 IV. Notice; Waiver
-The Chairperson confirmed that written waivers of notice of this annual meeting, executed by stockholders entitled to cast the votes required by applicable law and the Corporation’s bylaws, are on file with the records of the Corporation, and that the meeting was held in reliance on such waivers in accordance with the Delaware General Corporation Law and the bylaws. A copy is annexed to these minutes as Exhibit A.
+The Chairperson confirmed that this annual meeting was held in reliance on written waivers of notice for stockholders entitled to cast the votes required by applicable law and the Corporation’s bylaws, consistent with the Delaware General Corporation Law and the bylaws. Executed waivers of notice are to be filed with these minutes as Exhibit A following execution (or delivery, as applicable).
 
 V. Reports
 The Chairperson presented and summarized the Corporation’s operational and financial highlights for the fiscal year. Stockholders had a reasonable opportunity to ask questions regarding the Chairperson’s report.

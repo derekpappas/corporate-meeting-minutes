@@ -5,6 +5,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 # Ensures reportlab, python-docx, etc. match pyproject.toml (avoids system python / partial venv).
 poetry install --no-interaction
+# Equivalent one-liner: poetry run python corporate_meeting_minutes.py --output-root generated --extract-audit-text
 poetry run python corporate_meeting_minutes.py --output-root generated
 poetry run python scripts/extract_audit_text.py
 poetry run python scripts/audit_md_to_pdf.py

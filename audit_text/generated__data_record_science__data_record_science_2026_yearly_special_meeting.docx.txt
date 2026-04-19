@@ -4,34 +4,34 @@ DATA RECORD SCIENCE, INC.
 *(Board of Directors – DE corporation)*
 
 Meeting Details
-Date of Meeting: 2026-12-16
+Date of Meeting: 2026-12-06
 Time of Meeting: 12:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of corporate records, patent portfolio status, and registered-agent compliance
 
 I. Call to Order:
-The Special Meeting of the Board of Directors of DATA RECORD SCIENCE, INC. (the “Corporation”) was called to order at 12:00 PM on 2026-12-16 by Derek E. Pappas, acting as Sole Director of the Corporation.
+The Special Meeting of the Board of Directors of DATA RECORD SCIENCE, INC. (the “Corporation”) was called to order at 12:00 PM on 2026-12-06 by Derek E. Pappas, acting as Sole Director of the Corporation.
 
 II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
 The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolutions:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2026 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Corporate and Patent-Portfolio Administration
+RESOLVED, that corporate housekeeping, outside-counsel coordination, and patent-portfolio maintenance decisions affecting the Corporation during 2026 are hereby ratified, confirmed, and approved in all respects.
 
 Record Date for Annual Meeting of Stockholders (DGCL §213)
 RESOLVED, that 2026-12-06 is hereby fixed as the record date for determining the stockholders entitled to notice of and to vote at the Annual Meeting of Stockholders of the Corporation to be held on 2026-12-16 commencing at 1:00 PM, in accordance with the Corporation’s bylaws and the Delaware General Corporation Law.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Adjournment:
@@ -44,6 +44,6 @@ Director Name: Derek E. Pappas
 Signature:
 _____________________
 
-Date: 2026-12-16
+Date: 2026-12-06
 Name: Derek E. Pappas
 ---

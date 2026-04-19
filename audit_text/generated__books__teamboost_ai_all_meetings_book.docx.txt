@@ -1,6 +1,8 @@
-Minute book compilation — all meetings
-TeamBoost.ai, Inc.
-*(single document: all meetings generated for calendar years 2023 through 2026)*
+TeamBoost.ai, Inc. — compiled minutes
+
+*Board governance meetings for 2023 through 2026.*
+
+*Exhibit references in the minutes are to instruments on the corporate record; execution copies may be bound or filed elsewhere.*
 
 ---
 
@@ -13,6 +15,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: TeamBoost.ai, Inc.
 Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2023-12-14
 Time: 1:00 PM
 Place: Thessaloniki, Greece, via digital communication
@@ -28,27 +31,24 @@ Derek E. Pappas (Sole Director)
 Director Absent:
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 IV. Approval of Prior Minutes
 This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2023; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2023: Initial development phase: core platform architecture, mobile app creation, and foundational features were established, with a private beta release. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2023: Initial development phase: core platform architecture, mobile app creation, and foundational features were established, with a private beta release. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2024, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed mobile product velocity and infrastructure scaling for 2024, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -60,12 +60,12 @@ Approval of 2024 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2024 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at First Citizens Bank & Trust Company, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2023)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 14, 2023, adopting stockholder resolutions under DGCL §228 for the year 2023, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 14, 2023, adopting stockholder resolutions under DGCL §228 for the year 2023, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -87,7 +87,7 @@ TeamBoost.ai, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2023)
 
@@ -113,7 +113,8 @@ Meeting Details
 Date of Meeting: 2023-12-14
 Time of Meeting: 12:00 PM
 Location of Meeting: Thessaloniki, Greece, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2023-12-14 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -122,16 +123,14 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2023 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Mobile and API Delivery Operations
+RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2023 are hereby ratified, confirmed, and approved in all respects.
 
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
@@ -218,6 +217,7 @@ Meeting Details
 Date of Meeting: 2023-04-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -226,21 +226,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -267,6 +265,7 @@ Meeting Details
 Date of Meeting: 2023-07-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -275,21 +274,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -316,6 +313,7 @@ Meeting Details
 Date of Meeting: 2023-10-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Knoxville, TN, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -324,21 +322,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -365,6 +361,7 @@ Meeting Details
 Date of Meeting: 2023-12-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Thessaloniki, Greece, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -373,13 +370,11 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
 
@@ -387,7 +382,7 @@ In taking the actions reflected in these minutes, the Sole Director relied in go
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -414,6 +409,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: TeamBoost.ai, Inc.
 Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2024-12-12
 Time: 1:00 PM
 Place: Denver, NC, via digital communication
@@ -429,27 +425,24 @@ Derek E. Pappas (Sole Director)
 Director Absent:
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-14 were reviewed and approved by the Sole Director.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2024: Expansion phase: major feature rollout, backend scalability improvements, and introduction of collaboration, reporting, and internationalization capabilities. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2024: Expansion phase: major feature rollout, backend scalability improvements, and introduction of collaboration, reporting, and internationalization capabilities. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2025, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed mobile product velocity and infrastructure scaling for 2025, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -461,12 +454,12 @@ Approval of 2025 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2025 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at First Citizens Bank & Trust Company, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2024)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 12, 2024, adopting stockholder resolutions under DGCL §228 for the year 2024, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 12, 2024, adopting stockholder resolutions under DGCL §228 for the year 2024, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -488,7 +481,7 @@ TeamBoost.ai, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2024)
 
@@ -517,7 +510,8 @@ Meeting Details
 Date of Meeting: 2024-12-12
 Time of Meeting: 12:00 PM
 Location of Meeting: Denver, NC, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2024-12-12 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -526,16 +520,14 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2024 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Mobile and API Delivery Operations
+RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2024 are hereby ratified, confirmed, and approved in all respects.
 
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
@@ -622,6 +614,7 @@ Meeting Details
 Date of Meeting: 2024-04-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -630,21 +623,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -671,6 +662,7 @@ Meeting Details
 Date of Meeting: 2024-07-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -679,13 +671,11 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
 
@@ -693,7 +683,7 @@ In taking the actions reflected in these minutes, the Sole Director relied in go
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -720,6 +710,7 @@ Meeting Details
 Date of Meeting: 2024-10-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Hoegaarden, Belgium, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -728,13 +719,11 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
 
@@ -742,7 +731,7 @@ In taking the actions reflected in these minutes, the Sole Director relied in go
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -769,6 +758,7 @@ Meeting Details
 Date of Meeting: 2024-12-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Denver, NC, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -777,13 +767,11 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
 
@@ -791,7 +779,7 @@ In taking the actions reflected in these minutes, the Sole Director relied in go
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -818,6 +806,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: TeamBoost.ai, Inc.
 Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2025-12-11
 Time: 1:00 PM
 Place: Wayne, Pennsylvania, via digital communication
@@ -833,27 +822,24 @@ Derek E. Pappas (Sole Director)
 Director Absent:
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2024-12-12 were reviewed and approved by the Sole Director.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2025: Release and stabilization phase: public rollout, improved reliability through testing, and continued enhancement of core features and system performance. A written addendum annexed as Exhibit B to these minutes sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2025: Release and stabilization phase: public rollout, improved reliability through testing, and continued enhancement of core features and system performance. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2026, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed mobile product velocity and infrastructure scaling for 2026, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -865,12 +851,12 @@ Approval of 2026 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2026 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at First Citizens Bank & Trust Company, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2025)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 11, 2025, adopting stockholder resolutions under DGCL §228 for the year 2025, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 11, 2025, adopting stockholder resolutions under DGCL §228 for the year 2025, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -892,7 +878,7 @@ TeamBoost.ai, Inc.
 *(Delaware corporation)*
 
 Purpose
-This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is annexed to those minutes as Exhibit B.
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
 
 Detailed accomplishments (2025)
 
@@ -920,7 +906,8 @@ Meeting Details
 Date of Meeting: 2025-12-11
 Time of Meeting: 12:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2025-12-11 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -929,19 +916,17 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2025 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Mobile and API Delivery Operations
+RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2025 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Adjournment:
@@ -1025,6 +1010,7 @@ Meeting Details
 Date of Meeting: 2025-04-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1033,21 +1019,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1074,6 +1058,7 @@ Meeting Details
 Date of Meeting: 2025-07-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1082,21 +1067,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1123,6 +1106,7 @@ Meeting Details
 Date of Meeting: 2025-10-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1131,21 +1115,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1172,6 +1154,7 @@ Meeting Details
 Date of Meeting: 2025-12-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1180,21 +1163,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1221,6 +1202,7 @@ Minutes of the Annual Meeting of the Board of Directors
 I. Meeting Information
 Company Name: TeamBoost.ai, Inc.
 Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 Date: 2026-12-17
 Time: 1:00 PM
 Place: Wayne, Pennsylvania, via digital communication
@@ -1236,27 +1218,24 @@ Derek E. Pappas (Sole Director)
 Director Absent:
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
+Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2025-12-11 were reviewed and approved by the Sole Director.
-
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Bosnia and Herzegovina; Serbia; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. A written addendum annexed as Exhibit B to these minutes sets forth additional detail furnished for the meeting, including technical specifications, roadmaps, KPIs, and architecture diagrams. All software, algorithms, and intellectual property developed during the year, regardless of development location, were reaffirmed as the exclusive property of the Corporation.
+The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth additional detail furnished for the meeting, including technical specifications, roadmaps, KPIs, and architecture diagrams. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
 
 
 VI. Discussion Items
-The Sole Director discussed the Corporation’s transition plan for 2027, including security audits, penetration testing, and commercialization readiness.
+The Sole Director discussed mobile product velocity and infrastructure scaling for 2027, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
 
 VII. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -1268,12 +1247,12 @@ Approval of 2027 Budget
 RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2027 is hereby approved.
 
 Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at First Citizens Bank & Trust Company, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
 
 
 
 Stockholder Written Consent (2026)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 17, 2026, adopting stockholder resolutions under DGCL §228 for the year 2026, is on file with the minutes of the stockholders of the Corporation (annexed as Exhibit A).
+The Sole Director noted that the Written Consent of Sole Stockholder dated December 17, 2026, adopting stockholder resolutions under DGCL §228 for the year 2026, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -1299,7 +1278,8 @@ Meeting Details
 Date of Meeting: 2026-12-17
 Time of Meeting: 12:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
-Purpose: Pre-annual review of international operations
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-17 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1308,19 +1288,17 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolution:
 
-Ratification of International Operations
-RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year 2026 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Mobile and API Delivery Operations
+RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2026 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Adjournment:
@@ -1404,6 +1382,7 @@ Meeting Details
 Date of Meeting: 2026-04-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1412,21 +1391,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1453,6 +1430,7 @@ Meeting Details
 Date of Meeting: 2026-07-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1461,21 +1439,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
+Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
+The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1502,6 +1478,7 @@ Meeting Details
 Date of Meeting: 2026-10-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1510,21 +1487,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -1551,6 +1526,7 @@ Meeting Details
 Date of Meeting: 2026-12-04
 Time of Meeting: 1:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
 
 I. Call to Order:
 The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
@@ -1559,21 +1535,19 @@ II. Roll Call and Quorum:
 Director Present: Derek E. Pappas (Sole Director)
 Director Absent: None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
+With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
 The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Bosnia and Herzegovina; Serbia; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
+For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
 
 
 IV. Resolution:
 Upon consideration, the Sole Director adopted the following resolution:
 
-RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
