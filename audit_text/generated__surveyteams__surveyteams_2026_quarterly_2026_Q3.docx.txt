@@ -1,7 +1,7 @@
 
 Minutes of the Quarterly Governance Meeting - 2026 Q3
 SurveyTeams, Inc.
-*(Board of Directors – DE corporation)*
+(Board of Directors – DE corporation)
 
 Meeting Details
 Date of Meeting: 2026-10-05
@@ -36,13 +36,7 @@ RESOLVED, that all survey tooling, data-collection, and supporting infrastructur
 V. Adjournment:
 There being no further business to come before the Board, the meeting was adjourned.
 
-Signature:
+Derek E. Pappas
 
-Director Name: Derek E. Pappas
 
-Signature:
-_____________________
-
-Date: 2026-10-05
-Name: Derek E. Pappas
 ---

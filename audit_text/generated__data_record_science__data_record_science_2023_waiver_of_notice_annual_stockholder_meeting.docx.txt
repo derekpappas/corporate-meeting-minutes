@@ -1,7 +1,7 @@
 
 Waiver of Notice of Annual Meeting of Stockholders
 DATA RECORD SCIENCE, INC.
-*(Delaware corporation)*
+(Delaware corporation)
 
 The undersigned record stockholder(s) of DATA RECORD SCIENCE, INC. (the “Corporation”) entitled to vote at the annual meeting described below, intending to be legally bound, waive notice of that meeting and of any postponement or adjournment thereof to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and bylaws.
 
@@ -16,9 +16,5 @@ Record date (DGCL §213): 2023-12-03
 Business
 The meeting may include election of directors and any other annual business proper under the charter and bylaws.
 
-Stockholder: Derek E. Pappas
-
-Signature: _________________________________
-
-Date: December 13, 2023
+Executed by (stockholder): Derek E. Pappas
 ---

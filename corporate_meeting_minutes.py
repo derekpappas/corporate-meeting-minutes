@@ -141,11 +141,11 @@ def _jurisdiction(co: dict) -> str:
 
 
 def _corporation_parenthetical(co: dict) -> str:
-    """Parenthetical used on covers (e.g., *(Delaware corporation)*)."""
+    """Parenthetical used on covers (rendered as plain text in .docx)."""
     j = _jurisdiction(co)
     if j == "WY":
-        return "*(Wyoming corporation)*"
-    return "*(Delaware corporation)*"
+        return "(Wyoming corporation)"
+    return "(Delaware corporation)"
 
 
 def _corporation_statute_name(co: dict) -> str:
@@ -520,9 +520,9 @@ company_information = {
         "board_roll_quorum_layout": 1,
         "minute_book_compilation_preamble_markdown": (
             "**Compiled board minutes — {display_company}**\n\n"
-            "*Single volume covering calendar years **{first_year}** through **{last_year}**.* "
-            "*The Corporation may maintain additional minutes or instruments outside this span.*\n\n"
-            "*Where these minutes reference exhibits, signed counterparts or labeled annexes may be bound with this book or filed separately.*\n\n"
+            "Single volume covering calendar years **{first_year}** through **{last_year}**. "
+            "The Corporation may maintain additional minutes or instruments outside this span.\n\n"
+            "Where these minutes reference exhibits, signed counterparts or labeled annexes may be bound with this book or filed separately.\n\n"
             "---"
         ),
         "primary_banking_institution": "JPMorgan Chase Bank, N.A.",
@@ -623,8 +623,8 @@ company_information = {
         "board_roll_quorum_layout": 3,
         "minute_book_compilation_preamble_markdown": (
             "**{display_company} — board minute compilation**\n\n"
-            "*Years **{first_year}**–**{last_year}** (inclusive). This compilation is not represented as exhaustive of all corporate acts.*\n\n"
-            "*Exhibits are referenced only where the underlying minutes call for them; physical execution copies may be cross-filed.*\n\n"
+            "Years **{first_year}**–**{last_year}** (inclusive). This compilation is not represented as exhaustive of all corporate acts.\n\n"
+            "Exhibits are referenced only where the underlying minutes call for them; physical execution copies may be cross-filed.\n\n"
             "---"
         ),
     },
@@ -673,9 +673,9 @@ company_information = {
         ),
         "minute_book_compilation_preamble_markdown": (
             "**Minute book — {display_company}**\n\n"
-            "*Board and stockholder materials generated for **{first_year}** through **{last_year}**.* "
-            "*This volume is limited to that span; the Corporation’s other records may include additional instruments.*\n\n"
-            "*References to exhibits in these minutes describe records maintained for the Corporation; physical counterparts may be filed separately.*\n\n"
+            "Board and stockholder materials generated for **{first_year}** through **{last_year}**. "
+            "This volume is limited to that span; the Corporation’s other records may include additional instruments.\n\n"
+            "References to exhibits in these minutes describe records maintained for the Corporation; physical counterparts may be filed separately.\n\n"
             "---"
         ),
         "quarterly_business_review_minutes_markdown": (
@@ -764,8 +764,8 @@ company_information = {
         "board_roll_quorum_layout": 2,
         "minute_book_compilation_preamble_markdown": (
             "**{display_company} — compiled minutes**\n\n"
-            "*Board governance meetings for **{first_year}** through **{last_year}**.*\n\n"
-            "*Exhibit references in the minutes are to instruments on the corporate record; execution copies may be bound or filed elsewhere.*\n\n"
+            "Board governance meetings for **{first_year}** through **{last_year}**.\n\n"
+            "Exhibit references in the minutes are to instruments on the corporate record; execution copies may be bound or filed elsewhere.\n\n"
             "---"
         ),
     },
@@ -833,7 +833,7 @@ company_information = {
         "minute_book_compilation_preamble_markdown": (
             "**SurveyTeams board minutes — compiled**\n\n"
             "**{display_company}** · years **{first_year}**–**{last_year}**.\n\n"
-            "*This file collects generated minutes for the stated years only; other corporate instruments may exist.*\n\n"
+            "This file collects generated minutes for the stated years only; other corporate instruments may exist.\n\n"
             "---"
         ),
     },
@@ -873,7 +873,7 @@ company_information = {
         "minute_book_compilation_preamble_markdown": (
             "**Wyoming corporation — compiled board minutes**\n\n"
             "**{display_company}** ({first_year}–{last_year}).\n\n"
-            "*Wyoming-law references in these minutes follow the Wyoming Business Corporation Act. Exhibit cross-references are to records on file for the Corporation.*\n\n"
+            "Wyoming-law references in these minutes follow the Wyoming Business Corporation Act. Exhibit cross-references are to records on file for the Corporation.\n\n"
             "---"
         ),
         "primary_banking_institution": "Truist Bank",
@@ -1571,24 +1571,19 @@ The stockholders of the Corporation holding a majority of the outstanding shares
 
 
 def _stockholder_waiver_signature_blocks(co: dict, execution_date: str) -> str:
-    """`execution_date` is the meeting date (or signing date) printed on the form so the instrument is not left with a blank date line."""
+    """Signature area for stockholder waiver form (plain text; no lines; no dates)."""
     roll = co.get("stockholders_roll_call")
     if not roll:
-        return f"""**Stockholder (print name):** _________________________________
+        return """**Executed by (stockholder):**
 
-**Signature:** _________________________________
-
-**Date:** {execution_date}"""
+"""
     parts = []
     for r in roll:
         parts.append(
-            f"""**Stockholder:** {r["name"]}
-
-**Signature:** _________________________________
-
-**Date:** {execution_date}"""
+            f"""**Executed by (stockholder):** {r["name"]}"""
         )
-    return "\n\n".join(parts)
+    # Extra whitespace between individual executions for readability.
+    return "\n\n\n".join(parts)
 
 
 def stockholder_waiver_of_notice_annual_meeting_markdown(
@@ -1768,7 +1763,7 @@ The undersigned, **{director_name}**, Sole Director of **{co_name}** (the “Cor
 
 {bullet_lines}
 
-{signature_block(director_name, doc_date_iso)}
+{signature_block(co, director_name, doc_date_iso, title="Sole Director")}
 ---
 """
 
@@ -1788,16 +1783,32 @@ def generate_board_waiver_of_notice(
     write_docx_from_minutes(content, path, doc_date_iso, co_name)
 
 
-def signature_block(name, date):
-    return f"""**Signature:**
+SIGNATURE_BLOCK_MARKER = "<<<SIGNATURE_BLOCK>>>"
 
-**Director Name:** {name}
 
-**Signature:**
-_____________________ 
+def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Director") -> str:
+    """Signature block (no lines; optional label; includes date by default).
 
-**Date:** {date}
-**Name:** {name}"""
+    Uses a marker so the .docx writer can keep the block together to avoid splitting across pages.
+    """
+    style = (co.get("signature_block_style") or "executed_by").strip().lower()
+    include_date = bool(co.get("signature_block_include_date", True))
+
+    if style == "signature":
+        header = "**Signature:**"
+    elif style == "none":
+        header = ""
+    else:
+        header = f"**Executed by ({title}):**"
+
+    lines: list[str] = [SIGNATURE_BLOCK_MARKER]
+    if header:
+        lines.append(header)
+    lines.append(name)
+    if include_date:
+        lines.append(f"**Date:** {date}")
+    lines.append("")  # trailing blank line for spacing
+    return "\n".join(lines)
 
 
 def _sole_director_adopted_resolutions_section(section_heading: str, resolution_parts: list[str]) -> str:
@@ -1938,16 +1949,27 @@ def write_docx_from_minutes(
     minute_book_page_breaks: bool = False,
 ):
     doc = Document()
+    pending_keep_with_next = False
     for raw_line in content.splitlines():
         line = raw_line.rstrip()
         if minute_book_page_breaks and line.strip() == MEETING_BOOK_PAGE_BREAK_MARKER:
             doc.add_page_break()
             continue
+        if line.strip() == SIGNATURE_BLOCK_MARKER:
+            pending_keep_with_next = True
+            continue
         if not line.strip():
+            if pending_keep_with_next:
+                pending_keep_with_next = False
             doc.add_paragraph()
             continue
         # Render inline markdown-style bold using **...** into bold runs
         p = doc.add_paragraph()
+        if pending_keep_with_next:
+            # Try to keep the signature block from splitting across pages.
+            # (Word honors these flags when it can.)
+            p.paragraph_format.keep_with_next = True
+            p.paragraph_format.keep_together = True
         i = 0
         while i < len(line):
             if line[i:i+2] == "**":
@@ -2082,7 +2104,7 @@ This was the first Annual Meeting of the Board of Directors following incorporat
 **VIII. Adjournment**
 There being no further business to come before the Board, the meeting was adjourned.
 
-{signature_block(director_name, date)}
+{signature_block(co, director_name, date, title="Sole Director")}
 ---
 """
 
@@ -2118,7 +2140,7 @@ RESOLVED, that **{rd}** is hereby fixed as the record date for determining the s
     return f"""
 **Minutes of the Special Meeting of the Board of Directors - {year}**
 **{display_company}**
-*(Board of Directors – {_jurisdiction(co)} corporation)*
+(Board of Directors – {_jurisdiction(co)} corporation)
 
 **Meeting Details**
 **Date of Meeting:** {date}
@@ -2135,7 +2157,7 @@ The Special Meeting of the Board of Directors of {display_company} (the “Corpo
 **IV. Adjournment:**
 There being no further business to come before the Board, the meeting was adjourned.
 
-{signature_block(director_name, date)}
+{signature_block(co, director_name, date, title="Sole Director")}
 ---"""
 
 
@@ -2172,7 +2194,7 @@ def generate_quarterly(co_name, year, quarter):
     return f"""
 **Minutes of the Quarterly Governance Meeting - {year} {quarter}**
 **{display_company}**
-*(Board of Directors – {_jurisdiction(co)} corporation)*
+(Board of Directors – {_jurisdiction(co)} corporation)
 
 **Meeting Details**
 **Date of Meeting:** {date}
@@ -2192,7 +2214,7 @@ The Quarterly Governance Meeting of the Board of Directors of {display_company} 
 **V. Adjournment:**
 There being no further business to come before the Board, the meeting was adjourned.
 
-{signature_block(director_name, date)}
+{signature_block(co, director_name, date, title="Sole Director")}
 ---"""
 
 def generate_quarterly_summary(company_name_year, year, quarter, co_name):
@@ -2285,14 +2307,8 @@ The Chairperson noted for the record that the Corporation had {issued} shares of
 **VIII. Adjournment**
 There being no further business properly brought before the meeting, the meeting was adjourned.
 
-**Signature:**
-
-**Chairperson of the Meeting:** {chair}
-
-**Signature:**
-_____________________
-
-**Date:** {date}
+**Executed by (Chairperson of the Meeting):**
+{chair}
 ---
 """
 
@@ -2325,12 +2341,9 @@ RESOLVED, that the Corporation is authorized and directed to provide prompt noti
 **Effective Date**
 This Written Consent shall be effective as of {as_of}, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
 
-**Stockholders:**
-______________________________
+**Executed by (stockholders):**
 
-______________________________
 
-**Date:** {as_of}
 ---
 """
 
@@ -2461,8 +2474,8 @@ This Written Consent shall be effective as of {as_of}, and shall be filed with t
 {shareholder_term}:
 Derek E. Pappas
 
-**Signature:** ___________________________
-**Date:** {as_of}
+**Executed by:**
+Derek E. Pappas
 ---"""
 
 
@@ -2769,10 +2782,10 @@ def _minute_book_compilation_header_markdown(co_name: str, co: dict, applicable:
         ).strip()
     return f"""**Minute book compilation — all meetings**
 **{display_company}**
-*(single document: meetings generated for calendar years {first_year} through {last_year}.)*
-*(The Corporation may maintain other minutes or records for periods outside this span; this volume is limited to the years listed.)*
+(single document: meetings generated for calendar years {first_year} through {last_year}.)
+(The Corporation may maintain other minutes or records for periods outside this span; this volume is limited to the years listed.)
 
-*Exhibits referenced in these minutes (including Exhibit A / Exhibit B) are part of the Corporation’s corporate records. Signed counterparts, annexes, or labeled exhibits may be bound with this compilation or cross-filed as separate instruments in the minute book.*
+Exhibits referenced in these minutes (including Exhibit A / Exhibit B) are part of the Corporation’s corporate records. Signed counterparts, annexes, or labeled exhibits may be bound with this compilation or cross-filed as separate instruments in the minute book.
 
 ---
 """.strip()
@@ -2791,12 +2804,14 @@ def generate_company_all_meetings_book(
     if not applicable:
         return
     parts: list[str] = [_minute_book_compilation_header_markdown(co_name, co, applicable)]
-    parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
     for y in applicable:
         cny = f"{safe_company_name}_{y}"
         chunks = _markdown_chunks_for_calendar_year(cny, co_name, y)
         for i, ch in enumerate(chunks):
             if i == 0:
+                # Put a hard page break between year-sections (documents only, not an extra break at the start).
+                if y != applicable[0]:
+                    parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
                 parts.append(f"**Calendar year {y}**\n\n{ch}")
             else:
                 parts.append(f"{MEETING_BOOK_PAGE_BREAK_MARKER}\n{ch}")

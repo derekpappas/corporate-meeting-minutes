@@ -1,7 +1,7 @@
 
 Waiver of Notice of Annual Meeting of Stockholders
 SurveyTeams, Inc.
-*(Delaware corporation)*
+(Delaware corporation)
 
 The undersigned record stockholder(s) of SurveyTeams, Inc. (the “Corporation”) entitled to vote at the annual meeting described below, intending to be legally bound, waive notice of that meeting and of any postponement or adjournment thereof to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and bylaws.
 
@@ -16,15 +16,8 @@ Record date (DGCL §213): 2026-12-08
 Business
 The meeting may include election of directors and any other annual business proper under the charter and bylaws.
 
-Stockholder: Mohamed Mohamed
+Executed by (stockholder): Mohamed Mohamed
 
-Signature: _________________________________
 
-Date: December 18, 2026
-
-Stockholder: Derek E. Pappas
-
-Signature: _________________________________
-
-Date: December 18, 2026
+Executed by (stockholder): Derek E. Pappas
 ---
