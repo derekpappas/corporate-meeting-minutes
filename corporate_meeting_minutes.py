@@ -525,6 +525,13 @@ company_information = {
             "Where these minutes reference exhibits, signed counterparts or labeled annexes may be bound with this book or filed separately.\n\n"
             "---"
         ),
+        # Signature formatting (intentionally varied per company).
+        "signature_block_style": "executed_by",
+        "signature_block_include_date": True,
+        "signature_block_date_format": "iso",
+        "signature_block_date_label": "Date:",
+        "signature_block_include_title_in_label": True,
+        "signature_block_spacing_lines": 1,
         "primary_banking_institution": "JPMorgan Chase Bank, N.A.",
         "agm_discussion_items_line": (
             "The Sole Director discussed the Corporation’s product and data roadmap for {next_year}, including API reliability targets, "
@@ -627,6 +634,11 @@ company_information = {
             "Exhibits are referenced only where the underlying minutes call for them; physical execution copies may be cross-filed.\n\n"
             "---"
         ),
+        "signature_block_style": "signature",
+        "signature_block_include_date": True,
+        "signature_block_date_format": "long",
+        "signature_block_date_label": "Dated:",
+        "signature_block_spacing_lines": 1,
     },
     "DATA RECORD SCIENCE, INC.": {
         "address": "30 N Gould St Ste 24165, Sheridan, WY 82801",
@@ -678,6 +690,12 @@ company_information = {
             "References to exhibits in these minutes describe records maintained for the Corporation; physical counterparts may be filed separately.\n\n"
             "---"
         ),
+        "signature_block_style": "none",
+        "signature_block_include_date": True,
+        "signature_block_date_format": "iso",
+        "signature_block_date_label": "Date:",
+        "signature_block_name_prefix": "Executed by:",
+        "signature_block_spacing_lines": 1,
         "quarterly_business_review_minutes_markdown": (
             "The Sole Director reviewed quarterly **franchise tax**, **registered agent**, and **minute-book** compliance, and confirmed that "
             "the Corporation’s **patent portfolio** records remained current as reported by counsel. The Corporation did not operate product "
@@ -768,6 +786,11 @@ company_information = {
             "Exhibit references in the minutes are to instruments on the corporate record; execution copies may be bound or filed elsewhere.\n\n"
             "---"
         ),
+        "signature_block_style": "executed_by",
+        "signature_block_include_date": False,
+        "signature_block_include_title_in_label": False,
+        "signature_block_label_template": "**Signed:**",
+        "signature_block_spacing_lines": 1,
     },
     "SurveyTeams, Inc.": {
         "minutes_display_name": "SurveyTeams, Inc.",
@@ -836,6 +859,12 @@ company_information = {
             "This file collects generated minutes for the stated years only; other corporate instruments may exist.\n\n"
             "---"
         ),
+        "signature_block_style": "executed_by",
+        "signature_block_include_date": True,
+        "signature_block_date_format": "long",
+        "signature_block_date_label": "Date:",
+        "signature_block_include_title_in_label": True,
+        "signature_block_spacing_lines": 2,
     },
     "Loki Sports Enterprises, Inc.": {
         "minutes_display_name": "Loki Sports Enterprises, Inc.",
@@ -876,6 +905,13 @@ company_information = {
             "Wyoming-law references in these minutes follow the Wyoming Business Corporation Act. Exhibit cross-references are to records on file for the Corporation.\n\n"
             "---"
         ),
+        "signature_block_style": "executed_by",
+        "signature_block_include_date": True,
+        "signature_block_date_format": "iso",
+        "signature_block_date_label": "Date:",
+        "signature_block_include_title_in_label": False,
+        "signature_block_label_template": "**Executed and agreed:**",
+        "signature_block_spacing_lines": 1,
         "primary_banking_institution": "Truist Bank",
         "agm_discussion_items_line": (
             "The Sole Director discussed fan engagement, venue partnerships, and media integrations for {next_year}, including tournament-season logistics, "
@@ -1786,6 +1822,19 @@ def generate_board_waiver_of_notice(
 SIGNATURE_BLOCK_MARKER = "<<<SIGNATURE_BLOCK>>>"
 
 
+def _format_signature_date(co: dict, date_iso: str) -> str:
+    """Format signature date from an ISO date string.
+
+    Supported formats:
+    - "iso" (default): YYYY-MM-DD
+    - "long": Month DD, YYYY
+    """
+    fmt = str(co.get("signature_block_date_format") or "iso").strip().lower()
+    if fmt == "long":
+        return datetime.strptime(date_iso, "%Y-%m-%d").strftime("%B %d, %Y")
+    return date_iso
+
+
 def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Director") -> str:
     """Signature block (no lines; optional label; includes date by default).
 
@@ -1793,21 +1842,35 @@ def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Direct
     """
     style = (co.get("signature_block_style") or "executed_by").strip().lower()
     include_date = bool(co.get("signature_block_include_date", True))
+    include_title_in_label = bool(co.get("signature_block_include_title_in_label", True))
+    label_template = co.get("signature_block_label_template")
+    name_prefix = str(co.get("signature_block_name_prefix") or "").strip()
+    date_label = str(co.get("signature_block_date_label") or "Date:").strip()
+    rendered_date = _format_signature_date(co, date)
+    spacing_lines = int(co.get("signature_block_spacing_lines", 1))
 
     if style == "signature":
         header = "**Signature:**"
     elif style == "none":
         header = ""
     else:
-        header = f"**Executed by ({title}):**"
+        if isinstance(label_template, str) and label_template.strip():
+            header = label_template.strip()
+        elif include_title_in_label and title:
+            header = f"**Executed by ({title}):**"
+        else:
+            header = "**Executed by:**"
 
     lines: list[str] = [SIGNATURE_BLOCK_MARKER]
     if header:
         lines.append(header)
-    lines.append(name)
+    if name_prefix:
+        lines.append(f"{name_prefix} {name}".rstrip())
+    else:
+        lines.append(name)
     if include_date:
-        lines.append(f"**Date:** {date}")
-    lines.append("")  # trailing blank line for spacing
+        lines.append(f"**{date_label}** {rendered_date}" if not date_label.endswith(":") else f"**{date_label}** {rendered_date}")
+    lines.extend([""] * max(spacing_lines, 0))
     return "\n".join(lines)
 
 
@@ -2705,6 +2768,9 @@ def _write_minute_book_pdf(markdown: str, pdf_path: str) -> None:
         line = raw.rstrip()
         if line.strip() == MEETING_BOOK_PAGE_BREAK_MARKER:
             story.append(PageBreak())
+        elif line.strip() == SIGNATURE_BLOCK_MARKER:
+            # Marker used only to help .docx keep signature blocks together.
+            continue
         elif not line.strip():
             story.append(Spacer(1, 10))
         elif line.strip() == "---":
@@ -2828,6 +2894,150 @@ def generate_company_all_meetings_book(
     _write_minute_book_pdf(book, out_pdf)
 
 
+def generate_master_all_companies_book(
+    output_root: str,
+    years: tuple[int, ...] = (2022, 2023, 2024, 2025, 2026),
+) -> tuple[str, str]:
+    """One combined minute book spanning all companies.
+
+    Output:
+    - `{output_root}/books/all_companies_all_meetings_book.docx`
+    - `{output_root}/books/all_companies_all_meetings_book.pdf`
+    """
+    start_cwd = os.getcwd()
+    root_dir = os.path.join(start_cwd, output_root)
+    books_dir = os.path.join(root_dir, "books")
+    os.makedirs(books_dir, exist_ok=True)
+
+    parts: list[str] = [
+        "**Master minute book — all companies**\n"
+        f"(single document: all generated meetings for calendar years {min(years)} through {max(years)}.)\n\n"
+        "---"
+    ]
+
+    for idx, (co_name, co) in enumerate(companies.items()):
+        safe = sanitize_company_name(co_name)
+        start_year = co.get("minutes_start_year", co.get("inc_year", min(years)))
+        applicable = [y for y in years if y >= start_year]
+        if not applicable:
+            continue
+        if idx != 0:
+            parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
+        parts.append(f"**Company: {minutes_display_name(co_name)}**\n{_corporation_parenthetical(co)}\n\n---")
+        for y in applicable:
+            cny = f"{safe}_{y}"
+            for i, ch in enumerate(_markdown_chunks_for_calendar_year(cny, co_name, y)):
+                parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
+                if i == 0:
+                    parts.append(f"**Calendar year {y}**\n\n{ch}")
+                else:
+                    parts.append(ch)
+
+    book = MEETING_BOOK_SEPARATOR.join(p for p in parts if p)
+    out_docx = os.path.join(books_dir, "all_companies_all_meetings_book.docx")
+    out_pdf = os.path.join(books_dir, "all_companies_all_meetings_book.pdf")
+
+    # Use the latest applicable annual meeting date among all companies for utime randomization.
+    latest_meeting_date = None
+    for co_name, co in companies.items():
+        start_year = co.get("minutes_start_year", co.get("inc_year", min(years)))
+        applicable = [y for y in years if y >= start_year]
+        if not applicable:
+            continue
+        d = annual_meeting_date_str(co, applicable[-1])
+        if latest_meeting_date is None or d > latest_meeting_date:
+            latest_meeting_date = d
+    latest_meeting_date = latest_meeting_date or f"{max(years)}-12-31"
+
+    print(f"Writing master compiled minute book to {out_docx}")
+    write_docx_from_minutes(book, out_docx, latest_meeting_date, list(companies.keys())[0], minute_book_page_breaks=True)
+    print(f"Writing master compiled minute book PDF to {out_pdf}")
+    _write_minute_book_pdf(book, out_pdf)
+    return out_docx, out_pdf
+
+
+def write_examples_directory(
+    output_root: str,
+    years: tuple[int, ...] = (2022, 2023, 2024, 2025, 2026),
+    *,
+    examples_dir_name: str = "examples",
+) -> str:
+    """Create `generated/examples/<company>/` with one example of each doc type for that company.
+
+    Picks the latest year available for each company, then selects one file per category:
+    - agm
+    - yearly_special_meeting
+    - written_consent_in_lieu_of_annual_meeting OR annual_meeting_of_stockholders (+ waiver/notice/ratification where present)
+    - waiver_of_notice_board_meetings
+    - one quarterly (Q1)
+    - all_meetings_book (compiled)
+    """
+    start_cwd = os.getcwd()
+    root_dir = os.path.join(start_cwd, output_root)
+    examples_root = os.path.join(root_dir, examples_dir_name)
+    os.makedirs(examples_root, exist_ok=True)
+
+    books_dir = os.path.join(root_dir, "books")
+    os.makedirs(books_dir, exist_ok=True)
+
+    import shutil
+
+    def _copy(src: str, dst: str) -> None:
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        shutil.copy2(src, dst)
+
+    for co_name, co in companies.items():
+        safe = sanitize_company_name(co_name)
+        co_dir = os.path.join(root_dir, safe)
+        if not os.path.isdir(co_dir):
+            continue
+
+        start_year = co.get("minutes_start_year", co.get("inc_year", min(years)))
+        applicable = [y for y in years if y >= start_year]
+        if not applicable:
+            continue
+        y = applicable[-1]
+        prefix = f"{safe}_{y}_"
+
+        out_dir = os.path.join(examples_root, safe)
+        os.makedirs(out_dir, exist_ok=True)
+
+        # Core docs (always generated)
+        for suffix in (
+            "agm.docx",
+            "yearly_special_meeting.docx",
+            "waiver_of_notice_board_meetings.docx",
+            f"quarterly_{y}_Q1.docx",
+        ):
+            src = os.path.join(co_dir, prefix + suffix)
+            if os.path.isfile(src):
+                _copy(src, os.path.join(out_dir, os.path.basename(src)))
+
+        # Stockholder side varies
+        stockholder_kind = co.get("stockholder_meeting", "written_consent")
+        if stockholder_kind == "annual_meeting_stockholders":
+            for suffix in (
+                "annual_meeting_of_stockholders.docx",
+                "waiver_of_notice_annual_stockholder_meeting.docx",
+                "notice_of_annual_stockholder_meeting.docx",
+                "majority_stockholders_written_consent_ratification_of_annual_board_actions.docx",
+            ):
+                src = os.path.join(co_dir, prefix + suffix)
+                if os.path.isfile(src):
+                    _copy(src, os.path.join(out_dir, os.path.basename(src)))
+        else:
+            src = os.path.join(co_dir, prefix + "written_consent_in_lieu_of_annual_meeting.docx")
+            if os.path.isfile(src):
+                _copy(src, os.path.join(out_dir, os.path.basename(src)))
+
+        # Compiled book lives under generated/books
+        book_src = os.path.join(books_dir, f"{safe}_all_meetings_book.docx")
+        if os.path.isfile(book_src):
+            _copy(book_src, os.path.join(out_dir, os.path.basename(book_src)))
+
+    return examples_root
+
+
 def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
     start_cwd = os.getcwd()
     print(f"Current working directory: {start_cwd}")
@@ -2916,6 +3126,16 @@ def main():
             "generated/**/*.docx (including compiled books)."
         ),
     )
+    parser.add_argument(
+        "--write-examples",
+        action="store_true",
+        help="Create `generated/examples/<company>/` with one example of each doc type (copies from generated output).",
+    )
+    parser.add_argument(
+        "--write-master-book",
+        action="store_true",
+        help="Write one compiled minute book spanning all companies to generated/books/.",
+    )
     args = parser.parse_args()
 
     if args.schedule_seed is not None:
@@ -2929,6 +3149,15 @@ def main():
         return
 
     generate_all(output_root=args.output_root)
+
+    if args.write_examples:
+        import shutil
+
+        path = write_examples_directory(output_root=args.output_root)
+        print(f"Wrote examples directory to {path}")
+
+    if args.write_master_book:
+        generate_master_all_companies_book(output_root=args.output_root)
 
     if args.extract_audit_text:
         repo_root = os.path.dirname(os.path.abspath(__file__))
