@@ -3,6 +3,7 @@ import hashlib
 import json
 import os
 import random
+import shutil
 import subprocess
 import sys
 from collections import defaultdict
@@ -1125,6 +1126,7 @@ _ACCOMPLISHMENTS_JSON_KEY: dict[str, str] = {
     "Hippo, Inc": "Hippo",
     "TeamBoost.ai, Inc.": "TB",
     "Ritual Growth, Inc.": "RG",
+    "Loki Sports Enterprises, Inc.": "LOKI",
 }
 _ACCOMPLISHMENTS_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
@@ -1241,7 +1243,7 @@ def _generate_agm_operating_addendum_docx(
     co = companies[co_name]
     mdate = annual_meeting_date_str(co, year)
     content = agm_operating_addendum_markdown(co_name, year, exhibit_label, detail_lines)
-    path = f"{company_name_year}_agm_operating_addendum.docx"
+    path = meeting_filename(co_name, mdate, "agm_operating_addendum", ext="docx")
     print(f"Writing AGM operating addendum to {path}")
     write_docx_from_minutes(content, path, mdate, co_name)
 
@@ -1664,7 +1666,7 @@ def generate_stockholder_waiver_of_notice_annual_meeting(
     co = companies[co_name]
     date_iso = annual_meeting_date_str(co, year)
     content = stockholder_waiver_of_notice_annual_meeting_markdown(company_name_year, year, co_name)
-    path = f"{company_name_year}_waiver_of_notice_annual_stockholder_meeting.docx"
+    path = meeting_filename(co_name, date_iso, "waiver_of_notice_annual_stockholder_meeting", ext="docx")
     print(f"Writing Waiver of Notice (annual stockholders) to {path}")
     write_docx_from_minutes(content, path, date_iso, co_name)
 
@@ -1724,7 +1726,7 @@ def generate_notice_of_annual_stockholder_meeting(
     co = companies[co_name]
     date_iso = annual_meeting_date_str(co, year)
     content = notice_of_annual_stockholder_meeting_markdown(company_name_year, year, co_name)
-    path = f"{company_name_year}_notice_of_annual_stockholder_meeting.docx"
+    path = meeting_filename(co_name, date_iso, "notice_of_annual_stockholder_meeting", ext="docx")
     print(f"Writing Notice of Annual Stockholder Meeting to {path}")
     write_docx_from_minutes(content, path, date_iso, co_name)
 
@@ -1814,7 +1816,7 @@ def generate_board_waiver_of_notice(
     co = companies[co_name]
     doc_date_iso = annual_meeting_date_str(co, year)
     content = board_waiver_of_notice_markdown(company_name_year, year, co_name)
-    path = f"{company_name_year}_waiver_of_notice_board_meetings.docx"
+    path = meeting_filename(co_name, doc_date_iso, "waiver_of_notice_board_meetings", ext="docx")
     print(f"Writing Waiver of Notice (board meetings) to {path}")
     write_docx_from_minutes(content, path, doc_date_iso, co_name)
 
@@ -2284,7 +2286,13 @@ def generate_quarterly_summary(company_name_year, year, quarter, co_name):
     """Generate a summary of the quarterly meeting for reporting purposes."""
     co = companies[co_name]
     qdate = quarterly_meeting_date_str(co, year, quarter)
-    quarterly_docx = f"{company_name_year}_quarterly_{year}_{quarter}.docx"
+    quarterly_docx = meeting_filename(
+        co_name,
+        qdate,
+        "quarterly",
+        quarter=quarter,
+        ext="docx",
+    )
     quarterly_content = generate_quarterly(co_name, year, quarter)
     print(f"Writing Quarterly meeting minutes to {quarterly_docx}")
     write_docx_from_minutes(quarterly_content, quarterly_docx, qdate, co_name)
@@ -2416,7 +2424,12 @@ def generate_majority_stockholder_written_consent_ratification(company_name_year
     co = companies[co_name]
     board_date = annual_meeting_date_str(co, year)
     content = majority_stockholder_written_consent_ratification_markdown(company_name_year, year, co_name)
-    output = f"{company_name_year}_majority_stockholders_written_consent_ratification_of_annual_board_actions.docx"
+    output = meeting_filename(
+        co_name,
+        board_date,
+        "majority_stockholders_written_consent_ratification_of_annual_board_actions",
+        ext="docx",
+    )
     print(f"Writing Majority Stockholders Written Consent (ratification) to {output}")
     write_docx_from_minutes(content, output, board_date, co_name)
 
@@ -2447,12 +2460,53 @@ def sanitize_company_name(name):
     return safe_name
 
 
+def _slugify_filename_part(s: str) -> str:
+    s = s.strip().lower()
+    s = re.sub(r"[^a-z0-9]+", "_", s)
+    s = re.sub(r"_+", "_", s)
+    return s.strip("_")
+
+
+def meeting_filename(
+    co_name: str,
+    meeting_date_iso: str,
+    meeting_name: str,
+    *,
+    quarter: str | None = None,
+    ext: str = "docx",
+) -> str:
+    """
+    Canonical file naming format for sortable output:
+
+      <company name (no .inc.)>_<year>_<month>_<day>_(<q_{1,2,3,4}>)*_<meeting name>.<ext>
+
+    This ensures simple lexicographic sorting matches chronological order within
+    a company folder.
+    """
+    dt = datetime.strptime(meeting_date_iso, "%Y-%m-%d")
+    safe = sanitize_company_name(co_name)
+    y = f"{dt.year:04d}"
+    m = f"{dt.month:02d}"
+    d = f"{dt.day:02d}"
+
+    q_part = ""
+    if quarter:
+        q = quarter.strip().upper()
+        m_q = re.fullmatch(r"Q([1-4])", q)
+        if m_q:
+            q_part = f"_q_{m_q.group(1)}"
+        else:
+            q_part = "_" + _slugify_filename_part(quarter)
+
+    meeting_part = _slugify_filename_part(meeting_name)
+    return f"{safe}_{y}_{m}_{d}{q_part}_{meeting_part}.{ext.lstrip('.')}"
+
+
 
 def generate_annual(company_name_year: str, co_name: str, year: int):
     co = companies[co_name]
     mdate = annual_meeting_date_str(co, year)
-    agm_title = f"{company_name_year}_agm"
-    agm_docx = f"{agm_title}.docx"
+    agm_docx = meeting_filename(co_name, mdate, "agm", ext="docx")
     agm_content = generate_agm(co_name, year)
     print(f"Writing AGM minutes to {agm_docx}")
     write_docx_from_minutes(agm_content, agm_docx, mdate, co_name)
@@ -2461,7 +2515,7 @@ def generate_annual(company_name_year: str, co_name: str, year: int):
     exhibit = co.get("agm_president_report_operating_exhibit_label")
     if detail_items and not exhibit:
         exhibit = "Exhibit B"
-    addendum_path = f"{company_name_year}_agm_operating_addendum.docx"
+    addendum_path = meeting_filename(co_name, mdate, "agm_operating_addendum", ext="docx")
     if detail_items and exhibit:
         _generate_agm_operating_addendum_docx(company_name_year, co_name, year, exhibit, detail_items)
     elif os.path.isfile(addendum_path):
@@ -2472,8 +2526,7 @@ def generate_special_meeting(company_name_year: str, co_name: str, year: int):
     """Generate special meeting minutes."""
     co = companies[co_name]
     mdate = board_special_meeting_date_str(co, year)
-    special_title = f"{company_name_year}_yearly_special_meeting"
-    special_docx = f"{special_title}.docx"
+    special_docx = meeting_filename(co_name, mdate, "yearly_special_meeting", ext="docx")
     special_content = generate_special(co_name, year)
     print(f"Writing Special meeting minutes to {special_docx}")
     write_docx_from_minutes(special_content, special_docx, mdate, co_name)
@@ -2547,7 +2600,7 @@ def generate_written_consent(company_name_year: str, year: int, company_name: st
     co = companies[company_name]
     date = annual_meeting_date_str(co, year)
     content = sole_stockholder_written_consent_markdown(company_name, year)
-    output = f"{company_name_year}_written_consent_in_lieu_of_annual_meeting.docx"
+    output = meeting_filename(company_name, date, "written_consent_in_lieu_of_annual_meeting", ext="docx")
     print(f"Writing Stockholder Written Consent to {output}")
     write_docx_from_minutes(content, output, date, company_name)
 
@@ -2557,7 +2610,7 @@ def generate_stockholder_side(company_name_year: str, year: int, co_name: str):
     kind = co.get("stockholder_meeting", "written_consent")
     if kind == "annual_meeting_stockholders":
         mdate = annual_meeting_date_str(co, year)
-        out = f"{company_name_year}_annual_meeting_of_stockholders.docx"
+        out = meeting_filename(co_name, mdate, "annual_meeting_of_stockholders", ext="docx")
         print(f"Writing Annual Meeting of Stockholders minutes to {out}")
         write_docx_from_minutes(generate_annual_meeting_stockholders(co_name, year), out, mdate, co_name)
         generate_stockholder_waiver_of_notice_annual_meeting(company_name_year, year, co_name)
@@ -2575,9 +2628,16 @@ def _company_years_for_calendar(co: dict, years: tuple[int, ...]) -> list[int]:
     return [y for y in years if y >= start]
 
 
-def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...] = (2022, 2023, 2024, 2025, 2026)) -> None:
+def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...] = (2022, 2023, 2024, 2025, 2026)) -> int:
     """
     Produce one .txt file per company with meetings grouped by date.
+
+    Master (all companies): ``{output_dir}/unified_calendar.txt``.
+
+    Overlap audit: same calendar date and identical time string across *different*
+    companies is written to ``{output_dir}/conflicts.txt``. Returns the number of
+    such conflict slots (0 = clean). This does not parse clock intervals; only
+    exact (date, time) equality is checked.
 
     Format:
     - Company name at top
@@ -2694,6 +2754,8 @@ def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...
                     f.write(f"  {co_name} - {label} - {t}\n")
                 f.write("\n")
 
+    return len(conflicts)
+
 
 def print_schedule(years=(2022, 2023, 2024, 2025, 2026)):
     """Print the computed meeting schedule without generating .docx files."""
@@ -2804,6 +2866,79 @@ def _write_minute_book_pdf(markdown: str, pdf_path: str) -> None:
         onLaterPages=_page_footer,
     )
     doc.build(story)
+
+
+def _write_docx_as_simple_pdf(docx_path: str, pdf_path: str) -> None:
+    """Letter-size PDF from a generated .docx (paragraph + table text; for distribution copies)."""
+    try:
+        from reportlab.lib import colors
+        from reportlab.lib.enums import TA_LEFT
+        from reportlab.lib.pagesizes import letter
+        from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+        from reportlab.lib.units import inch
+        from reportlab.platypus import HRFlowable, Paragraph, SimpleDocTemplate, Spacer
+    except ModuleNotFoundError as e:
+        raise RuntimeError(
+            "example PDF export requires reportlab (see pyproject.toml). "
+            "Install project deps: poetry install"
+        ) from e
+
+    docx_doc = Document(docx_path)
+    lines: list[str] = []
+    for p in docx_doc.paragraphs:
+        lines.append(p.text)
+    for table in docx_doc.tables:
+        for row in table.rows:
+            lines.append("\t".join(cell.text.strip() for cell in row.cells))
+
+    styles = getSampleStyleSheet()
+    body_style = ParagraphStyle(
+        "DocxExportBody",
+        parent=styles["Normal"],
+        fontName="Helvetica",
+        fontSize=10,
+        leading=12,
+        spaceAfter=4,
+        alignment=TA_LEFT,
+    )
+
+    story: list = []
+    for raw in lines:
+        line = raw.rstrip()
+        if not line.strip():
+            story.append(Spacer(1, 10))
+        elif line.strip() == "---":
+            story.append(Spacer(1, 6))
+            story.append(
+                HRFlowable(
+                    width=letter[0] - 1.5 * inch,
+                    thickness=0.5,
+                    color=colors.HexColor("#bbbbbb"),
+                    hAlign="CENTER",
+                )
+            )
+            story.append(Spacer(1, 6))
+        else:
+            story.append(Paragraph(_minute_book_line_to_paragraph_xml(line), body_style))
+
+    def _page_footer(canvas, doc):
+        canvas.saveState()
+        canvas.setFont("Helvetica", 9)
+        canvas.drawRightString(letter[0] - 0.75 * inch, 0.55 * inch, f"Page {canvas.getPageNumber()}")
+        canvas.restoreState()
+
+    os.makedirs(os.path.dirname(pdf_path) or ".", exist_ok=True)
+    rl_doc = SimpleDocTemplate(
+        pdf_path,
+        pagesize=letter,
+        rightMargin=0.75 * inch,
+        leftMargin=0.75 * inch,
+        topMargin=0.75 * inch,
+        bottomMargin=0.85 * inch,
+        onFirstPage=_page_footer,
+        onLaterPages=_page_footer,
+    )
+    rl_doc.build(story)
 
 
 def _markdown_chunks_for_calendar_year(company_name_year: str, co_name: str, year: int) -> list[str]:
@@ -2962,15 +3097,17 @@ def write_examples_directory(
     *,
     examples_dir_name: str = "examples",
 ) -> str:
-    """Create `generated/examples/<company>/` with one example of each doc type for that company.
+    """Create `generated/examples/<company>/` with one example of each doc type for that company (PDF only).
 
-    Picks the latest year available for each company, then selects one file per category:
+    Picks the latest year available for each company, then emits one PDF per category:
     - agm
     - yearly_special_meeting
     - written_consent_in_lieu_of_annual_meeting OR annual_meeting_of_stockholders (+ waiver/notice/ratification where present)
     - waiver_of_notice_board_meetings
     - one quarterly (Q1)
-    - all_meetings_book (compiled)
+    - all_meetings_book (compiled): copies the pre-built `generated/books/<safe>_all_meetings_book.pdf` when present
+
+    Standalone .docx files are converted with ReportLab (same letter layout as compiled book PDFs).
     """
     start_cwd = os.getcwd()
     root_dir = os.path.join(start_cwd, output_root)
@@ -2980,11 +3117,9 @@ def write_examples_directory(
     books_dir = os.path.join(root_dir, "books")
     os.makedirs(books_dir, exist_ok=True)
 
-    import shutil
-
-    def _copy(src: str, dst: str) -> None:
-        os.makedirs(os.path.dirname(dst), exist_ok=True)
-        shutil.copy2(src, dst)
+    def _emit_pdf_from_docx(src_docx: str, dst_pdf: str) -> None:
+        os.makedirs(os.path.dirname(dst_pdf), exist_ok=True)
+        _write_docx_as_simple_pdf(src_docx, dst_pdf)
 
     for co_name, co in companies.items():
         safe = sanitize_company_name(co_name)
@@ -2997,45 +3132,127 @@ def write_examples_directory(
         if not applicable:
             continue
         y = applicable[-1]
-        prefix = f"{safe}_{y}_"
+        annual_date = annual_meeting_date_str(co, y)
+        special_date = board_special_meeting_date_str(co, y)
+        q1_date = quarterly_meeting_date_str(co, y, "Q1")
 
         out_dir = os.path.join(examples_root, safe)
         os.makedirs(out_dir, exist_ok=True)
+        # Drop prior examples (including legacy .docx) so the folder is PDF-only.
+        if os.path.isdir(out_dir):
+            for name in os.listdir(out_dir):
+                os.remove(os.path.join(out_dir, name))
 
         # Core docs (always generated)
-        for suffix in (
-            "agm.docx",
-            "yearly_special_meeting.docx",
-            "waiver_of_notice_board_meetings.docx",
-            f"quarterly_{y}_Q1.docx",
+        for src in (
+            os.path.join(co_dir, meeting_filename(co_name, annual_date, "agm", ext="docx")),
+            os.path.join(co_dir, meeting_filename(co_name, special_date, "yearly_special_meeting", ext="docx")),
+            os.path.join(co_dir, meeting_filename(co_name, annual_date, "waiver_of_notice_board_meetings", ext="docx")),
+            os.path.join(
+                co_dir,
+                meeting_filename(
+                    co_name,
+                    q1_date,
+                    "quarterly",
+                    quarter="Q1",
+                    ext="docx",
+                ),
+            ),
         ):
-            src = os.path.join(co_dir, prefix + suffix)
             if os.path.isfile(src):
-                _copy(src, os.path.join(out_dir, os.path.basename(src)))
+                stem = os.path.splitext(os.path.basename(src))[0]
+                _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
 
         # Stockholder side varies
         stockholder_kind = co.get("stockholder_meeting", "written_consent")
         if stockholder_kind == "annual_meeting_stockholders":
-            for suffix in (
-                "annual_meeting_of_stockholders.docx",
-                "waiver_of_notice_annual_stockholder_meeting.docx",
-                "notice_of_annual_stockholder_meeting.docx",
-                "majority_stockholders_written_consent_ratification_of_annual_board_actions.docx",
+            for src in (
+                os.path.join(co_dir, meeting_filename(co_name, annual_date, "annual_meeting_of_stockholders", ext="docx")),
+                os.path.join(
+                    co_dir,
+                    meeting_filename(co_name, annual_date, "waiver_of_notice_annual_stockholder_meeting", ext="docx"),
+                ),
+                os.path.join(
+                    co_dir,
+                    meeting_filename(co_name, annual_date, "notice_of_annual_stockholder_meeting", ext="docx"),
+                ),
+                os.path.join(
+                    co_dir,
+                    meeting_filename(
+                        co_name,
+                        annual_date,
+                        "majority_stockholders_written_consent_ratification_of_annual_board_actions",
+                        ext="docx",
+                    ),
+                ),
             ):
-                src = os.path.join(co_dir, prefix + suffix)
                 if os.path.isfile(src):
-                    _copy(src, os.path.join(out_dir, os.path.basename(src)))
+                    stem = os.path.splitext(os.path.basename(src))[0]
+                    _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
         else:
-            src = os.path.join(co_dir, prefix + "written_consent_in_lieu_of_annual_meeting.docx")
+            src = os.path.join(co_dir, meeting_filename(co_name, annual_date, "written_consent_in_lieu_of_annual_meeting", ext="docx"))
             if os.path.isfile(src):
-                _copy(src, os.path.join(out_dir, os.path.basename(src)))
+                stem = os.path.splitext(os.path.basename(src))[0]
+                _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
 
-        # Compiled book lives under generated/books
-        book_src = os.path.join(books_dir, f"{safe}_all_meetings_book.docx")
-        if os.path.isfile(book_src):
-            _copy(book_src, os.path.join(out_dir, os.path.basename(book_src)))
+        # Compiled book: use the distribution PDF already built under generated/books (same content as markdown pipeline).
+        book_pdf = os.path.join(books_dir, f"{safe}_all_meetings_book.pdf")
+        if os.path.isfile(book_pdf):
+            dst = os.path.join(out_dir, f"{safe}_all_meetings_book.pdf")
+            shutil.copy2(book_pdf, dst)
+
+    master_pdf = os.path.join(books_dir, "all_companies_all_meetings_book.pdf")
+    if os.path.isfile(master_pdf):
+        shutil.copy2(master_pdf, os.path.join(examples_root, "all_companies_all_meetings_book.pdf"))
 
     return examples_root
+
+
+def write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root: str) -> str:
+    """Write `generated/loki_sports_enterprises_agm_minutes_with_accomplishment_exhibits_pdf/` with PDFs only.
+
+    For each calendar year that has accomplishments detail in `audit_reports/all_corp_accomplishments_2021-2025.json`
+    (LOKI), copies the AGM minutes and the AGM operating addendum (Exhibit B — detailed accomplishments) from the
+    generated company folder into one distribution folder as `.pdf` files (no filename collisions across years).
+    """
+    co_name = "Loki Sports Enterprises, Inc."
+    safe = sanitize_company_name(co_name)
+    root_dir = os.path.abspath(os.path.join(os.getcwd(), output_root))
+    co_dir = os.path.join(root_dir, safe)
+    out_dir = os.path.join(root_dir, f"{safe}_agm_minutes_with_accomplishment_exhibits_pdf")
+    os.makedirs(out_dir, exist_ok=True)
+    for name in list(os.listdir(out_dir)):
+        p = os.path.join(out_dir, name)
+        if name.endswith(".pdf") and os.path.isfile(p):
+            os.remove(p)
+
+    years_with_detail: list[int] = []
+    for y in range(2020, 2032):
+        _s, details = accomplishments_for_year(co_name, y)
+        if details:
+            years_with_detail.append(y)
+
+    if not years_with_detail:
+        print(f"No accomplishments detail found for {co_name}; skipping Loki AGM exhibit PDF bundle.")
+        return out_dir
+
+    for y in years_with_detail:
+        annual_date = annual_meeting_date_str(companies[co_name], y)
+        agm_docx = os.path.join(co_dir, meeting_filename(co_name, annual_date, "agm", ext="docx"))
+        add_docx = os.path.join(co_dir, meeting_filename(co_name, annual_date, "agm_operating_addendum", ext="docx"))
+        if os.path.isfile(agm_docx):
+            out_pdf = meeting_filename(co_name, annual_date, "agm", ext="pdf")
+            _write_docx_as_simple_pdf(agm_docx, os.path.join(out_dir, out_pdf))
+        else:
+            print(f"skip (missing): {agm_docx}")
+        if os.path.isfile(add_docx):
+            out_pdf = meeting_filename(co_name, annual_date, "agm_operating_addendum", ext="pdf")
+            _write_docx_as_simple_pdf(add_docx, os.path.join(out_dir, out_pdf))
+        else:
+            print(f"skip (missing addendum for {y}; run full generation after accomplishments are present): {add_docx}")
+
+    print(f"Wrote Loki AGM + accomplishment exhibit PDFs to {out_dir}")
+    return out_dir
 
 
 def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
@@ -3101,6 +3318,14 @@ def main():
         help="Write per-company meeting calendar .txt files (does not generate .docx).",
     )
     parser.add_argument(
+        "--strict-calendars",
+        action="store_true",
+        help=(
+            "With --write-calendars: exit with status 1 if unified_calendar audit finds any "
+            "same date+time slot shared by more than one company (see calendar-output-dir/conflicts.txt)."
+        ),
+    )
+    parser.add_argument(
         "--output-root",
         default="generated",
         help="Output folder (relative to current working directory). Default: generated",
@@ -3129,7 +3354,16 @@ def main():
     parser.add_argument(
         "--write-examples",
         action="store_true",
-        help="Create `generated/examples/<company>/` with one example of each doc type (copies from generated output).",
+        help="Create `generated/examples/<company>/` with one PDF example per doc type; copies master book PDF when present.",
+    )
+    parser.add_argument(
+        "--write-loki-agm-exhibits-pdf",
+        action="store_true",
+        help=(
+            "Create `generated/loki_sports_enterprises_agm_minutes_with_accomplishment_exhibits_pdf/` with PDFs of "
+            "each year’s AGM minutes plus the operating addendum (Exhibit B / accomplishments), for years that have "
+            "accomplishments data in audit_reports/all_corp_accomplishments_2021-2025.json."
+        ),
     )
     parser.add_argument(
         "--write-master-book",
@@ -3145,19 +3379,27 @@ def main():
         print_schedule()
         return
     if args.write_calendars:
-        write_company_calendars(output_dir=args.calendar_output_dir)
+        conflict_slots = write_company_calendars(output_dir=args.calendar_output_dir)
+        if args.strict_calendars and conflict_slots:
+            print(
+                f"Calendar audit failed: {conflict_slots} conflict slot(s). "
+                f"See {args.calendar_output_dir}/conflicts.txt",
+                file=sys.stderr,
+            )
+            sys.exit(1)
         return
 
     generate_all(output_root=args.output_root)
 
-    if args.write_examples:
-        import shutil
+    if args.write_master_book:
+        generate_master_all_companies_book(output_root=args.output_root)
 
+    if args.write_examples:
         path = write_examples_directory(output_root=args.output_root)
         print(f"Wrote examples directory to {path}")
 
-    if args.write_master_book:
-        generate_master_all_companies_book(output_root=args.output_root)
+    if args.write_loki_agm_exhibits_pdf:
+        write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root=args.output_root)
 
     if args.extract_audit_text:
         repo_root = os.path.dirname(os.path.abspath(__file__))

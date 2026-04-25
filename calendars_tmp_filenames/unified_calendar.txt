@@ -1,0 +1,428 @@
+Unified Meeting Calendar
+
+Conflict Summary (same date + time across companies)
+2023-12-04 1:00 PM
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q4 - 1:00 PM
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+---
+
+2022-04-01
+  Hippo, Inc - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2022-04-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2022-04-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2022-07-01
+  Hippo, Inc - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2022-07-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2022-07-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2022-10-01
+  Hippo, Inc - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2022-10-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2022-10-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2022-12-01
+  Hippo, Inc - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2022-12-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2022-12-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2022-12-04
+  DATA RECORD SCIENCE, INC. - Yearly Special Meeting (Board) - 12:00 PM
+
+2022-12-12
+  Hippo, Inc - Yearly Special Meeting (Board) - 12:00 PM
+  Hippo, Inc - Annual Meeting of the Board of Directors - 1:00 PM
+  Hippo, Inc - Stockholder Written Consent - 1:00 PM
+
+2022-12-13
+  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  Ritual Growth, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  Ritual Growth, Inc. - Stockholder Written Consent - 1:00 PM
+
+2022-12-14
+  DATA RECORD SCIENCE, INC. - Annual Meeting of Stockholders - 1:00 PM
+  DATA RECORD SCIENCE, INC. - Annual Meeting of the Board of Directors - 1:00 PM
+  DATA RECORD SCIENCE, INC. - Majority Stockholders Written Consent (Ratification) - 1:00 PM
+
+2023-04-01
+  Hippo, Inc - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2023-04-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2023-04-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2023-04-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2023-04-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2023-07-01
+  Hippo, Inc - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2023-07-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2023-07-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2023-07-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2023-07-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2023-10-01
+  Hippo, Inc - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2023-10-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2023-10-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2023-10-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2023-10-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2023-12-01
+  Hippo, Inc - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2023-12-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2023-12-03
+  DATA RECORD SCIENCE, INC. - Yearly Special Meeting (Board) - 12:00 PM
+
+2023-12-04
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q4 - 1:00 PM
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2023-12-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2023-12-11
+  Hippo, Inc - Yearly Special Meeting (Board) - 12:00 PM
+  Hippo, Inc - Annual Meeting of the Board of Directors - 1:00 PM
+  Hippo, Inc - Stockholder Written Consent - 1:00 PM
+
+2023-12-12
+  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  Ritual Growth, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  Ritual Growth, Inc. - Stockholder Written Consent - 1:00 PM
+
+2023-12-13
+  DATA RECORD SCIENCE, INC. - Annual Meeting of Stockholders - 1:00 PM
+  DATA RECORD SCIENCE, INC. - Annual Meeting of the Board of Directors - 1:00 PM
+  DATA RECORD SCIENCE, INC. - Majority Stockholders Written Consent (Ratification) - 1:00 PM
+
+2023-12-14
+  TeamBoost.ai, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  TeamBoost.ai, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  TeamBoost.ai, Inc. - Stockholder Written Consent - 1:00 PM
+
+2023-12-16
+  Loki Sports Enterprises, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  Loki Sports Enterprises, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  Loki Sports Enterprises, Inc. - Stockholder Written Consent - 1:00 PM
+
+2024-04-01
+  Hippo, Inc - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2024-04-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2024-04-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2024-04-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2024-04-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2024-07-01
+  Hippo, Inc - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2024-07-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2024-07-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2024-07-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2024-07-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2024-10-01
+  Hippo, Inc - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2024-10-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2024-10-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2024-10-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2024-10-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2024-12-01
+  DATA RECORD SCIENCE, INC. - Yearly Special Meeting (Board) - 12:00 PM
+  Hippo, Inc - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2024-12-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2024-12-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2024-12-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2024-12-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2024-12-09
+  Hippo, Inc - Yearly Special Meeting (Board) - 12:00 PM
+  Hippo, Inc - Annual Meeting of the Board of Directors - 1:00 PM
+  Hippo, Inc - Stockholder Written Consent - 1:00 PM
+
+2024-12-10
+  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  Ritual Growth, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  Ritual Growth, Inc. - Stockholder Written Consent - 1:00 PM
+
+2024-12-11
+  DATA RECORD SCIENCE, INC. - Annual Meeting of Stockholders - 1:00 PM
+  DATA RECORD SCIENCE, INC. - Annual Meeting of the Board of Directors - 1:00 PM
+  DATA RECORD SCIENCE, INC. - Majority Stockholders Written Consent (Ratification) - 1:00 PM
+
+2024-12-12
+  TeamBoost.ai, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  TeamBoost.ai, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  TeamBoost.ai, Inc. - Stockholder Written Consent - 1:00 PM
+
+2024-12-14
+  Loki Sports Enterprises, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  Loki Sports Enterprises, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  Loki Sports Enterprises, Inc. - Stockholder Written Consent - 1:00 PM
+
+2025-04-01
+  Hippo, Inc - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2025-04-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2025-04-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2025-04-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2025-04-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2025-07-01
+  Hippo, Inc - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2025-07-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2025-07-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2025-07-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2025-07-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2025-10-01
+  Hippo, Inc - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2025-10-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2025-10-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2025-10-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2025-10-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2025-11-30
+  DATA RECORD SCIENCE, INC. - Yearly Special Meeting (Board) - 12:00 PM
+
+2025-12-01
+  Hippo, Inc - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2025-12-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2025-12-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2025-12-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2025-12-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2025-12-08
+  Hippo, Inc - Yearly Special Meeting (Board) - 12:00 PM
+  Hippo, Inc - Annual Meeting of the Board of Directors - 1:00 PM
+  Hippo, Inc - Stockholder Written Consent - 1:00 PM
+
+2025-12-09
+  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  Ritual Growth, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  Ritual Growth, Inc. - Stockholder Written Consent - 1:00 PM
+
+2025-12-10
+  DATA RECORD SCIENCE, INC. - Annual Meeting of Stockholders - 1:00 PM
+  DATA RECORD SCIENCE, INC. - Annual Meeting of the Board of Directors - 1:00 PM
+  DATA RECORD SCIENCE, INC. - Majority Stockholders Written Consent (Ratification) - 1:00 PM
+
+2025-12-11
+  TeamBoost.ai, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  TeamBoost.ai, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  TeamBoost.ai, Inc. - Stockholder Written Consent - 1:00 PM
+
+2025-12-13
+  Loki Sports Enterprises, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  Loki Sports Enterprises, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  Loki Sports Enterprises, Inc. - Stockholder Written Consent - 1:00 PM
+
+2026-04-01
+  Hippo, Inc - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2026-04-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2026-04-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2026-04-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2026-04-05
+  SurveyTeams, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2026-04-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2026-07-01
+  Hippo, Inc - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2026-07-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2026-07-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2026-07-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2026-07-05
+  SurveyTeams, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2026-07-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q2 - 1:00 PM
+
+2026-10-01
+  Hippo, Inc - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2026-10-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2026-10-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2026-10-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2026-10-05
+  SurveyTeams, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2026-10-06
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q3 - 1:00 PM
+
+2026-12-01
+  Hippo, Inc - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2026-12-02
+  Ritual Growth, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2026-12-03
+  DATA RECORD SCIENCE, INC. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2026-12-04
+  TeamBoost.ai, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2026-12-05
+  SurveyTeams, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2026-12-06
+  DATA RECORD SCIENCE, INC. - Yearly Special Meeting (Board) - 12:00 PM
+  Loki Sports Enterprises, Inc. - Quarterly Meeting (Board) Q4 - 1:00 PM
+
+2026-12-08
+  SurveyTeams, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+
+2026-12-14
+  Hippo, Inc - Yearly Special Meeting (Board) - 12:00 PM
+  Hippo, Inc - Annual Meeting of the Board of Directors - 1:00 PM
+  Hippo, Inc - Stockholder Written Consent - 1:00 PM
+
+2026-12-15
+  Ritual Growth, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  Ritual Growth, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  Ritual Growth, Inc. - Stockholder Written Consent - 1:00 PM
+
+2026-12-16
+  DATA RECORD SCIENCE, INC. - Annual Meeting of Stockholders - 1:00 PM
+  DATA RECORD SCIENCE, INC. - Annual Meeting of the Board of Directors - 1:00 PM
+  DATA RECORD SCIENCE, INC. - Majority Stockholders Written Consent (Ratification) - 1:00 PM
+
+2026-12-17
+  TeamBoost.ai, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  TeamBoost.ai, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  TeamBoost.ai, Inc. - Stockholder Written Consent - 1:00 PM
+
+2026-12-18
+  SurveyTeams, Inc. - Annual Meeting of Stockholders - 1:00 PM
+  SurveyTeams, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  SurveyTeams, Inc. - Majority Stockholders Written Consent (Ratification) - 1:00 PM
+
+2026-12-19
+  Loki Sports Enterprises, Inc. - Yearly Special Meeting (Board) - 12:00 PM
+  Loki Sports Enterprises, Inc. - Annual Meeting of the Board of Directors - 1:00 PM
+  Loki Sports Enterprises, Inc. - Stockholder Written Consent - 1:00 PM
