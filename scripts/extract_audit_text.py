@@ -2,6 +2,7 @@
 """Extract plain text from generated/**/*.docx into audit_text/ (one .txt per file).
 
 Naming: audit_text/generated__<folder>__<stem>.docx.txt
+(`<folder>` is the per-company slug for paths like ``generated/<folder>/meetings/…``, ``…/cap_tables/…``, and ``…/stock_ledgers/…``.)
 Removes .txt files with no matching .docx under generated/.
 
 Run after regenerating minutes so audit mirrors match the books, e.g.:
@@ -48,14 +49,25 @@ def main() -> None:
 
     expected: set[str] = set()
     skipped = 0
-    # Include all generated .docx (per-company under generated/<safe>/books/; master under generated/books/).
+    # Include all generated .docx (per-company: meetings/ flat or meetings/<year>/ legacy, cap_tables/, stock_ledgers/, or <safe>/*.docx at root;
+    # master under generated/books/).
+    _PER_CO_DOC_DIRS = frozenset({"books", "cap_tables", "stock_ledgers", "meetings"})
     for docx_path in sorted(gen.rglob("*.docx")):
         if _skip_docx_path(docx_path):
             skipped += 1
             continue
         rel_parts = docx_path.relative_to(gen).parts
-        if len(rel_parts) >= 3 and rel_parts[1] == "books":
-            # generated/<company>/books/<file>.docx → audit folder tag is <company> (stable vs parent "books")
+        if len(rel_parts) == 3 and rel_parts[1] == "meetings":
+            # generated/<company>/meetings/<file>.docx (flat layout)
+            folder = rel_parts[0]
+        elif len(rel_parts) == 3 and rel_parts[1] == "examples":
+            # generated/<company>/examples/<file>.docx (sample exports, if any)
+            folder = rel_parts[0]
+        elif len(rel_parts) >= 4 and rel_parts[1] == "meetings" and rel_parts[2].isdigit():
+            # generated/<company>/meetings/<year>/<file>.docx (legacy nested layout)
+            folder = rel_parts[0]
+        elif len(rel_parts) >= 3 and rel_parts[1] in _PER_CO_DOC_DIRS:
+            # generated/<company>/<subdir>/<file>.docx → audit folder tag is <company> (stable vs subdir name)
             folder = rel_parts[0]
         else:
             folder = docx_path.parent.name

@@ -23,7 +23,7 @@ With Derek E. Pappas and Marija Cejovic present—constituting the entire member
 The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
-The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
 
 In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
@@ -31,7 +31,7 @@ In taking the actions reflected in these minutes, the directors relied in good f
 IV. Resolution:
 Upon consideration, the Board adopted the following resolution:
 
-RESOLVED, that marketplace, data-pipeline, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
@@ -39,11 +39,15 @@ V. Adjournment:
 There being no further business to come before the Board, the meeting was adjourned.
 
 Executed by (Director):
-Derek E. Pappas
+_______________________________
+Name: Derek E. Pappas
+Title: Director
 Date: 2023-07-01
 
 Executed by (Director):
-Marija Cejovic
+_______________________________
+Name: Marija Cejovic
+Title: Director
 Date: 2023-07-01
 
 ---

@@ -1,0 +1,20 @@
+Standalone board resolutions — DATA RECORD SCIENCE, INC.
+Related board meeting date (cycle anchor): 2022-04-03
+Subject: Equity — issuance, consideration, and stock ledger
+
+Issuance of Common Stock — DRS-0001
+RESOLVED, that the Corporation is authorized and directed to issue 5,346,132 shares of common stock to Derek E. Pappas under certificate number DRS-0001, with an issue date of August 15, 2008, upon the terms and consideration set forth in the companion resolutions in this standalone document.
+
+Acknowledgment of Consideration — DRS-0001
+RESOLVED, that the Corporation acknowledges receipt of consideration for the issuance evidenced by certificate number DRS-0001: payment was received on August 15, 2008 via aggregate par-value consideration (synthetic mirror for minute-book series) from the payor’s account to the Corporation’s account, in the stated amount of 5346.13 USD.
+
+Stock Ledger and Books and Records — DRS-0001
+RESOLVED, that the Secretary and other appropriate officers of the Corporation are authorized and directed to record the issuance on the Corporation’s stock ledger and to reflect the issuance accurately in the Corporation’s related books and records.
+
+
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Director
+Date: 2022-04-03
+
+---

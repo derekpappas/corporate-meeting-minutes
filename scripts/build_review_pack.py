@@ -25,7 +25,7 @@ _OUT = _GEN / "review_pack"
 
 
 def _is_shared_generated_books(p: Path) -> bool:
-    """True for ``generated/books/*`` (master book), not ``generated/<co>/books/*``."""
+    """True for ``generated/books/*`` (master book only); per-company books live under ``generated/<co>/``."""
     try:
         return p.parent.resolve() == _SHARED_GEN_BOOKS.resolve()
     except OSError:
@@ -148,24 +148,28 @@ def build_sample_pack(out: Path) -> tuple[int, int]:
         )
     )
 
-    co_books = co_dir / "books"
+    meetings_dir = co_dir / "meetings"
+
     for dst_name, stem in specs:
-        src = co_books / stem
+        if dst_name.startswith("01_") and not org_iso:
+            continue
+        src = meetings_dir / stem
         if _copy(src, docx_out / dst_name):
             n_docx += 1
 
     for y in reversed(applicable):
         ann_y = cmm.annual_meeting_date_str(co, y)
         add_stem = cmm.meeting_filename(name, ann_y, "agm_operating_addendum", ext="docx")
-        if (co_books / add_stem).is_file():
-            if _copy(co_books / add_stem, docx_out / "05_agm_operating_addendum.docx"):
+        add_src = meetings_dir / add_stem
+        if add_src.is_file():
+            if _copy(add_src, docx_out / "05_agm_operating_addendum.docx"):
                 n_docx += 1
             break
 
-    book_docx = co_books / f"{safe}_all_meetings_book.docx"
+    book_docx = co_dir / f"{safe}_all_meetings_book.docx"
     if _copy(book_docx, docx_out / "08_all_meetings_book.docx"):
         n_docx += 1
-    _copy(co_books / f"{safe}_all_meetings_book.pdf", pdf_out / f"{safe}_all_meetings_book.pdf")
+    _copy(co_dir / f"{safe}_all_meetings_book.pdf", pdf_out / f"{safe}_all_meetings_book.pdf")
 
     # Audit text: one Hippo AGM extract (latest year in filename)
     at_root = _REPO / "audit_text"
@@ -229,7 +233,14 @@ def build_all_pack(out: Path) -> tuple[int, int, int, int]:
             copied_docx += 1
 
     books_d = _SHARED_GEN_BOOKS
-    per_co_book_docx = sorted(_GEN.glob("*/books/*_all_meetings_book.docx"))
+    per_co_book_docx = sorted(
+        p
+        for p in _GEN.glob("*/*_all_meetings_book.docx")
+        if p.parent.name != "books"
+        and p.name != "all_companies_all_meetings_book.docx"
+        and "review_pack" not in p.parts
+        and "examples" not in p.parts
+    )
     if _copy(per_co_book_docx[0] if per_co_book_docx else None, docx_dir / "sample_company_all_meetings_book.docx"):
         copied_docx += 1
     ac = books_d / "all_companies_all_meetings_book.docx"
@@ -241,7 +252,14 @@ def build_all_pack(out: Path) -> tuple[int, int, int, int]:
         for p in sorted(books_d.glob("*.pdf")):
             if _copy(p, pdf_dir / p.name):
                 copied_pdf += 1
-    for p in sorted(_GEN.glob("*/books/*_all_meetings_book.pdf")):
+    for p in sorted(
+        q
+        for q in _GEN.glob("*/*_all_meetings_book.pdf")
+        if q.parent.name != "books"
+        and q.name != "all_companies_all_meetings_book.pdf"
+        and "review_pack" not in q.parts
+        and "examples" not in q.parts
+    ):
         if _copy(p, pdf_dir / p.name):
             copied_pdf += 1
     ex_pdf = _pick_first("*.pdf", _GEN / "examples")

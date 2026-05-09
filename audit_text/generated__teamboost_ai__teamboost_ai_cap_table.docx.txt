@@ -1,0 +1,15 @@
+Cap table summary — TeamBoost.ai, Inc.
+As of (file): 2026-05-08
+
+This document is a convenience summary produced from `data/cap_table.json`. It does not replace the Corporation’s official stock ledger, executed subscription agreements, or any third-party cap-table system.
+
+_Cap table derived from `data/stock_ledgers/*.json`. This file is a convenience summary; the ledger is the system of record. Totals may be incomplete where ledger entries are marked pending._
+
+Jurisdiction (summary): DE
+
+Holders (from summary file)
+- Derek E. Pappas: 4,000,000 shares — issued
+
+Total issued shares (summary field): 4,000,000
+
+Notes: Minute registry indicates 10,000,000 issued for 2023+. Add remaining issuances to the ledger if those are real and you want the cap table to reconcile.

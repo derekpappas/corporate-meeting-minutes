@@ -26,8 +26,11 @@ The Sole Director reviewed quarterly franchise tax, registered agent, and minute
 The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with DGCL §141(e).
 
 
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
+IV. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Written board resolutions (equity)
+RESOLVED, that the Board hereby approves and adopts the separate written resolutions of even date substantially in the form filed with the Secretary as standalone board resolutions for certificate number(s) DRS-0001, which set forth the issuance, consideration, and stock ledger mechanics in full (and are not reproduced verbatim in these minutes).
 
 RESOLVED, that all corporate, patent-portfolio, and minute-book administration actions taken during the quarter—and related intellectual property records—are hereby ratified, confirmed, and approved as reflected in the Corporation’s books.
 
@@ -36,7 +39,9 @@ RESOLVED, that all corporate, patent-portfolio, and minute-book administration a
 V. Adjournment:
 There being no further business to come before the Board, the meeting was adjourned.
 
-Executed by: Derek E. Pappas
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Director
 Date: 2022-04-03
 
 ---

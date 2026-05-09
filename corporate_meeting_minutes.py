@@ -471,19 +471,25 @@ def stock_ledger_document_markdown(co_name: str, co: dict) -> str:
 
 
 def _write_cap_table_and_stock_ledger_docx(
-    safe_company_name: str, co_name: str, co: dict, books_dir: str, meeting_date_iso: str
+    safe_company_name: str,
+    co_name: str,
+    co: dict,
+    cap_tables_dir: str,
+    stock_ledgers_dir: str,
+    meeting_date_iso: str,
 ) -> None:
-    """Emit standalone cap table + stock ledger `.docx` and Carta/Pulley-style `.csv` under `books/` (markdown appendices unchanged)."""
-    os.makedirs(books_dir, exist_ok=True)
+    """Emit cap table `.docx` + `.csv` under ``cap_tables/`` and stock ledger `.docx` under ``stock_ledgers/`` (siblings of ``books/``)."""
+    os.makedirs(cap_tables_dir, exist_ok=True)
+    os.makedirs(stock_ledgers_dir, exist_ok=True)
     cap = cap_table_document_markdown(co_name, co)
     led = stock_ledger_document_markdown(co_name, co)
-    cap_path = os.path.join(books_dir, f"{safe_company_name}_cap_table.docx")
-    led_path = os.path.join(books_dir, f"{safe_company_name}_stock_ledger.docx")
+    cap_path = os.path.join(cap_tables_dir, f"{safe_company_name}_cap_table.docx")
+    led_path = os.path.join(stock_ledgers_dir, f"{safe_company_name}_stock_ledger.docx")
     write_docx_from_minutes(cap, cap_path, meeting_date_iso, co_name)
     write_docx_from_minutes(led, led_path, meeting_date_iso, co_name)
     print(f"Writing cap table summary to {cap_path}")
     print(f"Writing stock ledger excerpt to {led_path}")
-    csv_path = os.path.join(books_dir, f"{safe_company_name}_cap_table_carta_pulley.csv")
+    csv_path = os.path.join(cap_tables_dir, f"{safe_company_name}_cap_table_carta_pulley.csv")
     write_cap_table_carta_pulley_csv(csv_path, co_name, co)
     print(f"Writing Carta/Pulley-style cap table CSV to {csv_path}")
 
@@ -937,7 +943,7 @@ def _first_board_meeting_on_or_after_iso(co: dict, eff_iso: str) -> str | None:
 
 
 def write_standalone_board_resolution_documents(output_root: str) -> None:
-    """Write equity + domestication resolution packets under each company's `books/` folder.
+    """Write equity + domestication resolution packets under each company's ``meetings/`` folder.
 
     Full decision text lives here; meeting minutes use short incorporating resolutions only.
     """
@@ -965,7 +971,7 @@ def write_standalone_board_resolution_documents(output_root: str) -> None:
             f"{SIGNATURE_BLOCK_MARKER}\n\n"
             f"{board_meeting_signature_markdown(co, meet_iso, sole_director_name='Derek E. Pappas')}\n---\n"
         )
-        out_dir = os.path.join(root_dir, safe, "books")
+        out_dir = os.path.join(root_dir, safe, "meetings")
         os.makedirs(out_dir, exist_ok=True)
         fname = f"{safe}_{meet_iso}_equity_board_resolutions.docx"
         dest_eq = os.path.join(out_dir, fname)
@@ -996,7 +1002,7 @@ def write_standalone_board_resolution_documents(output_root: str) -> None:
             f"{SIGNATURE_BLOCK_MARKER}\n\n"
             f"{board_meeting_signature_markdown(co, meet_iso, sole_director_name='Derek E. Pappas')}\n---\n"
         )
-        out_dir = os.path.join(root_dir, safe, "books")
+        out_dir = os.path.join(root_dir, safe, "meetings")
         os.makedirs(out_dir, exist_ok=True)
         fname = f"{safe}_{meet_iso}_domestication_board_resolutions.docx"
         dest = os.path.join(out_dir, fname)
@@ -4244,6 +4250,11 @@ def sanitize_company_name(name):
     return safe_name
 
 
+def meetings_dir(company_root: str) -> str:
+    """``<company_root>/meetings/`` — single folder per company for all meeting-minute (and related) ``.docx`` files."""
+    return os.path.join(os.path.abspath(company_root), "meetings")
+
+
 def _slugify_filename_part(s: str) -> str:
     s = s.strip().lower()
     s = re.sub(r"[^a-z0-9]+", "_", s)
@@ -4841,14 +4852,15 @@ def generate_company_all_meetings_book(
     safe_company_name: str,
     co_name: str,
     years: tuple[int, ...],
-    books_dir: str,
+    company_root: str,
 ) -> None:
     """Compiled minute book per company: .docx (editable) + .pdf (distribution).
 
-    `books_dir` is normally ``{output_root}/<safe_company_name>/books/`` (same folder as individual .docx minutes).
+    ``company_root`` is ``{output_root}/<safe_company_name>/`` (the consolidated book is written **here**, not under
+    ``meetings/``). Individual meeting minutes live under ``<company_root>/meetings/`` (single folder per company).
 
-    Also writes ``<safe>_cap_table.docx``, ``<safe>_stock_ledger.docx``, ``<safe>_cap_table_carta_pulley.csv``, and appends
-    the two markdown bodies as the final sections of the compiled book (and PDF).
+    Also writes ``<safe>/cap_tables/…`` and ``<safe>/stock_ledgers/…``, and appends cap / ledger markdown as the final
+    sections of the compiled book (and PDF).
     """
     co = companies[co_name]
     start_year = co.get("minutes_start_year", co.get("inc_year", min(years)))
@@ -4868,15 +4880,35 @@ def generate_company_all_meetings_book(
             else:
                 parts.append(f"{MEETING_BOOK_PAGE_BREAK_MARKER}\n{ch}")
     mdate = annual_meeting_date_str(co, applicable[-1])
-    _write_cap_table_and_stock_ledger_docx(safe_company_name, co_name, co, books_dir, mdate)
+    company_root = os.path.abspath(company_root)
+    cap_tables_dir = os.path.join(company_root, "cap_tables")
+    stock_ledgers_dir = os.path.join(company_root, "stock_ledgers")
+    legacy_books = os.path.join(company_root, "books")
+    if os.path.isdir(legacy_books):
+        for legacy_name in (
+            f"{safe_company_name}_cap_table.docx",
+            f"{safe_company_name}_stock_ledger.docx",
+            f"{safe_company_name}_cap_table_carta_pulley.csv",
+            f"{safe_company_name}_all_meetings_book.docx",
+            f"{safe_company_name}_all_meetings_book.pdf",
+        ):
+            lp = os.path.join(legacy_books, legacy_name)
+            if os.path.isfile(lp):
+                try:
+                    os.remove(lp)
+                except OSError:
+                    pass
+    _write_cap_table_and_stock_ledger_docx(
+        safe_company_name, co_name, co, cap_tables_dir, stock_ledgers_dir, mdate
+    )
     parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
     parts.append(cap_table_document_markdown(co_name, co))
     parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
     parts.append(stock_ledger_document_markdown(co_name, co))
     book = MEETING_BOOK_SEPARATOR.join(p for p in parts if p)
-    os.makedirs(books_dir, exist_ok=True)
-    out_docx = os.path.join(books_dir, f"{safe_company_name}_all_meetings_book.docx")
-    out_pdf = os.path.join(books_dir, f"{safe_company_name}_all_meetings_book.pdf")
+    os.makedirs(company_root, exist_ok=True)
+    out_docx = os.path.join(company_root, f"{safe_company_name}_all_meetings_book.docx")
+    out_pdf = os.path.join(company_root, f"{safe_company_name}_all_meetings_book.pdf")
     print(f"Writing compiled minute book to {out_docx}")
     write_docx_from_minutes(
         book, out_docx, mdate, co_name, minute_book_page_breaks=True
@@ -4957,7 +4989,7 @@ def write_examples_directory(
     *,
     examples_dir_name: str = "examples",
 ) -> str:
-    """Create `generated/examples/<company>/` with one example of each doc type for that company (PDF only).
+    """Create ``generated/<safe>/examples/`` (per company) with one PDF sample per doc type, plus ``generated/examples/`` for cross-company masters only.
 
     Picks the latest year available for each company, then emits one PDF per category:
     - agm
@@ -4965,9 +4997,9 @@ def write_examples_directory(
     - written_consent_in_lieu_of_annual_meeting OR annual_meeting_of_stockholders (+ waiver/notice/ratification where present)
     - waiver_of_notice_board_meetings
     - one quarterly (Q1)
-    - cap_table, stock_ledger (from `generated/<safe>/books/*.docx` when present)
+    - cap_table, stock_ledger (from `generated/<safe>/cap_tables/*.docx` and `generated/<safe>/stock_ledgers/*.docx` when present)
     - cap_table_carta_pulley.csv (copied next to those PDFs when present)
-    - all_meetings_book (compiled): copies the pre-built `generated/<safe>/books/<safe>_all_meetings_book.pdf` when present
+    - all_meetings_book (compiled): copies the pre-built `generated/<safe>/<safe>_all_meetings_book.pdf` when present
 
     Standalone .docx files are converted with ReportLab (same letter layout as compiled book PDFs).
     """
@@ -4975,6 +5007,11 @@ def write_examples_directory(
     root_dir = os.path.join(start_cwd, output_root)
     examples_root = os.path.join(root_dir, examples_dir_name)
     os.makedirs(examples_root, exist_ok=True)
+    known_safes = {sanitize_company_name(n) for n in companies}
+    if os.path.isdir(examples_root):
+        for name in list(os.listdir(examples_root)):
+            if name in known_safes and os.path.isdir(os.path.join(examples_root, name)):
+                shutil.rmtree(os.path.join(examples_root, name), ignore_errors=True)
 
     books_dir = os.path.join(root_dir, "books")
     os.makedirs(books_dir, exist_ok=True)
@@ -4998,21 +5035,21 @@ def write_examples_directory(
         special_date = board_special_meeting_date_str(co, y)
         q1_date = quarterly_meeting_date_str(co, y, "Q1")
 
-        out_dir = os.path.join(examples_root, safe)
+        out_dir = os.path.join(co_dir, "examples")
         os.makedirs(out_dir, exist_ok=True)
-        # Drop prior examples (including legacy .docx) so the folder is PDF-only.
+        # Drop prior samples so the folder stays PDF-only (+ optional CSV).
         if os.path.isdir(out_dir):
             for name in os.listdir(out_dir):
                 os.remove(os.path.join(out_dir, name))
 
-        # Core docs (always generated)
-        co_books = os.path.join(co_dir, "books")
+        # Core docs (always generated) — live under ``meetings/`` (flat per company).
+        my_meetings = os.path.join(co_dir, "meetings")
         for src in (
-            os.path.join(co_books, meeting_filename(co_name, annual_date, "agm", ext="docx")),
-            os.path.join(co_books, meeting_filename(co_name, special_date, "yearly_special_meeting", ext="docx")),
-            os.path.join(co_books, meeting_filename(co_name, annual_date, "waiver_of_notice_board_meetings", ext="docx")),
+            os.path.join(my_meetings, meeting_filename(co_name, annual_date, "agm", ext="docx")),
+            os.path.join(my_meetings, meeting_filename(co_name, special_date, "yearly_special_meeting", ext="docx")),
+            os.path.join(my_meetings, meeting_filename(co_name, annual_date, "waiver_of_notice_board_meetings", ext="docx")),
             os.path.join(
-                co_books,
+                my_meetings,
                 meeting_filename(
                     co_name,
                     q1_date,
@@ -5030,17 +5067,17 @@ def write_examples_directory(
         stockholder_kind = co.get("stockholder_meeting", "written_consent")
         if stockholder_kind == "annual_meeting_stockholders":
             for src in (
-                os.path.join(co_books, meeting_filename(co_name, annual_date, "annual_meeting_of_stockholders", ext="docx")),
+                os.path.join(my_meetings, meeting_filename(co_name, annual_date, "annual_meeting_of_stockholders", ext="docx")),
                 os.path.join(
-                    co_books,
+                    my_meetings,
                     meeting_filename(co_name, annual_date, "waiver_of_notice_annual_stockholder_meeting", ext="docx"),
                 ),
                 os.path.join(
-                    co_books,
+                    my_meetings,
                     meeting_filename(co_name, annual_date, "notice_of_annual_stockholder_meeting", ext="docx"),
                 ),
                 os.path.join(
-                    co_books,
+                    my_meetings,
                     meeting_filename(
                         co_name,
                         annual_date,
@@ -5054,22 +5091,26 @@ def write_examples_directory(
                     _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
         else:
             src = os.path.join(
-                co_books, meeting_filename(co_name, annual_date, "written_consent_in_lieu_of_annual_meeting", ext="docx")
+                my_meetings, meeting_filename(co_name, annual_date, "written_consent_in_lieu_of_annual_meeting", ext="docx")
             )
             if os.path.isfile(src):
                 stem = os.path.splitext(os.path.basename(src))[0]
                 _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
 
-        for stem in (f"{safe}_cap_table", f"{safe}_stock_ledger"):
-            cap_led_docx = os.path.join(co_books, f"{stem}.docx")
-            if os.path.isfile(cap_led_docx):
-                _emit_pdf_from_docx(cap_led_docx, os.path.join(out_dir, f"{stem}.pdf"))
-        csv_src = os.path.join(co_books, f"{safe}_cap_table_carta_pulley.csv")
+        cap_tables_dir = os.path.join(co_dir, "cap_tables")
+        stock_ledgers_dir = os.path.join(co_dir, "stock_ledgers")
+        cap_docx = os.path.join(cap_tables_dir, f"{safe}_cap_table.docx")
+        if os.path.isfile(cap_docx):
+            _emit_pdf_from_docx(cap_docx, os.path.join(out_dir, f"{safe}_cap_table.pdf"))
+        led_docx = os.path.join(stock_ledgers_dir, f"{safe}_stock_ledger.docx")
+        if os.path.isfile(led_docx):
+            _emit_pdf_from_docx(led_docx, os.path.join(out_dir, f"{safe}_stock_ledger.pdf"))
+        csv_src = os.path.join(cap_tables_dir, f"{safe}_cap_table_carta_pulley.csv")
         if os.path.isfile(csv_src):
             shutil.copy2(csv_src, os.path.join(out_dir, f"{safe}_cap_table_carta_pulley.csv"))
 
-        # Compiled book: use the distribution PDF already built under generated/<safe>/books/.
-        book_pdf = os.path.join(co_dir, "books", f"{safe}_all_meetings_book.pdf")
+        # Compiled book: distribution PDF at company root.
+        book_pdf = os.path.join(co_dir, f"{safe}_all_meetings_book.pdf")
         if os.path.isfile(book_pdf):
             dst = os.path.join(out_dir, f"{safe}_all_meetings_book.pdf")
             shutil.copy2(book_pdf, dst)
@@ -5095,7 +5136,6 @@ def write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root: str) -> str:
     safe = sanitize_company_name(co_name)
     root_dir = os.path.abspath(os.path.join(os.getcwd(), output_root))
     co_dir = os.path.join(root_dir, safe)
-    co_books = os.path.join(co_dir, "books")
     out_dir = os.path.join(root_dir, f"{safe}_agm_minutes_with_accomplishment_exhibits_pdf")
     os.makedirs(out_dir, exist_ok=True)
     for name in list(os.listdir(out_dir)):
@@ -5115,8 +5155,9 @@ def write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root: str) -> str:
 
     for y in years_with_detail:
         annual_date = annual_meeting_date_str(companies[co_name], y)
-        agm_docx = os.path.join(co_books, meeting_filename(co_name, annual_date, "agm", ext="docx"))
-        add_docx = os.path.join(co_books, meeting_filename(co_name, annual_date, "agm_operating_addendum", ext="docx"))
+        y_meet = os.path.join(co_dir, "meetings")
+        agm_docx = os.path.join(y_meet, meeting_filename(co_name, annual_date, "agm", ext="docx"))
+        add_docx = os.path.join(y_meet, meeting_filename(co_name, annual_date, "agm_operating_addendum", ext="docx"))
         if os.path.isfile(agm_docx):
             out_pdf = meeting_filename(co_name, annual_date, "agm", ext="pdf")
             _write_docx_as_simple_pdf(agm_docx, os.path.join(out_dir, out_pdf))
@@ -5150,25 +5191,60 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
             safe_company_name = sanitize_company_name(name)
 
             company_dir = f"{safe_company_name}"
-            os.makedirs(company_dir, exist_ok=True)
-            co_books_dir = os.path.join(root_dir, company_dir, "books")
-            os.makedirs(co_books_dir, exist_ok=True)
-            os.chdir(co_books_dir)
+            company_root = os.path.join(root_dir, company_dir)
+            os.makedirs(company_root, exist_ok=True)
+            meetings_root = meetings_dir(company_root)
+            os.makedirs(meetings_root, exist_ok=True)
+            # Drop legacy ``meetings/<YYYY>/`` subfolders from older generator layouts.
+            if os.path.isdir(meetings_root):
+                for sub in list(os.listdir(meetings_root)):
+                    sp = os.path.join(meetings_root, sub)
+                    if os.path.isdir(sp) and sub.isdigit():
+                        shutil.rmtree(sp, ignore_errors=True)
+            # Stray meeting ``.docx`` accidentally written at company root (remove; keep compiled book).
+            for fn in list(os.listdir(company_root)):
+                if not fn.endswith(".docx"):
+                    continue
+                if not fn.startswith(f"{safe_company_name}_"):
+                    continue
+                if "all_meetings_book" in fn:
+                    continue
+                try:
+                    os.remove(os.path.join(company_root, fn))
+                except OSError:
+                    pass
 
             start_year = co.get(
                 "minutes_start_year", co.get("inc_year", min(years))
             )
+
+            legacy_books = os.path.join(company_root, "books")
+            if os.path.isdir(legacy_books):
+                for fn in list(os.listdir(legacy_books)):
+                    if not fn.endswith(".docx"):
+                        continue
+                    if fn.startswith(f"{safe_company_name}_"):
+                        try:
+                            os.remove(os.path.join(legacy_books, fn))
+                        except OSError:
+                            pass
+
+            os.chdir(meetings_root)
             year_prefix = re.compile(rf"^{re.escape(safe_company_name)}_(\d{{4}})_")
-            for entry in os.listdir("."):
-                if not entry.endswith(".docx"):
+            for fn in list(os.listdir(".")):
+                if not fn.endswith(".docx"):
                     continue
-                m = year_prefix.match(entry)
+                m = year_prefix.match(fn)
                 if m and int(m.group(1)) < start_year:
-                    os.remove(entry)
+                    try:
+                        os.remove(os.path.join(meetings_root, fn))
+                    except OSError:
+                        pass
 
             for year in years:
                 if year < co.get("minutes_start_year", co.get("inc_year", year)):
                     continue
+
                 company_name_year = f"{safe_company_name}_{year}"
 
                 # Organizational meeting (post-filing; only for inc_year when a filed date is known).
@@ -5190,7 +5266,7 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
                         continue
                     generate_quarterly_summary(company_name_year, year, quarter, name)
 
-            generate_company_all_meetings_book(safe_company_name, name, years, co_books_dir)
+            generate_company_all_meetings_book(safe_company_name, name, years, company_root)
     finally:
         os.chdir(start_cwd)
 
@@ -5241,13 +5317,16 @@ def main():
         action="store_true",
         help=(
             "After generation, run scripts/extract_audit_text.py so audit_text/*.txt mirrors "
-            "generated/**/*.docx (including compiled books)."
+            "generated/**/*.docx (books, cap_tables, stock_ledgers, and compiled books)."
         ),
     )
     parser.add_argument(
         "--write-examples",
         action="store_true",
-        help="Create `generated/examples/<company>/` with one PDF example per doc type; copies master book PDF when present.",
+        help=(
+            "Create ``generated/<safe>/examples/`` with one PDF sample per doc type per company; "
+            "``generated/examples/`` holds cross-company master PDF/CSV only."
+        ),
     )
     parser.add_argument(
         "--write-loki-agm-exhibits-pdf",
@@ -5263,7 +5342,9 @@ def main():
         action="store_true",
         help=(
             "Write one compiled minute book spanning all companies to <output-root>/books/ "
-            "(per-company minutes, compiled books, and standalone resolutions live under <output-root>/<safe>/books/)."
+            "(per-company minutes under <output-root>/<safe>/meetings/; standalone equity/domestication "
+            "resolutions there too; cap tables and stock ledgers under <output-root>/<safe>/cap_tables/ and …/stock_ledgers/; "
+            "compiled book at <output-root>/<safe>/<safe>_all_meetings_book.*)."
         ),
     )
     args = parser.parse_args()

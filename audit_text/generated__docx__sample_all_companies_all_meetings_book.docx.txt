@@ -2327,6 +2327,51 @@ Date: 2026-12-14
 
 
 
+Cap table summary — Hippo, Inc.
+As of (file): 2026-05-08
+
+This document is a convenience summary produced from `data/cap_table.json`. It does not replace the Corporation’s official stock ledger, executed subscription agreements, or any third-party cap-table system.
+
+_Cap table derived from `data/stock_ledgers/*.json`. This file is a convenience summary; the ledger is the system of record. Totals may be incomplete where ledger entries are marked pending._
+
+Jurisdiction (summary): DE
+
+Holders (from summary file)
+- Derek E. Pappas: 8,000,000 shares — issued
+
+Total issued shares (summary field): 8,000,000
+
+Notes: Ledger reflects the user-provided 8,000,000 share issuance. If additional shares were issued later (e.g. per minute registry 8,160,000 in 2023+), add those issuances to the ledger to reconcile.
+
+
+
+Stock ledger (machine-readable excerpt) — Hippo, Inc.
+
+This document reflects `data/stock_ledgers/*.json` entries linked to the corporation by `company_legal_name`. The official stock ledger may be maintained in another system or in bound paper form; reconcile before any filing or diligence.
+
+Company (ledger file): Hippo, Inc.
+Jurisdiction (ledger): DE
+Total authorized shares: 10,000,000
+Par value (USD per share): 0.0001
+Currency: USD
+Certificate numbering: HIPPO-0001, HIPPO-0002, ...
+
+Ledger entries
+
+### HIPPO-0001
+- Shareholder: Derek E. Pappas
+- Shares: 8,000,000
+- Issue date: 2022-06-01
+- Consideration:
+  - Type: cash
+  - Amount: 800 USD
+  - Payment method: bank transfer
+  - From: First Republic Bank account ending in 3220 (Derek E. Pappas)
+  - To: First Republic Bank account ending in 64875 (Hippo, Inc.)
+- Entry notes: User-provided transaction details.
+
+
+
 Company: Ritual Growth, Inc.
 (Delaware corporation)
 
@@ -4566,6 +4611,49 @@ Dated: December 15, 2026
 
 
 
+Cap table summary — Ritual Growth, Inc.
+As of (file): 2026-05-08
+
+This document is a convenience summary produced from `data/cap_table.json`. It does not replace the Corporation’s official stock ledger, executed subscription agreements, or any third-party cap-table system.
+
+_Cap table derived from `data/stock_ledgers/*.json`. This file is a convenience summary; the ledger is the system of record. Totals may be incomplete where ledger entries are marked pending._
+
+Jurisdiction (summary): DE
+
+Holders (from summary file)
+- Derek E. Pappas: 4,000,000 shares — issued
+
+Total issued shares (summary field): 4,000,000
+
+
+
+Stock ledger (machine-readable excerpt) — Ritual Growth, Inc.
+
+This document reflects `data/stock_ledgers/*.json` entries linked to the corporation by `company_legal_name`. The official stock ledger may be maintained in another system or in bound paper form; reconcile before any filing or diligence.
+
+Company (ledger file): Ritual Growth, Inc.
+Jurisdiction (ledger): DE
+Total authorized shares: 10,000,000
+Par value (USD per share): 0.0001
+Currency: USD
+Certificate numbering: RG-0001, RG-0002, ...
+
+Ledger entries
+
+### RG-0001
+- Shareholder: Derek E. Pappas
+- Shares: 4,000,000
+- Issue date: 2023-05-07
+- Consideration:
+  - Type: cash
+  - Amount: 400 USD
+  - Payment method: check
+  - From: Chase account ending in 8407 (Derek E. Pappas)
+  - To: Chase account ending in 2117 (Ritual Growth, Inc.)
+- Entry notes: User-provided transaction details.
+
+
+
 Company: DATA RECORD SCIENCE, INC.
 (Delaware corporation)
 
@@ -4603,8 +4691,11 @@ The Sole Director reviewed quarterly franchise tax, registered agent, and minute
 The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with DGCL §141(e).
 
 
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
+IV. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Written board resolutions (equity)
+RESOLVED, that the Board hereby approves and adopts the separate written resolutions of even date substantially in the form filed with the Secretary as standalone board resolutions for certificate number(s) DRS-0001, which set forth the issuance, consideration, and stock ledger mechanics in full (and are not reproduced verbatim in these minutes).
 
 RESOLVED, that all corporate, patent-portfolio, and minute-book administration actions taken during the quarter—and related intellectual property records—are hereby ratified, confirmed, and approved as reflected in the Corporation’s books.
 
@@ -7023,6 +7114,51 @@ Date: 2026-12-16
 
 
 
+Cap table summary — DATA RECORD SCIENCE, INC.
+As of (file): 2026-05-08
+
+This document is a convenience summary produced from `data/cap_table.json`. It does not replace the Corporation’s official stock ledger, executed subscription agreements, or any third-party cap-table system.
+
+_Cap table derived from `data/stock_ledgers/*.json`. This file is a convenience summary; the ledger is the system of record. Totals may be incomplete where ledger entries are marked pending._
+
+Jurisdiction (summary): DE
+
+Holders (from summary file)
+- Derek E. Pappas: 5,346,132 shares — issued
+
+Total issued shares (summary field): 5,346,132
+
+Notes: Summary aligned to `company_information.shares_issued` for the generated minute series (2022+). Historical issuances before the series belong in the official ledger and in `data/stock_ledgers/data_record_science.json` when mirrored.
+
+
+
+Stock ledger (machine-readable excerpt) — DATA RECORD SCIENCE, INC.
+
+This document reflects `data/stock_ledgers/*.json` entries linked to the corporation by `company_legal_name`. The official stock ledger may be maintained in another system or in bound paper form; reconcile before any filing or diligence.
+
+Company (ledger file): DATA RECORD SCIENCE, INC.
+Jurisdiction (ledger): DE
+Total authorized shares: 10,000,000
+Par value (USD per share): 0.001
+Currency: USD
+Certificate numbering: DRS-0001, DRS-0002, ...
+
+Ledger file notes: Extend `ledger_entries` with additional certificates or transfers as the live cap table evolves.
+
+Ledger entries
+
+### DRS-0001
+- Shareholder: Derek E. Pappas
+- Shares: 5,346,132
+- Issue date: 2008-08-15
+- Consideration:
+  - Type: cash
+  - Amount: 5346.13 USD
+  - Payment method: aggregate par-value consideration (synthetic mirror for minute-book series)
+- Entry notes: Synthetic mirror of outstanding common reflected in the generated minute series (2022+). First board meeting strictly after `issue_date` falls on 2022 Q1 for equity cross-reference indexing—reconcile dates, wire records, and certificate legends with the official ledger before Carta/Pulley import.
+
+
+
 Company: TeamBoost.ai, Inc.
 (Delaware corporation)
 
@@ -8864,6 +9000,51 @@ Date: _______________________________
 
 
 
+Cap table summary — TeamBoost.ai, Inc.
+As of (file): 2026-05-08
+
+This document is a convenience summary produced from `data/cap_table.json`. It does not replace the Corporation’s official stock ledger, executed subscription agreements, or any third-party cap-table system.
+
+_Cap table derived from `data/stock_ledgers/*.json`. This file is a convenience summary; the ledger is the system of record. Totals may be incomplete where ledger entries are marked pending._
+
+Jurisdiction (summary): DE
+
+Holders (from summary file)
+- Derek E. Pappas: 4,000,000 shares — issued
+
+Total issued shares (summary field): 4,000,000
+
+Notes: Minute registry indicates 10,000,000 issued for 2023+. Add remaining issuances to the ledger if those are real and you want the cap table to reconcile.
+
+
+
+Stock ledger (machine-readable excerpt) — TeamBoost.ai, Inc.
+
+This document reflects `data/stock_ledgers/*.json` entries linked to the corporation by `company_legal_name`. The official stock ledger may be maintained in another system or in bound paper form; reconcile before any filing or diligence.
+
+Company (ledger file): TeamBoost.ai, Inc.
+Jurisdiction (ledger): DE
+Total authorized shares: 10,000,000
+Par value (USD per share): 0.0001
+Currency: USD
+Certificate numbering: TB-0001, TB-0002, ...
+
+Ledger entries
+
+### TB-0001
+- Shareholder: Derek E. Pappas
+- Shares: 4,000,000
+- Issue date: 2023-05-07
+- Consideration:
+  - Type: cash
+  - Amount: 400 USD
+  - Payment method: check
+  - From: Chase account ending in 8407 (Derek E. Pappas)
+  - To: Chase account ending in 1135 (TeamBoost.ai, Inc.)
+- Entry notes: User-provided transaction details.
+
+
+
 Company: SurveyTeams, Inc.
 (Delaware corporation)
 
@@ -9440,6 +9621,61 @@ Date: December 18, 2026
 
 
 ---
+
+
+
+Cap table summary — SurveyTeams, Inc.
+As of (file): 2026-05-08
+
+This document is a convenience summary produced from `data/cap_table.json`. It does not replace the Corporation’s official stock ledger, executed subscription agreements, or any third-party cap-table system.
+
+_Cap table derived from `data/stock_ledgers/*.json`. This file is a convenience summary; the ledger is the system of record. Totals may be incomplete where ledger entries are marked pending._
+
+Jurisdiction (summary): DE
+
+Holders (from summary file)
+- Derek E. Pappas: 4,000,000 shares — issued
+- Mohamed Mohamed: 4,000,000 shares — pending_details
+
+Total issued shares (summary field): 8,000,000
+
+Notes: Second holder line is pending bank/date/amount details in ledger.
+
+
+
+Stock ledger (machine-readable excerpt) — SurveyTeams, Inc.
+
+This document reflects `data/stock_ledgers/*.json` entries linked to the corporation by `company_legal_name`. The official stock ledger may be maintained in another system or in bound paper form; reconcile before any filing or diligence.
+
+Company (ledger file): SurveyTeams, Inc.
+Jurisdiction (ledger): DE
+Total authorized shares: 10,000,000
+Par value (USD per share): 0.0001
+Currency: USD
+Certificate numbering: ST-0001, ST-0002, ...
+
+Ledger entries
+
+### ST-0001
+- Shareholder: Derek E. Pappas
+- Shares: 4,000,000
+- Issue date: 2026-05-07
+- Consideration:
+  - Type: cash
+  - Amount: 400 USD
+  - Payment method: check
+  - From: Chase account ending in 8407 (Derek E. Pappas)
+  - To: Chase account ending in 6202 (SurveyTeams, Inc.)
+- Entry notes: User-provided transaction details.
+
+### ST-0002
+- Shareholder: Mohamed Mohamed
+- Shares: 4,000,000
+- Issue date: 2026-05-07
+- Consideration:
+  - Type: cash
+  - To: Mercury Bank — SurveyTeams, Inc. corporate account
+- Entry notes: Issue date aligned with ST-0001 (same closing). Payment amount/method/bank source still pending—fill consideration when wire/check details are final.
 
 
 
@@ -10984,3 +11220,48 @@ Title: Sole Director
 Date: 2026-12-19
 
 ---
+
+
+
+Cap table summary — Loki Sports Enterprises, Inc.
+As of (file): 2026-05-08
+
+This document is a convenience summary produced from `data/cap_table.json`. It does not replace the Corporation’s official stock ledger, executed subscription agreements, or any third-party cap-table system.
+
+_Cap table derived from `data/stock_ledgers/*.json`. This file is a convenience summary; the ledger is the system of record. Totals may be incomplete where ledger entries are marked pending._
+
+Jurisdiction (summary): WY
+
+Holders (from summary file)
+- Derek E. Pappas: 4,000,000 shares — issued
+
+Total issued shares (summary field): 4,000,000
+
+Notes: Minute registry indicates 10,000,000 outstanding for 2023+. Add remaining issuances to the ledger if those are real and you want the cap table to reconcile.
+
+
+
+Stock ledger (machine-readable excerpt) — Loki Sports Enterprises, Inc.
+
+This document reflects `data/stock_ledgers/*.json` entries linked to the corporation by `company_legal_name`. The official stock ledger may be maintained in another system or in bound paper form; reconcile before any filing or diligence.
+
+Company (ledger file): Loki Sports Enterprises, Inc.
+Jurisdiction (ledger): WY
+Total authorized shares: 10,000,000
+Par value (USD per share): 0.0001
+Currency: USD
+Certificate numbering: LOKI-0001, LOKI-0002, ...
+
+Ledger entries
+
+### LOKI-0001
+- Shareholder: Derek E. Pappas
+- Shares: 4,000,000
+- Issue date: 2023-05-07
+- Consideration:
+  - Type: cash
+  - Amount: 400 USD
+  - Payment method: check
+  - From: Chase account ending in 8407 (Derek E. Pappas)
+  - To: Chase account ending in 3962 (Loki Sports Enterprises, Inc.)
+- Entry notes: User-provided transaction details.

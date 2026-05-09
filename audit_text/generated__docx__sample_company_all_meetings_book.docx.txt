@@ -36,8 +36,11 @@ The Sole Director reviewed quarterly franchise tax, registered agent, and minute
 The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with DGCL §141(e).
 
 
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
+IV. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Written board resolutions (equity)
+RESOLVED, that the Board hereby approves and adopts the separate written resolutions of even date substantially in the form filed with the Secretary as standalone board resolutions for certificate number(s) DRS-0001, which set forth the issuance, consideration, and stock ledger mechanics in full (and are not reproduced verbatim in these minutes).
 
 RESOLVED, that all corporate, patent-portfolio, and minute-book administration actions taken during the quarter—and related intellectual property records—are hereby ratified, confirmed, and approved as reflected in the Corporation’s books.
 
@@ -2403,3 +2406,48 @@ Title: Sole Director
 Date: 2026-12-16
 
 ---
+
+
+
+Cap table summary — DATA RECORD SCIENCE, INC.
+As of (file): 2026-05-08
+
+This document is a convenience summary produced from `data/cap_table.json`. It does not replace the Corporation’s official stock ledger, executed subscription agreements, or any third-party cap-table system.
+
+_Cap table derived from `data/stock_ledgers/*.json`. This file is a convenience summary; the ledger is the system of record. Totals may be incomplete where ledger entries are marked pending._
+
+Jurisdiction (summary): DE
+
+Holders (from summary file)
+- Derek E. Pappas: 5,346,132 shares — issued
+
+Total issued shares (summary field): 5,346,132
+
+Notes: Summary aligned to `company_information.shares_issued` for the generated minute series (2022+). Historical issuances before the series belong in the official ledger and in `data/stock_ledgers/data_record_science.json` when mirrored.
+
+
+
+Stock ledger (machine-readable excerpt) — DATA RECORD SCIENCE, INC.
+
+This document reflects `data/stock_ledgers/*.json` entries linked to the corporation by `company_legal_name`. The official stock ledger may be maintained in another system or in bound paper form; reconcile before any filing or diligence.
+
+Company (ledger file): DATA RECORD SCIENCE, INC.
+Jurisdiction (ledger): DE
+Total authorized shares: 10,000,000
+Par value (USD per share): 0.001
+Currency: USD
+Certificate numbering: DRS-0001, DRS-0002, ...
+
+Ledger file notes: Extend `ledger_entries` with additional certificates or transfers as the live cap table evolves.
+
+Ledger entries
+
+### DRS-0001
+- Shareholder: Derek E. Pappas
+- Shares: 5,346,132
+- Issue date: 2008-08-15
+- Consideration:
+  - Type: cash
+  - Amount: 5346.13 USD
+  - Payment method: aggregate par-value consideration (synthetic mirror for minute-book series)
+- Entry notes: Synthetic mirror of outstanding common reflected in the generated minute series (2022+). First board meeting strictly after `issue_date` falls on 2022 Q1 for equity cross-reference indexing—reconcile dates, wire records, and certificate legends with the official ledger before Carta/Pulley import.

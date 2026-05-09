@@ -31,7 +31,7 @@ The minutes of the prior Annual Meeting of the Board of Directors held on 2025-1
 V. Reports of Officers
 
 President’s Report:
-The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Wayne, Pennsylvania, USA and development from Serbia; Bosnia and Herzegovina; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued development of the Corporation’s software and service offerings.  All software, data models, algorithms, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Wayne, Pennsylvania, USA and engineering support sourced through contractor and consultant arrangements with personnel in Serbia; Bosnia and Herzegovina; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The President’s report summarized the Corporation’s consumer and data platforms for 2026, including the social shopping network marketed as Hippo Shopping on the Apple App Store and Google Play, the PriceStarz browser-based comparison-shopping extension, large-scale web crawling, templates and extraction workflows producing structured data records, and a data-processing pipeline for deals and product-offer records that groups offers for the same product and, where possible, associates deal-offer records with the correct product group—together with merchant integrations, public APIs, analytics, and back-office tooling supporting those systems.  All software, data models, algorithms, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements (including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia) were reaffirmed as properly titled to and the exclusive property of the Corporation under those arrangements and applicable law, without implying ownership of counterparties’ equipment or premises.
 
 Treasurer’s Report:
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
@@ -40,7 +40,7 @@ In taking the actions reflected in these minutes, the directors relied in good f
 
 
 VI. Discussion Items
-The directors discussed the Corporation’s product and data roadmap for 2027, including API reliability targets, merchant integration milestones, and fraud-prevention initiatives.
+The directors discussed the Corporation’s 2027 roadmap across Hippo Shopping, PriceStarz, crawl coverage and extraction quality, offer-grouping and deal-linking accuracy in the processing pipeline, merchant and marketplace reliability, and mobile and extension release cadence.
 
 VII. Resolutions
 Upon consideration, the Board adopted the following resolutions:
@@ -64,11 +64,15 @@ VIII. Adjournment
 There being no further business to come before the Board, the meeting was adjourned.
 
 Executed by (Director):
-Derek E. Pappas
+_______________________________
+Name: Derek E. Pappas
+Title: Director
 Date: 2026-12-14
 
 Executed by (Director):
-Marija Cejovic
+_______________________________
+Name: Marija Cejovic
+Title: Director
 Date: 2026-12-14
 
 ---

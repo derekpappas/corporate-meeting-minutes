@@ -8,7 +8,7 @@ Date of Meeting: 2026-12-14
 Time of Meeting: 12:00 PM
 Location of Meeting: Wayne, Pennsylvania, via digital communication
 Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-Purpose: Pre-annual review of marketplace, scraping, and data-pipeline operations
+Purpose: Pre-annual review of Hippo Shopping, PriceStarz, web crawling, structured-data extraction, offer-grouping pipeline, marketplace, and mobile operations
 
 I. Call to Order:
 The Special Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-14 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
@@ -26,8 +26,8 @@ Remote participation was used; the means employed allowed contemporaneous hearin
 III. Resolutions:
 Upon consideration, the Board adopted the following resolution:
 
-Ratification of Marketplace and Data Operations
-RESOLVED, that operational and engineering decisions affecting the Corporation’s consumer marketplace, merchant integrations, and data ingestion pipelines during 2026 are hereby ratified, confirmed, and approved in all respects.
+Ratification of Shopping, Extension, Crawling, Extraction, and Pipeline Operations
+RESOLVED, that operational and engineering decisions affecting the Corporation’s social shopping application, PriceStarz extension, web crawling, structured-data extraction, deals and product-offer processing pipeline, consumer marketplace surfaces, data ingestion, and native mobile applications during 2026 are hereby ratified, confirmed, and approved in all respects.
 
 
 In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
@@ -37,11 +37,15 @@ IV. Adjournment:
 There being no further business to come before the Board, the meeting was adjourned.
 
 Executed by (Director):
-Derek E. Pappas
+_______________________________
+Name: Derek E. Pappas
+Title: Director
 Date: 2026-12-14
 
 Executed by (Director):
-Marija Cejovic
+_______________________________
+Name: Marija Cejovic
+Title: Director
 Date: 2026-12-14
 
 ---

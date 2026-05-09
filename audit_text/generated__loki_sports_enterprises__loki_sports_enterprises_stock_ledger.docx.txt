@@ -1,0 +1,24 @@
+Stock ledger (machine-readable excerpt) — Loki Sports Enterprises, Inc.
+
+This document reflects `data/stock_ledgers/*.json` entries linked to the corporation by `company_legal_name`. The official stock ledger may be maintained in another system or in bound paper form; reconcile before any filing or diligence.
+
+Company (ledger file): Loki Sports Enterprises, Inc.
+Jurisdiction (ledger): WY
+Total authorized shares: 10,000,000
+Par value (USD per share): 0.0001
+Currency: USD
+Certificate numbering: LOKI-0001, LOKI-0002, ...
+
+Ledger entries
+
+### LOKI-0001
+- Shareholder: Derek E. Pappas
+- Shares: 4,000,000
+- Issue date: 2023-05-07
+- Consideration:
+  - Type: cash
+  - Amount: 400 USD
+  - Payment method: check
+  - From: Chase account ending in 8407 (Derek E. Pappas)
+  - To: Chase account ending in 3962 (Loki Sports Enterprises, Inc.)
+- Entry notes: User-provided transaction details.

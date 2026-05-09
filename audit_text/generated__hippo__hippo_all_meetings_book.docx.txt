@@ -2280,3 +2280,48 @@ Title: Director
 Date: 2026-12-14
 
 ---
+
+
+
+Cap table summary — Hippo, Inc.
+As of (file): 2026-05-08
+
+This document is a convenience summary produced from `data/cap_table.json`. It does not replace the Corporation’s official stock ledger, executed subscription agreements, or any third-party cap-table system.
+
+_Cap table derived from `data/stock_ledgers/*.json`. This file is a convenience summary; the ledger is the system of record. Totals may be incomplete where ledger entries are marked pending._
+
+Jurisdiction (summary): DE
+
+Holders (from summary file)
+- Derek E. Pappas: 8,000,000 shares — issued
+
+Total issued shares (summary field): 8,000,000
+
+Notes: Ledger reflects the user-provided 8,000,000 share issuance. If additional shares were issued later (e.g. per minute registry 8,160,000 in 2023+), add those issuances to the ledger to reconcile.
+
+
+
+Stock ledger (machine-readable excerpt) — Hippo, Inc.
+
+This document reflects `data/stock_ledgers/*.json` entries linked to the corporation by `company_legal_name`. The official stock ledger may be maintained in another system or in bound paper form; reconcile before any filing or diligence.
+
+Company (ledger file): Hippo, Inc.
+Jurisdiction (ledger): DE
+Total authorized shares: 10,000,000
+Par value (USD per share): 0.0001
+Currency: USD
+Certificate numbering: HIPPO-0001, HIPPO-0002, ...
+
+Ledger entries
+
+### HIPPO-0001
+- Shareholder: Derek E. Pappas
+- Shares: 8,000,000
+- Issue date: 2022-06-01
+- Consideration:
+  - Type: cash
+  - Amount: 800 USD
+  - Payment method: bank transfer
+  - From: First Republic Bank account ending in 3220 (Derek E. Pappas)
+  - To: First Republic Bank account ending in 64875 (Hippo, Inc.)
+- Entry notes: User-provided transaction details.

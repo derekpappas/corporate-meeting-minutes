@@ -20,7 +20,7 @@ With Derek E. Pappas present as the Sole Director, the Board had a quorum and la
 Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
 
 III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in United States; Pakistan are properly titled to and are the exclusive property of the Corporation.
+The Sole Director reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in United States; Pakistan, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Sole Director acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
 
 In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by W.S. 1977 § 17-16-830 (Wyoming Business Corporation Act; standards for directors and reliance on information from officers and others reasonably believed reliable in their areas of competence).
 
@@ -28,8 +28,8 @@ In taking the actions reflected in these minutes, the Sole Director relied in go
 IV. Resolutions
 Upon consideration, the Sole Director adopted the following resolutions:
 
-Acknowledgment of Share Issuance — LOKI-0001
-RESOLVED, that the Corporation acknowledges receipt of consideration for 4,000,000 shares of common stock issued to Derek E. Pappas and recorded on the stock ledger under certificate number LOKI-0001; that payment was received on May 07, 2023 via check from Chase account ending in 8407 (Derek E. Pappas) to Chase account ending in 3962 (Loki Sports Enterprises, Inc.), in the stated amount of 400 USD; and FURTHER RESOLVED, that the officers are authorized to reflect the issuance in the Corporation’s stock ledger and related books and records accordingly.
+Written board resolutions (equity)
+RESOLVED, that the Board hereby approves and adopts the separate written resolutions of even date substantially in the form filed with the Secretary as standalone board resolutions for certificate number(s) LOKI-0001, which set forth the issuance, consideration, and stock ledger mechanics in full (and are not reproduced verbatim in these minutes).
 
 RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
@@ -39,7 +39,9 @@ V. Adjournment:
 There being no further business to come before the Board, the meeting was adjourned.
 
 Executed and agreed:
-Derek E. Pappas
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Director
 Date: 2023-07-06
 
 ---
