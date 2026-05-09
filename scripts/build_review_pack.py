@@ -4,9 +4,10 @@
 - **sample/** — one Delaware company (**Hippo, Inc.**), one file per meeting / instrument type.
 - **all/** — cross-company snapshot: one example per doc type (any company), all compiled book PDFs, audits, calendars, etc.
 
-Copies only (does not move). Run after generating minutes:
+Copies only (does not move). Run after generating minutes (and after calendars if you copy them into the pack):
 
-  poetry run python corporate_meeting_minutes.py --output-root generated --write-master-book --extract-audit-text
+  poetry run python corporate_meeting_minutes.py --output-root generated --extract-audit-text --write-examples --write-master-book
+  poetry run python corporate_meeting_minutes.py --write-calendars
   poetry run python scripts/build_review_pack.py
 """
 

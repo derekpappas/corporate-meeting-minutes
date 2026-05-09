@@ -4,6 +4,8 @@
 
 **Inputs reviewed**: Plain-text corpus `audit_text/` (**138** files, synced from `generated/` per `scripts/extract_audit_text.py`). Charter/bylaws were **not** re-OCR’d for this pass; conclusions assume the generator’s stated DGCL hooks are **aspirational** until matched to **COI/bylaw** text (Add-on A).
 
+**Layout note (May 2026+):** The **138**-file count reflects this **2026-04-03** pass only. Current regen commands and folder layout are in **README.md** and **audit_reports/hard_audit_corpus_run.md**; substantive posture is summarized in **audit_reports/senior_dgcl_audit_2026-05-08.md**.
+
 ---
 
 ### 1. Executive risk assessment

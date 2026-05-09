@@ -88,9 +88,7 @@
 
 ## Phase 6 — Audit loop
 
-1. After any template or `companies` change:  
-   `poetry run python corporate_meeting_minutes.py --output-root generated`  
-   then `poetry run python scripts/extract_audit_text.py`.
+1. After any template or `companies` change: regenerate and mirror extracts using the commands in **README.md** (typically `--output-root generated --extract-audit-text`, plus optional `--write-examples` / `--write-master-book` as needed).
 2. Update `audit_reports/senior_counsel_audit_2022_2026.md` (and PDF) only when the **open defect list** meaningfully changes.
 3. Optionally re-run the full `senior_counsel_audit_prompt.md` pass against **audit_text + bylaws/COI text** when you refresh charters.
 
