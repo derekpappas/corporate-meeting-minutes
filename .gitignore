@@ -4,3 +4,8 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
+
+# Build / audit outputs (repo currently may track these; uncomment to keep local only)
+# generated/
+# audit_text/
+# calendars/

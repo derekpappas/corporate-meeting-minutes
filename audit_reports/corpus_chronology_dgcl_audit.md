@@ -1,21 +1,14 @@
 # Corpus chronology and DGCL audit
 
-**Summary:** 10 error-line(s), 39 warning-line(s).
+**Summary:** 0 error-line(s), 0 warning-line(s).
 
 Automated scan of `audit_text/generated__*__*.docx.txt` plus schedule/stock-ledger checks. Review flagged items with counsel; false positives are possible (e.g. narrative mentions of other dates).
 
-## 1. Filename date vs meeting header date
+## 1. Filename date vs meeting header date (board minutes only)
 
-- **MISMATCH** `generated__ritual_growth__ritual_growth_2022_12_13_waiver_of_notice_board_meetings.docx.txt`: file name **2022-12-13**, body **2022-06-17**
-- **MISMATCH** `generated__ritual_growth__ritual_growth_2023_12_12_waiver_of_notice_board_meetings.docx.txt`: file name **2023-12-12**, body **2023-04-02**
-- **MISMATCH** `generated__ritual_growth__ritual_growth_2024_12_10_waiver_of_notice_board_meetings.docx.txt`: file name **2024-12-10**, body **2024-04-02**
-- **MISMATCH** `generated__ritual_growth__ritual_growth_2025_12_09_waiver_of_notice_board_meetings.docx.txt`: file name **2025-12-09**, body **2025-04-02**
-- **MISMATCH** `generated__ritual_growth__ritual_growth_2026_12_15_waiver_of_notice_board_meetings.docx.txt`: file name **2026-12-15**, body **2026-04-02**
-- **MISMATCH** `generated__surveyteams__surveyteams_2026_12_18_waiver_of_notice_board_meetings.docx.txt`: file name **2026-12-18**, body **2026-04-05**
-- **MISMATCH** `generated__teamboost_ai__teamboost_ai_2023_12_14_waiver_of_notice_board_meetings.docx.txt`: file name **2023-12-14**, body **2023-01-20**
-- **MISMATCH** `generated__teamboost_ai__teamboost_ai_2024_12_12_waiver_of_notice_board_meetings.docx.txt`: file name **2024-12-12**, body **2024-04-05**
-- **MISMATCH** `generated__teamboost_ai__teamboost_ai_2025_12_11_waiver_of_notice_board_meetings.docx.txt`: file name **2025-12-11**, body **2025-04-05**
-- **MISMATCH** `generated__teamboost_ai__teamboost_ai_2026_12_17_waiver_of_notice_board_meetings.docx.txt`: file name **2026-12-17**, body **2026-04-05**
+*Waivers, notices, and written consents intentionally reference multiple dates; they are skipped here.*
+
+- No mismatches in board-minute-style extracts (AGM / special / org / quarterly).
 
 ## 2. Quarterly sequence within each calendar year (filenames)
 
@@ -46,7 +39,11 @@ Automated scan of `audit_text/generated__*__*.docx.txt` plus schedule/stock-ledg
 - SurveyTeams, Inc.: no Wyoming statute phrase hits in per-meeting extracts.
 - TeamBoost.ai, Inc.: no Wyoming statute phrase hits in per-meeting extracts.
 
-## 7. Next steps
+## 7. Cross-company calendar (same date + time)
 
-- Re-run `poetry run python corporate_meeting_minutes.py --write-calendars --strict-calendars` for cross-company same-slot conflicts.
+- `write_company_calendars` conflict slots (same calendar date and **identical** time string across companies): **0**.
+
+## 8. Next steps
+
+- CI: `poetry run python scripts/audit_corpus_chronology_dgcl.py --strict --strict-calendars` or `poetry run python corporate_meeting_minutes.py --write-calendars --strict-calendars`.
 - After regenerating `.docx`, run `poetry run python scripts/extract_audit_text.py` so this audit tracks current output.

@@ -20,7 +20,7 @@ Marija Cejovic (Director)
 Directors Absent: None
 
 All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolution:
@@ -29,7 +29,7 @@ Ratification of Mobile and API Delivery Operations
 RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2023 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:

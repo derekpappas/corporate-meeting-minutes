@@ -30,12 +30,12 @@ Directors Absent: None
 
 With Derek E. Pappas and Mohamed Mohamed present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
 The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -83,16 +83,22 @@ Directors Absent: None
 
 Attendance by Derek E. Pappas and Mohamed Mohamed satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
 The directors confirmed that notice of the meeting was duly given or waived.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
-IV. Resolution:
-Upon consideration, the Board adopted the following resolution:
+IV. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Acknowledgment of Share Issuance — ST-0001
+RESOLVED, that the Corporation acknowledges receipt of consideration for 4,000,000 shares of common stock issued to Derek E. Pappas and recorded on the stock ledger under certificate number ST-0001; that payment was received on May 07, 2026 via check from Chase account ending in 8407 (Derek E. Pappas) to Chase account ending in 6202 (SurveyTeams, Inc.), in the stated amount of 400 USD; and FURTHER RESOLVED, that the officers are authorized to reflect the issuance in the Corporation’s stock ledger and related books and records accordingly.
+
+Acknowledgment of Share Issuance — ST-0002
+RESOLVED, that the Corporation acknowledges receipt of consideration for 4,000,000 shares of common stock issued to Mohamed Mohamed and recorded on the stock ledger under certificate number ST-0002; that payment was received on May 07, 2026 via the method described in the Corporate records from the payor’s account to Mercury Bank — SurveyTeams, Inc. corporate account, for consideration the Corporation acknowledges as received (with payment particulars noted in the stock ledger); and FURTHER RESOLVED, that the officers are authorized to reflect the issuance in the Corporation’s stock ledger and related books and records accordingly.
 
 RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
@@ -136,12 +142,12 @@ Directors Absent: None
 
 With Derek E. Pappas and Mohamed Mohamed present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
-The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -189,12 +195,12 @@ Directors Absent: None
 
 With Derek E. Pappas and Mohamed Mohamed present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
-The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -243,7 +249,7 @@ Directors Absent: None
 
 With Derek E. Pappas and Mohamed Mohamed present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
 The directors confirmed that notice had been duly given or validly waived for this meeting.
-The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolutions:
@@ -255,7 +261,7 @@ Record Date for Annual Meeting of Stockholders (DGCL §213)
 RESOLVED, that 2026-12-08 is hereby fixed as the record date for determining the stockholders entitled to notice of and to vote at the Annual Meeting of Stockholders of the Corporation to be held on 2026-12-18 commencing at 1:00 PM, in accordance with the Corporation’s bylaws and the Delaware General Corporation Law.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:
@@ -325,6 +331,13 @@ Election of Director
 RESOLVED, that Derek E. Pappas is hereby elected as a director of the Corporation, to serve until the next annual meeting of stockholders and until such director’s successor is duly elected and qualified.
 
 Directors were elected by a plurality of the votes cast by the shares present in person or by proxy and entitled to vote.
+
+VI-A. Vote Tabulation (Election of Directors)
+
+The Chairperson caused the following votes to be recorded for the election resolution adopted in Section VI:
+
+- Mohamed Mohamed, holding 4,000,000 shares, cast FOR.
+- Derek E. Pappas, holding 4,000,000 shares, cast FOR.
 
 VII. Shares Outstanding
 The Chairperson noted for the record that the Corporation had 8,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share as of the date of the meeting.
@@ -446,7 +459,7 @@ None
 
 Attendance by Derek E. Pappas and Mohamed Mohamed satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
 The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 IV. Approval of Prior Minutes
 This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2026; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
@@ -458,7 +471,7 @@ Mohamed Mohamed, President, reported on the Corporation’s operational and engi
 Treasurer’s Report:
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including founder advances, deferred vendor invoices, and similar items that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 VI. Discussion Items

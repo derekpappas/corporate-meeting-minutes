@@ -28,12 +28,12 @@ Director Absent: None
 
 The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by DGCL §141(e).
 
 
 IV. Resolutions
@@ -78,7 +78,7 @@ Directors Absent: None
 
 The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolutions:
@@ -93,7 +93,7 @@ Election of Officers
 RESOLVED, that the following individuals are hereby elected and appointed to serve as officers of the Corporation, to serve at the pleasure of the Board and in accordance with the bylaws: Derek E. Pappas as President, Secretary, Treasurer, and Chief Executive Officer; Marija Cejovic as Chief Operating Officer.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:
@@ -132,16 +132,19 @@ Directors Absent: None
 
 The directors confirmed that notice had been duly given or validly waived for this meeting.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
-IV. Resolution:
-Upon consideration, the Board adopted the following resolution:
+IV. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Acknowledgment of Share Issuance — HIPPO-0001
+RESOLVED, that the Corporation acknowledges receipt of consideration for 8,000,000 shares of common stock issued to Derek E. Pappas and recorded on the stock ledger under certificate number HIPPO-0001; that payment was received on June 01, 2022 via bank transfer from First Republic Bank account ending in 3220 (Derek E. Pappas) to First Republic Bank account ending in 64875 (Hippo, Inc.), in the stated amount of 800 USD; and FURTHER RESOLVED, that the officers are authorized to reflect the issuance in the Corporation’s stock ledger and related books and records accordingly.
 
 RESOLVED, that marketplace, data-pipeline, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
@@ -183,12 +186,12 @@ Directors Absent: None
 
 The directors confirmed that notice of the meeting was duly given or waived.
 All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
-The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -234,12 +237,12 @@ Directors Absent: None
 
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -286,7 +289,7 @@ Directors Absent: None
 
 The directors confirmed that notice of the meeting was duly given or waived.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolution:
@@ -295,7 +298,7 @@ Ratification of Marketplace and Data Operations
 RESOLVED, that operational and engineering decisions affecting the Corporation’s consumer marketplace, merchant integrations, and data ingestion pipelines during 2022 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:
@@ -338,7 +341,7 @@ None
 
 The directors confirmed that notice had been duly given or validly waived for this meeting.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 IV. Approval of Prior Minutes
 This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation on April 07, 2022; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
@@ -350,7 +353,7 @@ The directors reported on the Corporation’s operational and engineering activi
 Treasurer’s Report:
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 VI. Discussion Items
@@ -498,12 +501,12 @@ Directors Absent: None
 
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -549,12 +552,12 @@ Directors Absent: None
 
 The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -600,12 +603,12 @@ Directors Absent: None
 
 The directors confirmed that notice of the meeting was duly given or waived.
 All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -651,12 +654,12 @@ Directors Absent: None
 
 The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -703,7 +706,7 @@ Directors Absent: None
 
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
 All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
-The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolution:
@@ -712,7 +715,7 @@ Ratification of Marketplace and Data Operations
 RESOLVED, that operational and engineering decisions affecting the Corporation’s consumer marketplace, merchant integrations, and data ingestion pipelines during 2023 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:
@@ -755,7 +758,7 @@ None
 
 The directors confirmed that notice had been duly given or validly waived for this meeting.
 All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2022-12-12 were reviewed and approved by the Board.
@@ -767,7 +770,7 @@ The directors reported on the Corporation’s operational and engineering activi
 Treasurer’s Report:
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 VI. Discussion Items
@@ -917,12 +920,12 @@ Directors Absent: None
 
 The directors confirmed that notice had been duly given or validly waived for this meeting.
 All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
-The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -968,12 +971,12 @@ Directors Absent: None
 
 The directors confirmed that notice had been duly given or validly waived for this meeting.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1019,12 +1022,12 @@ Directors Absent: None
 
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1070,12 +1073,12 @@ Directors Absent: None
 
 The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1122,7 +1125,7 @@ Directors Absent: None
 
 The directors confirmed that notice of the meeting was duly given or waived.
 All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolution:
@@ -1131,7 +1134,7 @@ Ratification of Marketplace and Data Operations
 RESOLVED, that operational and engineering decisions affecting the Corporation’s consumer marketplace, merchant integrations, and data ingestion pipelines during 2024 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:
@@ -1174,7 +1177,7 @@ None
 
 The directors confirmed that notice of the meeting was duly given or waived.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-11 were reviewed and approved by the Board.
@@ -1186,7 +1189,7 @@ The directors reported on the Corporation’s operational and engineering activi
 Treasurer’s Report:
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 VI. Discussion Items
@@ -1336,12 +1339,12 @@ Directors Absent: None
 
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1387,12 +1390,12 @@ Directors Absent: None
 
 The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1438,12 +1441,12 @@ Directors Absent: None
 
 The directors confirmed that notice of the meeting was duly given or waived.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1489,12 +1492,12 @@ Directors Absent: None
 
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1541,7 +1544,7 @@ Directors Absent: None
 
 The directors confirmed that notice had been duly given or validly waived for this meeting.
 All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolution:
@@ -1550,7 +1553,7 @@ Ratification of Marketplace and Data Operations
 RESOLVED, that operational and engineering decisions affecting the Corporation’s consumer marketplace, merchant integrations, and data ingestion pipelines during 2025 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:
@@ -1593,7 +1596,7 @@ None
 
 The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2024-12-09 were reviewed and approved by the Board.
@@ -1605,7 +1608,7 @@ The directors reported on the Corporation’s operational and engineering activi
 Treasurer’s Report:
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 VI. Discussion Items
@@ -1751,12 +1754,12 @@ Directors Absent: None
 
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1802,12 +1805,12 @@ Directors Absent: None
 
 The directors confirmed that notice of the meeting was duly given or waived.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1853,12 +1856,12 @@ Directors Absent: None
 
 The directors confirmed that notice had been duly given or validly waived for this meeting.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1904,12 +1907,12 @@ Directors Absent: None
 
 The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Serbia; Bosnia and Herzegovina; Tunisia are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Resolution:
@@ -1956,7 +1959,7 @@ Directors Absent: None
 
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolution:
@@ -1965,7 +1968,7 @@ Ratification of Marketplace and Data Operations
 RESOLVED, that operational and engineering decisions affecting the Corporation’s consumer marketplace, merchant integrations, and data ingestion pipelines during 2026 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:
@@ -2008,7 +2011,7 @@ None
 
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
-The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 IV. Approval of Prior Minutes
 The minutes of the prior Annual Meeting of the Board of Directors held on 2025-12-08 were reviewed and approved by the Board.
@@ -2020,7 +2023,7 @@ The directors reported on the Corporation’s operational and engineering activi
 Treasurer’s Report:
 The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 VI. Discussion Items

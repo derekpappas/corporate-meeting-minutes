@@ -19,7 +19,7 @@ Director Absent: None
 
 Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law.
 Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Sole Director adopted the following resolutions:
@@ -31,7 +31,7 @@ Record Date for Annual Meeting of Stockholders (DGCL §213)
 RESOLVED, that 2025-11-30 is hereby fixed as the record date for determining the stockholders entitled to notice of and to vote at the Annual Meeting of Stockholders of the Corporation to be held on 2025-12-10 commencing at 1:00 PM, in accordance with the Corporation’s bylaws and the Delaware General Corporation Law.
 
 
-The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
+The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with DGCL §141(e).
 
 
 IV. Adjournment:

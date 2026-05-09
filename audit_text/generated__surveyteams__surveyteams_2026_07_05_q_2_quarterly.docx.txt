@@ -20,16 +20,22 @@ Directors Absent: None
 
 Attendance by Derek E. Pappas and Mohamed Mohamed satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
 The directors confirmed that notice of the meeting was duly given or waived.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Business Review:
 The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
-IV. Resolution:
-Upon consideration, the Board adopted the following resolution:
+IV. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Acknowledgment of Share Issuance — ST-0001
+RESOLVED, that the Corporation acknowledges receipt of consideration for 4,000,000 shares of common stock issued to Derek E. Pappas and recorded on the stock ledger under certificate number ST-0001; that payment was received on May 07, 2026 via check from Chase account ending in 8407 (Derek E. Pappas) to Chase account ending in 6202 (SurveyTeams, Inc.), in the stated amount of 400 USD; and FURTHER RESOLVED, that the officers are authorized to reflect the issuance in the Corporation’s stock ledger and related books and records accordingly.
+
+Acknowledgment of Share Issuance — ST-0002
+RESOLVED, that the Corporation acknowledges receipt of consideration for 4,000,000 shares of common stock issued to Mohamed Mohamed and recorded on the stock ledger under certificate number ST-0002; that payment was received on May 07, 2026 via the method described in the Corporate records from the payor’s account to Mercury Bank — SurveyTeams, Inc. corporate account, for consideration the Corporation acknowledges as received (with payment particulars noted in the stock ledger); and FURTHER RESOLVED, that the officers are authorized to reflect the issuance in the Corporation’s stock ledger and related books and records accordingly.
 
 RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 

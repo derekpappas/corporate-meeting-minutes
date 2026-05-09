@@ -7,6 +7,7 @@ Uses: corporate_meeting_minutes.company_information + schedule helpers + stock l
 Usage (repo root):
   poetry run python scripts/audit_corpus_chronology_dgcl.py
   poetry run python scripts/audit_corpus_chronology_dgcl.py --out audit_reports/corpus_chronology_dgcl_audit.md
+  poetry run python scripts/audit_corpus_chronology_dgcl.py --strict --strict-calendars   # CI: non-zero exit on findings
 """
 
 from __future__ import annotations
@@ -115,12 +116,13 @@ def _ledger_co_to_registry(legal: str) -> str | None:
     return None
 
 
-def run_audit() -> tuple[str, list[str], list[str]]:
-    """Return (markdown_report, errors, warnings)."""
+def run_audit() -> tuple[str, list[str], list[str], int]:
+    """Return (markdown_report, errors, warnings, calendar_conflict_slots)."""
     audit_dir = _REPO / "audit_text"
     errors: list[str] = []
     warnings: list[str] = []
     lines: list[str] = []
+    calendar_conflict_slots = 0
 
     lines.append("# Corpus chronology and DGCL audit")
     lines.append("")
@@ -130,13 +132,27 @@ def run_audit() -> tuple[str, list[str], list[str]]:
     )
     lines.append("")
 
-    # --- Filename vs body date ---
-    lines.append("## 1. Filename date vs meeting header date")
+    # --- Filename vs body date (board minutes only; waivers/consents list many dates) ---
+    lines.append("## 1. Filename date vs meeting header date (board minutes only)")
     lines.append("")
+    lines.append(
+        "*Waivers, notices, and written consents intentionally reference multiple dates; they are skipped here.*"
+    )
+    lines.append("")
+    _SKIP_STRICT_DATE = (
+        "waiver_of_notice",
+        "written_consent",
+        "notice_of_annual",
+        "majority_stockholder",
+        "operating_addendum",
+        "annual_meeting_of_stockholders",
+    )
     mismatches = 0
     if audit_dir.is_dir():
         for path in sorted(audit_dir.glob("generated__*.docx.txt")):
             if "all_meetings_book" in path.name:
+                continue
+            if any(s in path.name for s in _SKIP_STRICT_DATE):
                 continue
             parsed = _parse_audit_filename(path)
             if not parsed or parsed[2] is None:
@@ -155,7 +171,7 @@ def run_audit() -> tuple[str, list[str], list[str]]:
                 errors.append(f"Date mismatch {path.name}: filename {file_dt.isoformat()} vs body {body_iso}")
                 lines.append(f"- **MISMATCH** `{path.name}`: file name **{file_dt.isoformat()}**, body **{body_iso}**")
     if mismatches == 0:
-        lines.append("- No mismatches found (dated meeting extracts only).")
+        lines.append("- No mismatches in board-minute-style extracts (AGM / special / org / quarterly).")
     lines.append("")
 
     # --- Quarterly ordering per company-year (from filenames) ---
@@ -306,9 +322,33 @@ def run_audit() -> tuple[str, list[str], list[str]]:
             lines.append(f"- {co_name}: no Wyoming statute phrase hits in per-meeting extracts.")
     lines.append("")
 
-    lines.append("## 7. Next steps")
+    lines.append("## 7. Cross-company calendar (same date + time)")
     lines.append("")
-    lines.append("- Re-run `poetry run python corporate_meeting_minutes.py --write-calendars --strict-calendars` for cross-company same-slot conflicts.")
+    cal_dir = _REPO / "calendars"
+    try:
+        conflict_slots = cmm.write_company_calendars(output_dir=str(cal_dir))
+        calendar_conflict_slots = int(conflict_slots)
+        lines.append(
+            f"- `write_company_calendars` conflict slots (same calendar date and **identical** time string across companies): **{conflict_slots}**."
+        )
+        cf = cal_dir / "conflicts.txt"
+        if conflict_slots and cf.is_file() and cf.stat().st_size > 0:
+            lines.append("- See `calendars/conflicts.txt` for detail.")
+        if conflict_slots:
+            errors.append(f"Unified calendar: {conflict_slots} same (date, time) slot(s) across companies")
+            lines.append(f"- **ATTENTION:** {conflict_slots} conflict slot(s) — review `calendars/conflicts.txt`.")
+        lines.append("")
+    except Exception as e:  # noqa: BLE001
+        lines.append(f"- (Could not run calendar audit: {e})")
+        lines.append("")
+        calendar_conflict_slots = -1
+
+    lines.append("## 8. Next steps")
+    lines.append("")
+    lines.append(
+        "- CI: `poetry run python scripts/audit_corpus_chronology_dgcl.py --strict --strict-calendars` "
+        "or `poetry run python corporate_meeting_minutes.py --write-calendars --strict-calendars`."
+    )
     lines.append("- After regenerating `.docx`, run `poetry run python scripts/extract_audit_text.py` so this audit tracks current output.")
     lines.append("")
 
@@ -316,7 +356,7 @@ def run_audit() -> tuple[str, list[str], list[str]]:
     lines.insert(2, summary)
     lines.insert(3, "")
 
-    return "\n".join(lines), errors, warnings
+    return "\n".join(lines), errors, warnings, calendar_conflict_slots
 
 
 def main() -> None:
@@ -327,18 +367,38 @@ def main() -> None:
         default=_REPO / "audit_reports" / "corpus_chronology_dgcl_audit.md",
         help="Output markdown path",
     )
+    ap.add_argument(
+        "--strict",
+        action="store_true",
+        help="Exit with status 1 if the report records any error-line (chronology/DGCL/ledger flags).",
+    )
+    ap.add_argument(
+        "--strict-calendars",
+        action="store_true",
+        help="Exit with status 1 if unified calendar reports any same (date, time) slot across companies.",
+    )
     args = ap.parse_args()
-    report, errors, warnings = run_audit()
+    report, errors, warnings, cal_conf = run_audit()
     out = args.out if args.out.is_absolute() else _REPO / args.out
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(report, encoding="utf-8")
     print(f"Wrote {out}")
-    print(f"errors={len(errors)} warnings={len(warnings)}")
+    print(f"errors={len(errors)} warnings={len(warnings)} calendar_conflicts={cal_conf}")
     if errors:
         for e in errors[:25]:
             print(f"  ERROR: {e}", file=sys.stderr)
         if len(errors) > 25:
             print(f"  … and {len(errors) - 25} more", file=sys.stderr)
+
+    rc = 0
+    if args.strict and errors:
+        rc = 1
+    if args.strict_calendars and cal_conf > 0:
+        rc = 1
+    if args.strict_calendars and cal_conf < 0:
+        print("strict-calendars: calendar audit did not run; exiting 1", file=sys.stderr)
+        rc = 1
+    raise SystemExit(rc)
 
 
 if __name__ == "__main__":

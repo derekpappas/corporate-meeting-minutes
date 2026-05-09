@@ -21,7 +21,7 @@ Directors Absent: None
 
 Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
 Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolution:
@@ -30,7 +30,7 @@ Ratification of Marketplace and Data Operations
 RESOLVED, that operational and engineering decisions affecting the Corporation’s consumer marketplace, merchant integrations, and data ingestion pipelines during 2026 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:

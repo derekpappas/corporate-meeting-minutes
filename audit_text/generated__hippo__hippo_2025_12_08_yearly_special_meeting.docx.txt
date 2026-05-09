@@ -21,7 +21,7 @@ Directors Absent: None
 
 The directors confirmed that notice had been duly given or validly waived for this meeting.
 All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
-Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolution:
@@ -30,7 +30,7 @@ Ratification of Marketplace and Data Operations
 RESOLVED, that operational and engineering decisions affecting the Corporation’s consumer marketplace, merchant integrations, and data ingestion pipelines during 2025 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:

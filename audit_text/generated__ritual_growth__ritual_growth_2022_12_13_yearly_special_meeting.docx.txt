@@ -20,7 +20,7 @@ Marija Cejovic (Director)
 Directors Absent: None
 
 With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
 
 III. Resolutions:
 Upon consideration, the Board adopted the following resolution:
@@ -29,7 +29,7 @@ Ratification of Product Delivery and Hosting Operations
 RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s web applications and API services during 2022 are hereby ratified, confirmed, and approved in all respects.
 
 
-In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
 
 
 IV. Adjournment:
