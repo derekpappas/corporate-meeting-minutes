@@ -126,7 +126,7 @@ You may see **“DGCL § 141(e)”** in one place and **“Section 141(e) of the
 
 ## Quick map: document type → main DGCL ideas
 
-| Generated artifact (examples) | Primary DGCL themes |
+| Generated artifact (illustrative) | Primary DGCL themes |
 | --- | --- |
 | Board AGM / quarterly / special / organizational minutes | § 141 (board meetings, quorum, notice narrative), **§ 141(e)** reliance, **§ 141(i)**-style remote participation |
 | Sole stockholder written consent | **§ 228**, charter permissibility, bylaws mechanics |

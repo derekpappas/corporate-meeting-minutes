@@ -6,7 +6,7 @@
 
 **Method:** Aligned with `doc/senior_counsel_prompt/senior_counsel_audit_prompt.md` (Sections I–VI): hierarchy (DGCL > COI > bylaws > minutes), “silence is risk,” and the Section VI coverage map.
 
-**Corpus layout (current generator):** Per-company **meeting-minute** **`.docx`** files (organizational through quarterlies, stockholder-side instruments where applicable, and **standalone board resolutions** for equity / domestication) live in a **single** folder **`generated/<safe>/meetings/`** (no per-year subfolders; filenames remain date-sortable). The per-company **compiled** volume is **`generated/<safe>/<safe>_all_meetings_book.{docx,pdf}`** at the company folder **root**. **Cap table** (`.docx` + Carta/Pulley CSV) and **stock ledger** excerpt **`.docx`** sit in **`generated/<safe>/cap_tables/`** and **`generated/<safe>/stock_ledgers/`**. Optional **PDF samples** from **`--write-examples`** land in **`generated/<safe>/examples/`**; cross-company master copies only under **`generated/examples/`**. The **multi-company** compiled book remains **`generated/books/all_companies_all_meetings_book.{docx,pdf}`**.
+**Corpus layout (current generator):** Per-company **meeting-minute** **`.docx`** files (organizational through quarterlies, stockholder-side instruments where applicable, and **standalone board resolutions** for equity / domestication) live in a **single** folder **`generated/<safe>/meetings/`** (no per-year subfolders; filenames remain date-sortable). The per-company **compiled** volume is **`generated/<safe>/<safe>_all_meetings_book.{docx,pdf}`** at the company folder **root**. **Cap table** (`.docx` + Carta/Pulley CSV) and **stock ledger** excerpt **`.docx`** sit in **`generated/<safe>/cap_tables/`** and **`generated/<safe>/stock_ledgers/`**. Optional **PDF/CSV samples** of representative generated docs from **`--write-samples`** land in a **single** folder **`generated/samples/`** (all companies; filenames carry each **`generated/<safe>/`** prefix). The **multi-company** compiled book remains **`generated/books/all_companies_all_meetings_book.{docx,pdf}`**.
 
 **Corpus reviewed for this run:** Current **`corporate_meeting_minutes.py`** behavior and registry strings for **Hippo, Inc.**, **Ritual Growth, Inc.**, **TeamBoost.ai, Inc.**, **DATA RECORD SCIENCE, INC.**, **SurveyTeams, Inc.**, and **Loki Sports Enterprises, Inc.** Plain-text mirrors live under **`audit_text/`** (run `scripts/extract_audit_text.py` after each full regeneration; naming uses the company folder segment so paths like `generated/<safe>/meetings/…`, `…/cap_tables/…`, and `…/stock_ledgers/…` still map to `generated__<safe>__…` extracts).
 
@@ -96,7 +96,7 @@
 1. **Re-run** `scripts/extract_audit_text.py` after each full regeneration so **`audit_text/`** matches **`generated/**/*.docx`**.  
 2. **Calendar** `--strict-calendars`—keep running **after schedule changes** (cross-company conflicts).  
 3. **Officer roster** in org minutes: **CEO/COO** titles now in config—confirm **bylaws** and **state reports** match.  
-4. **Review pack / examples:** After regeneration, run **`scripts/build_review_pack.py`** if you rely on **`generated/review_pack/`** snapshots; use **`--write-examples`** for **`generated/<safe>/examples/`** PDF samples (and **`generated/examples/`** for master-book PDF/CSV only).
+4. **Review pack / samples:** After regeneration, run **`scripts/build_review_pack.py`** if you rely on **`generated/review_pack/`** snapshots; use **`--write-samples`** for **`generated/samples/`** PDF/CSV samples (including master-book copies in the same folder).
 
 ---
 
@@ -107,10 +107,10 @@
 - **Banking:** **Single** authorized signatory (**Derek E. Pappas**) for Hippo/Ritual/TeamBoost per registry config.  
 - **Fiscal language:** **Calendar year** default harmonization in resolutions/president report (unless `fiscal_year_is_calendar_year: false`).  
 - Coverage map row **§141(a)–(b)** is **no longer** “sole director only” for **all** corps—**SurveyTeams** and **post-appointment** meetings are **multi-director**.
-- **Output paths:** Per-company meeting minutes under **`generated/<safe>/meetings/`** (flat); compiled book at **`generated/<safe>/<safe>_all_meetings_book.*`**; cap table / ledger under **`cap_tables/`** and **`stock_ledgers/`**; **standalone** equity/domestication resolutions under **`meetings/`**; PDF samples under **`examples/`** per company; master book under **`generated/books/`**.  
+- **Output paths:** Per-company meeting minutes under **`generated/<safe>/meetings/`** (flat); compiled book at **`generated/<safe>/<safe>_all_meetings_book.*`**; cap table / ledger under **`cap_tables/`** and **`stock_ledgers/`**; **standalone** equity/domestication resolutions under **`meetings/`**; optional PDF/CSV samples under **`generated/samples/`**; master book under **`generated/books/`**.  
 - **Quarterly / IP narrative:** Contractor vs owned-equipment clarifications; company-specific **President’s Report** product lines (including **year-keyed** `agm_president_report_product_line` dict for **TeamBoost**).  
 - **Execution blocks:** Optional **wet-ink** **Name / Title / Date** lines when **`signature_block_print_signing_lines: true`** (registry-wide).
-- **Output tree (flat meetings + per-company examples):** Loose minutes under **`generated/<safe>/meetings/`**; compiled **`<safe>_all_meetings_book`** at **`generated/<safe>/`** root; cap table / stock ledger under **`cap_tables/`** and **`stock_ledgers/`**; **`--write-examples`** PDFs under **`generated/<safe>/examples/`**; master book unchanged under **`generated/books/`** (and master-only files under **`generated/examples/`**).
+- **Output tree (flat meetings + flat samples):** Loose minutes under **`generated/<safe>/meetings/`**; compiled **`<safe>_all_meetings_book`** at **`generated/<safe>/`** root; cap table / stock ledger under **`cap_tables/`** and **`stock_ledgers/`**; **`--write-samples`** PDF/CSV under **`generated/samples/`**; master book unchanged under **`generated/books/`**.
 
 ---
 

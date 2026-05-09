@@ -4983,13 +4983,15 @@ def generate_master_all_companies_book(
     return out_docx, out_pdf
 
 
-def write_examples_directory(
+def write_samples_directory(
     output_root: str,
     years: tuple[int, ...] = (2022, 2023, 2024, 2025, 2026),
-    *,
-    examples_dir_name: str = "examples",
 ) -> str:
-    """Create ``generated/<safe>/examples/`` (per company) with one PDF sample per doc type, plus ``generated/examples/`` for cross-company masters only.
+    """Create ``generated/samples/`` (single folder) with PDF samples of representative generated docs.
+
+    All companies write into the same directory (filenames include ``<safe>_`` prefixes, so names do not collide).
+    Cross-company master PDF/CSV copies land in that folder too. Removes any legacy ``generated/examples/`` or
+    ``generated/<safe>/examples/`` trees from older generator versions.
 
     Picks the latest year available for each company, then emits one PDF per category:
     - agm
@@ -5005,13 +5007,19 @@ def write_examples_directory(
     """
     start_cwd = os.getcwd()
     root_dir = os.path.join(start_cwd, output_root)
-    examples_root = os.path.join(root_dir, examples_dir_name)
-    os.makedirs(examples_root, exist_ok=True)
     known_safes = {sanitize_company_name(n) for n in companies}
-    if os.path.isdir(examples_root):
-        for name in list(os.listdir(examples_root)):
-            if name in known_safes and os.path.isdir(os.path.join(examples_root, name)):
-                shutil.rmtree(os.path.join(examples_root, name), ignore_errors=True)
+    legacy_global = os.path.join(root_dir, "examples")
+    if os.path.isdir(legacy_global):
+        shutil.rmtree(legacy_global, ignore_errors=True)
+    for safe in known_safes:
+        legacy_co = os.path.join(root_dir, safe, "examples")
+        if os.path.isdir(legacy_co):
+            shutil.rmtree(legacy_co, ignore_errors=True)
+
+    samples_root = os.path.join(root_dir, "samples")
+    if os.path.isdir(samples_root):
+        shutil.rmtree(samples_root, ignore_errors=True)
+    os.makedirs(samples_root, exist_ok=True)
 
     books_dir = os.path.join(root_dir, "books")
     os.makedirs(books_dir, exist_ok=True)
@@ -5035,12 +5043,7 @@ def write_examples_directory(
         special_date = board_special_meeting_date_str(co, y)
         q1_date = quarterly_meeting_date_str(co, y, "Q1")
 
-        out_dir = os.path.join(co_dir, "examples")
-        os.makedirs(out_dir, exist_ok=True)
-        # Drop prior samples so the folder stays PDF-only (+ optional CSV).
-        if os.path.isdir(out_dir):
-            for name in os.listdir(out_dir):
-                os.remove(os.path.join(out_dir, name))
+        out_dir = samples_root
 
         # Core docs (always generated) — live under ``meetings/`` (flat per company).
         my_meetings = os.path.join(co_dir, "meetings")
@@ -5117,12 +5120,12 @@ def write_examples_directory(
 
     master_pdf = os.path.join(books_dir, "all_companies_all_meetings_book.pdf")
     if os.path.isfile(master_pdf):
-        shutil.copy2(master_pdf, os.path.join(examples_root, "all_companies_all_meetings_book.pdf"))
+        shutil.copy2(master_pdf, os.path.join(samples_root, "all_companies_all_meetings_book.pdf"))
     master_csv = os.path.join(books_dir, "all_companies_cap_table_carta_pulley.csv")
     if os.path.isfile(master_csv):
-        shutil.copy2(master_csv, os.path.join(examples_root, "all_companies_cap_table_carta_pulley.csv"))
+        shutil.copy2(master_csv, os.path.join(samples_root, "all_companies_cap_table_carta_pulley.csv"))
 
-    return examples_root
+    return samples_root
 
 
 def write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root: str) -> str:
@@ -5321,11 +5324,11 @@ def main():
         ),
     )
     parser.add_argument(
-        "--write-examples",
+        "--write-samples",
         action="store_true",
         help=(
-            "Create ``generated/<safe>/examples/`` with one PDF sample per doc type per company; "
-            "``generated/examples/`` holds cross-company master PDF/CSV only."
+            "Create ``generated/samples/`` with PDF samples (and copied CSVs) of representative generated docs "
+            "for all registry companies in one folder, plus cross-company master PDF/CSV copies."
         ),
     )
     parser.add_argument(
@@ -5371,9 +5374,9 @@ def main():
     if args.write_master_book:
         generate_master_all_companies_book(output_root=args.output_root)
 
-    if args.write_examples:
-        path = write_examples_directory(output_root=args.output_root)
-        print(f"Wrote examples directory to {path}")
+    if args.write_samples:
+        path = write_samples_directory(output_root=args.output_root)
+        print(f"Wrote samples directory to {path}")
 
     if args.write_loki_agm_exhibits_pdf:
         write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root=args.output_root)

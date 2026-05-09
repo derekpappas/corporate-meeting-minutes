@@ -6,7 +6,7 @@
 
 Copies only (does not move). Run after generating minutes (and after calendars if you copy them into the pack):
 
-  poetry run python corporate_meeting_minutes.py --output-root generated --extract-audit-text --write-examples --write-master-book
+  poetry run python corporate_meeting_minutes.py --output-root generated --extract-audit-text --write-samples --write-master-book
   poetry run python corporate_meeting_minutes.py --write-calendars
   poetry run python scripts/build_review_pack.py
 """
@@ -58,7 +58,7 @@ def _root_readme() -> str:
 sample/  — One U.S. state and one company only: **{_SAMPLE_DISPLAY}** ({_SAMPLE_JURISDICTION}).
            One example per meeting or instrument type (organizational through compiled book).
 
-all/     — Broader review set: examples drawn from any registry company where needed (e.g. SurveyTeams
+all/     — Broader review set: samples drawn from any registry company where needed (e.g. SurveyTeams
            stockholder-only types), all compiled minute-book PDFs, audit mirrors, calendars, data snippets.
 
 Rebuild:
@@ -226,7 +226,7 @@ def build_all_pack(out: Path) -> tuple[int, int, int, int]:
             p
             for p in _GEN.rglob(globpat)
             if not _is_shared_generated_books(p)
-            and p.parent.name not in ("review_pack", "examples")
+            and p.parent.name not in ("review_pack", "samples", "examples")
             and "review_pack" not in p.parts
         ]
         candidates.sort()
@@ -240,6 +240,7 @@ def build_all_pack(out: Path) -> tuple[int, int, int, int]:
         if p.parent.name != "books"
         and p.name != "all_companies_all_meetings_book.docx"
         and "review_pack" not in p.parts
+        and "samples" not in p.parts
         and "examples" not in p.parts
     )
     if _copy(per_co_book_docx[0] if per_co_book_docx else None, docx_dir / "sample_company_all_meetings_book.docx"):
@@ -259,11 +260,12 @@ def build_all_pack(out: Path) -> tuple[int, int, int, int]:
         if q.parent.name != "books"
         and q.name != "all_companies_all_meetings_book.pdf"
         and "review_pack" not in q.parts
+        and "samples" not in q.parts
         and "examples" not in q.parts
     ):
         if _copy(p, pdf_dir / p.name):
             copied_pdf += 1
-    ex_pdf = _pick_first("*.pdf", _GEN / "examples")
+    ex_pdf = _pick_first("*.pdf", _GEN / "samples")
     if ex_pdf and re.search(r"agm", ex_pdf.name, re.I):
         if _copy(ex_pdf, pdf_dir / f"example_{ex_pdf.name}"):
             copied_pdf += 1

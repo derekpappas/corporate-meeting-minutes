@@ -15,7 +15,7 @@ Writes under `generated/` (gitignored). `.docx` / `.pdf` at repo root are also i
 After pulling, or when changing registry data or templates, rebuild the corpus and plain-text audit mirrors:
 
 ```bash
-poetry run python corporate_meeting_minutes.py --output-root generated --extract-audit-text --write-examples --write-master-book
+poetry run python corporate_meeting_minutes.py --output-root generated --extract-audit-text --write-samples --write-master-book
 ```
 
 Then, if you need meeting calendars and the bundled review tree:
