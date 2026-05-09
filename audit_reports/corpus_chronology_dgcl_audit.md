@@ -20,6 +20,7 @@ Automated scan of `audit_text/generated__*__*.docx.txt` plus schedule/stock-ledg
 
 ## 4. Stock ledger `issue_date` vs first board meeting after purchase
 
+- DATA RECORD SCIENCE, INC. **DRS-0001** issue **2008-08-15** → first board slot **2022-04-03** (Q1).
 - Hippo, Inc. **HIPPO-0001** issue **2022-06-01** → first board slot **2022-07-01** (Q2).
 - Loki Sports Enterprises, Inc. **LOKI-0001** issue **2023-05-07** → first board slot **2023-07-06** (Q2).
 - Ritual Growth, Inc. **RG-0001** issue **2023-05-07** → first board slot **2023-07-02** (Q2).
