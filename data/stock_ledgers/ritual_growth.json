@@ -1,6 +1,7 @@
 {
   "schema_version": "1.0",
   "company_legal_name": "Ritual Growth, Inc.",
+  "total_authorized_shares": 10000000,
   "jurisdiction": "DE",
   "par_value_per_share_usd": 0.0001,
   "currency": "USD",

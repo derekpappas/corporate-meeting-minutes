@@ -396,3 +396,13 @@ def test_board_chronological_index_orders_quarterly_before_december_annual() -> 
     co = cmm.companies["Hippo, Inc"]
     assert cmm._board_meeting_chronological_index("Hippo, Inc", co, 2022, "Q1") == 0
     assert cmm._board_meeting_chronological_index("Hippo, Inc", co, 2022, "special") > 0
+
+
+def test_stock_ledger_acknowledgment_first_meeting_after_purchase_date() -> None:
+    """Ledger `issue_date` 2022-06-01 → first board meeting strictly after is 2022 Q2 (see stock_ledgers/hippo.json)."""
+    cmm._reset_stock_ledger_meeting_index_for_tests()
+    md = cmm.generate_quarterly("Hippo, Inc", 2022, "Q2")
+    assert "Acknowledgment of Share Issuance" in md
+    assert "HIPPO-0001" in md
+    assert "June 01, 2022" in md
+    assert "8,000,000" in md

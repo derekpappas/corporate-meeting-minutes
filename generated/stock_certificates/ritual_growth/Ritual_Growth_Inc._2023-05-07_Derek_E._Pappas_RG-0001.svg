@@ -1,0 +1,116 @@
+<svg width="1000" height="1550" viewBox="0 0 1000 1550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap');
+      .h-label { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; fill: #6B7280; }
+      .h-data { font-family: 'JetBrains Mono', monospace; font-size: 16px; font-weight: 500; fill: #111827; }
+      .b-text { font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.6; fill: #374151; }
+      .cert-title { font-family: 'Inter', sans-serif; font-size: 52px; font-weight: 700; letter-spacing: -0.03em; fill: #111827; }
+      .comp-title { font-family: 'Inter', sans-serif; font-size: 26px; font-weight: 600; fill: #111827; }
+      .leg-text { font-family: 'Inter', sans-serif; font-size: 9px; line-height: 1.5; fill: #4B5563; }
+      .line-heavy { stroke: #111827; stroke-width: 2.5; }
+      .line-thin { stroke: #E5E7EB; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1000" height="1550" fill="#FFFFFF" />
+
+  <!-- Modernist Border (Geometric Inset) -->
+  <rect x="40" y="40" width="920" height="1470" fill="none" stroke="#111827" stroke-width="1.5" />
+  <rect x="50" y="50" width="900" height="1450" fill="none" stroke="#F3F4F6" stroke-width="1" />
+
+  <!-- TOP DATA GRID -->
+  <g transform="translate(80, 100)">
+    <text y="0" class="h-label">Certificate Number</text>
+    <text y="28" class="h-data">#RG-0001</text>
+  </g>
+
+  <g transform="translate(920, 100)">
+    <text y="0" class="h-label" text-anchor="end">Share Quantity</text>
+    <text y="28" class="h-data" text-anchor="end">4,000,000</text>
+  </g>
+
+  <!-- IDENTITY BLOCK -->
+  <g transform="translate(500, 240)">
+    <text x="0" y="0" class="cert-title" text-anchor="middle">Stock Certificate</text>
+    <text x="0" y="55" class="comp-title" text-anchor="middle">Ritual Growth, Inc.</text>
+    <text x="0" y="85" class="h-label" text-anchor="middle" fill="#9CA3AF">Corporate Identity</text>
+  </g>
+
+  <!-- FORMAL AUTHORIZATION -->
+  <g transform="translate(500, 380)">
+    <text x="0" y="0" class="b-text" text-anchor="middle">
+      Incorporated in the Jurisdiction of <tspan font-weight="700">Delaware</tspan>
+    </text>
+    <text x="0" y="30" class="b-text" text-anchor="middle">
+      Total Authorized Amount of <tspan font-weight="700">10,000,000</tspan> Shares at <tspan font-weight="700">$0.0001</tspan> Par Value
+    </text>
+  </g>
+
+  <!-- CERTIFICATION OF OWNERSHIP -->
+  <g transform="translate(100, 480)">
+    <rect width="800" height="160" fill="#F9FAFB" rx="4" />
+    <text x="40" y="50" class="b-text">
+      <tspan x="40" dy="0">This is to certify that <tspan font-weight="700" fill="#111827">Derek E. Pappas</tspan> is the owner of</tspan>
+      <tspan x="40" dy="1.8em"><tspan font-weight="700" fill="#111827">Four Million</tspan> shares of Common stock.</tspan>
+      <tspan x="40" dy="1.8em">Shares are non-assessable, fully paid, and represented by this certificate.</tspan>
+      <tspan x="40" dy="1.8em">Transferable in person or by attorney upon surrender of this instrument.</tspan>
+    </text>
+  </g>
+
+  <!-- DGCL ? 202 CONSPICUOUS LEGEND -->
+  <g transform="translate(100, 680)">
+    <text x="0" y="0" class="h-label" fill="#111827">Restricted Securities Notice</text>
+    <text x="0" y="25" class="leg-text">
+      <tspan x="0" dy="0">THE SECURITIES REPRESENTED HEREBY HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT OF 1933.</tspan>
+      <tspan x="0" dy="1.4em">SALE OR TRANSFER IS PROHIBITED WITHOUT AN EFFECTIVE REGISTRATION STATEMENT OR LEGAL OPINION.</tspan>
+      <tspan x="0" dy="1.4em">ADDITIONAL TRANSFER RESTRICTIONS MAY BE FOUND IN THE BYLAWS OF THE CORPORATION.</tspan>
+    </text>
+  </g>
+
+  <!-- EXECUTION -->
+  <g transform="translate(100, 880)">
+    <g transform="translate(0, 0)">
+      <line x1="0" y1="0" x2="240" y2="0" class="line-heavy" />
+      <text y="20" class="h-label">President</text>
+      <text y="45" class="h-data" font-size="14">Derek E. Pappas</text>
+    </g>
+    <g transform="translate(280, 0)">
+      <line x1="0" y1="0" x2="240" y2="0" class="line-heavy" />
+      <text y="20" class="h-label">Secretary</text>
+      <text y="45" class="h-data" font-size="14">Derek E. Pappas</text>
+    </g>
+    <g transform="translate(560, 0)">
+      <line x1="0" y1="0" x2="240" y2="0" class="line-heavy" />
+      <text y="20" class="h-label">Treasurer</text>
+      <text y="45" class="h-data" font-size="14">Derek E. Pappas</text>
+    </g>
+  </g>
+
+  <!-- PERFORATION -->
+  <line x1="40" y1="1020" x2="960" y2="1020" stroke="#9CA3AF" stroke-dasharray="6,6" />
+  <text x="500" y="1010" class="h-label" text-anchor="middle" font-size="9">Detachable Transfer Power</text>
+
+  <!-- TRANSFER INSTRUMENT -->
+  <g transform="translate(100, 1080)">
+    <text x="0" y="0" class="b-text">
+      For Value Received, I, <tspan font-weight="700">Derek E. Pappas</tspan>, sell and transfer <tspan font-weight="700">4,000,000</tspan> shares to:
+    </text>
+
+    <line x1="0" y1="60" x2="800" y2="60" class="line-thin" />
+    <line x1="0" y1="100" x2="800" y2="100" class="line-thin" />
+
+    <text x="0" y="150" class="b-text">
+      and appoint the <tspan font-weight="700">Secretary</tspan> as attorney to record this transfer.
+    </text>
+
+    <g transform="translate(0, 240)">
+      <line x1="0" y1="0" x2="380" y2="0" class="line-heavy" />
+      <text y="20" class="h-label">Shareholder Signature</text>
+
+      <line x1="420" y1="0" x2="800" y2="0" class="line-heavy" />
+      <text x="420" y="20" class="h-label">Witness Signature</text>
+    </g>
+  </g>
+</svg>

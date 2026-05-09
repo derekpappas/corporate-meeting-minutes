@@ -1,4 +1,5 @@
 import calendar
+import glob
 import hashlib
 import json
 import os
@@ -218,6 +219,148 @@ def _incorporation_filed_date_iso(co: dict) -> str | None:
 
 def _fmt_long_date(d_iso: str) -> str:
     return datetime.strptime(d_iso, "%Y-%m-%d").strftime("%B %d, %Y")
+
+
+# Stock ledger JSON → board resolutions on the first scheduled board meeting **strictly after** `issue_date`.
+_STOCK_LEDGER_RESOLUTIONS_BY_MEETING: dict[tuple[str, str], list[str]] | None = None
+
+
+def _reset_stock_ledger_meeting_index_for_tests() -> None:
+    global _STOCK_LEDGER_RESOLUTIONS_BY_MEETING
+    _STOCK_LEDGER_RESOLUTIONS_BY_MEETING = None
+
+
+def _norm_ledger_company_name(s: str) -> str:
+    return re.sub(r"\s+", " ", s.strip().rstrip(".")).lower()
+
+
+def _co_name_from_ledger_company_name(ledger_company_name: str) -> str | None:
+    target = _norm_ledger_company_name(ledger_company_name)
+    for key, co in company_information.items():
+        if _norm_ledger_company_name(key) == target:
+            return key
+        md = co.get("minutes_display_name")
+        if md and _norm_ledger_company_name(str(md)) == target:
+            return key
+    return None
+
+
+def _stock_ledger_json_paths() -> list[str]:
+    d = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "stock_ledgers")
+    if not os.path.isdir(d):
+        return []
+    return sorted(glob.glob(os.path.join(d, "*.json")))
+
+
+def _board_meeting_kind_from_row_title(title: str) -> str:
+    low = title.lower()
+    if "organizational" in low:
+        return "org"
+    if "special" in low:
+        return "special"
+    if "annual" in low and "stockholder" not in low:
+        return "agm"
+    if "quarterly" in low:
+        return title.strip().split()[-1]
+    return "unknown"
+
+
+def _first_board_meeting_strictly_after(co_name: str, co: dict, d_issue: date) -> tuple[str, str] | None:
+    """First scheduled board meeting date (ISO) and row kind, strictly after `d_issue` (purchase / issue date)."""
+    start = int(co.get("minutes_start_year", co["inc_year"]))
+    end = max(_board_series_last_calendar_year(co, start), d_issue.year)
+    candidates: list[tuple[str, str]] = []
+    for y in range(start, end + 1):
+        for d_iso, title, _t_str, _place in _board_meeting_rows_for_year(co, y):
+            try:
+                md = date.fromisoformat(d_iso)
+            except ValueError:
+                continue
+            if md <= d_issue:
+                continue
+            candidates.append((d_iso, _board_meeting_kind_from_row_title(title)))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda x: x[0])
+    return candidates[0][0], candidates[0][1]
+
+
+def _stock_ledger_resolution_markdown(entry: dict, ledger: dict) -> str:
+    cert = str(entry.get("certificate_number") or "").strip() or "TBD"
+    sh = str(entry.get("shareholder") or "").strip() or "the subscriber"
+    shares_raw = entry.get("shares")
+    if isinstance(shares_raw, int):
+        sc = f"{shares_raw:,}"
+    else:
+        sc = str(shares_raw or "").strip() or "the subscribed"
+    issue_raw = str(entry.get("issue_date") or "").strip()[:10]
+    long_d = _fmt_long_date(issue_raw) if len(issue_raw) == 10 else "the date recorded in the stock ledger"
+    cons = entry.get("consideration") if isinstance(entry.get("consideration"), dict) else {}
+    pm = str(cons.get("payment_method") or "").strip() or "the method described in the Corporate records"
+    src = str(cons.get("bank_source") or "").strip() or "the payor’s account"
+    dst = str(cons.get("bank_destination") or "").strip() or "the Corporation’s account"
+    amt = cons.get("amount")
+    cur = str(cons.get("currency") or ledger.get("currency") or "USD").strip()
+    if amt is not None and str(amt).strip() != "":
+        pay_phrase = f"in the stated amount of **{amt} {cur}**"
+    else:
+        pay_phrase = (
+            "for consideration the Corporation acknowledges as received (with payment particulars noted in the stock ledger)"
+        )
+    title = f"Acknowledgment of Share Issuance — {cert}"
+    return f"""**{title}**  
+RESOLVED, that the Corporation acknowledges receipt of consideration for **{sc}** shares of common stock issued to **{sh}** and recorded on the stock ledger under certificate number **{cert}**; that payment was received on **{long_d}** via **{pm}** from **{src}** to **{dst}**, {pay_phrase}; and FURTHER RESOLVED, that the officers are authorized to reflect the issuance in the Corporation’s stock ledger and related books and records accordingly."""
+
+
+def _ensure_stock_ledger_meeting_index() -> dict[tuple[str, str], list[str]]:
+    global _STOCK_LEDGER_RESOLUTIONS_BY_MEETING
+    if _STOCK_LEDGER_RESOLUTIONS_BY_MEETING is not None:
+        return _STOCK_LEDGER_RESOLUTIONS_BY_MEETING
+    out: dict[tuple[str, str], list[str]] = {}
+    for path in _stock_ledger_json_paths():
+        try:
+            with open(path, encoding="utf-8") as f:
+                ledger = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+        legal = str(ledger.get("company_legal_name") or "").strip()
+        co_name = _co_name_from_ledger_company_name(legal)
+        if not co_name:
+            continue
+        co = company_information[co_name]
+        for entry in ledger.get("ledger_entries") or []:
+            if not isinstance(entry, dict):
+                continue
+            raw_date = entry.get("issue_date")
+            if raw_date is None or str(raw_date).strip() == "":
+                continue
+            try:
+                d_issue = date.fromisoformat(str(raw_date).strip()[:10])
+            except ValueError:
+                continue
+            slot = _first_board_meeting_strictly_after(co_name, co, d_issue)
+            if not slot:
+                continue
+            meeting_iso, _kind = slot
+            out.setdefault((co_name, meeting_iso), []).append(
+                _stock_ledger_resolution_markdown(entry, ledger)
+            )
+    _STOCK_LEDGER_RESOLUTIONS_BY_MEETING = out
+    return out
+
+
+def _stock_ledger_resolution_blocks_for_meeting(co_name: str, meeting_date_iso: str) -> list[str]:
+    return list(_ensure_stock_ledger_meeting_index().get((co_name, meeting_date_iso), []))
+
+
+def _board_resolution_prefix_blocks(
+    co_name: str, co: dict, year: int, meeting_date_iso: str, kind: str
+) -> list[str]:
+    """Stock-ledger acknowledgments (if any for this meeting date) + optional first-meeting director appointment."""
+    return (
+        _stock_ledger_resolution_blocks_for_meeting(co_name, meeting_date_iso)
+        + _board_appointment_resolution_blocks_if_first_meeting(co_name, co, year, kind)
+    )
 
 
 def _jurisdiction_long_name(code: str) -> str:
@@ -1281,6 +1424,7 @@ company_information = {
         "minutes_display_name": "Loki Sports Enterprises, Inc.",
         "address": "30 N Gould St Ste 24709, Sheridan, WY 82801",
         "jurisdiction": "WY",
+        "board_meeting_chair_name": "Derek E. Pappas",
         "par": "$.0001",
         # WY domestic profit corporation filing (2023).
         "inc_year": 2023,
@@ -2708,7 +2852,15 @@ def _special_resolutions_block(
     return _adopted_resolutions_section(co, "**III. Resolutions:**", parts)
 
 
-def _quarterly_resolutions_block(co_name: str, render_co: dict, base_co: dict, year: int, quarter: str) -> str:
+def _quarterly_resolutions_block(
+    co_name: str,
+    render_co: dict,
+    base_co: dict,
+    year: int,
+    quarter: str,
+    *,
+    extra_blocks: list[str] | None = None,
+) -> str:
     """Quarterly resolutions.
 
     `render_co` drives the sole-director vs multi-director wording; `base_co` is used for one-time governance actions
@@ -2722,9 +2874,11 @@ def _quarterly_resolutions_block(co_name: str, render_co: dict, base_co: dict, y
             "RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.",
         )
         parts = [qdef]
+    prefix = list(extra_blocks or [])
     parts = (
         _domestication_resolution_blocks_if_due(base_co, quarterly_meeting_date_str(base_co, year, quarter))
         + _board_appointment_resolution_blocks_if_first_meeting(co_name, base_co, year, quarter)
+        + prefix
         + parts
     )
     n = len([p for p in parts if p and str(p).strip()])
@@ -2923,7 +3077,7 @@ This was the first Annual Meeting of the Board of Directors following incorporat
 **VI. Discussion Items**
 {_agm_discussion_items_line(eco, year)}
 
-{_agm_resolutions_block(eco, director_name, year, extra_blocks=_board_appointment_resolution_blocks_if_first_meeting(co_name, co, year, "agm"))}
+{_agm_resolutions_block(eco, director_name, year, extra_blocks=_board_resolution_prefix_blocks(co_name, co, year, date, "agm"))}
 {consent_cross_ref}
 **VIII. Adjournment**
 There being no further business to come before the Board, the meeting was adjourned.
@@ -2998,7 +3152,7 @@ co_name,
 eco,
 year,
 record_date_resolution,
-extra_blocks=_board_appointment_resolution_blocks_if_first_meeting(co_name, co, year, "special"),
+extra_blocks=_board_resolution_prefix_blocks(co_name, co, year, date, "special"),
 )}
 {reliance_141e_line}
 
@@ -3135,7 +3289,14 @@ def generate_quarterly(co_name, year, quarter):
 
 {reliance_141e_line}
 
-{_quarterly_resolutions_block(co_name, eco, co, year, quarter)}
+{_quarterly_resolutions_block(
+        co_name,
+        eco,
+        co,
+        year,
+        quarter,
+        extra_blocks=_stock_ledger_resolution_blocks_for_meeting(co_name, date),
+    )}
 
 **V. Adjournment:**
 There being no further business to come before the Board, the meeting was adjourned.
@@ -3185,6 +3346,7 @@ def generate_organizational(co_name: str, year: int) -> str:
     blocks: list[str] = []
     blocks.extend(_domestication_resolution_blocks_if_due(eco, org))
     blocks.extend(_board_appointment_resolution_blocks_if_first_meeting(co_name, co, year, "org"))
+    blocks.extend(_stock_ledger_resolution_blocks_for_meeting(co_name, org))
     blocks.extend(
         [
             """**Ratification of Formation Actions**  
