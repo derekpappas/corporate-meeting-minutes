@@ -15,7 +15,7 @@ poetry run python corporate_meeting_minutes.py --output-root generated
 poetry run python scripts/extract_audit_text.py
 ```
 
-**Last execution note:** After a full run, every **`generated/**/*.docx`** should have a matching **`audit_text/*.txt`**. **`--write-samples`** writes **PDF/CSV** under **`generated/samples/`** (not `.docx`), so it normally does **not** change extract counts. The extractor **deletes** stale `.txt` files that no longer have a matching `.docx`.
+**Last execution note:** After a full run, every **`generated/**/*.docx`** should have a matching **`audit_text/*.txt`**. **`--write-samples`** writes **PDF/CSV** under **`generated/<safe>/samples/`** (not `.docx`), so it normally does **not** change extract counts. The extractor **deletes** stale `.txt` files that no longer have a matching `.docx`.
 
 **Naming:** `audit_text/generated__<folder>__<filename_without_docx>.docx.txt`  
 Example: `generated/teamboost_ai/meetings/teamboost_ai_2023_01_20_organizational.docx` → `audit_text/generated__teamboost_ai__teamboost_ai_2023_01_20_organizational.docx.txt`

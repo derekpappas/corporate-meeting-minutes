@@ -27,7 +27,7 @@ poetry run python scripts/build_review_pack.py
 
 Rebuild `generated/review_pack/` after calendar runs so `all/calendars/` inside the pack matches `calendars/`. For a stricter check in one step, use `--write-calendars --strict-calendars` instead of plain `--write-calendars`, then run `build_review_pack.py` again.
 
-Outputs: `generated/`, `audit_text/`, `calendars/`, and `generated/review_pack/` are gitignored; regenerate on each machine as needed.
+Outputs: `generated/` (including optional `generated/<safe>/samples/` from `--write-samples`), `audit_text/`, `calendars/`, and `generated/review_pack/` are gitignored; regenerate on each machine as needed.
 
 ## Optional hygiene (schedules / registry edits)
 
