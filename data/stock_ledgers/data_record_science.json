@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "company_legal_name": "DATA RECORD SCIENCE, INC.",
+  "total_authorized_shares": 10000000,
+  "jurisdiction": "DE",
+  "par_value_per_share_usd": 0.001,
+  "currency": "USD",
+  "certificate_numbering_policy": "DRS-0001, DRS-0002, ...",
+  "ledger_entries": [
+    {
+      "certificate_number": "DRS-0001",
+      "issue_date": "2008-08-15",
+      "shareholder": "Derek E. Pappas",
+      "shares": 5346132,
+      "consideration": {
+        "type": "cash",
+        "amount": 5346.13,
+        "currency": "USD",
+        "payment_method": "aggregate par-value consideration (synthetic mirror for minute-book series)",
+        "bank_source": "",
+        "bank_destination": ""
+      },
+      "notes": "Synthetic mirror of outstanding common reflected in the generated minute series (2022+). First board meeting strictly after `issue_date` falls on 2022 Q1 for equity cross-reference indexing—reconcile dates, wire records, and certificate legends with the official ledger before Carta/Pulley import."
+    }
+  ],
+  "notes": "Extend `ledger_entries` with additional certificates or transfers as the live cap table evolves."
+}

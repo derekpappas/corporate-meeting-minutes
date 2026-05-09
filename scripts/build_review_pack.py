@@ -211,6 +211,9 @@ def build_all_pack(out: Path) -> tuple[int, int, int, int]:
             "sample_majority_stockholders_written_consent_ratification.docx",
             "*_majority_stockholders_written_consent_ratification_of_annual_board_actions.docx",
         ),
+        ("sample_cap_table.docx", "*_cap_table.docx"),
+        ("sample_stock_ledger.docx", "*_stock_ledger.docx"),
+        ("sample_cap_table_carta_pulley.csv", "*_cap_table_carta_pulley.csv"),
     ]
     copied_docx = 0
     for dst_name, globpat in docx_specs:

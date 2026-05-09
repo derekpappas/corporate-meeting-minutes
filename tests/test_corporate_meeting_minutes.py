@@ -398,6 +398,35 @@ def test_board_chronological_index_orders_quarterly_before_december_annual() -> 
     assert cmm._board_meeting_chronological_index("Hippo, Inc", co, 2022, "special") > 0
 
 
+def test_cap_table_and_stock_ledger_document_markdown() -> None:
+    hippo = cmm.cap_table_document_markdown("Hippo, Inc", cmm.companies["Hippo, Inc"])
+    assert "Cap table summary" in hippo
+    assert "Derek E. Pappas" in hippo
+    assert "8,000,000" in hippo
+    h_ledger = cmm.stock_ledger_document_markdown("Hippo, Inc", cmm.companies["Hippo, Inc"])
+    assert "Stock ledger" in h_ledger
+    assert "HIPPO-0001" in h_ledger
+    drs = cmm.stock_ledger_document_markdown(
+        "DATA RECORD SCIENCE, INC.", cmm.companies["DATA RECORD SCIENCE, INC."]
+    )
+    assert "DATA RECORD SCIENCE" in drs
+    assert "DRS-0001" in drs
+    assert "5,346,132" in drs or "5346132" in drs
+
+
+def test_cap_table_carta_pulley_csv_rows() -> None:
+    rows = cmm.cap_table_carta_pulley_rows("Hippo, Inc", cmm.companies["Hippo, Inc"])
+    assert rows
+    assert rows[0]["company_legal_name"]
+    assert rows[0]["certificate_id"] == "HIPPO-0001"
+    assert rows[0]["shares"] == "8000000"
+    assert rows[0]["security_type"] == "Common Stock"
+    drs_rows = cmm.cap_table_carta_pulley_rows(
+        "DATA RECORD SCIENCE, INC.", cmm.companies["DATA RECORD SCIENCE, INC."]
+    )
+    assert any(r.get("certificate_id") == "DRS-0001" for r in drs_rows)
+
+
 def test_stock_ledger_acknowledgment_first_meeting_after_purchase_date() -> None:
     """Ledger `issue_date` 2022-06-01 → first board meeting strictly after is 2022 Q2 (see data/stock_ledgers/hippo.json)."""
     cmm._reset_stock_ledger_meeting_index_for_tests()

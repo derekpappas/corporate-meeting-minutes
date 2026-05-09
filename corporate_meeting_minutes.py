@@ -1,4 +1,5 @@
 import calendar
+import csv
 import glob
 import hashlib
 import json
@@ -253,6 +254,459 @@ def _co_name_from_ledger_company_name(ledger_company_name: str) -> str | None:
         if md and _norm_ledger_company_name(str(md)) == target:
             return key
     return None
+
+
+_CAP_TABLE_JSON_CACHE: dict | None = None
+
+
+def _load_cap_table_json() -> dict:
+    global _CAP_TABLE_JSON_CACHE
+    if _CAP_TABLE_JSON_CACHE is not None:
+        return _CAP_TABLE_JSON_CACHE
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "cap_table.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            _CAP_TABLE_JSON_CACHE = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        _CAP_TABLE_JSON_CACHE = {"schema_version": "0", "companies": {}}
+    return _CAP_TABLE_JSON_CACHE
+
+
+def _cap_table_companies_block() -> dict:
+    c = _load_cap_table_json().get("companies")
+    return c if isinstance(c, dict) else {}
+
+
+def _find_cap_table_json_key(co_name: str, co: dict) -> str | None:
+    cap = _cap_table_companies_block()
+    if not cap:
+        return None
+    for candidate in (co_name, str(co.get("minutes_display_name") or "").strip()):
+        if not candidate:
+            continue
+        t = _norm_ledger_company_name(candidate)
+        for k in cap.keys():
+            if _norm_ledger_company_name(str(k)) == t:
+                return str(k)
+    return None
+
+
+def cap_table_document_markdown(co_name: str, co: dict) -> str:
+    """Markdown body for `*_cap_table.docx` and compiled-book appendix (from `data/cap_table.json`)."""
+    display = minutes_display_name(co_name)
+    root = _load_cap_table_json()
+    as_of = str(root.get("as_of") or "").strip() or "(date not set in cap_table.json)"
+    desc = str(root.get("description") or "").strip()
+    lines: list[str] = [
+        f"**Cap table summary — {display}**",
+        f"**As of (file):** {as_of}",
+        "",
+        "This document is a **convenience summary** produced from `data/cap_table.json`. It does not replace the "
+        "Corporation’s official stock ledger, executed subscription agreements, or any third-party cap-table system.",
+        "",
+    ]
+    if desc:
+        lines.append(f"_{desc}_")
+        lines.append("")
+    key = _find_cap_table_json_key(co_name, co)
+    if not key:
+        lines.append(
+            "**Status:** No matching company block exists in `data/cap_table.json` for this registry entry. "
+            "Add one (keyed by legal name) or align `minutes_display_name` with an existing key."
+        )
+        si = co.get("shares_issued")
+        if isinstance(si, dict) and si:
+            years = [int(y) for y in si if str(y).isdigit()]
+            if years:
+                ly = str(max(years))
+                val = si.get(ly) or si.get(max(years))
+                lines.append("")
+                lines.append(
+                    f"**Reference only — `company_information.shares_issued` ({ly}):** **{val}** "
+                    "(not imported into the cap table file until you add an explicit summary block)."
+                )
+        return "\n".join(lines).strip()
+
+    block = _cap_table_companies_block().get(key) or {}
+    if not isinstance(block, dict):
+        block = {}
+    jur = str(block.get("jurisdiction") or _jurisdiction(co)).strip()
+    lines.append(f"**Jurisdiction (summary):** {jur}")
+    lines.append("")
+    holders = block.get("holders")
+    if isinstance(holders, list) and holders:
+        lines.append("**Holders (from summary file)**")
+        for h in holders:
+            if not isinstance(h, dict):
+                continue
+            hn = str(h.get("holder") or "").strip() or "(holder name TBD)"
+            sh = h.get("shares")
+            st = str(h.get("status") or "").strip()
+            shs = f"{sh:,}" if isinstance(sh, int) else str(sh or "").strip() or "—"
+            st_part = f" — **{st}**" if st else ""
+            lines.append(f"- **{hn}**: {shs} shares{st_part}")
+        lines.append("")
+    tot = block.get("total_issued_shares_from_ledger")
+    if isinstance(tot, int):
+        lines.append(f"**Total issued shares (summary field):** {tot:,}")
+    elif tot is not None and str(tot).strip():
+        lines.append(f"**Total issued shares (summary field):** {tot}")
+    notes = str(block.get("notes") or "").strip()
+    if notes:
+        lines.append("")
+        lines.append(f"**Notes:** {notes}")
+    return "\n".join(lines).strip()
+
+
+def _stock_ledger_payload_for_company(co_name: str) -> dict | None:
+    for path in _stock_ledger_json_paths():
+        try:
+            with open(path, encoding="utf-8") as f:
+                ledger = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+        legal = str(ledger.get("company_legal_name") or "").strip()
+        if _co_name_from_ledger_company_name(legal) == co_name:
+            return ledger
+    return None
+
+
+def _markdown_lines_for_consideration(cons: dict) -> list[str]:
+    if not isinstance(cons, dict):
+        return []
+    out: list[str] = []
+    typ = str(cons.get("type") or "").strip()
+    if typ:
+        out.append(f"- **Type:** {typ}")
+    amt = cons.get("amount")
+    cur = str(cons.get("currency") or "").strip()
+    if amt is not None and str(amt).strip():
+        out.append(f"- **Amount:** {amt} {cur}".strip())
+    for label, field in (
+        ("Payment method", "payment_method"),
+        ("From", "bank_source"),
+        ("To", "bank_destination"),
+    ):
+        v = str(cons.get(field) or "").strip()
+        if v:
+            out.append(f"- **{label}:** {v}")
+    n = str(cons.get("notes") or "").strip()
+    if n:
+        out.append(f"- **Payment notes:** {n}")
+    return out
+
+
+def stock_ledger_document_markdown(co_name: str, co: dict) -> str:
+    """Markdown body for `*_stock_ledger.docx` and compiled-book appendix (from `data/stock_ledgers/*.json`)."""
+    display = minutes_display_name(co_name)
+    ledger = _stock_ledger_payload_for_company(co_name)
+    lines: list[str] = [
+        f"**Stock ledger (machine-readable excerpt) — {display}**",
+        "",
+        "This document reflects `data/stock_ledgers/*.json` entries linked to the corporation by `company_legal_name`. "
+        "The **official** stock ledger may be maintained in another system or in bound paper form; reconcile before any filing or diligence.",
+        "",
+    ]
+    if not ledger:
+        lines.append(
+            "**Status:** No stock ledger JSON is linked to this company. Add `data/stock_ledgers/<slug>.json` with "
+            "`company_legal_name` matching the registry (or `minutes_display_name`) to populate this appendix."
+        )
+        return "\n".join(lines).strip()
+
+    legal = str(ledger.get("company_legal_name") or display).strip()
+    lines.append(f"**Company (ledger file):** {legal}")
+    jur = str(ledger.get("jurisdiction") or _jurisdiction(co)).strip()
+    lines.append(f"**Jurisdiction (ledger):** {jur}")
+    ta = ledger.get("total_authorized_shares")
+    if isinstance(ta, int):
+        lines.append(f"**Total authorized shares:** {ta:,}")
+    elif ta is not None and str(ta).strip():
+        lines.append(f"**Total authorized shares:** {ta}")
+    par = ledger.get("par_value_per_share_usd")
+    if isinstance(par, (int, float)):
+        lines.append(f"**Par value (USD per share):** {par}")
+    elif par is not None and str(par).strip():
+        lines.append(f"**Par value (USD per share):** {par}")
+    cur = str(ledger.get("currency") or "").strip()
+    if cur:
+        lines.append(f"**Currency:** {cur}")
+    pol = str(ledger.get("certificate_numbering_policy") or "").strip()
+    if pol:
+        lines.append(f"**Certificate numbering:** {pol}")
+    top_notes = str(ledger.get("notes") or "").strip()
+    if top_notes:
+        lines.append("")
+        lines.append(f"**Ledger file notes:** {top_notes}")
+    lines.append("")
+    entries = ledger.get("ledger_entries")
+    if not isinstance(entries, list) or not entries:
+        lines.append("**Ledger entries:** *(none listed in JSON — add `ledger_entries` to mirror issuances.)*")
+        return "\n".join(lines).strip()
+
+    lines.append("**Ledger entries**")
+    lines.append("")
+    for i, ent in enumerate(entries, start=1):
+        if not isinstance(ent, dict):
+            continue
+        cert = str(ent.get("certificate_number") or "").strip() or f"(entry {i})"
+        sh_raw = ent.get("shares")
+        sh_disp = f"{sh_raw:,}" if isinstance(sh_raw, int) else str(sh_raw or "").strip() or "—"
+        sh_name = str(ent.get("shareholder") or "").strip() or "(shareholder TBD)"
+        idate = str(ent.get("issue_date") or "").strip() or "(issue date TBD)"
+        lines.append(f"### {cert}")
+        lines.append(f"- **Shareholder:** {sh_name}")
+        lines.append(f"- **Shares:** {sh_disp}")
+        lines.append(f"- **Issue date:** {idate}")
+        cons = ent.get("consideration") if isinstance(ent.get("consideration"), dict) else {}
+        sub = _markdown_lines_for_consideration(cons)
+        if sub:
+            lines.append("- **Consideration:**")
+            lines.extend(f"  {s}" for s in sub)
+        en = str(ent.get("notes") or "").strip()
+        if en:
+            lines.append(f"- **Entry notes:** {en}")
+        lines.append("")
+    return "\n".join(lines).rstrip()
+
+
+def _write_cap_table_and_stock_ledger_docx(
+    safe_company_name: str, co_name: str, co: dict, books_dir: str, meeting_date_iso: str
+) -> None:
+    """Emit standalone cap table + stock ledger `.docx` and Carta/Pulley-style `.csv` under `books/` (markdown appendices unchanged)."""
+    os.makedirs(books_dir, exist_ok=True)
+    cap = cap_table_document_markdown(co_name, co)
+    led = stock_ledger_document_markdown(co_name, co)
+    cap_path = os.path.join(books_dir, f"{safe_company_name}_cap_table.docx")
+    led_path = os.path.join(books_dir, f"{safe_company_name}_stock_ledger.docx")
+    write_docx_from_minutes(cap, cap_path, meeting_date_iso, co_name)
+    write_docx_from_minutes(led, led_path, meeting_date_iso, co_name)
+    print(f"Writing cap table summary to {cap_path}")
+    print(f"Writing stock ledger excerpt to {led_path}")
+    csv_path = os.path.join(books_dir, f"{safe_company_name}_cap_table_carta_pulley.csv")
+    write_cap_table_carta_pulley_csv(csv_path, co_name, co)
+    print(f"Writing Carta/Pulley-style cap table CSV to {csv_path}")
+
+
+# Column set aligned to common spreadsheet imports (Carta “spreadsheet import” / Pulley cap-table CSV):
+# map columns in the vendor UI if headers differ slightly. `stakeholder_email` / `vesting_schedule_description` are
+# intentionally blank for purchased common unless you extend the JSON schema.
+CAP_TABLE_CARTA_PULLEY_CSV_FIELDNAMES = [
+    "company_legal_name",
+    "stakeholder_name",
+    "stakeholder_email",
+    "stakeholder_type",
+    "security_type",
+    "share_class",
+    "certificate_id",
+    "shares",
+    "issue_date",
+    "price_per_share",
+    "purchase_price_total",
+    "currency",
+    "par_value_per_share",
+    "has_vesting",
+    "vesting_schedule_description",
+    "notes",
+]
+
+
+def cap_table_carta_pulley_rows(co_name: str, co: dict) -> list[dict[str, str]]:
+    """One row per ledger issuance (preferred), else one row per `cap_table.json` holder, else a single placeholder row."""
+    display_co = minutes_display_name(co_name)
+    ledger = _stock_ledger_payload_for_company(co_name)
+    cap_key = _find_cap_table_json_key(co_name, co)
+    cap_block = _cap_table_companies_block().get(cap_key) if cap_key else None
+    if not isinstance(cap_block, dict):
+        cap_block = None
+
+    holder_status: dict[str, str] = {}
+    if cap_block:
+        for h in cap_block.get("holders") or []:
+            if isinstance(h, dict) and str(h.get("holder") or "").strip():
+                holder_status[_norm_ledger_company_name(str(h["holder"]).strip())] = str(
+                    h.get("status") or ""
+                ).strip()
+
+    ledger_legal = str(ledger.get("company_legal_name") or "").strip() if ledger else ""
+    company_cell = ledger_legal or display_co
+    cur_default = str(ledger.get("currency") or "USD").strip() if ledger else "USD"
+    par_raw = ledger.get("par_value_per_share_usd") if ledger else None
+    if isinstance(par_raw, (int, float)):
+        par_s = f"{float(par_raw):.12f}".rstrip("0").rstrip(".") or "0"
+    elif par_raw is not None and str(par_raw).strip():
+        par_s = str(par_raw).strip()
+    else:
+        par_s = ""
+
+    def _row(
+        stakeholder_name: str,
+        certificate_id: str,
+        shares_val: object,
+        issue_date: str,
+        price_per_share: str,
+        purchase_total: str,
+        currency: str,
+        notes_parts: list[str],
+    ) -> dict[str, str]:
+        st = holder_status.get(_norm_ledger_company_name(stakeholder_name), "")
+        np = [p for p in notes_parts if p]
+        if st:
+            np.append(f"cap_table_status={st}")
+        sh_disp = ""
+        if isinstance(shares_val, int):
+            sh_disp = str(shares_val)
+        elif shares_val is not None and str(shares_val).strip():
+            sh_disp = str(shares_val).strip()
+        return {
+            "company_legal_name": company_cell,
+            "stakeholder_name": stakeholder_name,
+            "stakeholder_email": "",
+            "stakeholder_type": "Individual",
+            "security_type": "Common Stock",
+            "share_class": "Common",
+            "certificate_id": certificate_id,
+            "shares": sh_disp,
+            "issue_date": issue_date,
+            "price_per_share": price_per_share,
+            "purchase_price_total": purchase_total,
+            "currency": currency or cur_default,
+            "par_value_per_share": par_s,
+            "has_vesting": "No",
+            "vesting_schedule_description": "",
+            "notes": " | ".join(np) if np else "",
+        }
+
+    rows: list[dict[str, str]] = []
+    entries = ledger.get("ledger_entries") if ledger else None
+    if ledger and isinstance(entries, list) and entries:
+        for ent in entries:
+            if not isinstance(ent, dict):
+                continue
+            sh_name = str(ent.get("shareholder") or "").strip() or "(shareholder TBD)"
+            cert = str(ent.get("certificate_number") or "").strip()
+            shares_raw = ent.get("shares")
+            sh_int: int | None
+            if isinstance(shares_raw, int):
+                sh_int = shares_raw
+            else:
+                sh_int = None
+                if shares_raw is not None and str(shares_raw).strip():
+                    try:
+                        sh_int = int(str(shares_raw).replace(",", "").strip(), 10)
+                    except ValueError:
+                        sh_int = None
+            idate = str(ent.get("issue_date") or "").strip()[:10]
+            cons = ent.get("consideration") if isinstance(ent.get("consideration"), dict) else {}
+            amt = cons.get("amount")
+            amt_f: float | None
+            try:
+                if amt is None or (isinstance(amt, str) and not amt.strip()):
+                    amt_f = None
+                else:
+                    amt_f = float(amt)
+            except (TypeError, ValueError):
+                amt_f = None
+            cur = str(cons.get("currency") or cur_default).strip()
+            price = ""
+            pur = ""
+            if amt_f is not None and sh_int and sh_int > 0:
+                pur = f"{amt_f:.10f}".rstrip("0").rstrip(".")
+                price = f"{(amt_f / sh_int):.12f}".rstrip("0").rstrip(".")
+            note_bits = [str(ent.get("notes") or "").strip()]
+            rows.append(
+                _row(
+                    sh_name,
+                    cert,
+                    sh_int if sh_int is not None else shares_raw,
+                    idate,
+                    price,
+                    pur,
+                    cur,
+                    note_bits,
+                )
+            )
+        return rows
+
+    if cap_block and isinstance(cap_block.get("holders"), list) and cap_block["holders"]:
+        for h in cap_block["holders"]:
+            if not isinstance(h, dict):
+                continue
+            hn = str(h.get("holder") or "").strip()
+            if not hn:
+                continue
+            sh = h.get("shares")
+            sh_int = int(sh) if isinstance(sh, int) else None
+            rows.append(
+                _row(
+                    hn,
+                    "",
+                    sh_int if sh_int is not None else sh,
+                    "",
+                    "",
+                    "",
+                    cur_default,
+                    ["summary-only row from cap_table.json (no matching ledger line item)"],
+                )
+            )
+        if rows:
+            return rows
+
+    rows.append(
+        _row(
+            "(add stakeholders to data/cap_table.json and ledger JSON)",
+            "",
+            "",
+            "",
+            "",
+            "",
+            cur_default,
+            [f"No ledger entries and no cap_table holders for {display_co}"],
+        )
+    )
+    return rows
+
+
+def write_cap_table_carta_pulley_csv(filepath: str, co_name: str, co: dict) -> None:
+    """Write UTF-8 BOM CSV for Excel; one row per issuance (ledger) or summary holder."""
+    os.makedirs(os.path.dirname(os.path.abspath(filepath)), exist_ok=True)
+    rows = cap_table_carta_pulley_rows(co_name, co)
+    with open(filepath, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=CAP_TABLE_CARTA_PULLEY_CSV_FIELDNAMES,
+            extrasaction="ignore",
+            lineterminator="\n",
+        )
+        w.writeheader()
+        for r in rows:
+            w.writerow({k: r.get(k, "") for k in CAP_TABLE_CARTA_PULLEY_CSV_FIELDNAMES})
+
+
+def write_all_companies_cap_table_carta_pulley_csv(output_root: str) -> str | None:
+    """Single workbook-style CSV under `<output_root>/books/` with every registry company (ledger rows)."""
+    start_cwd = os.getcwd()
+    root_dir = os.path.join(start_cwd, output_root)
+    books_dir = os.path.join(root_dir, "books")
+    os.makedirs(books_dir, exist_ok=True)
+    path = os.path.join(books_dir, "all_companies_cap_table_carta_pulley.csv")
+    all_rows: list[dict[str, str]] = []
+    for co_name, co in companies.items():
+        all_rows.extend(cap_table_carta_pulley_rows(co_name, co))
+    if not all_rows:
+        return None
+    with open(path, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=CAP_TABLE_CARTA_PULLEY_CSV_FIELDNAMES,
+            extrasaction="ignore",
+            lineterminator="\n",
+        )
+        w.writeheader()
+        for r in all_rows:
+            w.writerow({k: r.get(k, "") for k in CAP_TABLE_CARTA_PULLEY_CSV_FIELDNAMES})
+    print(f"Writing combined Carta/Pulley cap table CSV to {path}")
+    return path
 
 
 def _stock_ledger_json_paths() -> list[str]:
@@ -4392,6 +4846,9 @@ def generate_company_all_meetings_book(
     """Compiled minute book per company: .docx (editable) + .pdf (distribution).
 
     `books_dir` is normally ``{output_root}/<safe_company_name>/books/`` (same folder as individual .docx minutes).
+
+    Also writes ``<safe>_cap_table.docx``, ``<safe>_stock_ledger.docx``, ``<safe>_cap_table_carta_pulley.csv``, and appends
+    the two markdown bodies as the final sections of the compiled book (and PDF).
     """
     co = companies[co_name]
     start_year = co.get("minutes_start_year", co.get("inc_year", min(years)))
@@ -4410,11 +4867,16 @@ def generate_company_all_meetings_book(
                 parts.append(f"**Calendar year {y}**\n\n{ch}")
             else:
                 parts.append(f"{MEETING_BOOK_PAGE_BREAK_MARKER}\n{ch}")
+    mdate = annual_meeting_date_str(co, applicable[-1])
+    _write_cap_table_and_stock_ledger_docx(safe_company_name, co_name, co, books_dir, mdate)
+    parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
+    parts.append(cap_table_document_markdown(co_name, co))
+    parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
+    parts.append(stock_ledger_document_markdown(co_name, co))
     book = MEETING_BOOK_SEPARATOR.join(p for p in parts if p)
     os.makedirs(books_dir, exist_ok=True)
     out_docx = os.path.join(books_dir, f"{safe_company_name}_all_meetings_book.docx")
     out_pdf = os.path.join(books_dir, f"{safe_company_name}_all_meetings_book.pdf")
-    mdate = annual_meeting_date_str(co, applicable[-1])
     print(f"Writing compiled minute book to {out_docx}")
     write_docx_from_minutes(
         book, out_docx, mdate, co_name, minute_book_page_breaks=True
@@ -4461,6 +4923,10 @@ def generate_master_all_companies_book(
                     parts.append(f"**Calendar year {y}**\n\n{ch}")
                 else:
                     parts.append(ch)
+        parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
+        parts.append(cap_table_document_markdown(co_name, co))
+        parts.append(MEETING_BOOK_PAGE_BREAK_MARKER)
+        parts.append(stock_ledger_document_markdown(co_name, co))
 
     book = MEETING_BOOK_SEPARATOR.join(p for p in parts if p)
     out_docx = os.path.join(books_dir, "all_companies_all_meetings_book.docx")
@@ -4499,6 +4965,8 @@ def write_examples_directory(
     - written_consent_in_lieu_of_annual_meeting OR annual_meeting_of_stockholders (+ waiver/notice/ratification where present)
     - waiver_of_notice_board_meetings
     - one quarterly (Q1)
+    - cap_table, stock_ledger (from `generated/<safe>/books/*.docx` when present)
+    - cap_table_carta_pulley.csv (copied next to those PDFs when present)
     - all_meetings_book (compiled): copies the pre-built `generated/<safe>/books/<safe>_all_meetings_book.pdf` when present
 
     Standalone .docx files are converted with ReportLab (same letter layout as compiled book PDFs).
@@ -4592,6 +5060,14 @@ def write_examples_directory(
                 stem = os.path.splitext(os.path.basename(src))[0]
                 _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
 
+        for stem in (f"{safe}_cap_table", f"{safe}_stock_ledger"):
+            cap_led_docx = os.path.join(co_books, f"{stem}.docx")
+            if os.path.isfile(cap_led_docx):
+                _emit_pdf_from_docx(cap_led_docx, os.path.join(out_dir, f"{stem}.pdf"))
+        csv_src = os.path.join(co_books, f"{safe}_cap_table_carta_pulley.csv")
+        if os.path.isfile(csv_src):
+            shutil.copy2(csv_src, os.path.join(out_dir, f"{safe}_cap_table_carta_pulley.csv"))
+
         # Compiled book: use the distribution PDF already built under generated/<safe>/books/.
         book_pdf = os.path.join(co_dir, "books", f"{safe}_all_meetings_book.pdf")
         if os.path.isfile(book_pdf):
@@ -4601,6 +5077,9 @@ def write_examples_directory(
     master_pdf = os.path.join(books_dir, "all_companies_all_meetings_book.pdf")
     if os.path.isfile(master_pdf):
         shutil.copy2(master_pdf, os.path.join(examples_root, "all_companies_all_meetings_book.pdf"))
+    master_csv = os.path.join(books_dir, "all_companies_cap_table_carta_pulley.csv")
+    if os.path.isfile(master_csv):
+        shutil.copy2(master_csv, os.path.join(examples_root, "all_companies_cap_table_carta_pulley.csv"))
 
     return examples_root
 
@@ -4715,6 +5194,7 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
     finally:
         os.chdir(start_cwd)
 
+    write_all_companies_cap_table_carta_pulley_csv(root_dir)
     write_standalone_board_resolution_documents(root_dir)
 
 
