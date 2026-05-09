@@ -399,10 +399,22 @@ def test_board_chronological_index_orders_quarterly_before_december_annual() -> 
 
 
 def test_stock_ledger_acknowledgment_first_meeting_after_purchase_date() -> None:
-    """Ledger `issue_date` 2022-06-01 → first board meeting strictly after is 2022 Q2 (see stock_ledgers/hippo.json)."""
+    """Ledger `issue_date` 2022-06-01 → first board meeting strictly after is 2022 Q2 (see data/stock_ledgers/hippo.json)."""
     cmm._reset_stock_ledger_meeting_index_for_tests()
-    md = cmm.generate_quarterly("Hippo, Inc", 2022, "Q2")
-    assert "Acknowledgment of Share Issuance" in md
+    co_name = "Hippo, Inc"
+    co = cmm.companies[co_name]
+    md = cmm.generate_quarterly(co_name, 2022, "Q2")
+    assert "Written board resolutions (equity)" in md
     assert "HIPPO-0001" in md
-    assert "June 01, 2022" in md
-    assert "8,000,000" in md
+    assert "standalone board resolutions" in md
+    assert "Issuance of Common Stock — HIPPO-0001" not in md
+    q2_iso = cmm.quarterly_meeting_date_str(co, 2022, "Q2")
+    pairs = cmm._ensure_stock_ledger_meeting_index().get((co_name, q2_iso), [])
+    assert pairs
+    entry, ledger = pairs[0]
+    standalone = "\n\n".join(cmm._stock_ledger_resolution_blocks_for_entry(entry, ledger))
+    assert "Issuance of Common Stock — HIPPO-0001" in standalone
+    assert "Acknowledgment of Consideration — HIPPO-0001" in standalone
+    assert "Stock Ledger and Books and Records — HIPPO-0001" in standalone
+    assert "June 01, 2022" in standalone
+    assert "8,000,000" in standalone

@@ -48,12 +48,17 @@ def main() -> None:
 
     expected: set[str] = set()
     skipped = 0
-    # Include all generated .docx, including compiled books under generated/books/.
+    # Include all generated .docx (per-company under generated/<safe>/books/; master under generated/books/).
     for docx_path in sorted(gen.rglob("*.docx")):
         if _skip_docx_path(docx_path):
             skipped += 1
             continue
-        folder = docx_path.parent.name
+        rel_parts = docx_path.relative_to(gen).parts
+        if len(rel_parts) >= 3 and rel_parts[1] == "books":
+            # generated/<company>/books/<file>.docx → audit folder tag is <company> (stable vs parent "books")
+            folder = rel_parts[0]
+        else:
+            folder = docx_path.parent.name
         stem = docx_path.stem
         name = f"generated__{folder}__{stem}.docx.txt"
         try:

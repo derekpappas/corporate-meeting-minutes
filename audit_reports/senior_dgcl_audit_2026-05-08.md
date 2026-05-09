@@ -1,14 +1,18 @@
 # Privileged internal memo — Senior DGCL audit (generator + registry posture)
 
-**Date:** May 8, 2026  
+**Date:** May 9, 2026  
 **Audience:** Records / management and counsel of record  
 **Posture:** Experienced Delaware corporate counsel reviewing **synthetic minute packs** produced by `corporate_meeting_minutes.py` as if under **§220** scrutiny or **buy-side diligence**. **Not legal advice** and **not** a substitute for review of filed **certificates of incorporation**, **bylaws**, ledgers, executed consents, and banking resolutions.
 
 **Method:** Aligned with `doc/senior_counsel_prompt/senior_counsel_audit_prompt.md` (Sections I–VI): hierarchy (DGCL > COI > bylaws > minutes), “silence is risk,” and the Section VI coverage map.
 
-**Corpus reviewed for this run:** Current **`corporate_meeting_minutes.py`** behavior and **spot-generated** markdown for **Hippo, Inc.**, **Ritual Growth, Inc.**, **TeamBoost.ai, Inc.**, plus patterns shared by **DATA RECORD SCIENCE, INC.** and **SurveyTeams, Inc.** Prior **`audit_text/`** extracts (if present) should be refreshed after regeneration via `scripts/extract_audit_text.py` for line-cite parity.
+**Corpus layout (current generator):** All per-company **`.docx`** outputs (organizational through quarterlies, stockholder-side instruments where applicable, compiled `<safe>_all_meetings_book`, and **standalone board resolutions** for equity / domestication) are written under **`generated/<safe_company_name>/books/`**. The **multi-company** compiled book remains **`generated/books/all_companies_all_meetings_book.{docx,pdf}`**.
 
-**Hard-audit corpus:** After regeneration, run `poetry run python corporate_meeting_minutes.py --output-root generated --extract-audit-text` so **`audit_text/*.txt` mirrors every `generated/**/*.docx`**. See **`audit_reports/hard_audit_corpus_run.md`** for the one-liner, naming convention, and search tips.
+**Corpus reviewed for this run:** Current **`corporate_meeting_minutes.py`** behavior and registry strings for **Hippo, Inc.**, **Ritual Growth, Inc.**, **TeamBoost.ai, Inc.**, **DATA RECORD SCIENCE, INC.**, **SurveyTeams, Inc.**, and **Loki Sports Enterprises, Inc.** Plain-text mirrors live under **`audit_text/`** (run `scripts/extract_audit_text.py` after each full regeneration; naming uses the company folder segment so `generated/<safe>/books/…` still maps to `generated__<safe>__…` extracts).
+
+**Automated chronology / hygiene:** Latest `scripts/audit_corpus_chronology_dgcl.py` pass on refreshed extracts: **0 errors, 0 warnings, 0 calendar conflict slots** (see **`audit_reports/corpus_chronology_dgcl_audit.md`**). That script does **not** replace substantive counsel review of facts and filed instruments.
+
+**Hard-audit corpus:** See **`audit_reports/hard_audit_corpus_run.md`** for the one-liner, naming convention, and search tips.
 
 ---
 
@@ -35,6 +39,7 @@
 | Banking | AGM banking resolution | Ultra vires / authority (**low** if aligned) | §141 + agency | **Low** | Minutes authorize **Derek E. Pappas** as **sole authorized signatory** (per registry config). Match **bank** signature cards and resolutions. |
 | DRS / SurveyTeams | Annual stockholder stack | Notice §222; quorum §216 | **§§211–222** | **Med** | **Notice/waiver** forms exist; **delivery** and **timeliness** proof out-of-band; reconcile **record date** to bylaws. |
 | Loki (WY) | Same logical checklist | **WYBCA**, not DGCL | Mapping | **Med** | Generator maps some placeholders to **W.S. 1977** sections; treat as **Wyoming** law review. |
+| Equity / domestication | **Standalone board resolutions** (`.docx` in `…/books/`) | Evidence / ratification | Practice + ledger | **Med** | Full decision text is in **separate** packets; minutes use **short incorporating** resolutions—confirm **execution** of standalone packets and consistency with **stock ledgers** / charter. |
 
 ---
 
@@ -88,9 +93,10 @@
 
 ## 7. Operational follow-ups (non-DGCL but diligence-adjacent)
 
-1. **Re-run** `scripts/extract_audit_text.py` after each full regeneration so **audit_text/** matches **generated/**.  
+1. **Re-run** `scripts/extract_audit_text.py` after each full regeneration so **`audit_text/`** matches **`generated/**/*.docx`**.  
 2. **Calendar** `--strict-calendars`—keep running **after schedule changes** (cross-company conflicts).  
-3. **Officer roster** in org minutes: **CEO/COO** titles now in config—confirm **bylaws** and **state reports** match.
+3. **Officer roster** in org minutes: **CEO/COO** titles now in config—confirm **bylaws** and **state reports** match.  
+4. **Review pack / examples:** After regeneration, run **`scripts/build_review_pack.py`** if you rely on **`generated/review_pack/`** snapshots; use **`--write-examples`** for **`generated/examples/`** PDF samples.
 
 ---
 
@@ -101,6 +107,9 @@
 - **Banking:** **Single** authorized signatory (**Derek E. Pappas**) for Hippo/Ritual/TeamBoost per registry config.  
 - **Fiscal language:** **Calendar year** default harmonization in resolutions/president report (unless `fiscal_year_is_calendar_year: false`).  
 - Coverage map row **§141(a)–(b)** is **no longer** “sole director only” for **all** corps—**SurveyTeams** and **post-appointment** meetings are **multi-director**.
+- **Output paths:** Per-company minute books and instruments live under **`generated/<safe>/books/`**; master book under **`generated/books/`**; **standalone** equity/domestication resolutions in the same per-company **`books/`** folder.  
+- **Quarterly / IP narrative:** Contractor vs owned-equipment clarifications; company-specific **President’s Report** product lines (including **year-keyed** `agm_president_report_product_line` dict for **TeamBoost**).  
+- **Execution blocks:** Optional **wet-ink** **Name / Title / Date** lines when **`signature_block_print_signing_lines: true`** (registry-wide).
 
 ---
 

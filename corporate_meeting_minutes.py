@@ -77,8 +77,11 @@ locations_timeline = [
 #   If detailed bullets exist but this key is omitted, **Exhibit B** is used by default for that addendum.
 #
 # Cookie-cutter controls (optional; each company in `company_information` should set these for distinct minutes):
-# - development_centers_line — semicolon-separated regions for President’s Report / quarterlies (replaces shared default).
+# - development_centers_line — semicolon-separated regions where contractor/consultant personnel supporting the
+#   Corporation are based (President’s Report / quarterlies; not an assertion that the Corporation owns those premises).
 # - primary_banking_institution — bank name in the default banking RESOLVED (e.g. "JPMorgan Chase Bank, N.A.").
+# - agm_president_report_product_line — President’s Report product summary: a **str** (optional `{year}` / `{next_year}`) or a **dict** keyed by
+#   calendar year strings (e.g. `"2023"`) plus optional `"default"` for other years.
 # - agm_discussion_items_line — AGM §VI paragraph; may include `{next_year}` / `{year}` placeholders.
 # - special_meeting_purpose — one-line Purpose field in the annual special board meeting.
 # - special_meeting_ratification_resolution_markdown — first special-meeting resolution block; `{year}` / `{next_year}` allowed.
@@ -86,6 +89,8 @@ locations_timeline = [
 # - treasurer_report_minutes_paragraph — optional full Treasurer’s Report paragraph; `{issued}` and `{par}` placeholders.
 # - quarterly_default_ratification_resolution — default quarterly RESOLVED when quarterly_resolution_blocks omitted.
 # - agm_ip_affirmation_sentence — optional closing sentence for President’s Report IP affirmation.
+# - signature_block_print_signing_lines — optional True: emit a rule line plus **Name:** / **Title:** / **Date:** for wet-ink execution.
+# - signature_block_signing_rule_line — optional underscore rule (default long underscore rule).
 # - minutes_principal_address_note — optional markdown line/paragraph after **Principal Address:** (overrides the default note). Set to "" to suppress.
 # - board_meeting_remote_presence_markdown — optional sentence for remote participation = presence (AGM/special/quarterly); default is shared boilerplate. `""` omits.
 # - board_meeting_reliance_markdown — optional reliance paragraph after Treasurer’s Report; default is `reliance_standard(co)` (same for all DE corps). `""` omits.
@@ -221,13 +226,18 @@ def _fmt_long_date(d_iso: str) -> str:
     return datetime.strptime(d_iso, "%Y-%m-%d").strftime("%B %d, %Y")
 
 
-# Stock ledger JSON → board resolutions on the first scheduled board meeting **strictly after** `issue_date`.
-_STOCK_LEDGER_RESOLUTIONS_BY_MEETING: dict[tuple[str, str], list[str]] | None = None
+# Stock ledger JSON → (ledger entry, ledger payload) grouped by first board meeting **strictly after** `issue_date`.
+_STOCK_LEDGER_ENTRIES_BY_MEETING: dict[tuple[str, str], list[tuple[dict, dict]]] | None = None
+
+
+def reset_stock_ledger_meeting_index() -> None:
+    """Clear cached stock-ledger / meeting index (e.g. before tests or standalone resolution export)."""
+    global _STOCK_LEDGER_ENTRIES_BY_MEETING
+    _STOCK_LEDGER_ENTRIES_BY_MEETING = None
 
 
 def _reset_stock_ledger_meeting_index_for_tests() -> None:
-    global _STOCK_LEDGER_RESOLUTIONS_BY_MEETING
-    _STOCK_LEDGER_RESOLUTIONS_BY_MEETING = None
+    reset_stock_ledger_meeting_index()
 
 
 def _norm_ledger_company_name(s: str) -> str:
@@ -285,7 +295,8 @@ def _first_board_meeting_strictly_after(co_name: str, co: dict, d_issue: date) -
     return candidates[0][0], candidates[0][1]
 
 
-def _stock_ledger_resolution_markdown(entry: dict, ledger: dict) -> str:
+def _stock_ledger_resolution_blocks_for_entry(entry: dict, ledger: dict) -> list[str]:
+    """Three separate board resolutions: issuance authority, consideration/payment record, books-and-records."""
     cert = str(entry.get("certificate_number") or "").strip() or "TBD"
     sh = str(entry.get("shareholder") or "").strip() or "the subscriber"
     shares_raw = entry.get("shares")
@@ -307,16 +318,20 @@ def _stock_ledger_resolution_markdown(entry: dict, ledger: dict) -> str:
         pay_phrase = (
             "for consideration the Corporation acknowledges as received (with payment particulars noted in the stock ledger)"
         )
-    title = f"Acknowledgment of Share Issuance — {cert}"
-    return f"""**{title}**  
-RESOLVED, that the Corporation acknowledges receipt of consideration for **{sc}** shares of common stock issued to **{sh}** and recorded on the stock ledger under certificate number **{cert}**; that payment was received on **{long_d}** via **{pm}** from **{src}** to **{dst}**, {pay_phrase}; and FURTHER RESOLVED, that the officers are authorized to reflect the issuance in the Corporation’s stock ledger and related books and records accordingly."""
+    r1 = f"""**Issuance of Common Stock — {cert}**  
+RESOLVED, that the Corporation is authorized and directed to issue **{sc}** shares of common stock to **{sh}** under certificate number **{cert}**, with an issue date of **{long_d}**, upon the terms and consideration set forth in the companion resolutions in this standalone document."""
+    r2 = f"""**Acknowledgment of Consideration — {cert}**  
+RESOLVED, that the Corporation acknowledges receipt of consideration for the issuance evidenced by certificate number **{cert}**: payment was received on **{long_d}** via **{pm}** from **{src}** to **{dst}**, {pay_phrase}."""
+    r3 = f"""**Stock Ledger and Books and Records — {cert}**  
+RESOLVED, that the **Secretary** and other appropriate officers of the Corporation are authorized and directed to record the issuance on the Corporation’s stock ledger and to reflect the issuance accurately in the Corporation’s related books and records."""
+    return [r1, r2, r3]
 
 
-def _ensure_stock_ledger_meeting_index() -> dict[tuple[str, str], list[str]]:
-    global _STOCK_LEDGER_RESOLUTIONS_BY_MEETING
-    if _STOCK_LEDGER_RESOLUTIONS_BY_MEETING is not None:
-        return _STOCK_LEDGER_RESOLUTIONS_BY_MEETING
-    out: dict[tuple[str, str], list[str]] = {}
+def _ensure_stock_ledger_meeting_index() -> dict[tuple[str, str], list[tuple[dict, dict]]]:
+    global _STOCK_LEDGER_ENTRIES_BY_MEETING
+    if _STOCK_LEDGER_ENTRIES_BY_MEETING is not None:
+        return _STOCK_LEDGER_ENTRIES_BY_MEETING
+    out: dict[tuple[str, str], list[tuple[dict, dict]]] = {}
     for path in _stock_ledger_json_paths():
         try:
             with open(path, encoding="utf-8") as f:
@@ -342,15 +357,26 @@ def _ensure_stock_ledger_meeting_index() -> dict[tuple[str, str], list[str]]:
             if not slot:
                 continue
             meeting_iso, _kind = slot
-            out.setdefault((co_name, meeting_iso), []).append(
-                _stock_ledger_resolution_markdown(entry, ledger)
-            )
-    _STOCK_LEDGER_RESOLUTIONS_BY_MEETING = out
+            out.setdefault((co_name, meeting_iso), []).append((entry, ledger))
+    _STOCK_LEDGER_ENTRIES_BY_MEETING = out
     return out
 
 
+def _stock_ledger_incorporating_resolution_markdown(co_name: str, meeting_date_iso: str) -> str:
+    """One minutes resolution: adopt separate written resolutions (full text in standalone .docx)."""
+    pairs = _ensure_stock_ledger_meeting_index().get((co_name, meeting_date_iso), [])
+    if not pairs:
+        return ""
+    certs = ", ".join(
+        f"**{str(e.get('certificate_number') or '').strip() or 'TBD'}**" for e, _ in pairs
+    )
+    return f"""**Written board resolutions (equity)**  
+RESOLVED, that the Board hereby approves and adopts the **separate written resolutions of even date** substantially in the form filed with the Secretary as **standalone board resolutions** for certificate number(s) {certs}, which set forth the issuance, consideration, and stock ledger mechanics in full (and are **not reproduced verbatim** in these minutes)."""
+
+
 def _stock_ledger_resolution_blocks_for_meeting(co_name: str, meeting_date_iso: str) -> list[str]:
-    return list(_ensure_stock_ledger_meeting_index().get((co_name, meeting_date_iso), []))
+    s = _stock_ledger_incorporating_resolution_markdown(co_name, meeting_date_iso).strip()
+    return [s] if s else []
 
 
 def _board_resolution_prefix_blocks(
@@ -395,8 +421,38 @@ def _domestication_event(co: dict) -> dict | None:
     return out
 
 
+def _domestication_detailed_resolution_blocks(co: dict) -> list[str]:
+    """Full domestication decision text for standalone resolutions document (not minutes)."""
+    ev = _domestication_event(co)
+    if not ev:
+        return []
+    from_ln = _jurisdiction_long_name(ev["from_jurisdiction"])
+    to_ln = _jurisdiction_long_name(ev["to_jurisdiction"])
+    eff_fmt = _fmt_long_date(ev["effective_date_iso"])
+    ex = str(ev.get("documents_exhibit_label") or "").strip()
+    pend = ""
+    if ex:
+        pend = (
+            f"A copy of the filed domestication / continuation instruments is **annexed as {ex}**."
+            if _minutes_assert_exhibits_filed(co)
+            else f"Filed domestication / continuation instruments **are to be designated {ex}** for attachment **upon filing**."
+        )
+    blocks = [
+        f"""**Prior jurisdiction ({from_ln}) — ratification through domestication**  
+RESOLVED, that all corporate acts taken by or on behalf of the Corporation while domiciled in **{from_ln}** through the effectiveness of its domestication / continuation into **{to_ln}** are hereby ratified, confirmed, and approved in all respects, to the extent permitted by applicable law.""",
+        f"""**Domestication / continuation ({from_ln} to {to_ln}) — approval**  
+RESOLVED, that the Board hereby approves and confirms the Corporation’s domestication / continuation from **{from_ln}** to **{to_ln}**, effective **{eff_fmt}**, and ratifies and approves all acts taken to effect such domestication / continuation and to maintain the Corporation’s corporate existence and good standing in **{to_ln}**, in each case in all respects.""",
+    ]
+    if ex:
+        blocks.append(
+            f"""**Domestication / continuation — instruments and minute book**  
+RESOLVED, that {pend} **FURTHER RESOLVED**, that the **Secretary** is authorized and directed to file, index, or cross-file such instruments with the Corporation’s minute book and related corporate records as counsel may advise."""
+        )
+    return blocks
+
+
 def _domestication_resolution_blocks_if_due(co: dict, meeting_date_iso: str) -> list[str]:
-    """Insert once, at the first board meeting on/after the domestication effective date."""
+    """One minutes resolution: adopt separate domestication resolutions (full text in standalone .docx)."""
     ev = _domestication_event(co)
     if not ev:
         return []
@@ -409,19 +465,90 @@ def _domestication_resolution_blocks_if_due(co: dict, meeting_date_iso: str) -> 
     from_ln = _jurisdiction_long_name(ev["from_jurisdiction"])
     to_ln = _jurisdiction_long_name(ev["to_jurisdiction"])
     eff_fmt = _fmt_long_date(eff)
-    ex = str(ev.get("documents_exhibit_label") or "").strip()
-    exhibit_sentence = ""
-    if ex:
-        pend = (
-            f" A copy of the filed domestication / continuation instruments is **annexed to these minutes as {ex}**."
-            if _minutes_assert_exhibits_filed(co)
-            else f" Filed domestication / continuation instruments **are to be designated {ex}** for attachment to these minutes **upon filing** with the minute book."
-        )
-        exhibit_sentence = pend
     return [
-        f"""**Domestication / Continuation ({from_ln} to {to_ln})**  
-RESOLVED, that the Board ratifies and approves the Corporation’s domestication / continuation from **{from_ln}** to **{to_ln}**, effective **{eff_fmt}**, and confirms that all acts taken to effect such domestication / continuation and to maintain the Corporation’s corporate existence and good standing are hereby ratified, confirmed, and approved in all respects.{exhibit_sentence}"""
+        f"""**Written board resolutions (domestication)**  
+RESOLVED, that the Board hereby approves and adopts the **separate written resolutions of even date** substantially in the form filed with the Secretary as **standalone board resolutions**, which set forth the Corporation’s domestication / continuation from **{from_ln}** to **{to_ln}**, effective **{eff_fmt}**, in full (and are **not reproduced verbatim** in these minutes)."""
     ]
+
+
+def _first_board_meeting_on_or_after_iso(co: dict, eff_iso: str) -> str | None:
+    """First scheduled board meeting date (ISO) on or after `eff_iso` (inclusive)."""
+    start = int(co.get("minutes_start_year", co["inc_year"]))
+    end = max(_board_series_last_calendar_year(co, start), int(eff_iso[:4]))
+    for y in range(start, end + 1):
+        for d_iso, _title, _t_str, _place in _board_meeting_rows_for_year(co, y):
+            if d_iso >= eff_iso:
+                return d_iso
+    return None
+
+
+def write_standalone_board_resolution_documents(output_root: str) -> None:
+    """Write equity + domestication resolution packets under each company's `books/` folder.
+
+    Full decision text lives here; meeting minutes use short incorporating resolutions only.
+    """
+    reset_stock_ledger_meeting_index()
+    for _n, _co in companies.items():
+        _co.pop("_domestication_motion_inserted", None)
+
+    root_dir = os.path.abspath(output_root)
+    idx = _ensure_stock_ledger_meeting_index()
+    for (co_name, meet_iso), pairs in sorted(idx.items()):
+        if not pairs:
+            continue
+        co = companies[co_name]
+        safe = sanitize_company_name(co_name)
+        display = str(co.get("minutes_display_name") or co_name).strip()
+        body_blocks: list[str] = []
+        for entry, ledger in pairs:
+            body_blocks.extend(_stock_ledger_resolution_blocks_for_entry(entry, ledger))
+        body = "\n\n".join(body_blocks)
+        md = (
+            f"**Standalone board resolutions — {display}**\n"
+            f"**Related board meeting date (cycle anchor):** {meet_iso}\n"
+            f"**Subject:** Equity — issuance, consideration, and stock ledger\n\n"
+            f"{body}\n\n"
+            f"{SIGNATURE_BLOCK_MARKER}\n\n"
+            f"{board_meeting_signature_markdown(co, meet_iso, sole_director_name='Derek E. Pappas')}\n---\n"
+        )
+        out_dir = os.path.join(root_dir, safe, "books")
+        os.makedirs(out_dir, exist_ok=True)
+        fname = f"{safe}_{meet_iso}_equity_board_resolutions.docx"
+        dest_eq = os.path.join(out_dir, fname)
+        write_docx_from_minutes(md, dest_eq, meet_iso, co_name)
+        print(f"Writing standalone board resolutions to {dest_eq}")
+
+    for co_name, co in companies.items():
+        ev = _domestication_event(co)
+        if not ev:
+            continue
+        eff = ev["effective_date_iso"]
+        meet_iso = _first_board_meeting_on_or_after_iso(co, eff)
+        if not meet_iso:
+            continue
+        safe = sanitize_company_name(co_name)
+        display = str(co.get("minutes_display_name") or co_name).strip()
+        from_ln = _jurisdiction_long_name(ev["from_jurisdiction"])
+        to_ln = _jurisdiction_long_name(ev["to_jurisdiction"])
+        blocks = _domestication_detailed_resolution_blocks(co)
+        if not blocks:
+            continue
+        body = "\n\n".join(blocks)
+        md = (
+            f"**Standalone board resolutions — {display}**\n"
+            f"**Related board meeting date (cycle anchor):** {meet_iso}\n"
+            f"**Subject:** Domestication / continuation ({from_ln} to {to_ln})\n\n"
+            f"{body}\n\n"
+            f"{SIGNATURE_BLOCK_MARKER}\n\n"
+            f"{board_meeting_signature_markdown(co, meet_iso, sole_director_name='Derek E. Pappas')}\n---\n"
+        )
+        out_dir = os.path.join(root_dir, safe, "books")
+        os.makedirs(out_dir, exist_ok=True)
+        fname = f"{safe}_{meet_iso}_domestication_board_resolutions.docx"
+        dest = os.path.join(out_dir, fname)
+        write_docx_from_minutes(md, dest, meet_iso, co_name)
+        print(f"Writing standalone board resolutions to {dest}")
+
 
 def _corporation_statute_name(co: dict) -> str:
     """Full statute name for narrative references."""
@@ -1003,27 +1130,42 @@ company_information = {
         "signature_block_date_label": "Date:",
         "signature_block_include_title_in_label": True,
         "signature_block_spacing_lines": 1,
+        "signature_block_print_signing_lines": True,
         "primary_banking_institution": "JPMorgan Chase Bank, N.A.",
-        "agm_discussion_items_line": (
-            "The directors discussed the Corporation’s product and data roadmap for {next_year}, including API reliability targets, "
-            "merchant integration milestones, and fraud-prevention initiatives."
+        "agm_president_report_product_line": (
+            "The President’s report summarized the Corporation’s consumer and data platforms for **{year}**, including the **social shopping network** marketed as "
+            "**Hippo Shopping** on the Apple App Store and Google Play, the **PriceStarz** **browser-based comparison-shopping extension**, **large-scale web crawling**, "
+            "**templates and extraction workflows** producing **structured data records**, and a **data-processing pipeline** for deals and product-offer records that "
+            "**groups offers for the same product** and, where possible, **associates deal-offer records with the correct product group**—together with merchant integrations, "
+            "public APIs, analytics, and back-office tooling supporting those systems."
         ),
-        "special_meeting_purpose": "Pre-annual review of marketplace, scraping, and data-pipeline operations",
+        "agm_discussion_items_line": (
+            "The directors discussed the Corporation’s **{next_year}** roadmap across **Hippo Shopping**, **PriceStarz**, **crawl coverage and extraction quality**, "
+            "**offer-grouping and deal-linking accuracy** in the processing pipeline, merchant and marketplace reliability, and **mobile and extension release** cadence."
+        ),
+        "special_meeting_purpose": (
+            "Pre-annual review of Hippo Shopping, PriceStarz, web crawling, structured-data extraction, offer-grouping pipeline, marketplace, and mobile operations"
+        ),
         "special_meeting_ratification_resolution_markdown": (
-            "**Ratification of Marketplace and Data Operations**  \n"
-            "RESOLVED, that operational and engineering decisions affecting the Corporation’s consumer marketplace, merchant integrations, "
-            "and data ingestion pipelines during {year} are hereby ratified, confirmed, and approved in all respects."
+            "**Ratification of Shopping, Extension, Crawling, Extraction, and Pipeline Operations**  \n"
+            "RESOLVED, that operational and engineering decisions affecting the Corporation’s **social shopping application**, **PriceStarz extension**, **web crawling**, "
+            "**structured-data extraction**, **deals and product-offer processing pipeline**, consumer marketplace surfaces, data ingestion, and **native mobile applications** "
+            "during {year} are hereby ratified, confirmed, and approved in all respects."
         ),
         "treasurer_contingent_obligations_clause": (
             "including notes payable and similar obligations that remain contingent on a future liquidity event, "
             "the timing of which has not yet been determined."
         ),
         "quarterly_default_ratification_resolution": (
-            "RESOLVED, that marketplace, data-pipeline, and supporting cloud infrastructure work completed during the quarter—and related "
-            "intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation."
+            "RESOLVED, that **Hippo Shopping**, **PriceStarz**, **web crawling**, **structured-data extraction**, **deals and product-offer pipeline**, marketplace, "
+            "data-pipeline, **mobile application**, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby "
+            "ratified, confirmed, and approved as assets of the Corporation."
         ),
         "agm_ip_affirmation_sentence": (
-            "All software, data models, algorithms, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
+            "All software, data models, algorithms, and related intellectual property developed **for the Corporation** during the year "
+            "under applicable **contractor and consultant arrangements** (including services performed by personnel **in Serbia; Bosnia and Herzegovina; Tunisia**) "
+            "were reaffirmed as **properly titled to and the exclusive property of the Corporation** under those arrangements and applicable law, "
+            "without implying ownership of **counterparties’ equipment or premises**."
         ),
         # Cite filed Amended and Restated Bylaws (`bylaws_text/Hippo, Inc. - Bylaws.docx.pdf.txt`).
         "stockholder_consent_bylaws_acknowledgment": (
@@ -1080,8 +1222,9 @@ company_information = {
             "the Board of Directors) and **Article VIII, Section 4** (waiver of notice)"
         ),
         "agm_president_report_product_line": (
-            "The directors summarized continued product development during the year, including API servers and services "
-            "and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized."
+            "The directors summarized continued **server-side and web application** engineering for **{year}**, including API services, deployment automation, "
+            "and hosting integrations. The President’s report noted that **core product-development efforts were restarted in calendar years 2023, 2025, and 2026**, "
+            "each time replanning architecture, backlog, and release sequencing for the Corporation’s primary web stack while preserving continuity for long-running services."
         ),
         "agm_president_report_infrastructure_line": (
             "The Corporation continued to operate hardware and cloud infrastructure using hosting providers including **DigitalOcean** and **Hetzner**."
@@ -1090,25 +1233,29 @@ company_information = {
         "development_centers_line": "Poland; Romania; Portugal",
         "primary_banking_institution": "Bank of America, N.A.",
         "agm_discussion_items_line": (
-            "The directors discussed go-to-market and client delivery priorities for {next_year}, including mobile companion workstreams, "
-            "partner channel commitments, and release scheduling for the Corporation’s core web stack."
+            "The directors discussed **{next_year}** delivery priorities for the Corporation’s **server-side and web stack**, including recovery planning after "
+            "**development restarts in 2023, 2025, and 2026**, partner commitments, hosting footprint, and release scheduling."
         ),
-        "special_meeting_purpose": "Pre-annual review of product delivery, hosting footprint, and partner commitments",
+        "special_meeting_purpose": (
+            "Pre-annual review of server-side and web application delivery, hosting footprint, partner commitments, and post-restart engineering stability"
+        ),
         "special_meeting_ratification_resolution_markdown": (
-            "**Ratification of Product Delivery and Hosting Operations**  \n"
-            "RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s web applications and API services during {year} "
-            "are hereby ratified, confirmed, and approved in all respects."
+            "**Ratification of Server, Web, and Hosting Operations**  \n"
+            "RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s **server-side services**, **web applications**, and **API** "
+            "delivery during {year} are hereby ratified, confirmed, and approved in all respects."
         ),
         "treasurer_contingent_obligations_clause": (
             "including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, "
             "the timing of which has not yet been determined."
         ),
         "quarterly_default_ratification_resolution": (
-            "RESOLVED, that all web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby "
+            "RESOLVED, that all **server-side**, **web**, **API**, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby "
             "ratified, confirmed, and approved as assets of the Corporation."
         ),
         "agm_ip_affirmation_sentence": (
-            "All application code, APIs, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
+            "All application code, APIs, and related intellectual property developed **for the Corporation** during the year under applicable "
+            "**contractor and consultant arrangements** were reaffirmed as **properly titled to and the exclusive property of the Corporation**, "
+            "without implying ownership of **counterparties’ equipment or premises**."
         ),
         "board_directors": [
             {"name": "Derek E. Pappas", "title": "Director"},
@@ -1143,6 +1290,7 @@ company_information = {
         "signature_block_date_format": "long",
         "signature_block_date_label": "Dated:",
         "signature_block_spacing_lines": 1,
+        "signature_block_print_signing_lines": True,
     },
     "DATA RECORD SCIENCE, INC.": {
         "address": "30 N Gould St Ste 24165, Sheridan, WY 82801",
@@ -1203,6 +1351,7 @@ company_information = {
         "signature_block_date_label": "Date:",
         "signature_block_name_prefix": "Executed by:",
         "signature_block_spacing_lines": 1,
+        "signature_block_print_signing_lines": True,
         "quarterly_business_review_minutes_markdown": (
             "The Sole Director reviewed quarterly **franchise tax**, **registered agent**, and **minute-book** compliance, and confirmed that "
             "the Corporation’s **patent portfolio** records remained current as reported by counsel. The Corporation did not operate product "
@@ -1257,10 +1406,18 @@ company_information = {
             "the **By-Laws of TeamBoost.ai, Inc.**, including **Article III, Section 8** (notice and place of meetings of "
             "the Board of Directors) and **Article VIII, Section 4** (waiver of notice)"
         ),
-        "agm_president_report_product_line": (
-            "The directors summarized continued product development during the year, including API servers and services, "
-            "web applications, and mobile applications."
-        ),
+        "agm_president_report_product_line": {
+            "2023": (
+                "The directors summarized product development for **{year}** with primary emphasis on **native mobile applications** and the Corporation’s "
+                "**AI-assisted company-management** direction—supported by **APIs, AI bots, background services, and owned or leased servers**—while **customer-facing "
+                "web application** engineering moved from planning into initial implementation ahead of broader **2024** web releases."
+            ),
+            "default": (
+                "The directors summarized continued work on an **AI platform for company management**, including the **customer-facing web application** "
+                "(scaling from **2024** alongside **native mobile clients** in production from **2023**), **AI bots and AI tooling**, **server-side services**, and "
+                "supporting cloud infrastructure for those products."
+            ),
+        },
         "agm_president_report_infrastructure_line": (
             "The Corporation continued to operate hardware and cloud infrastructure using hosting providers including **DigitalOcean** and **Hetzner**."
         ),
@@ -1269,25 +1426,29 @@ company_information = {
         "quarterly_meeting_time": "2:00 PM",
         "primary_banking_institution": "First Citizens Bank & Trust Company",
         "agm_discussion_items_line": (
-            "The directors discussed mobile product velocity and infrastructure scaling for {next_year}, including app-store release cadence, "
-            "on-device performance budgets, and push-notification reliability targets."
+            "The directors discussed **{next_year}** priorities for the Corporation’s **AI-led company-management system**, including **web and mobile** delivery, "
+            "**AI bot** reliability, **server and toolchains** scaling, model governance, and customer onboarding."
         ),
-        "special_meeting_purpose": "Pre-annual review of mobile applications, APIs, and cloud delivery",
+        "special_meeting_purpose": (
+            "Pre-annual review of AI company-management platform delivery—web application, native mobile clients, AI bots, servers, and AI tooling"
+        ),
         "special_meeting_ratification_resolution_markdown": (
-            "**Ratification of Mobile and API Delivery Operations**  \n"
-            "RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during {year} "
-            "are hereby ratified, confirmed, and approved in all respects."
+            "**Ratification of AI, Web, Mobile, Bot, and Server Operations**  \n"
+            "RESOLVED, that engineering and product decisions affecting the Corporation’s **AI-assisted company-management** offerings—including **web applications**, "
+            "**native mobile applications**, **AI bots**, **servers**, **AI tools**, and **APIs**—during {year} are hereby ratified, confirmed, and approved in all respects."
         ),
         "treasurer_contingent_obligations_clause": (
             "including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, "
             "the timing of which has not yet been determined."
         ),
         "quarterly_default_ratification_resolution": (
-            "RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby "
-            "ratified, confirmed, and approved as assets of the Corporation."
+            "RESOLVED, that all **web**, **native mobile**, **AI bot**, **server**, **AI tooling**, **API**, and supporting cloud infrastructure work completed during the "
+            "quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation."
         ),
         "agm_ip_affirmation_sentence": (
-            "All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
+            "All web and mobile clients, **AI bots**, **AI tools**, server-side services, APIs, and related intellectual property developed **for the Corporation** during the year "
+            "under applicable **contractor and consultant arrangements** were reaffirmed as **properly titled to and the exclusive property of the Corporation**, "
+            "without implying ownership of **counterparties’ equipment or premises**."
         ),
         "board_directors": [
             {"name": "Derek E. Pappas", "title": "Director"},
@@ -1322,6 +1483,7 @@ company_information = {
         "signature_block_include_title_in_label": False,
         "signature_block_label_template": "**Signed:**",
         "signature_block_spacing_lines": 1,
+        "signature_block_print_signing_lines": True,
     },
     "SurveyTeams, Inc.": {
         "minutes_display_name": "SurveyTeams, Inc.",
@@ -1380,32 +1542,42 @@ company_information = {
         "agm_president_report_opening_paragraph_markdown": (
             "**Mohamed Mohamed**, President, reported on the Corporation’s operational and engineering activities for the calendar year, "
             "including centralized management of globally distributed development and the use of operational office location(s) "
-            "during the calendar year, with operations conducted from {office_locations} and development from {dev_locations}, "
+            "during the calendar year, with operations conducted from {office_locations} and engineering support sourced through "
+            "**contractor and consultant arrangements** with personnel **in {dev_locations}**, "
             "while confirming that management, oversight, and decision-making remained centralized and continuously recorded "
             "through the Corporation’s official records. "
+        ),
+        "agm_president_report_product_line": (
+            "The directors summarized continued engineering of **SurveyTeams’ server-backed web application** for designing, distributing, and analyzing "
+            "**hierarchical organizational surveys**, including authenticated multi-tenant access, survey versioning, **server-side** analytics and exports, "
+            "and supporting APIs and operational tooling for research teams."
         ),
         "development_centers_line": "Egypt; United Arab Emirates; United States (distributed)",
         "primary_banking_institution": "Mercury Bank",
         "agm_discussion_items_line": (
-            "The directors discussed survey research tooling and fieldwork coverage for {next_year}, including respondent privacy controls, "
-            "sample-weighting methodology, and multilingual instrument delivery."
+            "The directors discussed **{next_year}** roadmap items for **hierarchical organizational surveys**, including **web and server** reliability, "
+            "respondent privacy controls, sample-weighting methodology, multilingual instrument delivery, and enterprise deployment workflows."
         ),
-        "special_meeting_purpose": "Pre-annual review of survey platform operations and research compliance workflows",
+        "special_meeting_purpose": (
+            "Pre-annual review of SurveyTeams **server and web application** operations, hierarchical survey workflows, and research compliance"
+        ),
         "special_meeting_ratification_resolution_markdown": (
-            "**Ratification of Survey Platform and Research Operations**  \n"
-            "RESOLVED, that engineering and operations decisions affecting the Corporation’s survey tooling, sampling workflows, and research compliance posture during {year} "
-            "are hereby ratified, confirmed, and approved in all respects."
+            "**Ratification of Survey Server, Web Application, and Research Operations**  \n"
+            "RESOLVED, that engineering and operations decisions affecting the Corporation’s **survey servers**, **web application**, hierarchical survey tooling, "
+            "sampling workflows, and research compliance posture during {year} are hereby ratified, confirmed, and approved in all respects."
         ),
         "treasurer_contingent_obligations_clause": (
             "including founder advances, deferred vendor invoices, and similar items that remain contingent on a future liquidity event, "
             "the timing of which has not yet been determined."
         ),
         "quarterly_default_ratification_resolution": (
-            "RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby "
-            "ratified, confirmed, and approved as assets of the Corporation."
+            "RESOLVED, that all **survey server**, **web application**, survey-tooling, data-collection, and supporting infrastructure work completed during the quarter—and "
+            "related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation."
         ),
         "agm_ip_affirmation_sentence": (
-            "All survey instruments, weighting libraries, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
+            "All survey instruments, weighting libraries, **web and server application code**, APIs, and related intellectual property developed **for the Corporation** during the year "
+            "under applicable **contractor and consultant arrangements** were reaffirmed as **properly titled to and the exclusive property of the Corporation**, "
+            "without implying ownership of **counterparties’ equipment or premises**."
         ),
         "minute_book_compilation_preamble_markdown": (
             "**SurveyTeams board minutes — compiled**\n\n"
@@ -1419,6 +1591,7 @@ company_information = {
         "signature_block_date_label": "Date:",
         "signature_block_include_title_in_label": True,
         "signature_block_spacing_lines": 2,
+        "signature_block_print_signing_lines": True,
     },
     "Loki Sports Enterprises, Inc.": {
         "minutes_display_name": "Loki Sports Enterprises, Inc.",
@@ -1467,6 +1640,7 @@ company_information = {
         "signature_block_include_title_in_label": False,
         "signature_block_label_template": "**Executed and agreed:**",
         "signature_block_spacing_lines": 1,
+        "signature_block_print_signing_lines": True,
         "primary_banking_institution": "Truist Bank",
         "agm_discussion_items_line": (
             "The Sole Director discussed fan engagement, venue partnerships, and media integrations for {next_year}, including tournament-season logistics, "
@@ -1488,7 +1662,8 @@ company_information = {
         ),
         "agm_ip_affirmation_sentence": (
             "All sports-media software, venue-integration tooling, product designs, manufacturing specifications for hockey sticks produced through the Corporation’s "
-            "supply chain, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
+            "supply chain, and related intellectual property developed **for the Corporation** during the year were reaffirmed as **properly titled to and the exclusive property of the Corporation**; "
+            "the Board noted that **production partners’ facilities and equipment are not owned by the Corporation**."
         ),
     },
 }
@@ -1986,12 +2161,12 @@ def normalize_locations(locations):
     return "; ".join(normalized)
 
 def development_locations():
-    """Legacy default development-region list (used only if `development_centers_line` is omitted)."""
-    return "Bosnia and Herzegovina; Serbia; Tunisia"
+    """Legacy default contractor/consultant geography list (used only if `development_centers_line` is omitted)."""
+    return "Serbia; Bosnia and Herzegovina; Tunisia"
 
 
 def development_centers_line_for_company(co: dict) -> str:
-    """Semicolon-separated development centers for minutes (per-company; avoids identical boilerplate across corporations)."""
+    """Semicolon-separated regions (contractor/consultant personnel) for minutes (per-company)."""
     if "development_centers_line" in co and isinstance(co["development_centers_line"], str):
         s = co["development_centers_line"].strip()
         if s:
@@ -2593,8 +2768,22 @@ def _format_signature_date(co: dict, date_iso: str) -> str:
     return date_iso
 
 
+def wet_signing_lines_markdown(co: dict, name: str, title: str, date_iso: str, *, include_filled_date: bool = True) -> str:
+    """Blank signature rule plus **Name:** / **Title:** / **Date:** when `signature_block_print_signing_lines` is set."""
+    if not co.get("signature_block_print_signing_lines"):
+        return ""
+    rule = str(co.get("signature_block_signing_rule_line") or "_______________________________").strip()
+    date_label = str(co.get("signature_block_date_label") or "Date:").strip()
+    if include_filled_date and bool(co.get("signature_block_include_date", True)):
+        date_val = _format_signature_date(co, date_iso)
+        date_line = f"**{date_label}** {date_val}"
+    else:
+        date_line = f"**{date_label}** {rule}"
+    return f"{rule}\n**Name:** {name}\n**Title:** {title}\n{date_line}\n"
+
+
 def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Director") -> str:
-    """Signature block (no lines; optional label; includes date by default).
+    """Signature block; optional wet-ink lines via `signature_block_print_signing_lines`.
 
     Uses a marker so the .docx writer can keep the block together to avoid splitting across pages.
     """
@@ -2606,6 +2795,7 @@ def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Direct
     date_label = str(co.get("signature_block_date_label") or "Date:").strip()
     rendered_date = _format_signature_date(co, date)
     spacing_lines = int(co.get("signature_block_spacing_lines", 1))
+    print_lines = bool(co.get("signature_block_print_signing_lines", False))
 
     if style == "signature":
         header = "**Signature:**"
@@ -2622,12 +2812,22 @@ def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Direct
     lines: list[str] = [SIGNATURE_BLOCK_MARKER]
     if header:
         lines.append(header)
-    if name_prefix:
-        lines.append(f"{name_prefix} {name}".rstrip())
+    if print_lines:
+        rule = str(co.get("signature_block_signing_rule_line") or "_______________________________").strip()
+        lines.append(rule)
+        lines.append(f"**Name:** {name}")
+        lines.append(f"**Title:** {title}")
+        if include_date:
+            lines.append(f"**{date_label}** {rendered_date}")
+        else:
+            lines.append(f"**{date_label}** {rule}")
     else:
-        lines.append(name)
-    if include_date:
-        lines.append(f"**{date_label}** {rendered_date}" if not date_label.endswith(":") else f"**{date_label}** {rendered_date}")
+        if name_prefix:
+            lines.append(f"{name_prefix} {name}".rstrip())
+        else:
+            lines.append(name)
+        if include_date:
+            lines.append(f"**{date_label}** {rendered_date}")
     lines.extend([""] * max(spacing_lines, 0))
     return "\n".join(lines)
 
@@ -2701,6 +2901,22 @@ FURTHER RESOLVED, that **{names}** is hereby appointed and elected to serve as a
     ]
 
 
+def _agm_president_report_product_line_resolved(co: dict, year: int, multi: bool) -> str:
+    """`agm_president_report_product_line`: str (optional `{year}` / `{next_year}`) or dict with year keys and optional `default`."""
+    raw = co.get("agm_president_report_product_line")
+    if isinstance(raw, dict):
+        chunk = raw.get(str(year)) or raw.get("default")
+        if isinstance(chunk, str) and chunk.strip():
+            return chunk.strip().format(year=year, next_year=year + 1)
+    elif isinstance(raw, str) and raw.strip():
+        return raw.strip().format(year=year, next_year=year + 1)
+    return (
+        "The directors summarized continued development of the Corporation’s software and service offerings. "
+        if multi
+        else "The Sole Director summarized continued development of the Corporation’s software and service offerings. "
+    )
+
+
 def _agm_president_report_body(co: dict, office_locations: str, dev_locations: str, co_name: str, year: int) -> str:
     """President’s Report narrative: operational baseline, optional product/hosting lines, accomplishments summary, addendum."""
     multi = len(_normalized_board_directors(co)) >= 2
@@ -2716,12 +2932,21 @@ def _agm_president_report_body(co: dict, office_locations: str, dev_locations: s
             + " "
         )
     else:
-        dev_phrase = dev_locations if dev_locations.strip() else "the regions described in the President’s report"
+        if dev_locations.strip():
+            geo_ops = (
+                f"with operations conducted from {office_locations} and engineering support sourced through "
+                f"**contractor and consultant arrangements** with personnel **in {dev_locations.strip()}**"
+            )
+        else:
+            geo_ops = (
+                f"with operations conducted from {office_locations} and engineering support sourced through "
+                "**contractor and consultant arrangements** as described in the President’s report"
+            )
         if multi:
             base = (
                 f"The directors reported on the Corporation’s operational and engineering activities for {period}, "
                 "including centralized management of globally distributed development and the use of operational office location(s) "
-                f"during {period}, with operations conducted from {office_locations} and development from {dev_phrase}, "
+                f"during {period}, {geo_ops}, "
                 "while confirming that management, oversight, and decision-making remained centralized and continuously recorded "
                 "through the Corporation’s official records. "
             )
@@ -2729,22 +2954,19 @@ def _agm_president_report_body(co: dict, office_locations: str, dev_locations: s
             base = (
                 f"The Sole Director reported on the Corporation’s operational and engineering activities for {period}, "
                 "including centralized management of globally distributed development and the use of operational office location(s) "
-                f"during {period}, with operations conducted from {office_locations} and development from {dev_phrase}, "
+                f"during {period}, {geo_ops}, "
                 "while confirming that management, oversight, and decision-making remained centralized and continuously recorded "
                 "through the Corporation’s official records. "
             )
-    product = co.get(
-        "agm_president_report_product_line",
-        (
-            "The directors summarized continued development of the Corporation’s software and service offerings. "
-            if multi
-            else "The Sole Director summarized continued development of the Corporation’s software and service offerings. "
-        ),
-    )
+    product = _agm_president_report_product_line_resolved(co, year, multi)
     if not product.endswith(" "):
         product = product.rstrip() + " "
     infra_raw = co.get("agm_president_report_infrastructure_line") or ""
-    infra = (" " + infra_raw.strip()) if infra_raw.strip() else ""
+    if isinstance(infra_raw, str) and infra_raw.strip():
+        ir = infra_raw.strip()
+        infra = " " + (ir.format(year=year, next_year=year + 1) if "{" in ir else ir)
+    else:
+        infra = ""
 
     summary, detail_items = accomplishments_for_year(co_name, year)
     summary_sentence = ""
@@ -2778,8 +3000,10 @@ def _agm_president_report_body(co: dict, office_locations: str, dev_locations: s
         )
 
     ip_default = (
-        " All software, algorithms, and intellectual property developed during the year, regardless of development location, "
-        "were reaffirmed as the exclusive property of the Corporation."
+        " All software, algorithms, and intellectual property developed **for the Corporation** during the year "
+        "under applicable **contractor, consultant, and employment arrangements**, regardless of where services were performed, "
+        "were reaffirmed as **properly titled to and the exclusive property of the Corporation** under those arrangements and applicable law, "
+        "without implying ownership of **counterparties’ equipment, facilities, or premises**."
     )
     ip_custom = co.get("agm_ip_affirmation_sentence")
     if isinstance(ip_custom, str) and ip_custom.strip():
@@ -3224,6 +3448,7 @@ def generate_quarterly(co_name, year, quarter):
     place = meeting_place_line(co, date)
 
     dev_locations = development_centers_line_for_company(co)
+    contractor_regions = dev_locations.strip() or "regions covered by the Corporation’s contractor and consultant arrangements"
     t_quarter = scheduled_quarterly_meeting_time(co, year, quarter)
 
     director_name = "Derek E. Pappas"
@@ -3244,15 +3469,19 @@ def generate_quarterly(co_name, year, quarter):
         )
     elif multi_director_board:
         business_review = (
-            "The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software "
-            f"and related intellectual property, created during the quarter in the development centers located in {dev_locations} "
-            "are properly titled to and are the exclusive property of the Corporation."
+            "The directors reviewed quarterly infrastructure stability and confirmed that **software and related intellectual property** "
+            f"developed **for the Corporation** during the quarter under its **contractor and consultant arrangements**, including services "
+            f"performed by personnel **in {contractor_regions}**, **is properly titled to and is the exclusive property of the Corporation** "
+            "under those arrangements and applicable law. The Board acknowledged that **consulting and contracting firms, their personnel, "
+            "and their equipment and premises are not owned by the Corporation**."
         )
     else:
         business_review = (
-            "The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software "
-            f"and related intellectual property, created during the quarter in the development centers located in {dev_locations} "
-            "are properly titled to and are the exclusive property of the Corporation."
+            "The Sole Director reviewed quarterly infrastructure stability and confirmed that **software and related intellectual property** "
+            f"developed **for the Corporation** during the quarter under its **contractor and consultant arrangements**, including services "
+            f"performed by personnel **in {contractor_regions}**, **is properly titled to and is the exclusive property of the Corporation** "
+            "under those arrangements and applicable law. The Sole Director acknowledged that **consulting and contracting firms, their personnel, "
+            "and their equipment and premises are not owned by the Corporation**."
         )
 
     if multi_director_board:
@@ -3479,7 +3708,7 @@ The Chairperson noted for the record that the Corporation had {issued} shares of
 There being no further business properly brought before the meeting, the meeting was adjourned.
 
 **Executed by (Chairperson of the Meeting):**
-{chair}
+{wet_signing_lines_markdown(co, chair, "President and Chairperson of the Meeting", date)}
 ---
 """
 
@@ -3692,7 +3921,7 @@ This Written Consent shall be effective as of {as_of}, and shall be filed with t
 Derek E. Pappas
 
 **Executed by:**
-Derek E. Pappas
+{wet_signing_lines_markdown(co, "Derek E. Pappas", shareholder_term, date)}
 ---"""
 
 
@@ -4160,7 +4389,10 @@ def generate_company_all_meetings_book(
     years: tuple[int, ...],
     books_dir: str,
 ) -> None:
-    """Compiled minute book per company: .docx (editable) + .pdf (distribution), written to `books_dir`."""
+    """Compiled minute book per company: .docx (editable) + .pdf (distribution).
+
+    `books_dir` is normally ``{output_root}/<safe_company_name>/books/`` (same folder as individual .docx minutes).
+    """
     co = companies[co_name]
     start_year = co.get("minutes_start_year", co.get("inc_year", min(years)))
     applicable = [y for y in years if y >= start_year]
@@ -4267,7 +4499,7 @@ def write_examples_directory(
     - written_consent_in_lieu_of_annual_meeting OR annual_meeting_of_stockholders (+ waiver/notice/ratification where present)
     - waiver_of_notice_board_meetings
     - one quarterly (Q1)
-    - all_meetings_book (compiled): copies the pre-built `generated/books/<safe>_all_meetings_book.pdf` when present
+    - all_meetings_book (compiled): copies the pre-built `generated/<safe>/books/<safe>_all_meetings_book.pdf` when present
 
     Standalone .docx files are converted with ReportLab (same letter layout as compiled book PDFs).
     """
@@ -4306,12 +4538,13 @@ def write_examples_directory(
                 os.remove(os.path.join(out_dir, name))
 
         # Core docs (always generated)
+        co_books = os.path.join(co_dir, "books")
         for src in (
-            os.path.join(co_dir, meeting_filename(co_name, annual_date, "agm", ext="docx")),
-            os.path.join(co_dir, meeting_filename(co_name, special_date, "yearly_special_meeting", ext="docx")),
-            os.path.join(co_dir, meeting_filename(co_name, annual_date, "waiver_of_notice_board_meetings", ext="docx")),
+            os.path.join(co_books, meeting_filename(co_name, annual_date, "agm", ext="docx")),
+            os.path.join(co_books, meeting_filename(co_name, special_date, "yearly_special_meeting", ext="docx")),
+            os.path.join(co_books, meeting_filename(co_name, annual_date, "waiver_of_notice_board_meetings", ext="docx")),
             os.path.join(
-                co_dir,
+                co_books,
                 meeting_filename(
                     co_name,
                     q1_date,
@@ -4329,17 +4562,17 @@ def write_examples_directory(
         stockholder_kind = co.get("stockholder_meeting", "written_consent")
         if stockholder_kind == "annual_meeting_stockholders":
             for src in (
-                os.path.join(co_dir, meeting_filename(co_name, annual_date, "annual_meeting_of_stockholders", ext="docx")),
+                os.path.join(co_books, meeting_filename(co_name, annual_date, "annual_meeting_of_stockholders", ext="docx")),
                 os.path.join(
-                    co_dir,
+                    co_books,
                     meeting_filename(co_name, annual_date, "waiver_of_notice_annual_stockholder_meeting", ext="docx"),
                 ),
                 os.path.join(
-                    co_dir,
+                    co_books,
                     meeting_filename(co_name, annual_date, "notice_of_annual_stockholder_meeting", ext="docx"),
                 ),
                 os.path.join(
-                    co_dir,
+                    co_books,
                     meeting_filename(
                         co_name,
                         annual_date,
@@ -4352,13 +4585,15 @@ def write_examples_directory(
                     stem = os.path.splitext(os.path.basename(src))[0]
                     _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
         else:
-            src = os.path.join(co_dir, meeting_filename(co_name, annual_date, "written_consent_in_lieu_of_annual_meeting", ext="docx"))
+            src = os.path.join(
+                co_books, meeting_filename(co_name, annual_date, "written_consent_in_lieu_of_annual_meeting", ext="docx")
+            )
             if os.path.isfile(src):
                 stem = os.path.splitext(os.path.basename(src))[0]
                 _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
 
-        # Compiled book: use the distribution PDF already built under generated/books (same content as markdown pipeline).
-        book_pdf = os.path.join(books_dir, f"{safe}_all_meetings_book.pdf")
+        # Compiled book: use the distribution PDF already built under generated/<safe>/books/.
+        book_pdf = os.path.join(co_dir, "books", f"{safe}_all_meetings_book.pdf")
         if os.path.isfile(book_pdf):
             dst = os.path.join(out_dir, f"{safe}_all_meetings_book.pdf")
             shutil.copy2(book_pdf, dst)
@@ -4381,6 +4616,7 @@ def write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root: str) -> str:
     safe = sanitize_company_name(co_name)
     root_dir = os.path.abspath(os.path.join(os.getcwd(), output_root))
     co_dir = os.path.join(root_dir, safe)
+    co_books = os.path.join(co_dir, "books")
     out_dir = os.path.join(root_dir, f"{safe}_agm_minutes_with_accomplishment_exhibits_pdf")
     os.makedirs(out_dir, exist_ok=True)
     for name in list(os.listdir(out_dir)):
@@ -4400,8 +4636,8 @@ def write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root: str) -> str:
 
     for y in years_with_detail:
         annual_date = annual_meeting_date_str(companies[co_name], y)
-        agm_docx = os.path.join(co_dir, meeting_filename(co_name, annual_date, "agm", ext="docx"))
-        add_docx = os.path.join(co_dir, meeting_filename(co_name, annual_date, "agm_operating_addendum", ext="docx"))
+        agm_docx = os.path.join(co_books, meeting_filename(co_name, annual_date, "agm", ext="docx"))
+        add_docx = os.path.join(co_books, meeting_filename(co_name, annual_date, "agm_operating_addendum", ext="docx"))
         if os.path.isfile(agm_docx):
             out_pdf = meeting_filename(co_name, annual_date, "agm", ext="pdf")
             _write_docx_as_simple_pdf(agm_docx, os.path.join(out_dir, out_pdf))
@@ -4436,7 +4672,9 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
 
             company_dir = f"{safe_company_name}"
             os.makedirs(company_dir, exist_ok=True)
-            os.chdir(company_dir)
+            co_books_dir = os.path.join(root_dir, company_dir, "books")
+            os.makedirs(co_books_dir, exist_ok=True)
+            os.chdir(co_books_dir)
 
             start_year = co.get(
                 "minutes_start_year", co.get("inc_year", min(years))
@@ -4473,9 +4711,11 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
                         continue
                     generate_quarterly_summary(company_name_year, year, quarter, name)
 
-            generate_company_all_meetings_book(safe_company_name, name, years, books_dir)
+            generate_company_all_meetings_book(safe_company_name, name, years, co_books_dir)
     finally:
         os.chdir(start_cwd)
+
+    write_standalone_board_resolution_documents(root_dir)
 
 
 def main():
@@ -4541,7 +4781,10 @@ def main():
     parser.add_argument(
         "--write-master-book",
         action="store_true",
-        help="Write one compiled minute book spanning all companies to generated/books/.",
+        help=(
+            "Write one compiled minute book spanning all companies to <output-root>/books/ "
+            "(per-company minutes, compiled books, and standalone resolutions live under <output-root>/<safe>/books/)."
+        ),
     )
     args = parser.parse_args()
 

@@ -1,0 +1,2282 @@
+Compiled board minutes — Hippo, Inc.
+
+Single volume covering calendar years 2022 through 2026. The Corporation may maintain additional minutes or instruments outside this span.
+
+Where these minutes reference exhibits, signed counterparts or labeled annexes may be bound with this book or filed separately.
+
+---
+
+Calendar year 2022
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q1
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-04-08
+Time of Meeting: 1:00 PM
+Location of Meeting: Sunny Isles, Florida, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-04-08 by Derek E. Pappas, acting as Sole Director of the Corporation.
+
+II. Roll Call and Quorum:
+Director Present: Derek E. Pappas (Sole Director)
+Director Absent: None
+
+The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law.
+The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The Sole Director reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Sole Director acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by DGCL §141(e).
+
+
+IV. Resolutions
+Upon consideration, the Sole Director adopted the following resolutions:
+
+Appointment of Additional Director(s)
+RESOLVED, that the size of the Board of Directors of the Corporation is fixed at 2 director(s); and
+FURTHER RESOLVED, that Marija Cejovic is hereby appointed and elected to serve as a director of the Corporation, to hold office until a successor is duly elected and qualified or until earlier resignation or removal, effective immediately following this meeting.
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Sole Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Director
+Date: 2022-04-08
+
+---
+
+
+Minutes of the Organizational Meeting of the Board of Directors
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-04-14
+Time of Meeting: 10:00 AM
+Location of Meeting: Sunny Isles, Florida, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Organizational Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 10:00 AM on 2022-04-14 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolutions:
+
+Ratification of Formation Actions
+RESOLVED, that all actions taken to organize and form the Corporation, including filing the certificate/articles of incorporation and taking related organizational steps, are hereby ratified, confirmed, and approved in all respects.
+
+Adoption of Bylaws
+RESOLVED, that the bylaws described as Amended and Restated Bylaws of Hippo, Inc., to be designated Exhibit A for attachment to these minutes upon filing are hereby adopted as the bylaws of the Corporation, and the Secretary is authorized and directed to place a copy in the Corporation’s minute book.
+
+Election of Officers
+RESOLVED, that the following individuals are hereby elected and appointed to serve as officers of the Corporation, to serve at the pleasure of the Board and in accordance with the bylaws: Derek E. Pappas as President, Secretary, Treasurer, and Chief Executive Officer; Marija Cejovic as Chief Operating Officer.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2022-04-14
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2022-04-14
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q2
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-07-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-07-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice had been duly given or validly waived for this meeting.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Written board resolutions (equity)
+RESOLVED, that the Board hereby approves and adopts the separate written resolutions of even date substantially in the form filed with the Secretary as standalone board resolutions for certificate number(s) HIPPO-0001, which set forth the issuance, consideration, and stock ledger mechanics in full (and are not reproduced verbatim in these minutes).
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2022-07-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2022-07-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q3
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-10-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-10-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice of the meeting was duly given or waived.
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2022-10-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2022-10-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q4
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-12-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-12-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2022-12-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2022-12-01
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2022
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-12-12
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of Hippo Shopping, PriceStarz, web crawling, structured-data extraction, offer-grouping pipeline, marketplace, and mobile operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 12:00 PM on 2022-12-12 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice of the meeting was duly given or waived.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Shopping, Extension, Crawling, Extraction, and Pipeline Operations
+RESOLVED, that operational and engineering decisions affecting the Corporation’s social shopping application, PriceStarz extension, web crawling, structured-data extraction, deals and product-offer processing pipeline, consumer marketplace surfaces, data ingestion, and native mobile applications during 2022 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2022-12-12
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2022-12-12
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Hippo, Inc.
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2022-12-12
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-12-12 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+The directors confirmed that notice had been duly given or validly waived for this meeting.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation on April 07, 2022; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Sunny Isles, Florida; Wayne, Pennsylvania, USA; Portland, Oregon and engineering support sourced through contractor and consultant arrangements with personnel in Serbia; Bosnia and Herzegovina; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The President’s report summarized the Corporation’s consumer and data platforms for 2022, including the social shopping network marketed as Hippo Shopping on the Apple App Store and Google Play, the PriceStarz browser-based comparison-shopping extension, large-scale web crawling, templates and extraction workflows producing structured data records, and a data-processing pipeline for deals and product-offer records that groups offers for the same product and, where possible, associates deal-offer records with the correct product group—together with merchant integrations, public APIs, analytics, and back-office tooling supporting those systems.  The President’s report included the following accomplishments summary for the calendar year 2022: Stabilization and growth phase: improved application architecture, introduced social features, and strengthened infrastructure and data pipelines. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, data models, algorithms, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements (including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia) were reaffirmed as properly titled to and the exclusive property of the Corporation under those arrangements and applicable law, without implying ownership of counterparties’ equipment or premises.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+VI. Discussion Items
+The directors discussed the Corporation’s 2023 roadmap across Hippo Shopping, PriceStarz, crawl coverage and extraction quality, offer-grouping and deal-linking accuracy in the processing pipeline, merchant and marketplace reliability, and mobile and extension release cadence.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2022 are hereby approved.
+
+Approval of 2023 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2023 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2022)
+The Board noted that the Written Consent of Sole Stockholder dated December 12, 2022, adopting stockholder resolutions under DGCL §228 for the year 2022, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2022-12-12
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2022-12-12
+
+---
+
+
+Operating addendum (Exhibit B)
+Hippo, Inc.
+(Delaware corporation)
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2022 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
+
+Detailed accomplishments (2022)
+
+- Led project management and coordinated development timelines
+- Refactored and redesigned the application to improve performance and maintainability
+- Implemented critical API updates aligned with product requirements
+- Developed UI screens for products, collections, and deals
+- Introduced social features including likes and comments
+- Implemented CI/CD pipelines and testing infrastructure
+- Enhanced scraping systems, improving data quality and coverage
+- Decommissioned legacy Hadoop-based pipeline after infrastructure failure
+- Avoided high-cost vendor lock-in and initiated transition to new data solutions
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+
+Hippo, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(DGCL §228; annual meeting of stockholders)
+
+The undersigned, being the sole stockholder of Hippo, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article III, Section 13 of the Corporation’s Amended and Restated Bylaws (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 12, 2022 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2022 to the extent permitted by the Delaware General Corporation Law, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article III, Section 13(b) of those Bylaws, written consents must be delivered to the Corporation within sixty (60) days of the earliest dated consent; delivery to the registered office, if used, must be by hand or by certified or registered mail, return receipt requested, as set forth in the Bylaws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 12, 2022, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Executed by:
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Stockholder
+Date: 2022-12-12
+
+---
+
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Hippo, Inc
+(Delaware corporation)
+
+Calendar year 2022
+
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of Hippo, Inc (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s Amended and Restated Bylaws, including Article IV, Section 21 (meetings of the Board of Directors; notice; and waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2022 Q1 — Date: 2022-04-08; Time: 1:00 PM; Place / remote means: Sunny Isles, Florida, via digital communication
+- Organizational Meeting of the Board of Directors — Date: 2022-04-14; Time: 10:00 AM; Place / remote means: Sunny Isles, Florida, via digital communication
+- Quarterly Governance Meeting – 2022 Q2 — Date: 2022-07-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2022 Q3 — Date: 2022-10-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2022 Q4 — Date: 2022-12-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2022-12-12; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2022-12-12; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2022-12-12
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2022-12-12
+
+---
+
+
+
+Calendar year 2023
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q1
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-04-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-04-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2023-04-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2023-04-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q2
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-07-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-07-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2023-07-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2023-07-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q3
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-10-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Knoxville, TN, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-10-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice of the meeting was duly given or waived.
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2023-10-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2023-10-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q4
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-12-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Thessaloniki, Greece, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2023-12-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2023-12-01
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2023
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-12-11
+Time of Meeting: 12:00 PM
+Location of Meeting: Thessaloniki, Greece, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of Hippo Shopping, PriceStarz, web crawling, structured-data extraction, offer-grouping pipeline, marketplace, and mobile operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 12:00 PM on 2023-12-11 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Shopping, Extension, Crawling, Extraction, and Pipeline Operations
+RESOLVED, that operational and engineering decisions affecting the Corporation’s social shopping application, PriceStarz extension, web crawling, structured-data extraction, deals and product-offer processing pipeline, consumer marketplace surfaces, data ingestion, and native mobile applications during 2023 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2023-12-11
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2023-12-11
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Hippo, Inc.
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2023-12-11
+Time: 1:00 PM
+Place: Thessaloniki, Greece, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-11 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+The directors confirmed that notice had been duly given or validly waived for this meeting.
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2022-12-12 were reviewed and approved by the Board.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and engineering support sourced through contractor and consultant arrangements with personnel in Serbia; Bosnia and Herzegovina; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The President’s report summarized the Corporation’s consumer and data platforms for 2023, including the social shopping network marketed as Hippo Shopping on the Apple App Store and Google Play, the PriceStarz browser-based comparison-shopping extension, large-scale web crawling, templates and extraction workflows producing structured data records, and a data-processing pipeline for deals and product-offer records that groups offers for the same product and, where possible, associates deal-offer records with the correct product group—together with merchant integrations, public APIs, analytics, and back-office tooling supporting those systems.  The President’s report included the following accomplishments summary for the calendar year 2023: Platform evolution phase: major backend upgrades, data pipeline modernization, and introduction of real-time and media capabilities. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, data models, algorithms, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements (including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia) were reaffirmed as properly titled to and the exclusive property of the Corporation under those arrangements and applicable law, without implying ownership of counterparties’ equipment or premises.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+VI. Discussion Items
+The directors discussed the Corporation’s 2024 roadmap across Hippo Shopping, PriceStarz, crawl coverage and extraction quality, offer-grouping and deal-linking accuracy in the processing pipeline, merchant and marketplace reliability, and mobile and extension release cadence.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2023 are hereby approved.
+
+Approval of 2024 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2024 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2023)
+The Board noted that the Written Consent of Sole Stockholder dated December 11, 2023, adopting stockholder resolutions under DGCL §228 for the year 2023, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2023-12-11
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2023-12-11
+
+---
+
+
+Operating addendum (Exhibit B)
+Hippo, Inc.
+(Delaware corporation)
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
+
+Detailed accomplishments (2023)
+
+- Refactored the application to improve scalability, performance, and maintainability
+- Developed and deployed notifications and video services
+- Maintained and enhanced core backend with new features and bug fixes
+- Migrated database from H2 to PostgreSQL for improved reliability
+- Extended product lookup capabilities with URL-based support
+- Improved codebase structure and overall system stability
+- Built scalable scraping and data processing workflows in Python
+- Reverse engineered external APIs to enrich product datasets
+- Rebuilt and modernized the data processing pipeline
+- Decommissioned legacy Hadoop infrastructure and simplified the tech stack
+- Initiated development of distributed processing using Spark
+- Rebuilt browser extension to align with updated platform requirements
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+
+Hippo, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(DGCL §228; annual meeting of stockholders)
+
+The undersigned, being the sole stockholder of Hippo, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article III, Section 13 of the Corporation’s Amended and Restated Bylaws (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 11, 2023 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2023 to the extent permitted by the Delaware General Corporation Law, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article III, Section 13(b) of those Bylaws, written consents must be delivered to the Corporation within sixty (60) days of the earliest dated consent; delivery to the registered office, if used, must be by hand or by certified or registered mail, return receipt requested, as set forth in the Bylaws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 11, 2023, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Executed by:
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Stockholder
+Date: 2023-12-11
+
+---
+
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Hippo, Inc
+(Delaware corporation)
+
+Calendar year 2023
+
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of Hippo, Inc (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s Amended and Restated Bylaws, including Article IV, Section 21 (meetings of the Board of Directors; notice; and waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2023 Q1 — Date: 2023-04-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q2 — Date: 2023-07-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q3 — Date: 2023-10-01; Time: 1:00 PM; Place / remote means: Knoxville, TN, via digital communication
+- Quarterly Governance Meeting – 2023 Q4 — Date: 2023-12-01; Time: 1:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+- Special Meeting of the Board of Directors — Date: 2023-12-11; Time: 12:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2023-12-11; Time: 1:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2023-12-11
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2023-12-11
+
+---
+
+
+
+Calendar year 2024
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q1
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-04-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-04-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice had been duly given or validly waived for this meeting.
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2024-04-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2024-04-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q2
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-07-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-07-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice had been duly given or validly waived for this meeting.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2024-07-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2024-07-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q3
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-10-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Hoegaarden, Belgium, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-10-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2024-10-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2024-10-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q4
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-12-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Denver, NC, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2024-12-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2024-12-01
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2024
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-12-09
+Time of Meeting: 12:00 PM
+Location of Meeting: Denver, NC, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of Hippo Shopping, PriceStarz, web crawling, structured-data extraction, offer-grouping pipeline, marketplace, and mobile operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 12:00 PM on 2024-12-09 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice of the meeting was duly given or waived.
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Shopping, Extension, Crawling, Extraction, and Pipeline Operations
+RESOLVED, that operational and engineering decisions affecting the Corporation’s social shopping application, PriceStarz extension, web crawling, structured-data extraction, deals and product-offer processing pipeline, consumer marketplace surfaces, data ingestion, and native mobile applications during 2024 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2024-12-09
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2024-12-09
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Hippo, Inc.
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2024-12-09
+Time: 1:00 PM
+Place: Denver, NC, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-09 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+The directors confirmed that notice of the meeting was duly given or waived.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-11 were reviewed and approved by the Board.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and engineering support sourced through contractor and consultant arrangements with personnel in Serbia; Bosnia and Herzegovina; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The President’s report summarized the Corporation’s consumer and data platforms for 2024, including the social shopping network marketed as Hippo Shopping on the Apple App Store and Google Play, the PriceStarz browser-based comparison-shopping extension, large-scale web crawling, templates and extraction workflows producing structured data records, and a data-processing pipeline for deals and product-offer records that groups offers for the same product and, where possible, associates deal-offer records with the correct product group—together with merchant integrations, public APIs, analytics, and back-office tooling supporting those systems.  The President’s report included the following accomplishments summary for the calendar year 2024: Rebuild and optimization phase: full system redesign, infrastructure simplification, and significant cost reduction with improved scalability. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, data models, algorithms, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements (including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia) were reaffirmed as properly titled to and the exclusive property of the Corporation under those arrangements and applicable law, without implying ownership of counterparties’ equipment or premises.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+VI. Discussion Items
+The directors discussed the Corporation’s 2025 roadmap across Hippo Shopping, PriceStarz, crawl coverage and extraction quality, offer-grouping and deal-linking accuracy in the processing pipeline, merchant and marketplace reliability, and mobile and extension release cadence.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2024 are hereby approved.
+
+Approval of 2025 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2025 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2024)
+The Board noted that the Written Consent of Sole Stockholder dated December 09, 2024, adopting stockholder resolutions under DGCL §228 for the year 2024, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2024-12-09
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2024-12-09
+
+---
+
+
+Operating addendum (Exhibit B)
+Hippo, Inc.
+(Delaware corporation)
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
+
+Detailed accomplishments (2024)
+
+- Rebuilt the application with a scalable and maintainable architecture
+- Improved code quality, stability, and development velocity
+- Simplified system architecture by removing unused components
+- Integrated Apache Solr for scalable search capabilities
+- Designed and implemented a new indexing pipeline
+- Built and scaled data processing pipelines across all partitions
+- Developed recommendation systems and product grouping features
+- Generated product collections from external data sources
+- Developed a new web platform and admin panel for product management
+- Decommissioned distributed data pipelines and reduced infrastructure complexity
+- Reduced cloud infrastructure footprint by 75%
+- Improved overall system performance and reliability
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+
+Hippo, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(DGCL §228; annual meeting of stockholders)
+
+The undersigned, being the sole stockholder of Hippo, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article III, Section 13 of the Corporation’s Amended and Restated Bylaws (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 09, 2024 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2024 to the extent permitted by the Delaware General Corporation Law, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article III, Section 13(b) of those Bylaws, written consents must be delivered to the Corporation within sixty (60) days of the earliest dated consent; delivery to the registered office, if used, must be by hand or by certified or registered mail, return receipt requested, as set forth in the Bylaws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 09, 2024, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Executed by:
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Stockholder
+Date: 2024-12-09
+
+---
+
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Hippo, Inc
+(Delaware corporation)
+
+Calendar year 2024
+
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of Hippo, Inc (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s Amended and Restated Bylaws, including Article IV, Section 21 (meetings of the Board of Directors; notice; and waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2024 Q1 — Date: 2024-04-01; Time: 1:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
+- Quarterly Governance Meeting – 2024 Q2 — Date: 2024-07-01; Time: 1:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
+- Quarterly Governance Meeting – 2024 Q3 — Date: 2024-10-01; Time: 1:00 PM; Place / remote means: Hoegaarden, Belgium, via digital communication
+- Quarterly Governance Meeting – 2024 Q4 — Date: 2024-12-01; Time: 1:00 PM; Place / remote means: Denver, NC, via digital communication
+- Special Meeting of the Board of Directors — Date: 2024-12-09; Time: 12:00 PM; Place / remote means: Denver, NC, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2024-12-09; Time: 1:00 PM; Place / remote means: Denver, NC, via digital communication
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2024-12-09
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2024-12-09
+
+---
+
+
+
+Calendar year 2025
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q1
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-04-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-04-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2025-04-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2025-04-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q2
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-07-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-07-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2025-07-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2025-07-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q3
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-10-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-10-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice of the meeting was duly given or waived.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2025-10-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2025-10-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q4
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-12-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2025-12-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2025-12-01
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2025
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-12-08
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of Hippo Shopping, PriceStarz, web crawling, structured-data extraction, offer-grouping pipeline, marketplace, and mobile operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 12:00 PM on 2025-12-08 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice had been duly given or validly waived for this meeting.
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Shopping, Extension, Crawling, Extraction, and Pipeline Operations
+RESOLVED, that operational and engineering decisions affecting the Corporation’s social shopping application, PriceStarz extension, web crawling, structured-data extraction, deals and product-offer processing pipeline, consumer marketplace surfaces, data ingestion, and native mobile applications during 2025 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2025-12-08
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2025-12-08
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Hippo, Inc.
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2025-12-08
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-08 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2024-12-09 were reviewed and approved by the Board.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and engineering support sourced through contractor and consultant arrangements with personnel in Serbia; Bosnia and Herzegovina; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The President’s report summarized the Corporation’s consumer and data platforms for 2025, including the social shopping network marketed as Hippo Shopping on the Apple App Store and Google Play, the PriceStarz browser-based comparison-shopping extension, large-scale web crawling, templates and extraction workflows producing structured data records, and a data-processing pipeline for deals and product-offer records that groups offers for the same product and, where possible, associates deal-offer records with the correct product group—together with merchant integrations, public APIs, analytics, and back-office tooling supporting those systems.  The President’s report included the following accomplishments summary for the calendar year 2025: Release and scaling phase: public launch, continued backend improvements, and scaling of data processing and search capabilities. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, data models, algorithms, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements (including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia) were reaffirmed as properly titled to and the exclusive property of the Corporation under those arrangements and applicable law, without implying ownership of counterparties’ equipment or premises.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+VI. Discussion Items
+The directors discussed the Corporation’s 2026 roadmap across Hippo Shopping, PriceStarz, crawl coverage and extraction quality, offer-grouping and deal-linking accuracy in the processing pipeline, merchant and marketplace reliability, and mobile and extension release cadence.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2025 are hereby approved.
+
+Approval of 2026 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2026 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2025)
+The Board noted that the Written Consent of Sole Stockholder dated December 08, 2025, adopting stockholder resolutions under DGCL §228 for the year 2025, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2025-12-08
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2025-12-08
+
+---
+
+
+Operating addendum (Exhibit B)
+Hippo, Inc.
+(Delaware corporation)
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
+
+Detailed accomplishments (2025)
+
+- Deployed application to internal testing environments
+- Released Android application to Google Play Store
+- Designed and implemented new indexing and search services
+- Expanded API capabilities for search and data workflows
+- Scaled data processing pipelines across all partitions
+- Enhanced data structures for large-scale product processing
+- Improved recommendation, grouping, and search data pipelines
+- Stabilized and optimized data processing systems
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+
+Hippo, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(DGCL §228; annual meeting of stockholders)
+
+The undersigned, being the sole stockholder of Hippo, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article III, Section 13 of the Corporation’s Amended and Restated Bylaws (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 08, 2025 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2025 to the extent permitted by the Delaware General Corporation Law, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article III, Section 13(b) of those Bylaws, written consents must be delivered to the Corporation within sixty (60) days of the earliest dated consent; delivery to the registered office, if used, must be by hand or by certified or registered mail, return receipt requested, as set forth in the Bylaws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 08, 2025, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Executed by:
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Stockholder
+Date: 2025-12-08
+
+---
+
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Hippo, Inc
+(Delaware corporation)
+
+Calendar year 2025
+
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of Hippo, Inc (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s Amended and Restated Bylaws, including Article IV, Section 21 (meetings of the Board of Directors; notice; and waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2025 Q1 — Date: 2025-04-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q2 — Date: 2025-07-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q3 — Date: 2025-10-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q4 — Date: 2025-12-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2025-12-08; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2025-12-08; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2025-12-08
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2025-12-08
+
+---
+
+
+
+Calendar year 2026
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q1
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-04-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-04-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2026-04-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2026-04-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q2
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-07-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-07-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice of the meeting was duly given or waived.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2026-07-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2026-07-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q3
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-10-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-10-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors confirmed that notice had been duly given or validly waived for this meeting.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2026-10-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2026-10-01
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q4
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-12-01
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-01 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that Hippo Shopping, PriceStarz, web crawling, structured-data extraction, deals and product-offer pipeline, marketplace, data-pipeline, mobile application, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2026-12-01
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2026-12-01
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2026
+Hippo, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-12-14
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of Hippo Shopping, PriceStarz, web crawling, structured-data extraction, offer-grouping pipeline, marketplace, and mobile operations
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-14 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Shopping, Extension, Crawling, Extraction, and Pipeline Operations
+RESOLVED, that operational and engineering decisions affecting the Corporation’s social shopping application, PriceStarz extension, web crawling, structured-data extraction, deals and product-offer processing pipeline, consumer marketplace surfaces, data ingestion, and native mobile applications during 2026 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2026-12-14
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2026-12-14
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Hippo, Inc.
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2026-12-14
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-14 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2025-12-08 were reviewed and approved by the Board.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Wayne, Pennsylvania, USA and engineering support sourced through contractor and consultant arrangements with personnel in Serbia; Bosnia and Herzegovina; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The President’s report summarized the Corporation’s consumer and data platforms for 2026, including the social shopping network marketed as Hippo Shopping on the Apple App Store and Google Play, the PriceStarz browser-based comparison-shopping extension, large-scale web crawling, templates and extraction workflows producing structured data records, and a data-processing pipeline for deals and product-offer records that groups offers for the same product and, where possible, associates deal-offer records with the correct product group—together with merchant integrations, public APIs, analytics, and back-office tooling supporting those systems.  All software, data models, algorithms, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements (including services performed by personnel in Serbia; Bosnia and Herzegovina; Tunisia) were reaffirmed as properly titled to and the exclusive property of the Corporation under those arrangements and applicable law, without implying ownership of counterparties’ equipment or premises.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+VI. Discussion Items
+The directors discussed the Corporation’s 2027 roadmap across Hippo Shopping, PriceStarz, crawl coverage and extraction quality, offer-grouping and deal-linking accuracy in the processing pipeline, merchant and marketplace reliability, and mobile and extension release cadence.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2026 are hereby approved.
+
+Approval of 2027 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2027 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2026)
+The Board noted that the Written Consent of Sole Stockholder dated December 14, 2026, adopting stockholder resolutions under DGCL §228 for the year 2026, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2026-12-14
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2026-12-14
+
+---
+
+
+
+Hippo, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(DGCL §228; annual meeting of stockholders)
+
+The undersigned, being the sole stockholder of Hippo, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article III, Section 13 of the Corporation’s Amended and Restated Bylaws (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 14, 2026 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2026 to the extent permitted by the Delaware General Corporation Law, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article III, Section 13(b) of those Bylaws, written consents must be delivered to the Corporation within sixty (60) days of the earliest dated consent; delivery to the registered office, if used, must be by hand or by certified or registered mail, return receipt requested, as set forth in the Bylaws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 14, 2026, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Executed by:
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Stockholder
+Date: 2026-12-14
+
+---
+
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Hippo, Inc
+(Delaware corporation)
+
+Calendar year 2026
+
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of Hippo, Inc (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s Amended and Restated Bylaws, including Article IV, Section 21 (meetings of the Board of Directors; notice; and waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2026 Q1 — Date: 2026-04-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q2 — Date: 2026-07-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q3 — Date: 2026-10-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q4 — Date: 2026-12-01; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2026-12-14; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2026-12-14; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Executed by (Director):
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Date: 2026-12-14
+
+Executed by (Director):
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Date: 2026-12-14
+
+---

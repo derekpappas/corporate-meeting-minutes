@@ -1,0 +1,2194 @@
+Ritual Growth, Inc. — board minute compilation
+
+Years 2022–2026 (inclusive). This compilation is not represented as exhaustive of all corporate acts.
+
+Exhibits are referenced only where the underlying minutes call for them; physical execution copies may be cross-filed.
+
+---
+
+Calendar year 2022
+
+Minutes of the Organizational Meeting of the Board of Directors
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-06-17
+Time of Meeting: 10:00 AM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Organizational Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 10:00 AM on 2022-06-17 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolutions:
+
+Ratification of Formation Actions
+RESOLVED, that all actions taken to organize and form the Corporation, including filing the certificate/articles of incorporation and taking related organizational steps, are hereby ratified, confirmed, and approved in all respects.
+
+Adoption of Bylaws
+RESOLVED, that the bylaws described as By-Laws of Ritual Growth, Inc., to be designated Exhibit B for attachment to these minutes upon filing are hereby adopted as the bylaws of the Corporation, and the Secretary is authorized and directed to place a copy in the Corporation’s minute book.
+
+Election of Officers
+RESOLVED, that the following individuals are hereby elected and appointed to serve as officers of the Corporation, to serve at the pleasure of the Board and in accordance with the bylaws: Derek E. Pappas as President, Secretary, Treasurer, and Chief Executive Officer; Marija Cejovic as Chief Operating Officer.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: June 17, 2022
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: June 17, 2022
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q2
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-07-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-07-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: July 02, 2022
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: July 02, 2022
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q3
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-10-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-10-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice had been duly given or validly waived for this meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: October 02, 2022
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: October 02, 2022
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2022 Q4
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-12-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-12-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 02, 2022
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 02, 2022
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2022
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2022-12-13
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of server-side and web application delivery, hosting footprint, partner commitments, and post-restart engineering stability
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 12:00 PM on 2022-12-13 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Server, Web, and Hosting Operations
+RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s server-side services, web applications, and API delivery during 2022 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 13, 2022
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 13, 2022
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Ritual Growth, Inc.
+Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2022-12-13
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2022-12-13 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation on June 10, 2022; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Sunny Isles, Florida; Wayne, Pennsylvania, USA; Portland, Oregon and engineering support sourced through contractor and consultant arrangements with personnel in Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued server-side and web application engineering for 2022, including API services, deployment automation, and hosting integrations. The President’s report noted that core product-development efforts were restarted in calendar years 2023, 2025, and 2026, each time replanning architecture, backlog, and release sequencing for the Corporation’s primary web stack while preserving continuity for long-running services.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2022: Continued delivery on the Corporation’s web stack and APIs with contractor teams in Poland, Romania, and Portugal. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements were reaffirmed as properly titled to and the exclusive property of the Corporation, without implying ownership of counterparties’ equipment or premises.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+VI. Discussion Items
+The directors discussed 2023 delivery priorities for the Corporation’s server-side and web stack, including recovery planning after development restarts in 2023, 2025, and 2026, partner commitments, hosting footprint, and release scheduling.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2022 are hereby approved.
+
+Approval of 2023 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2023 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2022)
+The Board noted that the Written Consent of Sole Stockholder dated December 13, 2022, adopting stockholder resolutions under DGCL §228 for the year 2022, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 13, 2022
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 13, 2022
+
+---
+
+
+Operating addendum (Exhibit B)
+Ritual Growth, Inc.
+(Delaware corporation)
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2022 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
+
+Detailed accomplishments (2022)
+
+- Maintained and extended core HTTP APIs and server-side services for the Corporation’s web applications
+- Released iterative UI and workflow improvements on the primary web product
+- Coordinated contractor engineering across Poland, Romania, and Portugal (no development work was performed in Bosnia and Herzegovina)
+- Ran staging and production workloads on DigitalOcean and Hetzner
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+
+Ritual Growth, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(DGCL §228; annual meeting of stockholders)
+
+The undersigned, being the sole stockholder of Ritual Growth, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of Ritual Growth, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 13, 2022 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2022 to the extent permitted by the Delaware General Corporation Law, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 13, 2022, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Executed by:
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Stockholder
+Dated: December 13, 2022
+
+---
+
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Ritual Growth, Inc.
+(Delaware corporation)
+
+Calendar year 2022
+
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of Ritual Growth, Inc. (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of Ritual Growth, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Organizational Meeting of the Board of Directors — Date: 2022-06-17; Time: 10:00 AM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2022 Q2 — Date: 2022-07-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2022 Q3 — Date: 2022-10-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2022 Q4 — Date: 2022-12-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2022-12-13; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2022-12-13; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 13, 2022
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 13, 2022
+
+---
+
+
+
+Calendar year 2023
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q1
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-04-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-04-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: April 02, 2023
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: April 02, 2023
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q2
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-07-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-07-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Written board resolutions (equity)
+RESOLVED, that the Board hereby approves and adopts the separate written resolutions of even date substantially in the form filed with the Secretary as standalone board resolutions for certificate number(s) RG-0001, which set forth the issuance, consideration, and stock ledger mechanics in full (and are not reproduced verbatim in these minutes).
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: July 02, 2023
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: July 02, 2023
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q3
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-10-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Knoxville, TN, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-10-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors confirmed that notice of the meeting was duly given or waived.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: October 02, 2023
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: October 02, 2023
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q4
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-12-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Thessaloniki, Greece, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 02, 2023
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 02, 2023
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2023
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-12-12
+Time of Meeting: 12:00 PM
+Location of Meeting: Thessaloniki, Greece, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of server-side and web application delivery, hosting footprint, partner commitments, and post-restart engineering stability
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 12:00 PM on 2023-12-12 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Server, Web, and Hosting Operations
+RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s server-side services, web applications, and API delivery during 2023 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 12, 2023
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 12, 2023
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Ritual Growth, Inc.
+Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2023-12-12
+Time: 1:00 PM
+Place: Thessaloniki, Greece, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-12 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2022-12-13 were reviewed and approved by the Board.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and engineering support sourced through contractor and consultant arrangements with personnel in Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued server-side and web application engineering for 2023, including API services, deployment automation, and hosting integrations. The President’s report noted that core product-development efforts were restarted in calendar years 2023, 2025, and 2026, each time replanning architecture, backlog, and release sequencing for the Corporation’s primary web stack while preserving continuity for long-running services.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2023: Ongoing web and API development with distributed contractors in Poland, Romania, and Portugal. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements were reaffirmed as properly titled to and the exclusive property of the Corporation, without implying ownership of counterparties’ equipment or premises.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+VI. Discussion Items
+The directors discussed 2024 delivery priorities for the Corporation’s server-side and web stack, including recovery planning after development restarts in 2023, 2025, and 2026, partner commitments, hosting footprint, and release scheduling.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2023 are hereby approved.
+
+Approval of 2024 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2024 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2023)
+The Board noted that the Written Consent of Sole Stockholder dated December 12, 2023, adopting stockholder resolutions under DGCL §228 for the year 2023, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 12, 2023
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 12, 2023
+
+---
+
+
+Operating addendum (Exhibit B)
+Ritual Growth, Inc.
+(Delaware corporation)
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2023 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
+
+Detailed accomplishments (2023)
+
+- Extended API coverage and reliability for customer-facing web workflows
+- Hardened authentication and session handling paths on the web stack
+- Continued contractor-led development in Poland, Romania, and Portugal
+- Refined deployment and monitoring on DigitalOcean and Hetzner
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+
+Ritual Growth, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(DGCL §228; annual meeting of stockholders)
+
+The undersigned, being the sole stockholder of Ritual Growth, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of Ritual Growth, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 12, 2023 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2023 to the extent permitted by the Delaware General Corporation Law, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 12, 2023, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Executed by:
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Stockholder
+Dated: December 12, 2023
+
+---
+
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Ritual Growth, Inc.
+(Delaware corporation)
+
+Calendar year 2023
+
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of Ritual Growth, Inc. (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of Ritual Growth, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2023 Q1 — Date: 2023-04-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q2 — Date: 2023-07-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q3 — Date: 2023-10-02; Time: 1:00 PM; Place / remote means: Knoxville, TN, via digital communication
+- Quarterly Governance Meeting – 2023 Q4 — Date: 2023-12-02; Time: 1:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+- Special Meeting of the Board of Directors — Date: 2023-12-12; Time: 12:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2023-12-12; Time: 1:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 12, 2023
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 12, 2023
+
+---
+
+
+
+Calendar year 2024
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q1
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-04-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-04-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice had been duly given or validly waived for this meeting.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: April 02, 2024
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: April 02, 2024
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q2
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-07-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-07-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors confirmed that notice of the meeting was duly given or waived.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: July 02, 2024
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: July 02, 2024
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q3
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-10-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Hoegaarden, Belgium, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-10-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: October 02, 2024
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: October 02, 2024
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q4
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-12-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Denver, NC, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors confirmed that notice had been duly given or validly waived for this meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 02, 2024
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 02, 2024
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2024
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-12-10
+Time of Meeting: 12:00 PM
+Location of Meeting: Denver, NC, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of server-side and web application delivery, hosting footprint, partner commitments, and post-restart engineering stability
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 12:00 PM on 2024-12-10 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice had been duly given or validly waived for this meeting.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Server, Web, and Hosting Operations
+RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s server-side services, web applications, and API delivery during 2024 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 10, 2024
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 10, 2024
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Ritual Growth, Inc.
+Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2024-12-10
+Time: 1:00 PM
+Place: Denver, NC, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-10 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice of the meeting was duly given or waived.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-12 were reviewed and approved by the Board.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and engineering support sourced through contractor and consultant arrangements with personnel in Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued server-side and web application engineering for 2024, including API services, deployment automation, and hosting integrations. The President’s report noted that core product-development efforts were restarted in calendar years 2023, 2025, and 2026, each time replanning architecture, backlog, and release sequencing for the Corporation’s primary web stack while preserving continuity for long-running services.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2024: Product and intern contributions: summer intern work alongside core web and API maintenance. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements were reaffirmed as properly titled to and the exclusive property of the Corporation, without implying ownership of counterparties’ equipment or premises.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+VI. Discussion Items
+The directors discussed 2025 delivery priorities for the Corporation’s server-side and web stack, including recovery planning after development restarts in 2023, 2025, and 2026, partner commitments, hosting footprint, and release scheduling.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2024 are hereby approved.
+
+Approval of 2025 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2025 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2024)
+The Board noted that the Written Consent of Sole Stockholder dated December 10, 2024, adopting stockholder resolutions under DGCL §228 for the year 2024, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 10, 2024
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 10, 2024
+
+---
+
+
+Operating addendum (Exhibit B)
+Ritual Growth, Inc.
+(Delaware corporation)
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2024 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
+
+Detailed accomplishments (2024)
+
+- Interns contributed to web features and QA during the summer program
+- Maintained API and web application releases through the remainder of the year
+- Continued use of contractor development centers in Poland, Romania, and Portugal
+- Kept hosting footprint on DigitalOcean and Hetzner under review
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+
+Ritual Growth, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(DGCL §228; annual meeting of stockholders)
+
+The undersigned, being the sole stockholder of Ritual Growth, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of Ritual Growth, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 10, 2024 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2024 to the extent permitted by the Delaware General Corporation Law, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 10, 2024, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Executed by:
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Stockholder
+Dated: December 10, 2024
+
+---
+
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Ritual Growth, Inc.
+(Delaware corporation)
+
+Calendar year 2024
+
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of Ritual Growth, Inc. (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of Ritual Growth, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2024 Q1 — Date: 2024-04-02; Time: 1:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
+- Quarterly Governance Meeting – 2024 Q2 — Date: 2024-07-02; Time: 1:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
+- Quarterly Governance Meeting – 2024 Q3 — Date: 2024-10-02; Time: 1:00 PM; Place / remote means: Hoegaarden, Belgium, via digital communication
+- Quarterly Governance Meeting – 2024 Q4 — Date: 2024-12-02; Time: 1:00 PM; Place / remote means: Denver, NC, via digital communication
+- Special Meeting of the Board of Directors — Date: 2024-12-10; Time: 12:00 PM; Place / remote means: Denver, NC, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2024-12-10; Time: 1:00 PM; Place / remote means: Denver, NC, via digital communication
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 10, 2024
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 10, 2024
+
+---
+
+
+
+Calendar year 2025
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q1
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-04-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-04-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors confirmed that notice had been duly given or validly waived for this meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: April 02, 2025
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: April 02, 2025
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q2
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-07-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-07-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: July 02, 2025
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: July 02, 2025
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q3
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-10-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-10-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: October 02, 2025
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: October 02, 2025
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q4
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-12-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice of the meeting was duly given or waived.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 02, 2025
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 02, 2025
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2025
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-12-09
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of server-side and web application delivery, hosting footprint, partner commitments, and post-restart engineering stability
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 12:00 PM on 2025-12-09 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Server, Web, and Hosting Operations
+RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s server-side services, web applications, and API delivery during 2025 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 09, 2025
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 09, 2025
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Ritual Growth, Inc.
+Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2025-12-09
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-09 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors confirmed that notice had been duly given or validly waived for this meeting.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2024-12-10 were reviewed and approved by the Board.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and engineering support sourced through contractor and consultant arrangements with personnel in Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued server-side and web application engineering for 2025, including API services, deployment automation, and hosting integrations. The President’s report noted that core product-development efforts were restarted in calendar years 2023, 2025, and 2026, each time replanning architecture, backlog, and release sequencing for the Corporation’s primary web stack while preserving continuity for long-running services.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2025: Continued web/API iteration with intern support and contractor teams in Poland, Romania, and Portugal. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements were reaffirmed as properly titled to and the exclusive property of the Corporation, without implying ownership of counterparties’ equipment or premises.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+VI. Discussion Items
+The directors discussed 2026 delivery priorities for the Corporation’s server-side and web stack, including recovery planning after development restarts in 2023, 2025, and 2026, partner commitments, hosting footprint, and release scheduling.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2025 are hereby approved.
+
+Approval of 2026 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2026 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2025)
+The Board noted that the Written Consent of Sole Stockholder dated December 09, 2025, adopting stockholder resolutions under DGCL §228 for the year 2025, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 09, 2025
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 09, 2025
+
+---
+
+
+Operating addendum (Exhibit B)
+Ritual Growth, Inc.
+(Delaware corporation)
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2025 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
+
+Detailed accomplishments (2025)
+
+- Summer interns supported feature development and testing on the web stack
+- Shipped maintenance releases for APIs and supporting services
+- Sustained contractor coordination in Poland, Romania, and Portugal
+- Documented hosting and backup posture on DigitalOcean and Hetzner
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+
+Ritual Growth, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(DGCL §228; annual meeting of stockholders)
+
+The undersigned, being the sole stockholder of Ritual Growth, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of Ritual Growth, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 09, 2025 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2025 to the extent permitted by the Delaware General Corporation Law, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 09, 2025, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Executed by:
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Stockholder
+Dated: December 09, 2025
+
+---
+
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Ritual Growth, Inc.
+(Delaware corporation)
+
+Calendar year 2025
+
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of Ritual Growth, Inc. (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of Ritual Growth, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2025 Q1 — Date: 2025-04-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q2 — Date: 2025-07-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q3 — Date: 2025-10-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q4 — Date: 2025-12-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2025-12-09; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2025-12-09; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 09, 2025
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 09, 2025
+
+---
+
+
+
+Calendar year 2026
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q1
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-04-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-04-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: April 02, 2026
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: April 02, 2026
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q2
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-07-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-07-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors confirmed that notice of the meeting was duly given or waived.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: July 02, 2026
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: July 02, 2026
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q3
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-10-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-10-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: October 02, 2026
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: October 02, 2026
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q4
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-12-02
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-02 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that software and related intellectual property developed for the Corporation during the quarter under its contractor and consultant arrangements, including services performed by personnel in Poland; Romania; Portugal, is properly titled to and is the exclusive property of the Corporation under those arrangements and applicable law. The Board acknowledged that consulting and contracting firms, their personnel, and their equipment and premises are not owned by the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all server-side, web, API, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 02, 2026
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 02, 2026
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2026
+Ritual Growth, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-12-15
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of server-side and web application delivery, hosting footprint, partner commitments, and post-restart engineering stability
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-15 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Server, Web, and Hosting Operations
+RESOLVED, that engineering, hosting, and go-to-market decisions affecting the Corporation’s server-side services, web applications, and API delivery during 2026 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 15, 2026
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 15, 2026
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Ritual Growth, Inc.
+Principal Address: 30 N Gould St Ste 27616, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2026-12-15
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Ritual Growth, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-15 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director, as permitted under DGCL §141(i) and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2025-12-09 were reviewed and approved by the Board.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Wayne, Pennsylvania, USA and engineering support sourced through contractor and consultant arrangements with personnel in Poland; Romania; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued server-side and web application engineering for 2026, including API services, deployment automation, and hosting integrations. The President’s report noted that core product-development efforts were restarted in calendar years 2023, 2025, and 2026, each time replanning architecture, backlog, and release sequencing for the Corporation’s primary web stack while preserving continuity for long-running services.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2026: Planning and build-out phase: system flow definition and initial data systems. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All application code, APIs, and related intellectual property developed for the Corporation during the year under applicable contractor and consultant arrangements were reaffirmed as properly titled to and the exclusive property of the Corporation, without implying ownership of counterparties’ equipment or premises.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including convertible instruments and vendor payment terms that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 4,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL §141(e).
+
+
+VI. Discussion Items
+The directors discussed 2027 delivery priorities for the Corporation’s server-side and web stack, including recovery planning after development restarts in 2023, 2025, and 2026, partner commitments, hosting footprint, and release scheduling.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2026 are hereby approved.
+
+Approval of 2027 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2027 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Bank of America, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2026)
+The Board noted that the Written Consent of Sole Stockholder dated December 15, 2026, adopting stockholder resolutions under DGCL §228 for the year 2026, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 15, 2026
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 15, 2026
+
+---
+
+
+Operating addendum (Exhibit B)
+Ritual Growth, Inc.
+(Delaware corporation)
+
+Purpose
+This addendum supplements the Minutes of the Annual Meeting of the Board of Directors of the Corporation for 2026 and is designated as Exhibit B for attachment to those minutes upon filing with the minute book.
+
+Detailed accomplishments (2026)
+
+- Defined end-to-end system flows for upcoming releases
+- Started data collection and aggregation prototypes aligned with the web stack
+- Aligned contractor roadmap across Poland, Romania, and Portugal
+
+Other materials
+To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+
+---
+
+
+
+Ritual Growth, Inc.
+Written Consent of Sole Stockholder
+Action by Written Consent of Stockholders
+(DGCL §228; annual meeting of stockholders)
+
+The undersigned, being the sole stockholder of Ritual Growth, Inc., a DE corporation (the "Corporation"), and holding all of the outstanding shares of the Corporation entitled to vote on the following matters, hereby adopts the following resolutions by written consent of the stockholders pursuant to the Delaware General Corporation Law, effective without a meeting to the same extent as if adopted at a duly held meeting. The undersigned acknowledges that, to the best of the undersigned’s knowledge, the Corporation’s certificate of incorporation does not prohibit stockholder action by written consent as contemplated hereby, including action by the holders of outstanding shares of capital stock having not less than the minimum number of votes that would be necessary to authorize or take such action at a meeting at which all shares entitled to vote thereon were present and voted.
+The undersigned acknowledges that this consent is intended to comply with Article II, Section 9 of the By-Laws of Ritual Growth, Inc. (Action Without Meeting), as well as Section 228 of the DGCL.
+
+Approval of Board Actions
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 15, 2026 (or as otherwise recorded in the minutes of such meeting), including but not limited to the approval of financial statements, budgets, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+
+Annual Meeting of Stockholders
+RESOLVED, that the matters set forth in this Written Consent, including ratification of the Board’s actions taken at the annual board meeting referenced above, constitute or supplement, as applicable, the business addressed for purposes of the annual meeting of stockholders for the year 2026 to the extent permitted by the Delaware General Corporation Law, the certificate of incorporation, and the bylaws of the Corporation, and the undersigned waives any requirement to convene a separate annual meeting of stockholders for such year solely to duplicate the matters resolved herein.
+
+Written Consent Mechanics
+This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the Delaware General Corporation Law and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. Under Article II, Section 9 of those By-Laws, delivery to the Corporation’s registered office shall be by hand or by certified or registered mail, return receipt requested, where that delivery method is used; prompt notice of action taken without a meeting is required when consent is less than unanimous among applicable stockholders, as described in the By-Laws. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws (to the extent applicable).
+
+Effective Date
+This Written Consent shall be effective as of December 15, 2026, and shall be filed with the minutes of the proceedings of the stockholders of the Corporation.
+
+Stockholder Certification
+Sole Stockholder:
+Derek E. Pappas
+
+Executed by:
+_______________________________
+Name: Derek E. Pappas
+Title: Sole Stockholder
+Dated: December 15, 2026
+
+---
+
+
+
+Waiver of Notice of Meetings of the Board of Directors
+Ritual Growth, Inc.
+(Delaware corporation)
+
+Calendar year 2026
+
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of Ritual Growth, Inc. (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of Ritual Growth, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+
+Meetings covered
+
+- Quarterly Governance Meeting – 2026 Q1 — Date: 2026-04-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q2 — Date: 2026-07-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q3 — Date: 2026-10-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q4 — Date: 2026-12-02; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Special Meeting of the Board of Directors — Date: 2026-12-15; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Annual Meeting of the Board of Directors — Date: 2026-12-15; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+
+Signature:
+_______________________________
+Name: Derek E. Pappas
+Title: Director
+Dated: December 15, 2026
+
+Signature:
+_______________________________
+Name: Marija Cejovic
+Title: Director
+Dated: December 15, 2026
+
+---
