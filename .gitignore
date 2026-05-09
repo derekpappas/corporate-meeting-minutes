@@ -12,4 +12,5 @@ __pycache__/
 /audit_text/
 /calendars/
 /calendars_tmp_filenames/
+/review_pack/
 *.DS_Store

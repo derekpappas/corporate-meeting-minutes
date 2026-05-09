@@ -50,8 +50,8 @@ def main() -> None:
     expected: set[str] = set()
     skipped = 0
     # Include all generated .docx (per-company: meetings/ flat or meetings/<year>/ legacy, cap_tables/, stock_ledgers/,
-    # samples/, or <safe>/*.docx at root; master under generated/books/).
-    _PER_CO_DOC_DIRS = frozenset({"books", "cap_tables", "stock_ledgers", "meetings", "samples"})
+    # samples/, or <safe>/*.docx at root; rollup master under generated/all_companies/).
+    _PER_CO_DOC_DIRS = frozenset({"cap_tables", "stock_ledgers", "meetings", "samples"})
     for docx_path in sorted(gen.rglob("*.docx")):
         if _skip_docx_path(docx_path):
             skipped += 1

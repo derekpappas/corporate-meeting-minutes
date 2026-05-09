@@ -20,7 +20,7 @@ poetry run python scripts/extract_audit_text.py
 **Naming:** `audit_text/generated__<folder>__<filename_without_docx>.docx.txt`  
 Example: `generated/teamboost_ai/meetings/teamboost_ai_2023_01_20_organizational.docx` → `audit_text/generated__teamboost_ai__teamboost_ai_2023_01_20_organizational.docx.txt`
 
-**Included:** Per-company flat **`meetings/`** (quarterly, AGM, special, consent, waivers, organizational, standalone equity/domestication packets), **`cap_tables/`** and **`stock_ledgers/`** companion `.docx`, per-company **`<safe>_all_meetings_book.docx`** at **`generated/<safe>/`**, and **`generated/books/`** multi-company compiled `.docx` minute books.
+**Included:** Per-company flat **`meetings/`** (quarterly, AGM, special, consent, waivers, organizational, standalone equity/domestication packets), **`cap_tables/`** and **`stock_ledgers/`** companion `.docx`, per-company **`<safe>_all_meetings_book.docx`** at **`generated/<safe>/`**, and **`generated/all_companies/`** multi-company compiled **`.docx`** minute book (plus combined cap-table CSV under **`all_companies/cap_tables/`**).
 
 **Not extracted:** `.pdf` files (use separate PDF text tools if needed).
 

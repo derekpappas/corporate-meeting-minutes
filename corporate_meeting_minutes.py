@@ -16,6 +16,32 @@ from zoneinfo import ZoneInfo
 
 from docx import Document
 
+# Under ``--output-root`` (e.g. ``generated/``): only registry ``<safe>/`` folders plus ``all_companies/`` for
+# cross-company master book + combined cap CSV (not a registry company).
+ROLLUP_OUTPUT_DIRECTORY = "all_companies"
+
+
+def _cleanup_legacy_output_root_top_level(root_dir: str) -> None:
+    """Remove pre-layout top-level dirs/files under ``root_dir`` (books, review_pack, etc.)."""
+    legacy = (
+        "books",
+        "review_pack",
+        "examples",
+        "samples",
+        "stock_certificates",
+        "loki_sports_enterprises_agm_minutes_with_accomplishment_exhibits_pdf",
+    )
+    for name in legacy:
+        p = os.path.join(root_dir, name)
+        if os.path.isdir(p):
+            shutil.rmtree(p, ignore_errors=True)
+        elif os.path.isfile(p):
+            try:
+                os.remove(p)
+            except OSError:
+                pass
+
+
 # 1. DATA STRUCTURES
 locations_timeline = [
     ("2018-07-01", "2021-08-15", "Palo Alto, California"),
@@ -478,7 +504,7 @@ def _write_cap_table_and_stock_ledger_docx(
     stock_ledgers_dir: str,
     meeting_date_iso: str,
 ) -> None:
-    """Emit cap table `.docx` + `.csv` under ``cap_tables/`` and stock ledger `.docx` under ``stock_ledgers/`` (siblings of ``books/``)."""
+    """Emit cap table `.docx` + `.csv` under ``cap_tables/`` and stock ledger `.docx` under ``stock_ledgers/`` (siblings of ``meetings/``)."""
     os.makedirs(cap_tables_dir, exist_ok=True)
     os.makedirs(stock_ledgers_dir, exist_ok=True)
     cap = cap_table_document_markdown(co_name, co)
@@ -690,12 +716,13 @@ def write_cap_table_carta_pulley_csv(filepath: str, co_name: str, co: dict) -> N
 
 
 def write_all_companies_cap_table_carta_pulley_csv(output_root: str) -> str | None:
-    """Single workbook-style CSV under `<output_root>/books/` with every registry company (ledger rows)."""
+    """Single workbook-style CSV under ``<output_root>/all_companies/cap_tables/`` (rollup folder)."""
     start_cwd = os.getcwd()
     root_dir = os.path.join(start_cwd, output_root)
-    books_dir = os.path.join(root_dir, "books")
-    os.makedirs(books_dir, exist_ok=True)
-    path = os.path.join(books_dir, "all_companies_cap_table_carta_pulley.csv")
+    rollup = os.path.join(root_dir, ROLLUP_OUTPUT_DIRECTORY)
+    cap_dir = os.path.join(rollup, "cap_tables")
+    os.makedirs(cap_dir, exist_ok=True)
+    path = os.path.join(cap_dir, "all_companies_cap_table_carta_pulley.csv")
     all_rows: list[dict[str, str]] = []
     for co_name, co in companies.items():
         all_rows.extend(cap_table_carta_pulley_rows(co_name, co))
@@ -4923,14 +4950,14 @@ def generate_master_all_companies_book(
 ) -> tuple[str, str]:
     """One combined minute book spanning all companies.
 
-    Output:
-    - `{output_root}/books/all_companies_all_meetings_book.docx`
-    - `{output_root}/books/all_companies_all_meetings_book.pdf`
+    Output (rollup folder, not a registry company):
+    - ``{output_root}/all_companies/all_companies_all_meetings_book.docx``
+    - ``{output_root}/all_companies/all_companies_all_meetings_book.pdf``
     """
     start_cwd = os.getcwd()
     root_dir = os.path.join(start_cwd, output_root)
-    books_dir = os.path.join(root_dir, "books")
-    os.makedirs(books_dir, exist_ok=True)
+    rollup_dir = os.path.join(root_dir, ROLLUP_OUTPUT_DIRECTORY)
+    os.makedirs(rollup_dir, exist_ok=True)
 
     parts: list[str] = [
         "**Master minute book — all companies**\n"
@@ -4961,8 +4988,8 @@ def generate_master_all_companies_book(
         parts.append(stock_ledger_document_markdown(co_name, co))
 
     book = MEETING_BOOK_SEPARATOR.join(p for p in parts if p)
-    out_docx = os.path.join(books_dir, "all_companies_all_meetings_book.docx")
-    out_pdf = os.path.join(books_dir, "all_companies_all_meetings_book.pdf")
+    out_docx = os.path.join(rollup_dir, "all_companies_all_meetings_book.docx")
+    out_pdf = os.path.join(rollup_dir, "all_companies_all_meetings_book.pdf")
 
     # Use the latest applicable annual meeting date among all companies for utime randomization.
     latest_meeting_date = None
@@ -4989,7 +5016,7 @@ def write_samples_directory(
 ) -> str:
     """Create ``generated/<safe>/samples/`` under each company with PDF samples of representative generated docs.
 
-    Cross-company master books and CSV remain under ``generated/books/`` only. Removes legacy ``generated/samples/``
+    Cross-company master book and combined CSV live under ``…/all_companies/`` (rollup). Removes legacy ``generated/samples/``
     (flat), ``generated/examples/``, and ``generated/<safe>/examples/`` if present.
 
     Picks the latest year available for each company, then emits one PDF per category:
@@ -5120,17 +5147,17 @@ def write_samples_directory(
 
 
 def write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root: str) -> str:
-    """Write `generated/loki_sports_enterprises_agm_minutes_with_accomplishment_exhibits_pdf/` with PDFs only.
+    """Write Loki AGM + operating-addendum exhibit PDFs under ``…/loki_sports_enterprises/samples/agm_accomplishment_exhibits/``.
 
     For each calendar year that has accomplishments detail in `audit_reports/all_corp_accomplishments_2021-2025.json`
     (LOKI), copies the AGM minutes and the AGM operating addendum (Exhibit B — detailed accomplishments) from the
-    generated company folder into one distribution folder as `.pdf` files (no filename collisions across years).
+    generated company folder as `.pdf` files (no filename collisions across years).
     """
     co_name = "Loki Sports Enterprises, Inc."
     safe = sanitize_company_name(co_name)
     root_dir = os.path.abspath(os.path.join(os.getcwd(), output_root))
     co_dir = os.path.join(root_dir, safe)
-    out_dir = os.path.join(root_dir, f"{safe}_agm_minutes_with_accomplishment_exhibits_pdf")
+    out_dir = os.path.join(co_dir, "samples", "agm_accomplishment_exhibits")
     os.makedirs(out_dir, exist_ok=True)
     for name in list(os.listdir(out_dir)):
         p = os.path.join(out_dir, name)
@@ -5172,8 +5199,7 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
     print(f"Current working directory: {start_cwd}")
     root_dir = os.path.join(start_cwd, output_root)
     os.makedirs(root_dir, exist_ok=True)
-    books_dir = os.path.join(root_dir, "books")
-    os.makedirs(books_dir, exist_ok=True)
+    _cleanup_legacy_output_root_top_level(root_dir)
 
     try:
         for name in companies.keys():
@@ -5267,6 +5293,19 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
     write_all_companies_cap_table_carta_pulley_csv(root_dir)
     write_standalone_board_resolution_documents(root_dir)
 
+    allowed_top = {sanitize_company_name(n) for n in companies} | {ROLLUP_OUTPUT_DIRECTORY}
+    for name in list(os.listdir(root_dir)):
+        if name in allowed_top or name.startswith("."):
+            continue
+        p = os.path.join(root_dir, name)
+        if os.path.isdir(p):
+            shutil.rmtree(p, ignore_errors=True)
+        elif os.path.isfile(p):
+            try:
+                os.remove(p)
+            except OSError:
+                pass
+
 
 def main():
     parser = argparse.ArgumentParser(description="Generate corporate meeting minutes (.docx).")
@@ -5311,7 +5350,7 @@ def main():
         action="store_true",
         help=(
             "After generation, run scripts/extract_audit_text.py so audit_text/*.txt mirrors "
-            "generated/**/*.docx (books, cap_tables, stock_ledgers, and compiled books)."
+            "generated/**/*.docx (per-company trees, all_companies rollup, cap_tables, stock_ledgers, compiled books)."
         ),
     )
     parser.add_argument(
@@ -5319,7 +5358,7 @@ def main():
         action="store_true",
         help=(
             "Create ``generated/<safe>/samples/`` under each company with PDF samples (and copied CSVs) of "
-            "representative generated docs. Master all-companies book/CSV stay under ``generated/books/`` only."
+            "representative generated docs. Master all-companies book and combined CSV stay under ``…/all_companies/``."
         ),
     )
     parser.add_argument(
@@ -5335,7 +5374,7 @@ def main():
         "--write-master-book",
         action="store_true",
         help=(
-            "Write one compiled minute book spanning all companies to <output-root>/books/ "
+            "Write one compiled minute book spanning all companies to <output-root>/all_companies/ "
             "(per-company minutes under <output-root>/<safe>/meetings/; standalone equity/domestication "
             "resolutions there too; cap tables and stock ledgers under <output-root>/<safe>/cap_tables/ and …/stock_ledgers/; "
             "compiled book at <output-root>/<safe>/<safe>_all_meetings_book.*)."

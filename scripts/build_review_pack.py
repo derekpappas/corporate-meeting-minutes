@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble `generated/review_pack/` in two trees:
+"""Assemble `review_pack/` (repo root) in two trees:
 
 - **sample/** — one Delaware company (**Hippo, Inc.**), one file per meeting / instrument type.
 - **all/** — cross-company snapshot: one example per doc type (any company), all compiled book PDFs, audits, calendars, etc.
@@ -21,16 +21,18 @@ from pathlib import Path
 
 _REPO = Path(__file__).resolve().parent.parent
 _GEN = _REPO / "generated"
-_SHARED_GEN_BOOKS = _GEN / "books"
-_OUT = _GEN / "review_pack"
+_ROLLUP = "all_companies"
+_MASTER_DIR = _GEN / _ROLLUP
+_OUT = _REPO / "review_pack"
 
 
-def _is_shared_generated_books(p: Path) -> bool:
-    """True for ``generated/books/*`` (master book only); per-company books live under ``generated/<co>/``."""
+def _under_generated_rollup(p: Path) -> bool:
+    """True for paths under ``generated/all_companies/`` (master book + rollup cap CSV dir, etc.)."""
     try:
-        return p.parent.resolve() == _SHARED_GEN_BOOKS.resolve()
-    except OSError:
+        rel = p.resolve().relative_to(_GEN.resolve())
+    except ValueError:
         return False
+    return len(rel.parts) > 0 and rel.parts[0] == _ROLLUP
 
 # Single-company sample: Delaware, full written-consent / board cycle (no multi-stockholder pack).
 # Registry key in `company_information` (display name in minutes is "Hippo, Inc.").
@@ -64,7 +66,7 @@ all/     — Broader review set: samples drawn from any registry company where n
 Rebuild:
   poetry run python scripts/build_review_pack.py
 
-.gitignore may ignore *.docx / *.pdf; files remain on disk under generated/review_pack/.
+.gitignore may ignore *.docx / *.pdf; files remain on disk under ``review_pack/`` at the repo root.
 """
 
 
@@ -180,7 +182,7 @@ def build_sample_pack(out: Path) -> tuple[int, int]:
         if _copy(hippo_agm[-1] if hippo_agm else None, tx_out / "hippo_agm.docx.txt"):
             pass
 
-    svg_dir = _GEN / "stock_certificates" / safe
+    svg_dir = _GEN / safe / "stock_certificates"
     if svg_dir.is_dir():
         svgs = sorted(svg_dir.glob("*.svg"))
         if svgs:
@@ -225,19 +227,18 @@ def build_all_pack(out: Path) -> tuple[int, int, int, int]:
         candidates = [
             p
             for p in _GEN.rglob(globpat)
-            if not _is_shared_generated_books(p)
-            and p.parent.name not in ("review_pack", "samples", "examples")
+            if not _under_generated_rollup(p)
+            and p.parent.name not in ("samples", "examples")
             and "review_pack" not in p.parts
         ]
         candidates.sort()
         if _copy(candidates[-1] if candidates else None, docx_dir / dst_name):
             copied_docx += 1
 
-    books_d = _SHARED_GEN_BOOKS
     per_co_book_docx = sorted(
         p
         for p in _GEN.glob("*/*_all_meetings_book.docx")
-        if p.parent.name != "books"
+        if p.parent.name not in (_ROLLUP, "books")
         and p.name != "all_companies_all_meetings_book.docx"
         and "review_pack" not in p.parts
         and "samples" not in p.parts
@@ -245,19 +246,19 @@ def build_all_pack(out: Path) -> tuple[int, int, int, int]:
     )
     if _copy(per_co_book_docx[0] if per_co_book_docx else None, docx_dir / "sample_company_all_meetings_book.docx"):
         copied_docx += 1
-    ac = books_d / "all_companies_all_meetings_book.docx"
-    if books_d.is_dir() and _copy(ac if ac.is_file() else None, docx_dir / "sample_all_companies_all_meetings_book.docx"):
+    ac = _MASTER_DIR / "all_companies_all_meetings_book.docx"
+    if _MASTER_DIR.is_dir() and _copy(ac if ac.is_file() else None, docx_dir / "sample_all_companies_all_meetings_book.docx"):
         copied_docx += 1
 
     copied_pdf = 0
-    if books_d.is_dir():
-        for p in sorted(books_d.glob("*.pdf")):
+    if _MASTER_DIR.is_dir():
+        for p in sorted(_MASTER_DIR.glob("*.pdf")):
             if _copy(p, pdf_dir / p.name):
                 copied_pdf += 1
     for p in sorted(
         q
         for q in _GEN.glob("*/*_all_meetings_book.pdf")
-        if q.parent.name != "books"
+        if q.parent.name not in (_ROLLUP, "books")
         and q.name != "all_companies_all_meetings_book.pdf"
         and "review_pack" not in q.parts
         and "samples" not in q.parts
@@ -283,7 +284,8 @@ def build_all_pack(out: Path) -> tuple[int, int, int, int]:
             copied_txt += 1
 
     copied_cert = 0
-    svg = _pick_first("*.svg", _GEN / "stock_certificates")
+    svg_candidates = sorted(_GEN.glob("*/stock_certificates/*.svg"))
+    svg = svg_candidates[-1] if svg_candidates else None
     if svg and _copy(svg, cert_dir / svg.name):
         copied_cert += 1
     _copy(_REPO / "templates" / "share_certificate_template.svg", tpl_dir / "share_certificate_template.svg")
@@ -323,7 +325,7 @@ def main() -> None:
         "--out",
         type=Path,
         default=_OUT,
-        help="Output directory (default: generated/review_pack)",
+        help="Output directory (default: review_pack/ at repo root)",
     )
     args = ap.parse_args()
     out: Path = args.out if args.out.is_absolute() else _REPO / args.out

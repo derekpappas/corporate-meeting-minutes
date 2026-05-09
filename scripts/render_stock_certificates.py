@@ -314,7 +314,7 @@ def render_ledger(
 
     written: list[Path] = []
     slug = _slug_from_ledger_path(ledger_path)
-    company_out = out_dir / slug
+    company_out = out_dir / slug / "stock_certificates"
     company_out.mkdir(parents=True, exist_ok=True)
 
     for entry in ledger.get("ledger_entries") or []:
@@ -379,8 +379,8 @@ def main() -> None:
     ap.add_argument(
         "--out",
         type=Path,
-        default=_REPO_ROOT / "generated" / "stock_certificates",
-        help="Output directory",
+        default=_REPO_ROOT / "generated",
+        help="Output root (default: generated/; writes under <safe>/stock_certificates/ per ledger)",
     )
     ap.add_argument("--pdf", action="store_true", help="Also write PDF via rsvg-convert")
     args = ap.parse_args()
