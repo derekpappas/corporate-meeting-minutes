@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.2",
+  "currency_default": "USD",
+  "description": "Share subscription / capital contribution records. Fill null fields from wire advices, subscription agreements, and the stock ledger. `amount_at_par_value_usd` is only the legal minimum par consideration (shares × par); actual `amount_paid` often includes premium—do not leave null if the wire amount must match books.",
+  "narrative_template": "Transaction Details: Received on [Date] from [shareholder] for [number of shares] at par value [par value] via [Wire/ACH] from [Originating Bank/Account] to [Receiving Bank/Account].",
+  "placeholders": {
+    "Date": "Settlement / value date on bank confirmation (match ledger entry date policy).",
+    "shareholder": "Legal name of payor as subscriber or stockholder of record.",
+    "number of shares": "Whole shares issued or subscribed on this receipt.",
+    "par value": "Per-share par from certificate of incorporation.",
+    "Wire/ACH": "Wire | ACH | book entry | other.",
+    "Originating Bank/Account": "Sending institution and account identifier (e.g. name + last four).",
+    "Receiving Bank/Account": "Corporate receiving institution and account title as on bank records."
+  },
+  "field_definitions": {
+    "shareholder": "Legal name of the payor / subscriber.",
+    "purchase_date": "ISO-8601 date funds received or subscription effective (null = not in generator registry; fill from bank).",
+    "shares": "Share count for this event (string with commas for readability).",
+    "amount_paid": "Total consideration in `amount_paid_currency` for this event (null = fill from wire).",
+    "amount_paid_currency": "ISO 4217 code.",
+    "payment_method": "Wire | ACH | check | other.",
+    "bank_source": "Originating bank / account description.",
+    "bank_destination": "Receiving bank / corporate account description.",
+    "amount_at_par_value_usd": "Optional: shares × par in USD for minimum par leg only (informational)."
+  },
+  "companies": {
+    "Hippo, Inc": {
+      "registry_key": "Hippo, Inc",
+      "legal_name": "Hippo, Inc.",
+      "jurisdiction": "DE",
+      "par": "$.0001",
+      "primary_banking_institution": "First Republic Bank",
+      "shareholder_funding_events": [
+        {
+          "shareholder": "Derek E. Pappas",
+          "purchase_date": "2022-06-01",
+          "shares": "8,000,000",
+          "amount_paid": 800,
+          "amount_paid_currency": "USD",
+          "payment_method": "bank transfer",
+          "bank_source": "First Republic Bank account ending in 3220 (Derek E. Pappas)",
+          "bank_destination": "First Republic Bank account ending in 64875 (Hippo, Inc.)",
+          "amount_at_par_value_usd": "800.00",
+          "registry_note": "User-provided cash payment details."
+        }
+      ],
+      "shares_issued_by_year_reference": {
+        "2022": "8,000,000",
+        "2023": "8,160,000",
+        "2024": "8,160,000",
+        "2025": "8,160,000",
+        "2026": "8,160,000"
+      }
+    },
+    "TeamBoost.ai, Inc.": {
+      "registry_key": "TeamBoost.ai, Inc.",
+      "legal_name": "TeamBoost.ai, Inc.",
+      "jurisdiction": "DE",
+      "par": "$.0001",
+      "primary_banking_institution": "First Citizens Bank & Trust Company",
+      "shareholder_funding_events": [
+        {
+          "shareholder": "Derek E. Pappas",
+          "purchase_date": "2023-05-07",
+          "shares": "4,000,000",
+          "amount_paid": 400,
+          "amount_paid_currency": "USD",
+          "payment_method": "check",
+          "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+          "bank_destination": "Chase account ending in 1135 (TeamBoost.ai, Inc.)",
+          "amount_at_par_value_usd": "400.00",
+          "registry_note": "User-provided cash payment details."
+        }
+      ],
+      "shares_issued_by_year_reference": {
+        "2023": "10,000,000",
+        "2024": "10,000,000",
+        "2025": "10,000,000",
+        "2026": "10,000,000"
+      }
+    },
+    "Ritual Growth, Inc.": {
+      "registry_key": "Ritual Growth, Inc.",
+      "legal_name": "Ritual Growth, Inc.",
+      "jurisdiction": "DE",
+      "par": "$.0001",
+      "primary_banking_institution": "Chase",
+      "shareholder_funding_events": [
+        {
+          "shareholder": "Derek E. Pappas",
+          "purchase_date": "2023-05-07",
+          "shares": "4,000,000",
+          "amount_paid": 400,
+          "amount_paid_currency": "USD",
+          "payment_method": "check",
+          "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+          "bank_destination": "Chase account ending in 2117 (Ritual Growth, Inc.)",
+          "amount_at_par_value_usd": "400.00",
+          "registry_note": "User-provided cash payment details."
+        }
+      ],
+      "prior_jurisdiction_reference": {
+        "jurisdiction": "WY",
+        "filed_date_iso": "2021-09-14",
+        "note": "If capital was contributed while Wyoming entity, add separate `shareholder_funding_events` rows with dates/sources from WY books."
+      },
+      "shares_issued_by_year_reference": {
+        "2022": "4,000,000",
+        "2023": "4,000,000",
+        "2024": "4,000,000",
+        "2025": "4,000,000",
+        "2026": "4,000,000"
+      }
+    },
+    "SurveyTeams, Inc.": {
+      "registry_key": "SurveyTeams, Inc.",
+      "legal_name": "SurveyTeams, Inc.",
+      "jurisdiction": "DE",
+      "par": "$.0001",
+      "primary_banking_institution": "Mercury Bank",
+      "shareholder_funding_events": [
+        {
+          "shareholder": "Derek E. Pappas",
+          "purchase_date": "2026-05-07",
+          "shares": "4,000,000",
+          "amount_paid": 400,
+          "amount_paid_currency": "USD",
+          "payment_method": "check",
+          "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+          "bank_destination": "Chase account ending in 6202 (SurveyTeams, Inc.)",
+          "amount_at_par_value_usd": "400.00",
+          "registry_note": "User-provided cash payment details."
+        },
+        {
+          "shareholder": "Mohamed Mohamed",
+          "purchase_date": null,
+          "shares": "4,000,000",
+          "amount_paid": null,
+          "amount_paid_currency": "USD",
+          "payment_method": null,
+          "bank_source": null,
+          "bank_destination": "Mercury Bank — SurveyTeams, Inc. corporate account (fill account title / last four)",
+          "amount_at_par_value_usd": "400.00",
+          "registry_note": "Share count from `stockholder_shares`. Fill dates and amounts per subscriber wire."
+        }
+      ],
+      "shares_issued_outstanding_reference": {
+        "year": 2026,
+        "total_issued": "8,000,000",
+        "authorized": "10,000,000"
+      }
+    },
+    "Loki Sports Enterprises, Inc.": {
+      "registry_key": "Loki Sports Enterprises, Inc.",
+      "legal_name": "Loki Sports Enterprises, Inc.",
+      "jurisdiction": "WY",
+      "par": "$.0001",
+      "primary_banking_institution": "Truist Bank",
+      "shareholder_funding_events": [
+        {
+          "shareholder": "Derek E. Pappas",
+          "purchase_date": "2023-05-07",
+          "shares": "4,000,000",
+          "amount_paid": 400,
+          "amount_paid_currency": "USD",
+          "payment_method": "check",
+          "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+          "bank_destination": "Chase account ending in 3962 (Loki Sports Enterprises, Inc.)",
+          "amount_at_par_value_usd": "400.00",
+          "registry_note": "User-provided cash payment details."
+        }
+      ],
+      "wy_sos_filing_id": "2023-001316332",
+      "shares_issued_by_year_reference": {
+        "2023": "10,000,000",
+        "2024": "10,000,000",
+        "2025": "10,000,000",
+        "2026": "10,000,000"
+      }
+    }
+  }
+}

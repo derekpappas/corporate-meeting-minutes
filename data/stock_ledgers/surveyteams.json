@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "company_legal_name": "SurveyTeams, Inc.",
+  "jurisdiction": "DE",
+  "par_value_per_share_usd": 0.0001,
+  "currency": "USD",
+  "certificate_numbering_policy": "ST-0001, ST-0002, ...",
+  "ledger_entries": [
+    {
+      "certificate_number": "ST-0001",
+      "issue_date": "2026-05-07",
+      "shareholder": "Derek E. Pappas",
+      "shares": 4000000,
+      "consideration": {
+        "type": "cash",
+        "amount": 400,
+        "currency": "USD",
+        "payment_method": "check",
+        "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+        "bank_destination": "Chase account ending in 6202 (SurveyTeams, Inc.)"
+      },
+      "notes": "User-provided transaction details."
+    },
+    {
+      "certificate_number": "ST-0002",
+      "issue_date": null,
+      "shareholder": "Mohamed Mohamed",
+      "shares": 4000000,
+      "consideration": {
+        "type": "cash",
+        "amount": null,
+        "currency": "USD",
+        "payment_method": null,
+        "bank_source": null,
+        "bank_destination": "Mercury Bank — SurveyTeams, Inc. corporate account"
+      },
+      "notes": "Pending: you have not provided Mohamed’s payment date/amount/bank details yet."
+    }
+  ]
+}
+

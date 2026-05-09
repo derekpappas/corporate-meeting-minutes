@@ -8,6 +8,294 @@ Exhibit references in the minutes are to instruments on the corporate record; ex
 
 Calendar year 2023
 
+Minutes of the Organizational Meeting of the Board of Directors
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-01-20
+Time of Meeting: 10:00 AM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Organizational Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 10:00 AM on 2023-01-20 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice had been duly given or validly waived for this meeting.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolutions:
+
+Ratification of Formation Actions
+RESOLVED, that all actions taken to organize and form the Corporation, including filing the certificate/articles of incorporation and taking related organizational steps, are hereby ratified, confirmed, and approved in all respects.
+
+Adoption of Bylaws
+RESOLVED, that the bylaws described as By-Laws of TeamBoost.ai, Inc., to be designated Exhibit A for attachment to these minutes upon filing are hereby adopted as the bylaws of the Corporation, and the Secretary is authorized and directed to place a copy in the Corporation’s minute book.
+
+Election of Officers
+RESOLVED, that the following individuals are hereby elected and appointed to serve as officers of the Corporation, to serve at the pleasure of the Board and in accordance with the bylaws: Derek E. Pappas as President, Secretary, Treasurer, and Chief Executive Officer; Marija Cejovic as Chief Operating Officer.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q1
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-04-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2023-04-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice had been duly given or validly waived for this meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q2
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-07-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2023-07-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors confirmed that notice of the meeting was duly given or waived.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q3
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-10-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Knoxville, TN, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2023-10-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors confirmed that notice of the meeting was duly given or waived.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2023 Q4
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-12-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Thessaloniki, Greece, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2023-12-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2023
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2023-12-14
+Time of Meeting: 12:00 PM
+Location of Meeting: Thessaloniki, Greece, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2023-12-14 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Mobile and API Delivery Operations
+RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2023 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
 
 Minutes of the Annual Meeting of the Board of Directors
 (Delaware corporation)
@@ -22,42 +310,43 @@ Place: Thessaloniki, Greece, via digital communication
 Type of Meeting: Annual Meeting of the Board of Directors
 
 II. Call to Order
-The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-14 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-14 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
 
 III. Roll Call and Quorum
-Director Present:
-Derek E. Pappas (Sole Director)
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
 
-Director Absent:
+Directors Absent:
 None
 
-Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
-The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
 
 IV. Approval of Prior Minutes
-This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2023; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
+This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation on January 13, 2023; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2023: Initial development phase: core platform architecture, mobile app creation, and foundational features were established, with a private beta release. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2023: Initial development phase: core platform architecture, mobile app creation, and foundational features were established, with a private beta release. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
 
 
 VI. Discussion Items
-The Sole Director discussed mobile product velocity and infrastructure scaling for 2024, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
+The directors discussed mobile product velocity and infrastructure scaling for 2024, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
 
 VII. Resolutions
-Upon consideration, the Sole Director adopted the following resolutions:
+Upon consideration, the Board adopted the following resolutions:
 
 Approval of Financial Reports
-RESOLVED, that the financial statements for the fiscal year 2023 are hereby approved.
+RESOLVED, that the financial statements for calendar year 2023 are hereby approved.
 
 Approval of 2024 Budget
-RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2024 is hereby approved.
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2024 is hereby approved.
 
 Banking Authorization
 RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at First Citizens Bank & Trust Company, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
@@ -65,7 +354,7 @@ RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one o
 
 
 Stockholder Written Consent (2023)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 14, 2023, adopting stockholder resolutions under DGCL §228 for the year 2023, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+The Board noted that the Written Consent of Sole Stockholder dated December 14, 2023, adopting stockholder resolutions under DGCL §228 for the year 2023, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -73,6 +362,9 @@ There being no further business to come before the Board, the meeting was adjour
 
 Signed:
 Derek E. Pappas
+
+Signed:
+Marija Cejovic
 
 ---
 
@@ -96,47 +388,6 @@ Detailed accomplishments (2023)
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
-
----
-
-
-
-Minutes of the Special Meeting of the Board of Directors - 2023
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2023-12-14
-Time of Meeting: 12:00 PM
-Location of Meeting: Thessaloniki, Greece, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
-
-I. Call to Order:
-The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2023-12-14 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
-Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
-
-III. Resolutions:
-Upon consideration, the Sole Director adopted the following resolution:
-
-Ratification of Mobile and API Delivery Operations
-RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2023 are hereby ratified, confirmed, and approved in all respects.
-
-
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
 
 ---
 
@@ -178,197 +429,267 @@ TeamBoost.ai, Inc.
 
 Calendar year 2023
 
-The undersigned, Derek E. Pappas, Sole Director of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
 
 Meetings covered
 
-- Quarterly Governance Meeting – 2023 Q1 — Date: 2023-04-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
-- Quarterly Governance Meeting – 2023 Q2 — Date: 2023-07-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
-- Quarterly Governance Meeting – 2023 Q3 — Date: 2023-10-04; Time: 1:00 PM; Place / remote means: Knoxville, TN, via digital communication
-- Quarterly Governance Meeting – 2023 Q4 — Date: 2023-12-04; Time: 1:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
+- Organizational Meeting of the Board of Directors — Date: 2023-01-20; Time: 10:00 AM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q1 — Date: 2023-04-05; Time: 2:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q2 — Date: 2023-07-05; Time: 2:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2023 Q3 — Date: 2023-10-05; Time: 2:00 PM; Place / remote means: Knoxville, TN, via digital communication
+- Quarterly Governance Meeting – 2023 Q4 — Date: 2023-12-05; Time: 2:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
 - Special Meeting of the Board of Directors — Date: 2023-12-14; Time: 12:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
 - Annual Meeting of the Board of Directors — Date: 2023-12-14; Time: 1:00 PM; Place / remote means: Thessaloniki, Greece, via digital communication
 
 Signed:
 Derek E. Pappas
 
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2023 Q1
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2023-04-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
 Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2023 Q2
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2023-07-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2023 Q3
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2023-10-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Knoxville, TN, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2023 Q4
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2023-12-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Thessaloniki, Greece, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
+Marija Cejovic
 
 ---
 
 
 
 Calendar year 2024
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q1
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-04-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2024-04-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice had been duly given or validly waived for this meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q2
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-07-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Belgrade, Serbia, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2024-07-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice had been duly given or validly waived for this meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q3
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-10-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Hoegaarden, Belgium, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2024-10-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors confirmed that notice of the meeting was duly given or waived.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2024 Q4
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-12-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Denver, NC, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2024-12-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2024
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2024-12-12
+Time of Meeting: 12:00 PM
+Location of Meeting: Denver, NC, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2024-12-12 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors confirmed that notice of the meeting was duly given or waived.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Mobile and API Delivery Operations
+RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2024 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
 
 
 Minutes of the Annual Meeting of the Board of Directors
@@ -384,42 +705,43 @@ Place: Denver, NC, via digital communication
 Type of Meeting: Annual Meeting of the Board of Directors
 
 II. Call to Order
-The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-12 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-12 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
 
 III. Roll Call and Quorum
-Director Present:
-Derek E. Pappas (Sole Director)
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
 
-Director Absent:
+Directors Absent:
 None
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
 IV. Approval of Prior Minutes
-The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-14 were reviewed and approved by the Sole Director.
+The minutes of the prior Annual Meeting of the Board of Directors held on 2023-12-14 were reviewed and approved by the Board.
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2024: Expansion phase: major feature rollout, backend scalability improvements, and introduction of collaboration, reporting, and internationalization capabilities. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Thessaloniki, Greece; Valencia, Spain; Knoxville, TN; Belgrade, Serbia; Athens, Greece; Istanbul, Turkey; Birmingham, England; Hoegaarden, Belgium; Denver, North Carolina, USA and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2024: Expansion phase: major feature rollout, backend scalability improvements, and introduction of collaboration, reporting, and internationalization capabilities. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
 
 
 VI. Discussion Items
-The Sole Director discussed mobile product velocity and infrastructure scaling for 2025, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
+The directors discussed mobile product velocity and infrastructure scaling for 2025, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
 
 VII. Resolutions
-Upon consideration, the Sole Director adopted the following resolutions:
+Upon consideration, the Board adopted the following resolutions:
 
 Approval of Financial Reports
-RESOLVED, that the financial statements for the fiscal year 2024 are hereby approved.
+RESOLVED, that the financial statements for calendar year 2024 are hereby approved.
 
 Approval of 2025 Budget
-RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2025 is hereby approved.
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2025 is hereby approved.
 
 Banking Authorization
 RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at First Citizens Bank & Trust Company, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
@@ -427,7 +749,7 @@ RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one o
 
 
 Stockholder Written Consent (2024)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 12, 2024, adopting stockholder resolutions under DGCL §228 for the year 2024, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+The Board noted that the Written Consent of Sole Stockholder dated December 12, 2024, adopting stockholder resolutions under DGCL §228 for the year 2024, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -435,6 +757,9 @@ There being no further business to come before the Board, the meeting was adjour
 
 Signed:
 Derek E. Pappas
+
+Signed:
+Marija Cejovic
 
 ---
 
@@ -461,47 +786,6 @@ Detailed accomplishments (2024)
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
-
----
-
-
-
-Minutes of the Special Meeting of the Board of Directors - 2024
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2024-12-12
-Time of Meeting: 12:00 PM
-Location of Meeting: Denver, NC, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
-
-I. Call to Order:
-The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2024-12-12 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
-Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
-
-III. Resolutions:
-Upon consideration, the Sole Director adopted the following resolution:
-
-Ratification of Mobile and API Delivery Operations
-RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2024 are hereby ratified, confirmed, and approved in all respects.
-
-
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
 
 ---
 
@@ -543,197 +827,266 @@ TeamBoost.ai, Inc.
 
 Calendar year 2024
 
-The undersigned, Derek E. Pappas, Sole Director of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
 
 Meetings covered
 
-- Quarterly Governance Meeting – 2024 Q1 — Date: 2024-04-04; Time: 1:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
-- Quarterly Governance Meeting – 2024 Q2 — Date: 2024-07-04; Time: 1:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
-- Quarterly Governance Meeting – 2024 Q3 — Date: 2024-10-04; Time: 1:00 PM; Place / remote means: Hoegaarden, Belgium, via digital communication
-- Quarterly Governance Meeting – 2024 Q4 — Date: 2024-12-04; Time: 1:00 PM; Place / remote means: Denver, NC, via digital communication
+- Quarterly Governance Meeting – 2024 Q1 — Date: 2024-04-05; Time: 2:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
+- Quarterly Governance Meeting – 2024 Q2 — Date: 2024-07-05; Time: 2:00 PM; Place / remote means: Belgrade, Serbia, via digital communication
+- Quarterly Governance Meeting – 2024 Q3 — Date: 2024-10-05; Time: 2:00 PM; Place / remote means: Hoegaarden, Belgium, via digital communication
+- Quarterly Governance Meeting – 2024 Q4 — Date: 2024-12-05; Time: 2:00 PM; Place / remote means: Denver, NC, via digital communication
 - Special Meeting of the Board of Directors — Date: 2024-12-12; Time: 12:00 PM; Place / remote means: Denver, NC, via digital communication
 - Annual Meeting of the Board of Directors — Date: 2024-12-12; Time: 1:00 PM; Place / remote means: Denver, NC, via digital communication
 
 Signed:
 Derek E. Pappas
 
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2024 Q1
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2024-04-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Belgrade, Serbia, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
 Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2024 Q2
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2024-07-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Belgrade, Serbia, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
-The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2024 Q3
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2024-10-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Hoegaarden, Belgium, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
-Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2024 Q4
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2024-12-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Denver, NC, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2024-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, as contemplated by Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
+Marija Cejovic
 
 ---
 
 
 
 Calendar year 2025
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q1
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-04-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2025-04-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q2
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-07-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2025-07-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q3
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-10-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2025-10-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2025 Q4
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-12-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2025-12-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Special Meeting of the Board of Directors - 2025
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2025-12-11
+Time of Meeting: 12:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
+
+I. Call to Order:
+The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2025-12-11 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+
+III. Resolutions:
+Upon consideration, the Board adopted the following resolution:
+
+Ratification of Mobile and API Delivery Operations
+RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2025 are hereby ratified, confirmed, and approved in all respects.
+
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
 
 
 Minutes of the Annual Meeting of the Board of Directors
@@ -749,42 +1102,43 @@ Place: Wayne, Pennsylvania, via digital communication
 Type of Meeting: Annual Meeting of the Board of Directors
 
 II. Call to Order
-The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-11 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-11 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
 
 III. Roll Call and Quorum
-Director Present:
-Derek E. Pappas (Sole Director)
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
 
-Director Absent:
+Directors Absent:
 None
 
-Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
 IV. Approval of Prior Minutes
-The minutes of the prior Annual Meeting of the Board of Directors held on 2024-12-12 were reviewed and approved by the Sole Director.
+The minutes of the prior Annual Meeting of the Board of Directors held on 2024-12-12 were reviewed and approved by the Board.
 V. Reports of Officers
 
 President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2025: Release and stabilization phase: public rollout, improved reliability through testing, and continued enhancement of core features and system performance. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Denver, North Carolina, USA; Lantana, Florida, USA; Wayne, Pennsylvania, USA and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. The President’s report included the following accomplishments summary for the calendar year 2025: Release and stabilization phase: public rollout, improved reliability through testing, and continued enhancement of core features and system performance. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
 
 Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
 
-The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
 
 
 VI. Discussion Items
-The Sole Director discussed mobile product velocity and infrastructure scaling for 2026, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
+The directors discussed mobile product velocity and infrastructure scaling for 2026, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
 
 VII. Resolutions
-Upon consideration, the Sole Director adopted the following resolutions:
+Upon consideration, the Board adopted the following resolutions:
 
 Approval of Financial Reports
-RESOLVED, that the financial statements for the fiscal year 2025 are hereby approved.
+RESOLVED, that the financial statements for calendar year 2025 are hereby approved.
 
 Approval of 2026 Budget
-RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2026 is hereby approved.
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2026 is hereby approved.
 
 Banking Authorization
 RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at First Citizens Bank & Trust Company, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
@@ -792,7 +1146,7 @@ RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one o
 
 
 Stockholder Written Consent (2025)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 11, 2025, adopting stockholder resolutions under DGCL §228 for the year 2025, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+The Board noted that the Written Consent of Sole Stockholder dated December 11, 2025, adopting stockholder resolutions under DGCL §228 for the year 2025, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
 
 
 VIII. Adjournment
@@ -800,6 +1154,9 @@ There being no further business to come before the Board, the meeting was adjour
 
 Signed:
 Derek E. Pappas
+
+Signed:
+Marija Cejovic
 
 ---
 
@@ -825,47 +1182,6 @@ Detailed accomplishments (2025)
 
 Other materials
 To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
-
----
-
-
-
-Minutes of the Special Meeting of the Board of Directors - 2025
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2025-12-11
-Time of Meeting: 12:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
-
-I. Call to Order:
-The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2025-12-11 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
-III. Resolutions:
-Upon consideration, the Sole Director adopted the following resolution:
-
-Ratification of Mobile and API Delivery Operations
-RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2025 are hereby ratified, confirmed, and approved in all respects.
-
-
-The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
 
 ---
 
@@ -907,191 +1223,22 @@ TeamBoost.ai, Inc.
 
 Calendar year 2025
 
-The undersigned, Derek E. Pappas, Sole Director of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
 
 Meetings covered
 
-- Quarterly Governance Meeting – 2025 Q1 — Date: 2025-04-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
-- Quarterly Governance Meeting – 2025 Q2 — Date: 2025-07-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
-- Quarterly Governance Meeting – 2025 Q3 — Date: 2025-10-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
-- Quarterly Governance Meeting – 2025 Q4 — Date: 2025-12-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q1 — Date: 2025-04-05; Time: 2:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q2 — Date: 2025-07-05; Time: 2:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q3 — Date: 2025-10-05; Time: 2:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2025 Q4 — Date: 2025-12-05; Time: 2:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
 - Special Meeting of the Board of Directors — Date: 2025-12-11; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
 - Annual Meeting of the Board of Directors — Date: 2025-12-11; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
 
 Signed:
 Derek E. Pappas
 
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2025 Q1
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2025-04-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
 Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2025 Q2
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2025-07-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2025 Q3
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2025-10-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2025 Q4
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2025-12-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2025-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
+Marija Cejovic
 
 ---
 
@@ -1100,70 +1247,193 @@ Derek E. Pappas
 Calendar year 2026
 
 
-Minutes of the Annual Meeting of the Board of Directors
-(Delaware corporation)
+Minutes of the Quarterly Governance Meeting - 2026 Q1
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
 
-I. Meeting Information
-Company Name: TeamBoost.ai, Inc.
-Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Meeting Details
+Date of Meeting: 2026-04-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
 Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-Date: 2026-12-17
-Time: 1:00 PM
-Place: Wayne, Pennsylvania, via digital communication
-Type of Meeting: Annual Meeting of the Board of Directors
 
-II. Call to Order
-The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-17 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2026-04-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
 
-III. Roll Call and Quorum
-Director Present:
-Derek E. Pappas (Sole Director)
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
 
-Director Absent:
-None
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice of the meeting was duly given or waived.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
 
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
-Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
 
-IV. Approval of Prior Minutes
-The minutes of the prior Annual Meeting of the Board of Directors held on 2025-12-11 were reviewed and approved by the Sole Director.
-V. Reports of Officers
-
-President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth additional detail furnished for the meeting, including technical specifications, roadmaps, KPIs, and architecture diagrams. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
-
-Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
-
-The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, as permitted by Section 141(e) of the Delaware General Corporation Law.
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
 
 
-VI. Discussion Items
-The Sole Director discussed mobile product velocity and infrastructure scaling for 2027, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
 
-VII. Resolutions
-Upon consideration, the Sole Director adopted the following resolutions:
-
-Approval of Financial Reports
-RESOLVED, that the financial statements for the fiscal year 2026 are hereby approved.
-
-Approval of 2027 Budget
-RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2027 is hereby approved.
-
-Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at First Citizens Bank & Trust Company, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
-Stockholder Written Consent (2026)
-The Sole Director noted that the Written Consent of Sole Stockholder dated December 17, 2026, adopting stockholder resolutions under DGCL §228 for the year 2026, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
-
-
-VIII. Adjournment
+V. Adjournment:
 There being no further business to come before the Board, the meeting was adjourned.
 
 Signed:
 Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q2
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-07-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2026-07-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Marija Cejovic present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting. The directors confirmed that notice of the meeting was duly given or waived.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q3
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-10-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2026-10-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting. The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q4
+TeamBoost.ai, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-12-05
+Time of Meeting: 2:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 2:00 PM on 2026-12-05 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice had been duly given or validly waived for this meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
 
 ---
 
@@ -1181,23 +1451,25 @@ Address note: The principal address above is the Corporation’s designated noti
 Purpose: Pre-annual review of mobile applications, APIs, and cloud delivery
 
 I. Call to Order:
-The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-17 by Derek E. Pappas, acting as Sole Director of the Corporation.
+The Special Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-17 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director.
 
 II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+Directors Absent: None
 
-Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. The directors confirmed that notice had been duly given or validly waived for this meeting.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
 III. Resolutions:
-Upon consideration, the Sole Director adopted the following resolution:
+Upon consideration, the Board adopted the following resolution:
 
 Ratification of Mobile and API Delivery Operations
 RESOLVED, that engineering and product decisions affecting the Corporation’s mobile applications, APIs, and cloud-hosted services during 2026 are hereby ratified, confirmed, and approved in all respects.
 
 
-After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
 
 
 IV. Adjournment:
@@ -1205,6 +1477,82 @@ There being no further business to come before the Board, the meeting was adjour
 
 Signed:
 Derek E. Pappas
+
+Signed:
+Marija Cejovic
+
+---
+
+
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: TeamBoost.ai, Inc.
+Principal Address: 30 N Gould St Ste 23049, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2026-12-17
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-17 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+Attendance by Derek E. Pappas and Marija Cejovic satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent. Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2025-12-11 were reviewed and approved by the Board.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Wayne, Pennsylvania, USA and development from Brazil; Nigeria; Portugal, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued product development during the year, including API servers and services, web applications, and mobile applications.  The Corporation continued to operate hardware and cloud infrastructure using hosting providers including DigitalOcean and Hetzner. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth additional detail furnished for the meeting, including technical specifications, roadmaps, KPIs, and architecture diagrams. All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including SAFEs, convertible notes, and similar instruments that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 10,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+VI. Discussion Items
+The directors discussed mobile product velocity and infrastructure scaling for 2027, including app-store release cadence, on-device performance budgets, and push-notification reliability targets.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2026 are hereby approved.
+
+Approval of 2027 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2027 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at First Citizens Bank & Trust Company, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2026)
+The Board noted that the Written Consent of Sole Stockholder dated December 17, 2026, adopting stockholder resolutions under DGCL §228 for the year 2026, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Signed:
+Derek E. Pappas
+
+Signed:
+Marija Cejovic
 
 ---
 
@@ -1246,190 +1594,21 @@ TeamBoost.ai, Inc.
 
 Calendar year 2026
 
-The undersigned, Derek E. Pappas, Sole Director of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+The undersigned, Derek E. Pappas and Marija Cejovic, constituting all of the directors of TeamBoost.ai, Inc. (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the By-Laws of TeamBoost.ai, Inc., including Article III, Section 8 (notice and place of meetings of the Board of Directors) and Article VIII, Section 4 (waiver of notice). This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
 
 Meetings covered
 
-- Quarterly Governance Meeting – 2026 Q1 — Date: 2026-04-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
-- Quarterly Governance Meeting – 2026 Q2 — Date: 2026-07-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
-- Quarterly Governance Meeting – 2026 Q3 — Date: 2026-10-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
-- Quarterly Governance Meeting – 2026 Q4 — Date: 2026-12-04; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q1 — Date: 2026-04-05; Time: 2:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q2 — Date: 2026-07-05; Time: 2:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q3 — Date: 2026-10-05; Time: 2:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
+- Quarterly Governance Meeting – 2026 Q4 — Date: 2026-12-05; Time: 2:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
 - Special Meeting of the Board of Directors — Date: 2026-12-17; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
 - Annual Meeting of the Board of Directors — Date: 2026-12-17; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
 
 Signed:
 Derek E. Pappas
 
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2026 Q1
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2026-04-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-04-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director confirmed that notice had been duly given or validly waived for this meeting.
-The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
 Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2026 Q2
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2026-07-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-07-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law. Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
-The Sole Director attended using remote communications by which each participant could hear the others, and treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2026 Q3
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2026-10-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-10-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2026 Q4
-TeamBoost.ai, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2026-12-04
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of TeamBoost.ai, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-04 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law. The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Brazil; Nigeria; Portugal are properly titled to and are the exclusive property of the Corporation.
-
-For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements presented as to matters within the presenters’ professional or expert competence, within the meaning of Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all mobile, API, and supporting cloud infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Signed:
-Derek E. Pappas
+Marija Cejovic
 
 ---

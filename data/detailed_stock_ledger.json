@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "description": "Detailed stock ledger entries used for evidence-grade tracking. Certificate numbers are placeholders unless/until you issue physical/digital certs. Align every line to executed subscription agreements and bank records.",
+  "certificate_numbering": {
+    "policy": "per_company_prefix_incrementing",
+    "examples": {
+      "Hippo, Inc.": "HIPPO-0001",
+      "Ritual Growth, Inc.": "RG-0001",
+      "TeamBoost.ai, Inc.": "TB-0001",
+      "SurveyTeams, Inc.": "ST-0001",
+      "Loki Sports Enterprises, Inc.": "LOKI-0001"
+    }
+  },
+  "companies": {
+    "Hippo, Inc.": [
+      {
+        "certificate_number": "HIPPO-0001",
+        "issue_date": "2022-06-01",
+        "shareholder": "Derek E. Pappas",
+        "shares": 8000000,
+        "par_value_per_share_usd": 0.0001,
+        "consideration_cash_usd": 800,
+        "payment_method": "bank transfer",
+        "bank_source": "First Republic Bank account ending in 3220 (Derek E. Pappas)",
+        "bank_destination": "First Republic Bank account ending in 64875 (Hippo, Inc.)",
+        "notes": "User-provided transaction details."
+      }
+    ],
+    "Ritual Growth, Inc.": [
+      {
+        "certificate_number": "RG-0001",
+        "issue_date": "2023-05-07",
+        "shareholder": "Derek E. Pappas",
+        "shares": 4000000,
+        "par_value_per_share_usd": 0.0001,
+        "consideration_cash_usd": 400,
+        "payment_method": "check",
+        "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+        "bank_destination": "Chase account ending in 2117 (Ritual Growth, Inc.)",
+        "notes": "User-provided transaction details."
+      }
+    ],
+    "Loki Sports Enterprises, Inc.": [
+      {
+        "certificate_number": "LOKI-0001",
+        "issue_date": "2023-05-07",
+        "shareholder": "Derek E. Pappas",
+        "shares": 4000000,
+        "par_value_per_share_usd": 0.0001,
+        "consideration_cash_usd": 400,
+        "payment_method": "check",
+        "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+        "bank_destination": "Chase account ending in 3962 (Loki Sports Enterprises, Inc.)",
+        "notes": "User-provided transaction details."
+      }
+    ],
+    "TeamBoost.ai, Inc.": [
+      {
+        "certificate_number": "TB-0001",
+        "issue_date": "2023-05-07",
+        "shareholder": "Derek E. Pappas",
+        "shares": 4000000,
+        "par_value_per_share_usd": 0.0001,
+        "consideration_cash_usd": 400,
+        "payment_method": "check",
+        "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+        "bank_destination": "Chase account ending in 1135 (TeamBoost.ai, Inc.)",
+        "notes": "User-provided transaction details."
+      }
+    ],
+    "SurveyTeams, Inc.": [
+      {
+        "certificate_number": "ST-0001",
+        "issue_date": "2026-05-07",
+        "shareholder": "Derek E. Pappas",
+        "shares": 4000000,
+        "par_value_per_share_usd": 0.0001,
+        "consideration_cash_usd": 400,
+        "payment_method": "check",
+        "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+        "bank_destination": "Chase account ending in 6202 (SurveyTeams, Inc.)",
+        "notes": "User-provided transaction details."
+      },
+      {
+        "certificate_number": "ST-0002",
+        "issue_date": null,
+        "shareholder": "Mohamed Mohamed",
+        "shares": 4000000,
+        "par_value_per_share_usd": 0.0001,
+        "consideration_cash_usd": null,
+        "payment_method": null,
+        "bank_source": null,
+        "bank_destination": "Mercury Bank — SurveyTeams, Inc. corporate account",
+        "notes": "Pending: you have not provided Mohamed’s payment date/amount/bank details yet."
+      }
+    ]
+  }
+}
+

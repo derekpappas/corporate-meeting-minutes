@@ -88,7 +88,19 @@ locations_timeline = [
 # - minutes_principal_address_note — optional markdown line/paragraph after **Principal Address:** (overrides the default note). Set to "" to suppress.
 # - board_meeting_remote_presence_markdown — optional sentence for remote participation = presence (AGM/special/quarterly); default is shared boilerplate. `""` omits.
 # - board_meeting_reliance_markdown — optional reliance paragraph after Treasurer’s Report; default is `reliance_standard(co)` (same for all DE corps). `""` omits.
+# - annual_stockholder_director_election_votes — optional for `annual_meeting_stockholders` corps: list of
+#   `{"name": str, "vote": "FOR"|"WITHHOLD"|"ABSTAIN", "shares": str optional}`; when set, minutes include a **VI-A. Vote Tabulation** block after §VI.
 # - board_roll_quorum_layout — int 0–3: sole-director roll/quorum/notice/remote block shape (differs by company); meeting-to-meeting wording still rotates.
+# - board_directors — optional list of `{"name": ..., "title": "Director"}`; when **two or more**, board minutes use full-board roll call / quorum,
+#   “Board adopted” resolutions, Chair call-to-order (`board_meeting_chair_name`), and dual signatures. Omit for sole-director companies.
+# - board_sole_director_first_chronological_meeting — optional **True**: when `board_directors` lists two or more directors, the **first** board meeting
+#   in calendar order (across the minute series) is minuted as **sole director**; every later meeting uses the full `board_directors` list (e.g. appointment
+#   effective after the initial meeting). Waiver-of-notice instruments still name the full board when configured.
+# - organizational_meeting_full_board — optional **True**: when an organizational meeting exists (`inc_year` only), minute it with the **full** `board_directors`
+#   roster (no sole-director strip for kind `org`), and do **not** insert “Appointment of Additional Director(s)” at that meeting. Use when the board
+#   intends both directors present at the post-filing organizational meeting (e.g. TeamBoost org before Q1).
+# - board_meeting_chair_name — optional; used for “called to order … acting as Chair of the Board” when `board_directors` is set.
+# - agm_banking_authorized_signatory — optional name in the default banking RESOLVED when the board is not sole-director (else `director_name`).
 # - agm_president_report_opening_paragraph_markdown — optional `{office_locations}` / `{dev_locations}` / `{year}` paragraph replacing the default “centralized … development” opener.
 # - quarterly_business_review_minutes_markdown — optional `{year}` / `{quarter}` / `{dev_locations}` template replacing default quarterly “development centers” review.
 # - minute_book_compilation_preamble_markdown — optional `{display_company}` / `{first_year}` / `{last_year}` cover text for the compiled book.
@@ -113,6 +125,47 @@ STOCKHOLDER_MEETING_TIME = "1:00 PM"
 BOARD_AGM_TIME = "1:00 PM"
 QUARTERLY_MEETING_TIME = "1:00 PM"
 SPECIAL_MEETING_TIME = "12:00 PM"
+ORGANIZATIONAL_MEETING_TIME = "10:00 AM"
+
+
+def organizational_meeting_date_str(co: dict, year: int) -> str | None:
+    """ISO date for the post-filing organizational meeting (if configured for this company/year).
+
+    This is intentionally **not** tied to December annual scheduling; it's meant to occur shortly after the
+    SOS acceptance/filing date captured as `incorporation_filed_date_iso`.
+    """
+    if year != co.get("inc_year"):
+        return None
+    filed = _incorporation_filed_date_iso(co)
+    if not filed:
+        return None
+    base = date.fromisoformat(filed)
+    days_after = int(co.get("organizational_meeting_days_after_filing", 7) or 7)
+    d = base + timedelta(days=days_after)
+    # Shift off weekends (forward to Monday).
+    while d.weekday() >= 5:
+        d += timedelta(days=1)
+    return d.strftime("%Y-%m-%d")
+
+
+def _quarter_month_for(quarter: str) -> int:
+    return {"Q1": 4, "Q2": 7, "Q3": 10, "Q4": 12}[quarter]
+
+
+def _quarterly_exists_for_year(co: dict, year: int, quarter: str) -> bool:
+    """Whether a quarterly governance meeting should exist for this year/quarter.
+
+    For the incorporation year, quarters whose anchor month precedes the actual SOS filing month are omitted
+    (you can't hold a board meeting before the corporation exists).
+    """
+    if year != co.get("inc_year"):
+        return True
+    filed = _incorporation_filed_date_iso(co)
+    if not filed:
+        return True
+    filed_d = date.fromisoformat(filed)
+    qm = _quarter_month_for(quarter)
+    return qm >= filed_d.month
 
 # Timeline place label (from get_location) → IANA timezone for file mtimes (meeting “local” business hours).
 _TIMELINE_LOCATION_TZ: dict[str, str] = {
@@ -148,6 +201,84 @@ def _corporation_parenthetical(co: dict) -> str:
         return "(Wyoming corporation)"
     return "(Delaware corporation)"
 
+
+def _incorporation_filed_date_iso(co: dict) -> str | None:
+    """Optional ISO filing/acceptance date for the certificate/articles."""
+    raw = co.get("incorporation_filed_date_iso")
+    if not isinstance(raw, str) or not raw.strip():
+        return None
+    s = raw.strip()
+    # Validate shape early; templates treat this as factual.
+    try:
+        date.fromisoformat(s)
+    except ValueError:
+        return None
+    return s
+
+
+def _fmt_long_date(d_iso: str) -> str:
+    return datetime.strptime(d_iso, "%Y-%m-%d").strftime("%B %d, %Y")
+
+
+def _jurisdiction_long_name(code: str) -> str:
+    return {"DE": "Delaware", "WY": "Wyoming"}.get(code.strip().upper(), code.strip())
+
+
+def _financial_year_words(co: dict) -> tuple[str, str]:
+    """Return (article, noun) for AGM financial resolutions and reporting (e.g. 'the', 'calendar year')."""
+    if co.get("fiscal_year_is_calendar_year", True):
+        return "the", "calendar year"
+    return "the", "fiscal year"
+
+
+def _domestication_event(co: dict) -> dict | None:
+    """Optional WY→DE domestication/continuation event metadata (used for RG)."""
+    ev = co.get("domestication_event")
+    if not isinstance(ev, dict):
+        return None
+    from_j = str(ev.get("from_jurisdiction") or "").strip().upper()
+    to_j = str(ev.get("to_jurisdiction") or "").strip().upper()
+    eff = str(ev.get("effective_date_iso") or "").strip()
+    if not (from_j and to_j and eff):
+        return None
+    try:
+        date.fromisoformat(eff)
+    except ValueError:
+        return None
+    out = {"from_jurisdiction": from_j, "to_jurisdiction": to_j, "effective_date_iso": eff}
+    dex = str(ev.get("documents_exhibit_label") or "").strip()
+    if dex:
+        out["documents_exhibit_label"] = dex
+    return out
+
+
+def _domestication_resolution_blocks_if_due(co: dict, meeting_date_iso: str) -> list[str]:
+    """Insert once, at the first board meeting on/after the domestication effective date."""
+    ev = _domestication_event(co)
+    if not ev:
+        return []
+    eff = ev["effective_date_iso"]
+    if meeting_date_iso < eff:
+        return []
+    if co.get("_domestication_motion_inserted", False):
+        return []
+    co["_domestication_motion_inserted"] = True
+    from_ln = _jurisdiction_long_name(ev["from_jurisdiction"])
+    to_ln = _jurisdiction_long_name(ev["to_jurisdiction"])
+    eff_fmt = _fmt_long_date(eff)
+    ex = str(ev.get("documents_exhibit_label") or "").strip()
+    exhibit_sentence = ""
+    if ex:
+        pend = (
+            f" A copy of the filed domestication / continuation instruments is **annexed to these minutes as {ex}**."
+            if _minutes_assert_exhibits_filed(co)
+            else f" Filed domestication / continuation instruments **are to be designated {ex}** for attachment to these minutes **upon filing** with the minute book."
+        )
+        exhibit_sentence = pend
+    return [
+        f"""**Domestication / Continuation ({from_ln} to {to_ln})**  
+RESOLVED, that the Board ratifies and approves the Corporation’s domestication / continuation from **{from_ln}** to **{to_ln}**, effective **{eff_fmt}**, and confirms that all acts taken to effect such domestication / continuation and to maintain the Corporation’s corporate existence and good standing are hereby ratified, confirmed, and approved in all respects.{exhibit_sentence}"""
+    ]
 
 def _corporation_statute_name(co: dict) -> str:
     """Full statute name for narrative references."""
@@ -198,14 +329,22 @@ def _warn_if_non_de_company_has_delaware_snippets(co_name: str, co: dict) -> Non
         )
 
 
+def _dgcl_section_bold_md(co: dict, section: str) -> str:
+    """Bold markdown DGCL section cite for Delaware corporations; otherwise statute name only."""
+    if _jurisdiction(co) == "DE":
+        return f"**{_corp_law_section_ref(co, section)}**"
+    return f"the {_corporation_statute_name(co)}"
+
+
 def reliance_standard(co: dict) -> str:
     j = _jurisdiction(co)
     if j == "DE":
+        ref = _dgcl_section_bold_md(co, "141(e)")
         return (
             "In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and "
             "statements—including financial and operational materials prepared for this meeting and presentations from officers of the "
             "Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, "
-            "as contemplated by Section 141(e) of the Delaware General Corporation Law.\n"
+            f"as contemplated by {ref}.\n"
         )
     if j == "WY":
         return (
@@ -231,35 +370,35 @@ def _minutes_boilerplate_variant_index(co_name: str, date_iso: str, meeting_kind
     return int.from_bytes(digest[:4], "big") % modulo
 
 
-def _de_141e_reliance_variant_paragraphs() -> list[str]:
-    """Semantically similar §141(e) reliance wordings (Delaware); index rotates by meeting."""
+def _de_141e_reliance_variant_paragraphs(co: dict) -> list[str]:
+    """Semantically similar §141(e) reliance wordings (Delaware); index rotates by meeting. Citations use `_corp_law_section_ref` (short DGCL form)."""
+    ref = _dgcl_section_bold_md(co, "141(e)")
     return [
         (
             "In taking the actions reflected in these minutes, the Sole Director relied in good faith on information, opinions, reports, and "
             "statements—including financial and operational materials prepared for this meeting and presentations from officers of the "
             "Corporation—as to matters the Sole Director reasonably believed were within such persons’ professional or expert competence, "
-            "as contemplated by Section 141(e) of the Delaware General Corporation Law.\n"
+            f"as contemplated by {ref}.\n"
         ),
         (
             "For the actions described herein, the Sole Director relied in good faith on materials and oral presentations furnished for the meeting—"
             "including financial and operating summaries from officers of the Corporation—and on other information, reports, and statements "
-            "presented as to matters within the presenters’ professional or expert competence, within the meaning of **Section 141(e)** of the "
-            "Delaware General Corporation Law.\n"
+            f"presented as to matters within the presenters’ professional or expert competence, within the meaning of {ref}.\n"
         ),
         (
             "The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational "
             "materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ "
-            "expert or professional competence, consistent with **Section 141(e)** of the Delaware General Corporation Law.\n"
+            f"expert or professional competence, consistent with {ref}.\n"
         ),
         (
             "The Sole Director recorded reliance, in good faith, on the financial and operational materials circulated or reviewed for this meeting and "
             "on statements from officers of the Corporation on matters reasonably treated as within such persons’ professional or expert competence, "
-            "as permitted by **Section 141(e)** of the Delaware General Corporation Law.\n"
+            f"as permitted by {ref}.\n"
         ),
         (
             "After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and "
             "statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ "
-            "professional or expert competence, under **Section 141(e)** of the Delaware General Corporation Law.\n"
+            f"professional or expert competence, under {ref}.\n"
         ),
     ]
 
@@ -309,7 +448,7 @@ def board_director_reliance_paragraph(
         return reliance_standard(co)
     j = _jurisdiction(co)
     if j == "DE":
-        variants = _de_141e_reliance_variant_paragraphs()
+        variants = _de_141e_reliance_variant_paragraphs(co)
         i = _minutes_boilerplate_variant_index(co_name, meeting_date_iso, meeting_kind or "board", len(variants))
         return variants[i]
     if j == "WY":
@@ -317,6 +456,45 @@ def board_director_reliance_paragraph(
         i = _minutes_boilerplate_variant_index(co_name, meeting_date_iso, meeting_kind or "board", len(variants))
         return variants[i]
     return reliance_standard(co)
+
+
+def _normalized_board_directors(co: dict) -> list[dict[str, str]]:
+    """If set, `board_directors` is a list of dicts with `name` and optional `title` (default **Director**)."""
+    raw = co.get("board_directors")
+    if not raw or not isinstance(raw, list):
+        return []
+    out: list[dict[str, str]] = []
+    for item in raw:
+        if isinstance(item, str) and item.strip():
+            out.append({"name": item.strip(), "title": "Director"})
+        elif isinstance(item, dict):
+            nm = str(item.get("name") or "").strip()
+            if not nm:
+                continue
+            title = str(item.get("title") or "Director").strip() or "Director"
+            out.append({"name": nm, "title": title})
+    return out
+
+
+def _board_remote_141i_clause(co: dict) -> str:
+    """Explicit §141(i) tail for Delaware board remote-presence lines (audit: cite statute, not only bylaws)."""
+    if _jurisdiction(co) != "DE" or not co.get("virtual_ok", True):
+        return ""
+    ref = _dgcl_section_bold_md(co, "141(i)")
+    return f", as permitted under {ref} and the Corporation’s bylaws"
+
+
+def _append_141i_to_remote_lines(co: dict, remote_lines: list[str]) -> list[str]:
+    tail = _board_remote_141i_clause(co)
+    if not tail:
+        return remote_lines
+    out: list[str] = []
+    for ln in remote_lines:
+        s = ln.rstrip()
+        if s.endswith("."):
+            s = s[:-1]
+        out.append(s + tail + ".")
+    return out
 
 
 def _quorum_notice_remote_variant_lines(co: dict, director_name: str) -> tuple[list[str], list[str], list[str]]:
@@ -361,6 +539,54 @@ def _quorum_notice_remote_variant_lines(co: dict, director_name: str) -> tuple[l
             "recorded as **present in person** at the meeting for quorum purposes."
         ),
     ]
+    remote_lines = _append_141i_to_remote_lines(co, remote_lines)
+    return quorum_lines, notice_lines, remote_lines
+
+
+def _quorum_notice_remote_variant_lines_multi(co: dict, director_names: list[str]) -> tuple[list[str], list[str], list[str]]:
+    """Quorum / notice / remote variants when the full board (two or more directors) is present."""
+    statute = _corporation_statute_name(co)
+    joined = " and ".join(f"**{n}**" for n in director_names)
+    nlist = ", ".join(director_names)
+    quorum_lines = [
+        (
+            f"With {joined} present—constituting the **entire** membership of the Board of Directors—a quorum was established and the meeting was "
+            f"duly constituted to transact business in accordance with the {statute}. The Corporation’s governance practice is that **all directors attend each board meeting**."
+        ),
+        (
+            f"All directors ({nlist}) were present, the Board was fully constituted, and quorum requirements under the {statute} and the Corporation’s bylaws were satisfied. "
+            "Each director is expected to attend every board meeting, and that expectation was met for this meeting."
+        ),
+        (
+            f"Attendance by {joined} satisfied quorum as the full Board; the meeting lawfully convened under the {statute}. "
+            "No director was absent."
+        ),
+    ]
+    notice_lines = [
+        "The directors confirmed that notice of the meeting was duly given or waived.",
+        "The directors confirmed that **notice** had been duly given or **validly waived** for this meeting.",
+        "Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.",
+        "The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.",
+    ]
+    remote_lines = [
+        (
+            "The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, "
+            "and such participation constituted presence in person at the meeting."
+        ),
+        (
+            "The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as "
+            "**presence in person** where permitted by applicable law and the Corporation’s bylaws."
+        ),
+        (
+            "Remote participation was used; the means employed allowed contemporaneous hearing among participants and "
+            "were treated as satisfying any applicable **in-person** presence requirement for each director."
+        ),
+        (
+            "The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was "
+            "recorded as **present in person** at the meeting for quorum purposes."
+        ),
+    ]
+    remote_lines = _append_141i_to_remote_lines(co, remote_lines)
     return quorum_lines, notice_lines, remote_lines
 
 
@@ -444,6 +670,79 @@ None
     return body
 
 
+def board_roll_quorum_markdown_multi_director(
+    co: dict,
+    co_name: str,
+    date_iso: str,
+    meeting_kind: str,
+    directors: list[dict[str, str]],
+) -> str:
+    """Roll call + quorum when `board_directors` lists the full board (each expected at every meeting)."""
+    names = [d["name"] for d in directors]
+    q_lines, n_lines, r_lines = _quorum_notice_remote_variant_lines_multi(co, names)
+    salt = {"agm": 0, "special": 17, "quarterly": 31}.get(meeting_kind, 0)
+    vi = _minutes_boilerplate_variant_index(co_name, date_iso, f"{meeting_kind}|roll|multi", len(q_lines))
+    vj = _minutes_boilerplate_variant_index(co_name, date_iso, f"{meeting_kind}|notice|multi|{salt}", len(n_lines))
+    vk = _minutes_boilerplate_variant_index(co_name, date_iso, f"{meeting_kind}|remote|multi|{salt}", len(r_lines))
+    quorum = q_lines[vi]
+    notice = n_lines[vj]
+    remote = board_remote_presence_paragraph(
+        co, co_name=co_name, meeting_date_iso=date_iso, meeting_kind=f"{meeting_kind}|remotepick|multi", remote_variant_index=vk
+    ).rstrip("\n")
+
+    layout = int(co.get("board_roll_quorum_layout", 0)) % 4
+    if layout == 1:
+        mid = f"{notice}\n{quorum}"
+    elif layout == 2:
+        mid = f"{quorum} {notice}"
+    elif layout == 3:
+        mid = f"{quorum} {notice}"
+    else:
+        mid = f"{quorum}\n{notice}"
+
+    present_lines = "\n".join(f"{d['name']} ({d.get('title') or 'Director'})" for d in directors)
+
+    if meeting_kind == "agm":
+        body = f"""**III. Roll Call and Quorum**
+**Directors Present:**  
+{present_lines}
+
+**Directors Absent:**  
+None
+
+{mid}
+{remote}
+
+"""
+        return body
+
+    body = f"""**II. Roll Call and Quorum:**
+**Directors Present:**  
+{present_lines}  
+**Directors Absent:** None  
+
+{mid}
+{remote}
+
+"""
+    return body
+
+
+def board_roll_quorum_markdown(
+    co: dict,
+    co_name: str,
+    date_iso: str,
+    meeting_kind: str,
+    *,
+    director_name: str = "Derek E. Pappas",
+) -> str:
+    """Roll call + quorum; uses `board_directors` when set, otherwise sole-director template."""
+    bds = _normalized_board_directors(co)
+    if len(bds) >= 2:
+        return board_roll_quorum_markdown_multi_director(co, co_name, date_iso, meeting_kind, bds)
+    return board_roll_quorum_markdown_sole_director(co, co_name, date_iso, meeting_kind, director_name=director_name)
+
+
 def board_remote_presence_paragraph(
     co: dict,
     *,
@@ -467,7 +766,12 @@ def board_remote_presence_paragraph(
         return f"{s}\n" if s else ""
     if not co.get("virtual_ok", True):
         return ""
-    _, _, r_lines = _quorum_notice_remote_variant_lines(co, "Derek E. Pappas")
+    bds = _normalized_board_directors(co)
+    if len(bds) >= 2:
+        names = [d["name"] for d in bds]
+        _, _, r_lines = _quorum_notice_remote_variant_lines_multi(co, names)
+    else:
+        _, _, r_lines = _quorum_notice_remote_variant_lines(co, "Derek E. Pappas")
     if co_name and meeting_date_iso:
         if remote_variant_index is None:
             remote_variant_index = _minutes_boilerplate_variant_index(
@@ -506,6 +810,8 @@ company_information = {
         "address": "30 N Gould St Ste 21106, Sheridan, WY 82801",
         "par": "$.0001",
         "inc_year": 2022,
+        "incorporation_filed_date_iso": "2022-04-07",
+        "incorporation_jurisdiction": "DE",
         "minutes_start_year": 2022,
         "director_election_standard": "plurality",
         "shares_issued": {2022: "8,000,000", 2023: "8,160,000", 2024: "8,160,000", 2025: "8,160,000", 2026: "8,160,000"},
@@ -518,6 +824,18 @@ company_information = {
         "virtual_ok": True,
         # Engineering / contractor geography for Hippo only (not used for other registry companies).
         "development_centers_line": "Serbia; Bosnia and Herzegovina; Tunisia",
+        "board_directors": [
+            {"name": "Derek E. Pappas", "title": "Director"},
+            {"name": "Marija Cejovic", "title": "Director"},
+        ],
+        "board_meeting_chair_name": "Derek E. Pappas",
+        "board_sole_director_first_chronological_meeting": True,
+        "organizational_meeting_full_board": True,
+        "board_meeting_reliance_markdown": (
+            "In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including "
+            "financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors "
+            "reasonably believed were within such persons’ professional or expert competence, as contemplated by **DGCL §141(e)**.\n"
+        ),
         "board_roll_quorum_layout": 1,
         "minute_book_compilation_preamble_markdown": (
             "**Compiled board minutes — {display_company}**\n\n"
@@ -526,6 +844,15 @@ company_information = {
             "Where these minutes reference exhibits, signed counterparts or labeled annexes may be bound with this book or filed separately.\n\n"
             "---"
         ),
+        "organizational_bylaws_exhibit_label": "Exhibit A",
+        "organizational_bylaws_document_description": "Amended and Restated Bylaws of Hippo, Inc.",
+        "organizational_officers_elected": [
+            {
+                "name": "Derek E. Pappas",
+                "titles": ["President", "Secretary", "Treasurer", "Chief Executive Officer"],
+            },
+            {"name": "Marija Cejovic", "title": "Chief Operating Officer"},
+        ],
         # Signature formatting (intentionally varied per company).
         "signature_block_style": "executed_by",
         "signature_block_include_date": True,
@@ -535,7 +862,7 @@ company_information = {
         "signature_block_spacing_lines": 1,
         "primary_banking_institution": "JPMorgan Chase Bank, N.A.",
         "agm_discussion_items_line": (
-            "The Sole Director discussed the Corporation’s product and data roadmap for {next_year}, including API reliability targets, "
+            "The directors discussed the Corporation’s product and data roadmap for {next_year}, including API reliability targets, "
             "merchant integration milestones, and fraud-prevention initiatives."
         ),
         "special_meeting_purpose": "Pre-annual review of marketplace, scraping, and data-pipeline operations",
@@ -574,6 +901,18 @@ company_information = {
         "address": "30 N Gould St Ste 27616, Sheridan, WY 82801",
         "par": "$.0001",
         "inc_year": 2022,
+        "incorporation_filed_date_iso": "2022-06-10",
+        "incorporation_jurisdiction": "DE",
+        "prior_incorporation": {
+            "jurisdiction": "WY",
+            "filed_date_iso": "2021-09-14",
+        },
+        "domestication_event": {
+            "from_jurisdiction": "WY",
+            "to_jurisdiction": "DE",
+            "effective_date_iso": "2022-06-10",
+            "documents_exhibit_label": "Exhibit A",
+        },
         "minutes_start_year": 2022,
         "shares_issued": {2022: "4,000,000", 2023: "4,000,000", 2024: "4,000,000", 2025: "4,000,000", 2026: "4,000,000"},
         "annual_day_offset": 1,
@@ -598,7 +937,7 @@ company_information = {
             "the Board of Directors) and **Article VIII, Section 4** (waiver of notice)"
         ),
         "agm_president_report_product_line": (
-            "The Sole Director summarized continued product development during the year, including API servers and services "
+            "The directors summarized continued product development during the year, including API servers and services "
             "and web applications; the Corporation did not ship a separate consumer mobile application during the period summarized."
         ),
         "agm_president_report_infrastructure_line": (
@@ -608,7 +947,7 @@ company_information = {
         "development_centers_line": "Poland; Romania; Portugal",
         "primary_banking_institution": "Bank of America, N.A.",
         "agm_discussion_items_line": (
-            "The Sole Director discussed go-to-market and client delivery priorities for {next_year}, including mobile companion workstreams, "
+            "The directors discussed go-to-market and client delivery priorities for {next_year}, including mobile companion workstreams, "
             "partner channel commitments, and release scheduling for the Corporation’s core web stack."
         ),
         "special_meeting_purpose": "Pre-annual review of product delivery, hosting footprint, and partner commitments",
@@ -628,7 +967,28 @@ company_information = {
         "agm_ip_affirmation_sentence": (
             "All application code, APIs, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
         ),
+        "board_directors": [
+            {"name": "Derek E. Pappas", "title": "Director"},
+            {"name": "Marija Cejovic", "title": "Director"},
+        ],
+        "board_meeting_chair_name": "Derek E. Pappas",
+        "board_sole_director_first_chronological_meeting": True,
+        "organizational_meeting_full_board": True,
+        "board_meeting_reliance_markdown": (
+            "In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including "
+            "financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors "
+            "reasonably believed were within such persons’ professional or expert competence, as contemplated by **DGCL §141(e)**.\n"
+        ),
         "board_roll_quorum_layout": 3,
+        "organizational_bylaws_exhibit_label": "Exhibit B",
+        "organizational_bylaws_document_description": "By-Laws of Ritual Growth, Inc.",
+        "organizational_officers_elected": [
+            {
+                "name": "Derek E. Pappas",
+                "titles": ["President", "Secretary", "Treasurer", "Chief Executive Officer"],
+            },
+            {"name": "Marija Cejovic", "title": "Chief Operating Officer"},
+        ],
         "minute_book_compilation_preamble_markdown": (
             "**{display_company} — board minute compilation**\n\n"
             "Years **{first_year}**–**{last_year}** (inclusive). This compilation is not represented as exhaustive of all corporate acts.\n\n"
@@ -661,6 +1021,9 @@ company_information = {
         "virtual_ok": True,
         "stockholders_roll_call": [
             {"name": "Derek E. Pappas", "presence": "present in person"},
+        ],
+        "annual_stockholder_director_election_votes": [
+            {"name": "Derek E. Pappas", "shares": "5,346,132", "vote": "FOR"},
         ],
         # Majority voting stockholder only: quorum satisfied by his presence alone (no other voters present).
         "stockholders_quorum_collective_sentence": (
@@ -726,10 +1089,12 @@ company_information = {
         "par": "$.0001",
         # Filed January 30, 2023 (Delaware).
         "inc_year": 2023,
+        "incorporation_filed_date_iso": "2023-01-13",
+        "incorporation_jurisdiction": "DE",
         "minutes_start_year": 2023,
         "shares_issued": {2023: "10,000,000", 2024: "10,000,000", 2025: "10,000,000", 2026: "10,000,000"},
         "annual_day_offset": 3,
-        "meeting_stagger_day": 3,
+        "meeting_stagger_day": 4,
         "stockholder_meeting": "written_consent",
         "sole_stockholder_consent_exhibit_label": "Exhibit A",
         "use_timeline_place": True,
@@ -750,7 +1115,7 @@ company_information = {
             "the Board of Directors) and **Article VIII, Section 4** (waiver of notice)"
         ),
         "agm_president_report_product_line": (
-            "The Sole Director summarized continued product development during the year, including API servers and services, "
+            "The directors summarized continued product development during the year, including API servers and services, "
             "web applications, and mobile applications."
         ),
         "agm_president_report_infrastructure_line": (
@@ -758,9 +1123,10 @@ company_information = {
         ),
         "agm_president_report_operating_exhibit_label": "Exhibit B",
         "development_centers_line": "Brazil; Nigeria; Portugal",
+        "quarterly_meeting_time": "2:00 PM",
         "primary_banking_institution": "First Citizens Bank & Trust Company",
         "agm_discussion_items_line": (
-            "The Sole Director discussed mobile product velocity and infrastructure scaling for {next_year}, including app-store release cadence, "
+            "The directors discussed mobile product velocity and infrastructure scaling for {next_year}, including app-store release cadence, "
             "on-device performance budgets, and push-notification reliability targets."
         ),
         "special_meeting_purpose": "Pre-annual review of mobile applications, APIs, and cloud delivery",
@@ -780,7 +1146,28 @@ company_information = {
         "agm_ip_affirmation_sentence": (
             "All mobile clients, server-side services, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation."
         ),
+        "board_directors": [
+            {"name": "Derek E. Pappas", "title": "Director"},
+            {"name": "Marija Cejovic", "title": "Director"},
+        ],
+        "board_meeting_chair_name": "Derek E. Pappas",
+        "board_sole_director_first_chronological_meeting": True,
+        "organizational_meeting_full_board": True,
+        "board_meeting_reliance_markdown": (
+            "In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including "
+            "financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors "
+            "reasonably believed were within such persons’ professional or expert competence, as contemplated by **DGCL §141(e)**.\n"
+        ),
         "board_roll_quorum_layout": 2,
+        "organizational_bylaws_exhibit_label": "Exhibit A",
+        "organizational_bylaws_document_description": "By-Laws of TeamBoost.ai, Inc.",
+        "organizational_officers_elected": [
+            {
+                "name": "Derek E. Pappas",
+                "titles": ["President", "Secretary", "Treasurer", "Chief Executive Officer"],
+            },
+            {"name": "Marija Cejovic", "title": "Chief Operating Officer"},
+        ],
         "minute_book_compilation_preamble_markdown": (
             "**{display_company} — compiled minutes**\n\n"
             "Board governance meetings for **{first_year}** through **{last_year}**.\n\n"
@@ -802,9 +1189,20 @@ company_information = {
         "inc_year": 2026,
         "minutes_start_year": 2026,
         "director_election_standard": "plurality",
+        # Two-member board: both directors are expected at every board meeting; minutes / quorum reflect full-board attendance.
+        "board_directors": [
+            {"name": "Derek E. Pappas", "title": "Director"},
+            {"name": "Mohamed Mohamed", "title": "Director"},
+        ],
+        "board_meeting_chair_name": "Derek E. Pappas",
+        "board_meeting_reliance_markdown": (
+            "In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including "
+            "financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors "
+            "reasonably believed were within such persons’ professional or expert competence, as contemplated by **DGCL §141(e)**.\n"
+        ),
         # Share data per intake:
         # - 10,000,000 authorized
-        # - 8,000,000 issued/outstanding (4,000,000 Derek; 4,000,000 Mohamed)
+        # - 8,000,000 issued/outstanding (50% / 50%: 4,000,000 Derek; 4,000,000 Mohamed)
         "shares_authorized": "10,000,000",
         "shares_issued": {2026: "8,000,000"},
         "stockholder_shares": {
@@ -823,6 +1221,10 @@ company_information = {
             {"name": "Mohamed Mohamed", "presence": "present in person"},
             {"name": "Derek E. Pappas", "presence": "present in person"},
         ],
+        "annual_stockholder_director_election_votes": [
+            {"name": "Mohamed Mohamed", "shares": "4,000,000", "vote": "FOR"},
+            {"name": "Derek E. Pappas", "shares": "4,000,000", "vote": "FOR"},
+        ],
         "stockholders_quorum_collective_sentence": (
             "Collectively, the stockholders present at the meeting held a **majority** of the outstanding shares of the Corporation "
             "entitled to vote at the meeting, and their presence satisfied the quorum requirement under the DGCL and the Corporation’s bylaws."
@@ -831,10 +1233,18 @@ company_information = {
         "irs_ein": "41-3602747",
         "irs_legal_name": "SURVEYTEAMS INC",
         "officers": {"CEO": "Mohamed Mohamed", "CTO": "Derek E. Pappas"},
+        "agm_banking_authorized_signatory": "Mohamed Mohamed",
+        "agm_president_report_opening_paragraph_markdown": (
+            "**Mohamed Mohamed**, President, reported on the Corporation’s operational and engineering activities for the calendar year, "
+            "including centralized management of globally distributed development and the use of operational office location(s) "
+            "during the calendar year, with operations conducted from {office_locations} and development from {dev_locations}, "
+            "while confirming that management, oversight, and decision-making remained centralized and continuously recorded "
+            "through the Corporation’s official records. "
+        ),
         "development_centers_line": "Egypt; United Arab Emirates; United States (distributed)",
         "primary_banking_institution": "Mercury Bank",
         "agm_discussion_items_line": (
-            "The Sole Director discussed survey research tooling and fieldwork coverage for {next_year}, including respondent privacy controls, "
+            "The directors discussed survey research tooling and fieldwork coverage for {next_year}, including respondent privacy controls, "
             "sample-weighting methodology, and multilingual instrument delivery."
         ),
         "special_meeting_purpose": "Pre-annual review of survey platform operations and research compliance workflows",
@@ -1117,7 +1527,14 @@ def scheduled_special_meeting_time(co: dict, year: int) -> str:
 
 
 def scheduled_quarterly_meeting_time(co: dict, year: int, quarter: str) -> str:
-    return _meeting_clocks_for_year(co, year)[f"quarterly_{quarter}"]
+    # Allow per-company nominal time override (still jittered/ordered if schedule seed is enabled).
+    nominal = str(co.get("quarterly_meeting_time") or QUARTERLY_MEETING_TIME).strip() or QUARTERLY_MEETING_TIME
+    # Recompute clocks with the nominal override by temporarily shadowing the constant for this calculation.
+    # (We keep the seed salt stable; only the baseline clock changes.)
+    clocks = _meeting_clocks_for_year(co, year)
+    if nominal == QUARTERLY_MEETING_TIME:
+        return clocks[f"quarterly_{quarter}"]
+    return _raw_scheduled_meeting_time(co, year, f"quarterly_{quarter}", nominal)
 
 
 # Accomplishments (President’s report summary + operating addendum detail) — `audit_reports/all_corp_accomplishments_2021-2025.json`.
@@ -1134,6 +1551,134 @@ _ACCOMPLISHMENTS_PATH = os.path.join(
     "all_corp_accomplishments_2021-2025.json",
 )
 _accomplishments_cache: dict | None = None
+
+_MARIJA_VACATIONS_JSON = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "vacations",
+    "marija_cejovic.json",
+)
+_marija_vacation_ranges_cache: list[tuple[date, date]] | None = None
+
+
+def _load_marija_vacation_ranges() -> list[tuple[date, date]]:
+    """Inclusive date ranges from `vacations/marija_cejovic.json` (empty if missing)."""
+    global _marija_vacation_ranges_cache
+    if _marija_vacation_ranges_cache is not None:
+        return _marija_vacation_ranges_cache
+    out: list[tuple[date, date]] = []
+    if os.path.isfile(_MARIJA_VACATIONS_JSON):
+        try:
+            with open(_MARIJA_VACATIONS_JSON, encoding="utf-8") as f:
+                payload = json.load(f)
+            for row in payload.get("vacations") or []:
+                if not isinstance(row, dict):
+                    continue
+                a = str(row.get("start_date") or "").strip()
+                b = str(row.get("end_date") or "").strip()
+                if not a or not b:
+                    continue
+                out.append((date.fromisoformat(a), date.fromisoformat(b)))
+        except (OSError, ValueError, json.JSONDecodeError):
+            out = []
+    _marija_vacation_ranges_cache = out
+    return _marija_vacation_ranges_cache
+
+
+def _marija_vacation_blocked_iso_in_month(year: int, month: int) -> set[str]:
+    """ISO dates in `year`-`month` that fall on Marija’s vacation (for schedule shifting)."""
+    blocked: set[str] = set()
+    for a, b in _load_marija_vacation_ranges():
+        cur = a
+        while cur <= b:
+            if cur.year == year and cur.month == month:
+                blocked.add(cur.strftime("%Y-%m-%d"))
+            cur += timedelta(days=1)
+    return blocked
+
+
+def _board_series_last_calendar_year(co: dict, ref_year: int) -> int:
+    sk = co.get("shares_issued") or {}
+    years: list[int] = []
+    for k in sk:
+        if isinstance(k, int):
+            years.append(k)
+        elif isinstance(k, str) and k.isdigit():
+            years.append(int(k, 10))
+    mx = max(years) if years else ref_year
+    return max(ref_year, mx)
+
+
+def _quarterly_meeting_date_impl(co: dict, year: int, quarter: str) -> date:
+    """Quarterly governance date as `date` (monthly anchor + stagger + jitter + annual/special collision avoidance)."""
+    stagger = co.get("meeting_stagger_day", 0)
+    if quarter == "Q1":
+        y, month, base_day = year, 4, 1
+    elif quarter == "Q2":
+        y, month, base_day = year, 7, 1
+    elif quarter == "Q3":
+        y, month, base_day = year, 10, 1
+    elif quarter == "Q4":
+        y, month, base_day = year, 12, 1
+    else:
+        raise ValueError(f"Unknown quarter: {quarter}")
+    day = base_day + stagger
+    d = date(y, month, day)
+    qj = int(co.get("schedule_quarterly_calendar_jitter", 0) or 0)
+    if qj > 0:
+        rng = _schedule_rng_for_co(co, year, f"quarterly_cal_{quarter}")
+        if rng is not None:
+            cand = d + timedelta(days=rng.randint(-qj, qj))
+            if cand.year == y and cand.month == month:
+                d = cand
+    blocked = {annual_meeting_date_str(co, year), board_special_meeting_date_str(co, year)}
+    return _shift_date_within_month_avoiding(y, month, d, blocked)
+
+
+def _board_meeting_chronological_rows(co: dict, co_name: str) -> list[tuple[str, int, str, int]]:
+    """Sorted board meetings: (date_iso, type_order, kind, year). `kind` is special|agm|Q1|…|Q4."""
+    if not co.get("board_sole_director_first_chronological_meeting"):
+        return []
+    start = co.get("minutes_start_year", co["inc_year"])
+    last = _board_series_last_calendar_year(co, start)
+    rows: list[tuple[str, int, str, int]] = []
+    for y in range(start, last + 1):
+        org = organizational_meeting_date_str(co, y)
+        if org:
+            rows.append((org, -1, "org", y))
+        sp = board_special_meeting_date_str(co, y)
+        ann = annual_meeting_date_str(co, y)
+        rows.append((sp, 0, "special", y))
+        rows.append((ann, 1, "agm", y))
+        for q in ("Q1", "Q2", "Q3", "Q4"):
+            qd = _quarterly_meeting_date_impl(co, y, q).strftime("%Y-%m-%d")
+            qi = {"Q1": 2, "Q2": 3, "Q3": 4, "Q4": 5}[q]
+            rows.append((qd, qi, q, y))
+    rows.sort(key=lambda r: (r[0], r[1]))
+    return rows
+
+
+def _board_meeting_chronological_index(co_name: str, co: dict, year: int, kind: str) -> int:
+    """Index of this meeting in the corporation’s full board schedule (0 = first); raises if not found."""
+    rows = _board_meeting_chronological_rows(co, co_name)
+    for i, r in enumerate(rows):
+        if r[2] == kind and r[3] == year:
+            return i
+    raise ValueError(f"No chronological board row for {co_name!r} {year} {kind!r}")
+
+
+def _effective_co_for_board_meeting(co: dict, co_name: str, year: int, kind: str) -> dict:
+    """Shallow copy with `board_directors` cleared for the single first chronological meeting when configured."""
+    if not co.get("board_sole_director_first_chronological_meeting"):
+        return co
+    if kind == "org" and co.get("organizational_meeting_full_board"):
+        return co
+    if _board_meeting_chronological_index(co_name, co, year, kind) > 0:
+        return co
+    out = dict(co)
+    out["board_directors"] = []
+    # Rely on standard sole-director / variant reliance text, not the multi-director counsel block.
+    out.pop("board_meeting_reliance_markdown", None)
+    return out
 
 
 def _accomplishments_root() -> dict:
@@ -1340,10 +1885,15 @@ def _treasurer_report_minutes_paragraph(co: dict, issued: str) -> str:
         "treasurer_contingent_obligations_clause",
         "including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined.",
     )
+    ack = (
+        "The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. "
+        if len(_normalized_board_directors(co)) >= 2
+        else "The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. "
+    )
     return (
         "The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, "
         f"{clause.strip()} "
-        "The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. "
+        f"{ack}"
         f"Franchise taxes and registered agent fees are paid and current. The Corporation has {issued} shares of common stock "
         f"issued and outstanding at a par value of {co['par']} per share."
     )
@@ -1439,28 +1989,31 @@ def board_special_meeting_date_str(co: dict, year: int) -> str:
 
 def quarterly_meeting_date_str(co, year, quarter):
     """Governance check date per quarter; bumped by meeting_stagger_day so the same director isn’t quadruple-booked on one calendar day across corporations."""
-    stagger = co.get("meeting_stagger_day", 0)
-    if quarter == "Q1":
-        y, month, base_day = year, 4, 1
-    elif quarter == "Q2":
-        y, month, base_day = year, 7, 1
-    elif quarter == "Q3":
-        y, month, base_day = year, 10, 1
-    elif quarter == "Q4":
-        y, month, base_day = year, 12, 1
-    else:
-        raise ValueError(f"Unknown quarter: {quarter}")
-    day = base_day + stagger
-    d = date(y, month, day)
-    qj = int(co.get("schedule_quarterly_calendar_jitter", 0) or 0)
-    if qj > 0:
-        rng = _schedule_rng_for_co(co, year, f"quarterly_cal_{quarter}")
-        if rng is not None:
-            cand = d + timedelta(days=rng.randint(-qj, qj))
-            if cand.year == y and cand.month == month:
-                d = cand
-    blocked = {annual_meeting_date_str(co, year), board_special_meeting_date_str(co, year)}
-    d = _shift_date_within_month_avoiding(y, month, d, blocked)
+    if not _quarterly_exists_for_year(co, year, quarter):
+        # Not applicable before incorporation in the incorporation year.
+        # Callers that enumerate quarterlies should skip generation when this returns None-like.
+        # We return an ISO string anyway to avoid widening types; it should not be used because callers are gated.
+        return annual_meeting_date_str(co, year)
+    d = _quarterly_meeting_date_impl(co, year, quarter)
+    y, month = d.year, d.month
+
+    # In the incorporation year, if the quarterly anchor month matches the filing month, don't schedule before filing.
+    filed = _incorporation_filed_date_iso(co) if year == co.get("inc_year") else None
+    if filed:
+        filed_d = date.fromisoformat(filed)
+        if d.month == filed_d.month and d < filed_d:
+            d = filed_d + timedelta(days=1)
+            while d.weekday() >= 5:
+                d += timedelta(days=1)
+    co_name = _co_registry_key_for(co)
+    if (
+        co_name
+        and co.get("board_sole_director_first_chronological_meeting")
+        and _board_meeting_chronological_index(co_name, co, year, quarter) > 0
+    ):
+        blocked = {annual_meeting_date_str(co, year), board_special_meeting_date_str(co, year)}
+        vac = _marija_vacation_blocked_iso_in_month(y, month)
+        d = _shift_date_within_month_avoiding(y, month, d, blocked | vac)
     return d.strftime("%Y-%m-%d")
 
 
@@ -1608,6 +2161,32 @@ The stockholders of the Corporation holding a majority of the outstanding shares
 {absent}"""
 
 
+def annual_stockholder_director_vote_tabulation_markdown(co: dict) -> str:
+    """Optional per-holder vote lines after §VI for `annual_meeting_stockholders` (remediation: defensible tabulation)."""
+    raw = co.get("annual_stockholder_director_election_votes")
+    if not isinstance(raw, list) or not raw:
+        return ""
+    lines: list[str] = []
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        nm = str(item.get("name") or "").strip()
+        if not nm:
+            continue
+        vote = str(item.get("vote") or "FOR").strip().upper()
+        shares = str(item.get("shares") or "").strip()
+        sh_part = f"holding **{shares}** shares, " if shares else ""
+        lines.append(f"- **{nm}**, {sh_part}cast **{vote}**.")
+    if not lines:
+        return ""
+    return (
+        "\n**VI-A. Vote Tabulation (Election of Directors)**\n\n"
+        "The Chairperson caused the following votes to be recorded for the election resolution adopted in Section VI:\n\n"
+        + "\n".join(lines)
+        + "\n"
+    )
+
+
 def _stockholder_waiver_signature_blocks(co: dict, execution_date: str) -> str:
     """Signature area for stockholder waiver form (plain text; no lines; no dates)."""
     roll = co.get("stockholders_roll_call")
@@ -1733,12 +2312,24 @@ def generate_notice_of_annual_stockholder_meeting(
 
 def _board_meeting_rows_for_year(co: dict, year: int) -> list[tuple[str, str, str, str]]:
     """(date_iso, meeting_title, time_str, place_line) sorted chronologically; matches minuted board meetings for the year."""
+    org = organizational_meeting_date_str(co, year)
     annual = annual_meeting_date_str(co, year)
     special = board_special_meeting_date_str(co, year)
     t_special = scheduled_special_meeting_time(co, year)
     t_board = scheduled_board_agm_time(co, year)
     # (date_iso, minutes_since_midnight, tie_seq, title, time_str, place)
     rows: list[tuple[str, int, int, str, str, str]] = []
+    if org:
+        rows.append(
+            (
+                org,
+                _clock_to_minutes_since_midnight(ORGANIZATIONAL_MEETING_TIME),
+                -1,
+                "Organizational Meeting of the Board of Directors",
+                ORGANIZATIONAL_MEETING_TIME,
+                meeting_place_line(co, org),
+            )
+        )
     # Special board meeting (often on record date for stockholder-annual corps) precedes the December annual board block.
     rows.append(
         (
@@ -1761,6 +2352,8 @@ def _board_meeting_rows_for_year(co: dict, year: int) -> list[tuple[str, str, st
         )
     )
     for seq, quarter in enumerate(("Q1", "Q2", "Q3", "Q4"), start=2):
+        if not _quarterly_exists_for_year(co, year, quarter):
+            continue
         qd = quarterly_meeting_date_str(co, year, quarter)
         t_q = scheduled_quarterly_meeting_time(co, year, quarter)
         rows.append(
@@ -1778,7 +2371,7 @@ def _board_meeting_rows_for_year(co: dict, year: int) -> list[tuple[str, str, st
 
 
 def board_waiver_of_notice_markdown(company_name_year: str, year: int, co_name: str) -> str:
-    """Markdown for sole director waiver of notice (board meetings listed for the year)."""
+    """Markdown for waiver of notice (board meetings listed for the year); sole director or full board."""
     co = companies[co_name]
     director_name = "Derek E. Pappas"
     doc_date_iso = annual_meeting_date_str(co, year)
@@ -1788,6 +2381,25 @@ def board_waiver_of_notice_markdown(company_name_year: str, year: int, co_name: 
         for d_iso, title, t_str, place in rows
     )
     bylaws_ref = co.get("board_notice_waiver_bylaws_ref") or "**the Corporation\u2019s bylaws**"
+    bds = _normalized_board_directors(co)
+    if len(bds) >= 2:
+        names_join = " and ".join(f"**{d['name']}**" for d in bds)
+        intro = (
+            f"The undersigned, {names_join}, constituting **all** of the directors of **{co_name}** (the “Corporation”), intending to be legally bound, "
+            f"**each waives all notice** of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, "
+            f"and of any postponement or adjournment of any such meeting, to the extent permitted by the **{_corporation_statute_name(co)}**, "
+            f"the Corporation’s **certificate of incorporation**, and {bylaws_ref}. This waiver is given to supplement the minutes of the Corporation, "
+            "which state that notice of each such meeting was duly given **or waived**."
+        )
+        sig = board_meeting_signature_markdown(co, doc_date_iso, sole_director_name=director_name)
+    else:
+        intro = (
+            f"The undersigned, **{director_name}**, Sole Director of **{co_name}** (the “Corporation”), intending to be legally bound, **waives all notice** "
+            f"of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment "
+            f"of any such meeting, to the extent permitted by the **{_corporation_statute_name(co)}**, the Corporation’s **certificate of incorporation**, and {bylaws_ref}. "
+            "This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given **or waived**."
+        )
+        sig = signature_block(co, director_name, doc_date_iso, title="Sole Director")
     return f"""
 **Waiver of Notice of Meetings of the Board of Directors**
 **{co_name}**
@@ -1795,13 +2407,13 @@ def board_waiver_of_notice_markdown(company_name_year: str, year: int, co_name: 
 
 **Calendar year {year}**
 
-The undersigned, **{director_name}**, Sole Director of **{co_name}** (the “Corporation”), intending to be legally bound, **waives all notice** of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the **{_corporation_statute_name(co)}**, the Corporation’s **certificate of incorporation**, and {bylaws_ref}. This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given **or waived**.
+{intro}
 
 **Meetings covered**
 
 {bullet_lines}
 
-{signature_block(co, director_name, doc_date_iso, title="Sole Director")}
+{sig}
 ---
 """
 
@@ -1876,21 +2488,79 @@ def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Direct
     return "\n".join(lines)
 
 
-def _sole_director_adopted_resolutions_section(section_heading: str, resolution_parts: list[str]) -> str:
-    """Sole-director minutes: resolution list, or explicit none if every part is blank."""
-    cleaned = [p.strip() for p in resolution_parts if p and p.strip()]
+def board_meeting_signature_markdown(co: dict, date_iso: str, *, sole_director_name: str = "Derek E. Pappas") -> str:
+    """Closing signatures for board minutes: dual signatures when `board_directors` lists the full board."""
+    bds = _normalized_board_directors(co)
+    if len(bds) >= 2:
+        parts: list[str] = []
+        for d in bds:
+            title = (d.get("title") or "Director").strip() or "Director"
+            parts.append(signature_block(co, d["name"], date_iso, title=title))
+        return "\n".join(parts)
+    return signature_block(co, sole_director_name, date_iso, title="Sole Director")
+
+
+def _adopted_resolutions_section(co: dict, section_heading: str, resolution_parts: list[str]) -> str:
+    """Resolutions section: sole director vs full board wording based on `board_directors`."""
+    cleaned = [p.strip() for p in resolution_parts if p and str(p).strip()]
+    multi = len(_normalized_board_directors(co)) >= 2
     if not cleaned:
         return f"{section_heading}\nNone. No resolutions were presented for adoption.\n\n"
     if len(cleaned) == 1:
-        intro = "Upon consideration, the Sole Director adopted the following resolution:\n\n"
+        intro = (
+            "Upon consideration, the Board adopted the following resolution:\n\n"
+            if multi
+            else "Upon consideration, the Sole Director adopted the following resolution:\n\n"
+        )
     else:
-        intro = "Upon consideration, the Sole Director adopted the following resolutions:\n\n"
+        intro = (
+            "Upon consideration, the Board adopted the following resolutions:\n\n"
+            if multi
+            else "Upon consideration, the Sole Director adopted the following resolutions:\n\n"
+        )
     body = "\n\n".join(cleaned) + "\n\n"
     return f"{section_heading}\n{intro}{body}"
 
 
+def _board_appointment_resolution_blocks_if_first_meeting(
+    co_name: str, co: dict, year: int, kind: str
+) -> list[str]:
+    """Optional appointment block(s) for the first (chronological) board meeting when configured.
+
+    Used to formally minute that a second director is appointed/elected after the initial sole-director meeting.
+    """
+    if not co.get("board_sole_director_first_chronological_meeting"):
+        return []
+    if kind == "org" and co.get("organizational_meeting_full_board"):
+        return []
+    try:
+        if _board_meeting_chronological_index(co_name, co, year, kind) != 0:
+            return []
+    except ValueError:
+        return []
+
+    bds = _normalized_board_directors(co)
+    # Only add the appointment motion when the company is configured with a multi-director board.
+    if len(bds) < 2:
+        return []
+
+    # Convention here: appoint any non-Derek directors listed in `board_directors`.
+    appointees = [d for d in bds if d.get("name") and d["name"] != "Derek E. Pappas"]
+    if not appointees:
+        return []
+
+    names = ", ".join(d["name"] for d in appointees)
+    return [
+        f"""**Appointment of Additional Director(s)**  
+RESOLVED, that the size of the Board of Directors of the Corporation is fixed at **{len(bds)}** director(s); and  
+FURTHER RESOLVED, that **{names}** is hereby appointed and elected to serve as a director of the Corporation, to hold office until a successor is duly elected and qualified or until earlier resignation or removal, effective immediately following this meeting."""
+    ]
+
+
 def _agm_president_report_body(co: dict, office_locations: str, dev_locations: str, co_name: str, year: int) -> str:
     """President’s Report narrative: operational baseline, optional product/hosting lines, accomplishments summary, addendum."""
+    multi = len(_normalized_board_directors(co)) >= 2
+    period = _period_phrase(co)
     opener = co.get("agm_president_report_opening_paragraph_markdown")
     if isinstance(opener, str) and opener.strip():
         base = (
@@ -1903,16 +2573,29 @@ def _agm_president_report_body(co: dict, office_locations: str, dev_locations: s
         )
     else:
         dev_phrase = dev_locations if dev_locations.strip() else "the regions described in the President’s report"
-        base = (
-            "The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, "
-            "including centralized management of globally distributed development and the use of operational office location(s) "
-            f"during the fiscal year, with operations conducted from {office_locations} and development from {dev_phrase}, "
-            "while confirming that management, oversight, and decision-making remained centralized and continuously recorded "
-            "through the Corporation’s official records. "
-        )
+        if multi:
+            base = (
+                f"The directors reported on the Corporation’s operational and engineering activities for {period}, "
+                "including centralized management of globally distributed development and the use of operational office location(s) "
+                f"during {period}, with operations conducted from {office_locations} and development from {dev_phrase}, "
+                "while confirming that management, oversight, and decision-making remained centralized and continuously recorded "
+                "through the Corporation’s official records. "
+            )
+        else:
+            base = (
+                f"The Sole Director reported on the Corporation’s operational and engineering activities for {period}, "
+                "including centralized management of globally distributed development and the use of operational office location(s) "
+                f"during {period}, with operations conducted from {office_locations} and development from {dev_phrase}, "
+                "while confirming that management, oversight, and decision-making remained centralized and continuously recorded "
+                "through the Corporation’s official records. "
+            )
     product = co.get(
         "agm_president_report_product_line",
-        "The Sole Director summarized continued development of the Corporation’s software and service offerings. ",
+        (
+            "The directors summarized continued development of the Corporation’s software and service offerings. "
+            if multi
+            else "The Sole Director summarized continued development of the Corporation’s software and service offerings. "
+        ),
     )
     if not product.endswith(" "):
         product = product.rstrip() + " "
@@ -1922,8 +2605,9 @@ def _agm_president_report_body(co: dict, office_locations: str, dev_locations: s
     summary, detail_items = accomplishments_for_year(co_name, year)
     summary_sentence = ""
     if summary:
+        art, noun = _financial_year_words(co)
         summary_sentence = (
-            f" The President’s report included the following **accomplishments summary** for the calendar year {year}: "
+            f" The President’s report included the following **accomplishments summary** for {art} {noun} {year}: "
             f"{summary}"
         )
 
@@ -1961,38 +2645,88 @@ def _agm_president_report_body(co: dict, office_locations: str, dev_locations: s
     return base + product + infra + summary_sentence + exhibit + ip_close
 
 
-def _agm_resolutions_block(co: dict, director_name: str, year: int) -> str:
+def _period_phrase(co: dict) -> str:
+    """e.g. 'the calendar year' / 'the fiscal year' for narrative paragraphs."""
+    art, noun = _financial_year_words(co)
+    return f"{art} {noun}"
+
+
+def _agm_banking_resolution_markdown(co: dict, director_name: str) -> str:
+    bank = co.get("primary_banking_institution", "JPMorgan Chase Bank, N.A.")
+    raw = co.get("agm_banking_authorized_signatories")
+    names: list[str] = []
+    if isinstance(raw, list):
+        names = [str(x).strip() for x in raw if str(x).strip()]
+    if not names:
+        one = (
+            str(co.get("agm_banking_authorized_signatory") or "").strip()
+            or str((co.get("officers") or {}).get("CEO") or "").strip()
+            or director_name
+        )
+        names = [one]
+    if len(names) == 1:
+        return f"""**Banking Authorization**  
+RESOLVED, that **{names[0]}** is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at {bank}, and any successor institution, and to act as the **sole authorized signatory** with full authority to execute all related documents."""
+    bolded = ", ".join(f"**{n}**" for n in names[:-1]) + f", and **{names[-1]}**"
+    return f"""**Banking Authorization**  
+RESOLVED, that each of {bolded} is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at {bank}, and any successor institution, and to act as an **authorized signatory** with full authority to execute routine banking documents, in each case subject to any dual-signature or other controls the Board or the financial institution may require."""
+
+
+def _agm_resolutions_block(co: dict, director_name: str, year: int, *, extra_blocks: list[str] | None = None) -> str:
     if "annual_board_resolution_blocks" in co:
         parts = list(co["annual_board_resolution_blocks"])
     else:
+        period = _financial_year_words(co)[1]
         parts = [
             f"""**Approval of Financial Reports**  
-RESOLVED, that the financial statements for the fiscal year {year} are hereby approved.""",
+RESOLVED, that the financial statements for {period} {year} are hereby approved.""",
             f"""**Approval of {year + 1} Budget**  
-RESOLVED, that the operating, engineering, and marketing budget for the fiscal year {year + 1} is hereby approved.""",
-            f"""**Banking Authorization**  
-RESOLVED, that {director_name} is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at {co.get("primary_banking_institution", "JPMorgan Chase Bank, N.A.")}, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.""",
+RESOLVED, that the operating, engineering, and marketing budget for {period} {year + 1} is hereby approved.""",
+            _agm_banking_resolution_markdown(co, director_name),
         ]
-    return _sole_director_adopted_resolutions_section("**VII. Resolutions**", parts)
+    if extra_blocks:
+        parts = list(extra_blocks) + parts
+    return _adopted_resolutions_section(co, "**VII. Resolutions**", parts)
 
 
-def _special_resolutions_block(co: dict, year: int, record_date_resolution: str) -> str:
-    parts = [_special_meeting_primary_resolution_block(co, year)]
+def _special_resolutions_block(
+    co_name: str,
+    co: dict,
+    year: int,
+    record_date_resolution: str,
+    *,
+    extra_blocks: list[str] | None = None,
+) -> str:
+    parts: list[str] = []
+    if extra_blocks:
+        parts.extend(list(extra_blocks))
+    parts.extend(_domestication_resolution_blocks_if_due(co, board_special_meeting_date_str(co, year)))
+    parts.append(_special_meeting_primary_resolution_block(co, year))
     extra = record_date_resolution.strip()
     if extra:
         parts.append(extra)
-    return _sole_director_adopted_resolutions_section("**III. Resolutions:**", parts)
+    return _adopted_resolutions_section(co, "**III. Resolutions:**", parts)
 
 
-def _quarterly_resolutions_block(co: dict) -> str:
-    if "quarterly_resolution_blocks" in co:
-        parts = list(co["quarterly_resolution_blocks"])
+def _quarterly_resolutions_block(co_name: str, render_co: dict, base_co: dict, year: int, quarter: str) -> str:
+    """Quarterly resolutions.
+
+    `render_co` drives the sole-director vs multi-director wording; `base_co` is used for one-time governance actions
+    that may take effect immediately after the meeting (e.g. appointing an additional director).
+    """
+    if "quarterly_resolution_blocks" in render_co:
+        parts = list(render_co["quarterly_resolution_blocks"])
     else:
-        qdef = co.get(
+        qdef = render_co.get(
             "quarterly_default_ratification_resolution",
             "RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.",
         )
         parts = [qdef]
+    parts = (
+        _domestication_resolution_blocks_if_due(base_co, quarterly_meeting_date_str(base_co, year, quarter))
+        + _board_appointment_resolution_blocks_if_first_meeting(co_name, base_co, year, quarter)
+        + parts
+    )
     n = len([p for p in parts if p and str(p).strip()])
     if n == 0:
         heading = "**IV. Resolutions**"
@@ -2000,7 +2734,7 @@ def _quarterly_resolutions_block(co: dict) -> str:
         heading = "**IV. Resolution:**"
     else:
         heading = "**IV. Resolutions**"
-    return _sole_director_adopted_resolutions_section(heading, parts)
+    return _adopted_resolutions_section(render_co, heading, parts)
 
 
 # 3. OUTPUT HELPERS
@@ -2063,6 +2797,7 @@ def write_docx_from_minutes(
 # 3. GENERATORS
 def generate_agm(co_name, year):
     co = companies[co_name]
+    eco = _effective_co_for_board_meeting(co, co_name, year, "agm")
     date = annual_meeting_date_str(co, year)
     place = meeting_place_line(co, date)
     issued = co["shares_issued"].get(year, "4,000,000")
@@ -2084,46 +2819,51 @@ def generate_agm(co_name, year):
     dev_locations = development_centers_line_for_company(co)
 
     director_name = "Derek E. Pappas"
+    chair_name = str(eco.get("board_meeting_chair_name") or director_name).strip() or director_name
+    full_board = _normalized_board_directors(eco)
+    multi_director_board = len(full_board) >= 2
     inc_year = co["inc_year"]
     minutes_start_year = co.get("minutes_start_year", inc_year)
     if year > minutes_start_year:
         prior_date = annual_meeting_date_str(co, year - 1)
+        approver = "the Board" if multi_director_board else "the Sole Director"
         prior_minutes_section = f"""**IV. Approval of Prior Minutes**
-The minutes of the prior Annual Meeting of the Board of Directors held on {prior_date} were reviewed and approved by the Sole Director."""
+The minutes of the prior Annual Meeting of the Board of Directors held on {prior_date} were reviewed and approved by {approver}."""
     elif year == minutes_start_year and minutes_start_year > inc_year:
         # Only when the minute book series starts after incorporation (currently: DATA RECORD SCIENCE). All other registry
         # companies have minutes_start_year == inc_year, so their first generated AGM uses the “first after incorporation” branch below.
         prior_minutes_section = f"""**IV. Approval of Prior Minutes**
 Board minutes included in **this** compiled minute book series begin with calendar year **{minutes_start_year}**. The Corporation was incorporated in **{inc_year}**. No annual board minutes from prior calendar years **within this compilation series** were presented for approval."""
     else:
+        inc_filed = _incorporation_filed_date_iso(co)
+        inc_phrase = f"on {_fmt_long_date(inc_filed)}" if inc_filed else f"in {inc_year}"
         prior_minutes_section = f"""**IV. Approval of Prior Minutes**
-This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in {inc_year}; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval."""
+This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation {inc_phrase}; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval."""
 
     if co.get("stockholder_meeting") == "annual_meeting_stockholders":
         call_intro = f"Immediately following the Annual Meeting of Stockholders of the Corporation held on {date} commencing at {t_stock}, "
     else:
         call_intro = ""
 
-    roll_quorum_block = board_roll_quorum_markdown_sole_director(
-        co, co_name, date, "agm", director_name=director_name
-    )
-    reliance_141e_line = board_director_reliance_paragraph(co, co_name, date, "agm")
+    roll_quorum_block = board_roll_quorum_markdown(eco, co_name, date, "agm", director_name=director_name)
+    reliance_141e_line = board_director_reliance_paragraph(eco, co_name, date, "agm")
 
     consent_cross_ref = ""
     if co.get("stockholder_meeting") == "written_consent":
         as_of_fmt = datetime.strptime(date, "%Y-%m-%d").strftime("%B %d, %Y")
         lab = co.get("sole_stockholder_consent_exhibit_label")
         law228 = _corp_law_section_ref(co, "228")
+        noter = "The Board noted" if multi_director_board else "The Sole Director noted"
         if _minutes_assert_exhibits_filed(co):
             annex = f" (annexed as **{lab}**)" if lab else ""
             consent_line = (
-                f"The Sole Director noted that the **Written Consent of Sole Stockholder** dated {as_of_fmt}, adopting stockholder resolutions "
+                f"{noter} that the **Written Consent of Sole Stockholder** dated {as_of_fmt}, adopting stockholder resolutions "
                 f"under **{law228}** for the year {year}, is **on file** with the minutes of the stockholders of the Corporation{annex}."
             )
         else:
             des = f", **to be designated {lab}** upon filing" if lab else ""
             consent_line = (
-                f"The Sole Director noted that the **Written Consent of Sole Stockholder** dated {as_of_fmt}, adopting stockholder resolutions "
+                f"{noter} that the **Written Consent of Sole Stockholder** dated {as_of_fmt}, adopting stockholder resolutions "
                 f"under **{law228}** for the year {year}, **will be filed** with the minutes of the stockholders of the Corporation **upon execution**{des}."
             )
         consent_cross_ref = f"""
@@ -2134,6 +2874,25 @@ This was the first Annual Meeting of the Board of Directors following incorporat
 
     addr_note = principal_address_note_markdown(co)
     materials_ack_block = board_meeting_materials_acknowledgment_block(co)
+
+    if multi_director_board:
+        others = [d["name"] for d in full_board if d["name"] != chair_name]
+        others_txt = " and ".join(others) if others else ""
+        co_tail = (
+            f"by **{chair_name}**, acting as Chair of the Board, with **{others_txt}** also present as a director—"
+            "all directors constituting the full membership of the Board were in attendance."
+            if others_txt
+            else f"by **{chair_name}**, acting as Chair of the Board, with all directors present."
+        )
+        call_to_order_body = (
+            f"{call_intro}The Annual Meeting of the Board of Directors of {display_company} (the “Corporation”) "
+            f"was called to order at {t_board} on {date} {co_tail}"
+        )
+    else:
+        call_to_order_body = (
+            f"{call_intro}The Annual Meeting of the Board of Directors of {display_company} (the “Corporation”) "
+            f"was called to order at {t_board} on {date} by {director_name}, acting as Sole Director, President, and Treasurer of the Corporation."
+        )
 
     return f"""
 **Minutes of the Annual Meeting of the Board of Directors**
@@ -2148,34 +2907,35 @@ This was the first Annual Meeting of the Board of Directors following incorporat
 **Type of Meeting:** Annual Meeting of the Board of Directors
 
 **II. Call to Order**
-{call_intro}The Annual Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_board} on {date} by {director_name}, acting as Sole Director, President, and Treasurer of the Corporation.
+{call_to_order_body}
 
 {roll_quorum_block}{prior_minutes_section}
 {materials_ack_block}**V. Reports of Officers**
 
 **President’s Report:**  
-{_agm_president_report_body(co, office_locations, dev_locations, co_name, year)}
+{_agm_president_report_body(eco, office_locations, dev_locations, co_name, year)}
 
 **Treasurer’s Report:**  
-{_treasurer_report_minutes_paragraph(co, issued)}
+{_treasurer_report_minutes_paragraph(eco, issued)}
 
 {reliance_141e_line}
 
 **VI. Discussion Items**
-{_agm_discussion_items_line(co, year)}
+{_agm_discussion_items_line(eco, year)}
 
-{_agm_resolutions_block(co, director_name, year)}
+{_agm_resolutions_block(eco, director_name, year, extra_blocks=_board_appointment_resolution_blocks_if_first_meeting(co_name, co, year, "agm"))}
 {consent_cross_ref}
 **VIII. Adjournment**
 There being no further business to come before the Board, the meeting was adjourned.
 
-{signature_block(co, director_name, date, title="Sole Director")}
+{board_meeting_signature_markdown(eco, date, sole_director_name=director_name)}
 ---
 """
 
 
 def generate_special(co_name, year):
     co = companies[co_name]
+    eco = _effective_co_for_board_meeting(co, co_name, year, "special")
     annual_date = annual_meeting_date_str(co, year)
     date = board_special_meeting_date_str(co, year)
     place = meeting_place_line(co, date)
@@ -2183,12 +2943,13 @@ def generate_special(co_name, year):
     t_special = scheduled_special_meeting_time(co, year)
 
     director_name = "Derek E. Pappas"
+    chair_name = str(eco.get("board_meeting_chair_name") or director_name).strip() or director_name
+    full_board = _normalized_board_directors(eco)
+    multi_director_board = len(full_board) >= 2
     display_company = minutes_display_name(co_name)
 
-    roll_quorum_block = board_roll_quorum_markdown_sole_director(
-        co, co_name, date, "special", director_name=director_name
-    )
-    reliance_141e_line = board_director_reliance_paragraph(co, co_name, date, "special")
+    roll_quorum_block = board_roll_quorum_markdown(eco, co_name, date, "special", director_name=director_name)
+    reliance_141e_line = board_director_reliance_paragraph(eco, co_name, date, "special")
 
     record_date_resolution = ""
     if co.get("stockholder_meeting") == "annual_meeting_stockholders":
@@ -2202,6 +2963,22 @@ RESOLVED, that **{rd}** is hereby fixed as the record date for determining the s
     addr_note = principal_address_note_markdown(co)
     materials_ack_block = board_meeting_materials_acknowledgment_block(co)
 
+    if multi_director_board:
+        others = [d["name"] for d in full_board if d["name"] != chair_name]
+        others_txt = " and ".join(others) if others else ""
+        special_call = (
+            f"The Special Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_special} on {date} "
+            f"by **{chair_name}**, acting as Chair of the Board, with **{others_txt}** also present as a director."
+            if others_txt
+            else f"The Special Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_special} on {date} "
+            f"by **{chair_name}**, acting as Chair of the Board, with all directors present."
+        )
+    else:
+        special_call = (
+            f"The Special Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_special} on {date} "
+            f"by {director_name}, acting as Sole Director of the Corporation."
+        )
+
     return f"""
 **Minutes of the Special Meeting of the Board of Directors - {year}**
 **{display_company}**
@@ -2214,20 +2991,81 @@ RESOLVED, that **{rd}** is hereby fixed as the record date for determining the s
 {addr_note}**Purpose:** {co.get("special_meeting_purpose", "Pre-annual board review of operations")}
 
 **I. Call to Order:**
-The Special Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_special} on {date} by {director_name}, acting as Sole Director of the Corporation.
+{special_call}
 
-{roll_quorum_block}{materials_ack_block}{_special_resolutions_block(co, year, record_date_resolution)}
+{roll_quorum_block}{materials_ack_block}{_special_resolutions_block(
+co_name,
+eco,
+year,
+record_date_resolution,
+extra_blocks=_board_appointment_resolution_blocks_if_first_meeting(co_name, co, year, "special"),
+)}
 {reliance_141e_line}
 
 **IV. Adjournment:**
 There being no further business to come before the Board, the meeting was adjourned.
 
-{signature_block(co, director_name, date, title="Sole Director")}
+{board_meeting_signature_markdown(eco, date, sole_director_name=director_name)}
 ---"""
+
+
+def _organizational_bylaws_adoption_resolution(co: dict) -> str:
+    lab = str(co.get("organizational_bylaws_exhibit_label") or "").strip()
+    desc = str(co.get("organizational_bylaws_document_description") or "").strip()
+    if lab and desc:
+        if _minutes_assert_exhibits_filed(co):
+            core = f"described as **{desc}**, a copy of which is **annexed to these minutes as {lab}**"
+        else:
+            core = (
+                f"described as **{desc}**, **to be designated {lab}** for attachment to these minutes **upon filing**"
+            )
+    elif lab:
+        if _minutes_assert_exhibits_filed(co):
+            core = f"**annexed to these minutes as {lab}**"
+        else:
+            core = f"**to be designated {lab}** for attachment to these minutes **upon filing**"
+    else:
+        core = "presented to the meeting"
+    return f"""**Adoption of Bylaws**  
+RESOLVED, that the bylaws {core} are hereby adopted as the bylaws of the Corporation, and the Secretary is authorized and directed to place a copy in the Corporation’s minute book."""
+
+
+def _organizational_officer_election_resolution(co: dict) -> str:
+    roster = co.get("organizational_officers_elected")
+    if isinstance(roster, list) and roster:
+        lines: list[str] = []
+        for item in roster:
+            if isinstance(item, dict):
+                nm = str(item.get("name") or "").strip()
+                t_one = str(item.get("title") or "").strip()
+                titles_raw = item.get("titles")
+                titles: list[str] = []
+                if isinstance(titles_raw, list):
+                    titles = [str(t).strip() for t in titles_raw if str(t).strip()]
+                elif t_one:
+                    titles = [t_one]
+                if nm and titles:
+                    if len(titles) == 1:
+                        lines.append(f"**{nm}** as **{titles[0]}**")
+                    else:
+                        ox = ", ".join(f"**{t}**" for t in titles[:-1])
+                        lines.append(f"**{nm}** as {ox}, and **{titles[-1]}**")
+                elif nm:
+                    lines.append(f"**{nm}**")
+            else:
+                s = str(item).strip()
+                if s:
+                    lines.append(s)
+        roster_txt = "; ".join(lines)
+        return f"""**Election of Officers**  
+RESOLVED, that the following individuals are hereby elected and appointed to serve as officers of the Corporation, to serve at the pleasure of the Board and in accordance with the bylaws: {roster_txt}."""
+    return """**Election of Officers**  
+RESOLVED, that the individuals currently acting as officers of the Corporation are hereby elected and appointed to continue serving in their respective offices, to serve at the pleasure of the Board and in accordance with the bylaws."""
 
 
 def generate_quarterly(co_name, year, quarter):
     co = companies[co_name]
+    eco = _effective_co_for_board_meeting(co, co_name, year, quarter)
     date = quarterly_meeting_date_str(co, year, quarter)
     place = meeting_place_line(co, date)
 
@@ -2235,25 +3073,48 @@ def generate_quarterly(co_name, year, quarter):
     t_quarter = scheduled_quarterly_meeting_time(co, year, quarter)
 
     director_name = "Derek E. Pappas"
+    chair_name = str(eco.get("board_meeting_chair_name") or director_name).strip() or director_name
+    full_board = _normalized_board_directors(eco)
+    multi_director_board = len(full_board) >= 2
     display_company = minutes_display_name(co_name)
 
-    roll_quorum_block = board_roll_quorum_markdown_sole_director(
-        co, co_name, date, "quarterly", director_name=director_name
-    )
-    reliance_141e_line = board_director_reliance_paragraph(co, co_name, date, f"quarterly-{quarter}")
+    roll_quorum_block = board_roll_quorum_markdown(eco, co_name, date, "quarterly", director_name=director_name)
+    reliance_141e_line = board_director_reliance_paragraph(eco, co_name, date, f"quarterly-{quarter}")
     addr_note = principal_address_note_markdown(co)
     materials_ack_block = board_meeting_materials_acknowledgment_block(co)
 
-    custom_review = co.get("quarterly_business_review_minutes_markdown")
+    custom_review = eco.get("quarterly_business_review_minutes_markdown")
     if isinstance(custom_review, str) and custom_review.strip():
         business_review = custom_review.strip().format(
             year=year, quarter=quarter, dev_locations=dev_locations or "N/A"
+        )
+    elif multi_director_board:
+        business_review = (
+            "The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software "
+            f"and related intellectual property, created during the quarter in the development centers located in {dev_locations} "
+            "are properly titled to and are the exclusive property of the Corporation."
         )
     else:
         business_review = (
             "The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software "
             f"and related intellectual property, created during the quarter in the development centers located in {dev_locations} "
             "are properly titled to and are the exclusive property of the Corporation."
+        )
+
+    if multi_director_board:
+        others = [d["name"] for d in full_board if d["name"] != chair_name]
+        others_txt = " and ".join(others) if others else ""
+        quarterly_call = (
+            f"The Quarterly Governance Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_quarter} on {date} "
+            f"by **{chair_name}**, acting as Chair of the Board, with **{others_txt}** also present as a director."
+            if others_txt
+            else f"The Quarterly Governance Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_quarter} on {date} "
+            f"by **{chair_name}**, acting as Chair of the Board, with all directors present."
+        )
+    else:
+        quarterly_call = (
+            f"The Quarterly Governance Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_quarter} on {date} "
+            f"by {director_name}, acting as Sole Director of the Corporation."
         )
 
     return f"""
@@ -2267,20 +3128,95 @@ def generate_quarterly(co_name, year, quarter):
 **Location of Meeting:** {place}
 {addr_note}
 **I. Call to Order:**
-The Quarterly Governance Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_quarter} on {date} by {director_name}, acting as Sole Director of the Corporation.
+{quarterly_call}
 
 {roll_quorum_block}{materials_ack_block}**III. Business Review:**
 {business_review}
 
 {reliance_141e_line}
 
-{_quarterly_resolutions_block(co)}
+{_quarterly_resolutions_block(co_name, eco, co, year, quarter)}
 
 **V. Adjournment:**
 There being no further business to come before the Board, the meeting was adjourned.
 
-{signature_block(co, director_name, date, title="Sole Director")}
+{board_meeting_signature_markdown(eco, date, sole_director_name=director_name)}
 ---"""
+
+
+def generate_organizational(co_name: str, year: int) -> str:
+    """Post-filing organizational meeting (only when `incorporation_filed_date_iso` is set for `inc_year`)."""
+    co = companies[co_name]
+    org = organizational_meeting_date_str(co, year)
+    if not org:
+        return ""
+    # Organizational meeting should use the same effective-board logic (first meeting may be sole-director).
+    eco = _effective_co_for_board_meeting(co, co_name, year, "org")
+    place = meeting_place_line(co, org)
+    t_org = ORGANIZATIONAL_MEETING_TIME
+
+    director_name = "Derek E. Pappas"
+    chair_name = str(eco.get("board_meeting_chair_name") or director_name).strip() or director_name
+    full_board = _normalized_board_directors(eco)
+    multi_director_board = len(full_board) >= 2
+    display_company = minutes_display_name(co_name)
+
+    roll_quorum_block = board_roll_quorum_markdown(eco, co_name, org, "organizational", director_name=director_name)
+    reliance_141e_line = board_director_reliance_paragraph(eco, co_name, org, "organizational")
+    addr_note = principal_address_note_markdown(co)
+
+    if multi_director_board:
+        others = [d["name"] for d in full_board if d["name"] != chair_name]
+        others_txt = " and ".join(others) if others else ""
+        call = (
+            f"The Organizational Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_org} on {org} "
+            f"by **{chair_name}**, acting as Chair of the Board, with **{others_txt}** also present as a director."
+            if others_txt
+            else f"The Organizational Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_org} on {org} "
+            f"by **{chair_name}**, acting as Chair of the Board, with all directors present."
+        )
+    else:
+        call = (
+            f"The Organizational Meeting of the Board of Directors of {display_company} (the “Corporation”) was called to order at {t_org} on {org} "
+            f"by {director_name}, acting as Sole Director of the Corporation."
+        )
+
+    # Organizational resolutions: formation housekeeping + any one-time domestication/appointment blocks.
+    blocks: list[str] = []
+    blocks.extend(_domestication_resolution_blocks_if_due(eco, org))
+    blocks.extend(_board_appointment_resolution_blocks_if_first_meeting(co_name, co, year, "org"))
+    blocks.extend(
+        [
+            """**Ratification of Formation Actions**  
+RESOLVED, that all actions taken to organize and form the Corporation, including filing the certificate/articles of incorporation and taking related organizational steps, are hereby ratified, confirmed, and approved in all respects.""",
+            _organizational_bylaws_adoption_resolution(co),
+            _organizational_officer_election_resolution(co),
+        ]
+    )
+
+    resolutions = _adopted_resolutions_section(eco, "**III. Resolutions:**", blocks)
+
+    return f"""
+**Minutes of the Organizational Meeting of the Board of Directors**
+**{display_company}**
+(Board of Directors – {_jurisdiction(co)} corporation)
+
+**Meeting Details**
+**Date of Meeting:** {org}
+**Time of Meeting:** {t_org}
+**Location of Meeting:** {place}
+{addr_note}
+**I. Call to Order:**
+{call}
+
+{roll_quorum_block}{resolutions}
+{reliance_141e_line}
+
+**IV. Adjournment:**
+There being no further business to come before the Board, the meeting was adjourned.
+
+{board_meeting_signature_markdown(eco, org, sole_director_name=director_name)}
+---""".lstrip()
 
 def generate_quarterly_summary(company_name_year, year, quarter, co_name):
     """Generate a summary of the quarterly meeting for reporting purposes."""
@@ -2319,6 +3255,7 @@ def generate_annual_meeting_stockholders(co_name, year):
     )
 
     roll_block = format_stockholders_roll_call_block(co)
+    vote_tab = annual_stockholder_director_vote_tabulation_markdown(co)
     record_date_source = (
         f"The Chairperson confirmed that **{record_date}** is the **record date** for determining the stockholders entitled to vote at this meeting, "
         f"having been fixed by the Board of Directors pursuant to resolutions adopted at the **Special Meeting of the Board of Directors** held on "
@@ -2328,6 +3265,7 @@ def generate_annual_meeting_stockholders(co_name, year):
     )
 
     addr_note = principal_address_note_markdown(co)
+    report_period = _financial_year_words(co)[1]
 
     return f"""
 **Minutes of the Annual Meeting of Stockholders**
@@ -2362,7 +3300,7 @@ The Chairperson confirmed that an **alphabetized list of the names of the stockh
 {_annual_stockholder_notice_section_iv(co)}
 
 **V. Reports**
-The Chairperson presented and summarized the Corporation’s **operational and financial highlights** for the fiscal year. Stockholders had a reasonable opportunity to **ask questions** regarding the Chairperson’s report.
+The Chairperson presented and summarized the Corporation’s **operational and financial highlights** for the {report_period}. Stockholders had a reasonable opportunity to **ask questions** regarding the Chairperson’s report.
 
 **VI. Election of Directors**
 The following resolution was presented and adopted by the stockholders by the requisite vote under the Corporation’s bylaws and applicable law:
@@ -2371,7 +3309,7 @@ The following resolution was presented and adopted by the stockholders by the re
 RESOLVED, that {chair} is hereby elected as a director of the Corporation, to serve until the next annual meeting of stockholders and until such director’s successor is duly elected and qualified.
 
 {election_sentence}
-
+{vote_tab}
 **VII. Shares Outstanding**
 The Chairperson noted for the record that the Corporation had {issued} shares of common stock issued and outstanding at a par value of {co['par']} per share as of the date of the meeting.
 
@@ -2391,6 +3329,7 @@ def majority_stockholder_written_consent_ratification_markdown(
     co = companies[co_name]
     board_date = annual_meeting_date_str(co, year)
     as_of = datetime.strptime(board_date, "%Y-%m-%d").strftime("%B %d, %Y")
+    ensuing_period = _financial_year_words(co)[1]
     mechanics = f"""**Written Consent Mechanics**
 This Written Consent is intended to be delivered to the Corporation and to become effective in accordance with the {_corporation_statute_name(co)} and the Corporation’s bylaws, including any timing requirements applicable to the delivery of consents bearing dated signatures. The Corporation is authorized and directed to file this Written Consent with the minutes of the proceedings of the stockholders of the Corporation and to give any prompt notice required by applicable law, the certificate of incorporation, and the bylaws."""
     return f"""
@@ -2402,7 +3341,7 @@ This Written Consent is intended to be delivered to the Corporation and to becom
 The undersigned, being the stockholders of {co_name}, a {_jurisdiction(co)} corporation (the "Corporation"), holding not less than the minimum number of votes that would be necessary to authorize the following action at a meeting at which all shares entitled to vote thereon were present and voted, hereby adopt the following resolutions by written consent pursuant to the {_corporation_statute_name(co)}, effective as of the date set forth below.
 
 **Ratification of Annual Board Meeting**
-RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on {as_of} (or as otherwise recorded in the minutes of such meeting), including the approval of financial statements, the budget for the ensuing fiscal year, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on {as_of} (or as otherwise recorded in the minutes of such meeting), including the approval of financial statements, the budget for the ensuing {ensuing_period}, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
 
 **Notice to Non-Consenting Stockholders**
 RESOLVED, that the Corporation is authorized and directed to provide prompt notice of the taking of the foregoing corporate action by written consent, to the extent required by applicable law, the Corporation’s certificate of incorporation, and the Corporation’s bylaws.
@@ -2682,7 +3621,16 @@ def write_company_calendars(output_dir: str = "calendars", years: tuple[int, ...
             )
             unified_entries.append((special_date, t_special, co_name, "Yearly Special Meeting (Board)"))
 
+            org_date = organizational_meeting_date_str(co, year)
+            if org_date:
+                entries_by_date.setdefault(org_date, []).append(
+                    f"{co_name} - Organizational Meeting (Board) - {ORGANIZATIONAL_MEETING_TIME}"
+                )
+                unified_entries.append((org_date, ORGANIZATIONAL_MEETING_TIME, co_name, "Organizational Meeting (Board)"))
+
             for q in ("Q1", "Q2", "Q3", "Q4"):
+                if not _quarterly_exists_for_year(co, year, q):
+                    continue
                 q_date = quarterly_meeting_date_str(co, year, q)
                 t_q = scheduled_quarterly_meeting_time(co, year, q)
                 entries_by_date.setdefault(q_date, []).append(
@@ -2942,30 +3890,82 @@ def _write_docx_as_simple_pdf(docx_path: str, pdf_path: str) -> None:
 
 
 def _markdown_chunks_for_calendar_year(company_name_year: str, co_name: str, year: int) -> list[str]:
-    """Same meeting set/order as `generate_all` for one year: AGM (+ addendum if any), special, stockholder pack, board waiver, quarterlies."""
+    """Chronological meeting order for one calendar year in the compiled minute book.
+
+    Board meetings are ordered by date/time (quarterlies first, then annual-cycle special/AGM).
+    Stockholder-side instruments (if any) are inserted on the annual meeting date ahead of the board AGM.
+    """
     co = companies[co_name]
-    chunks: list[str] = [generate_agm(co_name, year).rstrip()]
-    _summary, detail_items = accomplishments_for_year(co_name, year)
-    exhibit = co.get("agm_president_report_operating_exhibit_label")
-    if detail_items and not exhibit:
-        exhibit = "Exhibit B"
-    if detail_items and exhibit:
-        chunks.append(agm_operating_addendum_markdown(co_name, year, exhibit, detail_items).rstrip())
-    chunks.append(generate_special(co_name, year).rstrip())
+    chunks: list[str] = []
+
+    # Board meetings in chronological order (includes special + AGM + Q1–Q4).
+    rows = _board_meeting_rows_for_year(co, year)
+
+    # Precompute annual-date stockholder pack (if used) so it can be inserted before the board AGM.
+    stockholder_pack: list[str] = []
     if co.get("stockholder_meeting") == "annual_meeting_stockholders":
-        chunks.append(generate_annual_meeting_stockholders(co_name, year).rstrip())
-        chunks.append(
-            stockholder_waiver_of_notice_annual_meeting_markdown(company_name_year, year, co_name).rstrip()
-        )
-        chunks.append(notice_of_annual_stockholder_meeting_markdown(company_name_year, year, co_name).rstrip())
-        chunks.append(
-            majority_stockholder_written_consent_ratification_markdown(company_name_year, year, co_name).rstrip()
-        )
-    else:
+        stockholder_pack = [
+            generate_annual_meeting_stockholders(co_name, year).rstrip(),
+            stockholder_waiver_of_notice_annual_meeting_markdown(company_name_year, year, co_name).rstrip(),
+            notice_of_annual_stockholder_meeting_markdown(company_name_year, year, co_name).rstrip(),
+            majority_stockholder_written_consent_ratification_markdown(company_name_year, year, co_name).rstrip(),
+        ]
+
+    inserted_stockholders = False
+    inserted_written_consent = False
+
+    for d_iso, title, _t, _place in rows:
+        low = title.lower()
+        if "organizational meeting of the board of directors" in low:
+            org = generate_organizational(co_name, year).rstrip()
+            if org:
+                chunks.append(org)
+            continue
+        if "quarterly governance meeting" in low:
+            # Example: "Quarterly Governance Meeting – 2024 Q2"
+            q = title.strip().split()[-1]
+            chunks.append(generate_quarterly(co_name, year, q).rstrip())
+            continue
+
+        if "special meeting of the board of directors" in low:
+            chunks.append(generate_special(co_name, year).rstrip())
+            continue
+
+        if "annual meeting of the board of directors" in low:
+            # Annual meeting date: insert stockholder meeting pack first (if applicable).
+            if stockholder_pack and not inserted_stockholders:
+                chunks.extend(stockholder_pack)
+                inserted_stockholders = True
+
+            agm = generate_agm(co_name, year).rstrip()
+            chunks.append(agm)
+
+            # Operating addendum (if any) should follow the AGM in the compiled book.
+            _summary, detail_items = accomplishments_for_year(co_name, year)
+            exhibit = co.get("agm_president_report_operating_exhibit_label")
+            if detail_items and not exhibit:
+                exhibit = "Exhibit B"
+            if detail_items and exhibit:
+                chunks.append(agm_operating_addendum_markdown(co_name, year, exhibit, detail_items).rstrip())
+
+            # Written-consent companies: attach the sole stockholder consent after the AGM on the annual date.
+            if co.get("stockholder_meeting") != "annual_meeting_stockholders" and not inserted_written_consent:
+                chunks.append(sole_stockholder_written_consent_markdown(co_name, year).rstrip())
+                inserted_written_consent = True
+            continue
+
+        # Fallback: preserve unknown row titles by not failing the compilation.
+        chunks.append(f"**Unrecognized meeting row:** {title} ({d_iso})\n---")
+
+    # In case the annual meeting row is absent (should not happen), still include stockholder pack and/or AGM.
+    if stockholder_pack and not inserted_stockholders:
+        chunks.extend(stockholder_pack)
+    if co.get("stockholder_meeting") != "annual_meeting_stockholders" and not inserted_written_consent:
         chunks.append(sole_stockholder_written_consent_markdown(co_name, year).rstrip())
+
+    # Waiver of notice (board) is dated at the annual meeting date and is conventionally filed after the year’s minutes.
     chunks.append(board_waiver_of_notice_markdown(company_name_year, year, co_name).rstrip())
-    for quarter in ("Q1", "Q2", "Q3", "Q4"):
-        chunks.append(generate_quarterly(co_name, year, quarter).rstrip())
+
     return chunks
 
 
@@ -3292,12 +4292,23 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
                     continue
                 company_name_year = f"{safe_company_name}_{year}"
 
+                # Organizational meeting (post-filing; only for inc_year when a filed date is known).
+                org_date = organizational_meeting_date_str(co, year)
+                if org_date:
+                    content = generate_organizational(name, year)
+                    if content.strip():
+                        org_docx = meeting_filename(name, org_date, "organizational", ext="docx")
+                        print(f"Writing Organizational meeting minutes to {org_docx}")
+                        write_docx_from_minutes(content, org_docx, org_date, name)
+
                 generate_annual(company_name_year, name, year)
                 generate_special_meeting(company_name_year, name, year)
                 generate_stockholder_side(company_name_year, year, name)
                 generate_board_waiver_of_notice(company_name_year, year, name)
 
                 for quarter in ["Q1", "Q2", "Q3", "Q4"]:
+                    if not _quarterly_exists_for_year(co, year, quarter):
+                        continue
                     generate_quarterly_summary(company_name_year, year, quarter, name)
 
             generate_company_all_meetings_book(safe_company_name, name, years, books_dir)

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import warnings
+from datetime import date
 
 import pytest
 
@@ -19,6 +20,8 @@ def test_corp_law_section_ref_de_vs_wy() -> None:
     de_co: dict = {"jurisdiction": "DE"}
     wy_co: dict = {"jurisdiction": "WY"}
     assert cmm._corp_law_section_ref(de_co, "228") == "DGCL §228"
+    assert cmm._corp_law_section_ref(de_co, "141(e)") == "DGCL §141(e)"
+    assert cmm._corp_law_section_ref(de_co, "141(i)") == "DGCL §141(i)"
     assert cmm._corp_law_section_ref(wy_co, "228") == "W.S. 1977 § 17-16-704"
     assert cmm._corp_law_section_ref(wy_co, "213") == "W.S. 1977 § 17-16-707"
     assert "DGCL" not in cmm._corp_law_section_ref(wy_co, "228")
@@ -33,7 +36,8 @@ def test_corporation_parenthetical_and_statute_name() -> None:
 def test_reliance_standard_de_cites_141e() -> None:
     text = cmm.reliance_standard({"jurisdiction": "DE"})
     assert "141(e)" in text
-    assert "Delaware General Corporation Law" in text
+    assert "DGCL" in text
+    assert "Delaware General Corporation Law" not in text
 
 
 def test_reliance_standard_wy_uses_wyoming_act_not_dgcl() -> None:
@@ -174,6 +178,20 @@ def test_agm_prior_minutes_true_first_year_after_incorporation_uses_original_lan
     assert "following incorporation" in md
 
 
+def test_surveyteams_board_minutes_two_directors_full_board_attendance() -> None:
+    """SurveyTeams: two directors, 50/50 stock; board minutes require both directors at each meeting."""
+    md = cmm.generate_agm("SurveyTeams, Inc.", 2026)
+    assert "Mohamed Mohamed" in md
+    assert "Derek E. Pappas" in md
+    assert "**Directors Present:**" in md
+    assert "Sole Director" not in md
+    assert "Upon consideration, the Board adopted" in md
+    assert "**Mohamed Mohamed** is authorized" in md
+    q = cmm.generate_quarterly("SurveyTeams, Inc.", 2026, "Q1")
+    assert "The directors reviewed quarterly" in q
+    assert "acting as Chair of the Board" in q
+
+
 def test_agm_prior_minutes_non_drs_first_year_matches_incorporation_start() -> None:
     """Registry companies (except DRS) have minutes_start_year == inc_year; first AGM uses incorporation-first wording."""
     h = cmm.companies["Hippo, Inc"]
@@ -282,6 +300,22 @@ def test_stockholder_minutes_default_does_not_claim_waivers_on_file() -> None:
     assert "to be filed" in md.lower() or "are to be filed" in md.lower()
 
 
+def test_annual_stockholder_director_vote_tabulation_when_configured() -> None:
+    """Phase 3 remediation: per-holder FOR lines after §VI when `annual_stockholder_director_election_votes` is set."""
+    st = cmm.generate_annual_meeting_stockholders("SurveyTeams, Inc.", 2026)
+    assert "VI-A. Vote Tabulation" in st
+    assert "Mohamed Mohamed" in st
+    assert "4,000,000" in st
+    drs = cmm.generate_annual_meeting_stockholders("DATA RECORD SCIENCE, INC.", 2024)
+    assert "VI-A. Vote Tabulation" in drs
+    assert "5,346,132" in drs
+
+
+def test_board_remote_presence_cites_dgcl_141i_delaware() -> None:
+    md = cmm.generate_quarterly("Hippo, Inc", 2023, "Q1")
+    assert "DGCL §141(i)" in md
+
+
 def test_stockholder_minutes_may_claim_on_file_when_assert_exhibits_flag(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
@@ -298,6 +332,8 @@ def test_agm_written_consent_cross_ref_default_pending_filing() -> None:
     md = cmm.generate_agm("Hippo, Inc", 2023)
     assert "will be filed" in md.lower()
     assert "upon execution" in md.lower()
+    assert "The Board noted" in md
+    assert "The Sole Director noted" not in md
 
 
 def test_loki_registry_has_wy_jurisdiction_no_dgcl_in_scanned_fields() -> None:
@@ -316,3 +352,47 @@ def test_loki_registry_has_wy_jurisdiction_no_dgcl_in_scanned_fields() -> None:
             low = val.lower()
             assert "dgcl" not in low, key
             assert "delaware general corporation law" not in low, key
+
+
+def test_marija_cejovic_board_after_first_chronological_meeting() -> None:
+    """Hippo / RG / TB: first *chronological* board meeting is sole director only when that meeting is not a full-board org; later pattern varies by company."""
+    q1 = cmm.generate_quarterly("Hippo, Inc", 2022, "Q1")
+    # Hippo: Q1 predates org; first meeting is sole-director and contains the appointment resolution.
+    assert "Sole Director" in q1
+    assert "Appointment of Additional Director" in q1
+    q2 = cmm.generate_quarterly("Hippo, Inc", 2022, "Q2")
+    assert "Marija Cejovic" in q2
+    assert "**Directors Present:**" in q2
+
+    hippo_org = cmm.generate_organizational("Hippo, Inc", 2022)
+    assert "Sole Director" not in hippo_org
+    assert "**Directors Present:**" in hippo_org
+    assert "Marija Cejovic" in hippo_org
+
+    tb_org = cmm.generate_organizational("TeamBoost.ai, Inc.", 2023)
+    assert "Sole Director" not in tb_org
+    assert "**Directors Present:**" in tb_org
+    assert "Marija Cejovic" in tb_org
+    assert "Appointment of Additional Director" not in tb_org
+
+    tb_q1 = cmm.generate_quarterly("TeamBoost.ai, Inc.", 2023, "Q1")
+    # TeamBoost: org (full board) is first; Q1 is already a two-director board—no director appointment text in Q1.
+    assert "Marija Cejovic" in tb_q1
+    assert "**Directors Present:**" in tb_q1
+    assert "Appointment of Additional Director" not in tb_q1
+
+    rg_agm = cmm.generate_agm("Ritual Growth, Inc.", 2022)
+    assert "Marija Cejovic" in rg_agm
+    assert "**Directors Present:**" in rg_agm
+
+
+def test_marija_vacation_json_loads_and_blocks_august_2023() -> None:
+    ranges = cmm._load_marija_vacation_ranges()
+    assert any(lo <= date(2023, 8, 20) <= hi for lo, hi in ranges)
+    assert "2023-08-20" in cmm._marija_vacation_blocked_iso_in_month(2023, 8)
+
+
+def test_board_chronological_index_orders_quarterly_before_december_annual() -> None:
+    co = cmm.companies["Hippo, Inc"]
+    assert cmm._board_meeting_chronological_index("Hippo, Inc", co, 2022, "Q1") == 0
+    assert cmm._board_meeting_chronological_index("Hippo, Inc", co, 2022, "special") > 0

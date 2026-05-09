@@ -9,68 +9,212 @@ This file collects generated minutes for the stated years only; other corporate 
 Calendar year 2026
 
 
-Minutes of the Annual Meeting of the Board of Directors
-(Delaware corporation)
+Minutes of the Quarterly Governance Meeting - 2026 Q1
+SurveyTeams, Inc.
+(Board of Directors – DE corporation)
 
-I. Meeting Information
-Company Name: SurveyTeams, Inc.
-Principal Address: 30 N Gould St #58611, Sheridan, WY 82801, USA
+Meeting Details
+Date of Meeting: 2026-04-05
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
 Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-Date: 2026-12-18
-Time: 1:00 PM
-Place: Wayne, Pennsylvania, via digital communication
-Type of Meeting: Annual Meeting of the Board of Directors
 
-II. Call to Order
-Immediately following the Annual Meeting of Stockholders of the Corporation held on 2026-12-18 commencing at 1:00 PM, The Annual Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-18 by Derek E. Pappas, acting as Sole Director, President, and Treasurer of the Corporation.
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-04-05 by Derek E. Pappas, acting as Chair of the Board, with Mohamed Mohamed also present as a director.
 
-III. Roll Call and Quorum
-Director Present:
-Derek E. Pappas (Sole Director)
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Mohamed Mohamed (Director)
+Directors Absent: None
 
-Director Absent:
-None
+With Derek E. Pappas and Mohamed Mohamed present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+The directors participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
 
-The Sole Director’s presence satisfied the quorum requirement, and the meeting proceeded as duly constituted under the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
 
-IV. Approval of Prior Minutes
-This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2026; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
-V. Reports of Officers
-
-President’s Report:
-The Sole Director reported on the Corporation’s operational and engineering activities for the fiscal year, including centralized management of globally distributed development and the use of operational office location(s) during the fiscal year, with operations conducted from Wayne, Pennsylvania, USA and development from Egypt; United Arab Emirates; United States (distributed), while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The Sole Director summarized continued development of the Corporation’s software and service offerings.  All survey instruments, weighting libraries, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
-
-Treasurer’s Report:
-The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including founder advances, deferred vendor invoices, and similar items that remain contingent on a future liquidity event, the timing of which has not yet been determined. The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
-
-After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
 
 
-VI. Discussion Items
-The Sole Director discussed survey research tooling and fieldwork coverage for 2027, including respondent privacy controls, sample-weighting methodology, and multilingual instrument delivery.
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
 
-VII. Resolutions
-Upon consideration, the Sole Director adopted the following resolutions:
-
-Approval of Financial Reports
-RESOLVED, that the financial statements for the fiscal year 2026 are hereby approved.
-
-Approval of 2027 Budget
-RESOLVED, that the operating, engineering, and marketing budget for the fiscal year 2027 is hereby approved.
-
-Banking Authorization
-RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Mercury Bank, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
 
 
 
-VIII. Adjournment
+V. Adjournment:
 There being no further business to come before the Board, the meeting was adjourned.
 
-Executed by (Sole Director):
+Executed by (Director):
 Derek E. Pappas
-Date: December 18, 2026
+Date: April 05, 2026
+
+
+Executed by (Director):
+Mohamed Mohamed
+Date: April 05, 2026
+
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q2
+SurveyTeams, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-07-05
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-07-05 by Derek E. Pappas, acting as Chair of the Board, with Mohamed Mohamed also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Mohamed Mohamed (Director)
+Directors Absent: None
+
+Attendance by Derek E. Pappas and Mohamed Mohamed satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+The directors confirmed that notice of the meeting was duly given or waived.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+Derek E. Pappas
+Date: July 05, 2026
+
+
+Executed by (Director):
+Mohamed Mohamed
+Date: July 05, 2026
+
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q3
+SurveyTeams, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-10-05
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-10-05 by Derek E. Pappas, acting as Chair of the Board, with Mohamed Mohamed also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Mohamed Mohamed (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Mohamed Mohamed present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+Derek E. Pappas
+Date: October 05, 2026
+
+
+Executed by (Director):
+Mohamed Mohamed
+Date: October 05, 2026
+
+
+---
+
+
+
+Minutes of the Quarterly Governance Meeting - 2026 Q4
+SurveyTeams, Inc.
+(Board of Directors – DE corporation)
+
+Meeting Details
+Date of Meeting: 2026-12-05
+Time of Meeting: 1:00 PM
+Location of Meeting: Wayne, Pennsylvania, via digital communication
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+
+I. Call to Order:
+The Quarterly Governance Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-05 by Derek E. Pappas, acting as Chair of the Board, with Mohamed Mohamed also present as a director.
+
+II. Roll Call and Quorum:
+Directors Present:
+Derek E. Pappas (Director)
+Mohamed Mohamed (Director)
+Directors Absent: None
+
+With Derek E. Pappas and Mohamed Mohamed present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+Notice for the meeting had been provided or waived as required, which the directors confirmed for the record.
+The directors joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
+
+III. Business Review:
+The directors reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+IV. Resolution:
+Upon consideration, the Board adopted the following resolution:
+
+RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
+
+
+
+V. Adjournment:
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+Derek E. Pappas
+Date: December 05, 2026
+
+
+Executed by (Director):
+Mohamed Mohamed
+Date: December 05, 2026
 
 
 ---
@@ -89,18 +233,20 @@ Address note: The principal address above is the Corporation’s designated noti
 Purpose: Pre-annual review of survey platform operations and research compliance workflows
 
 I. Call to Order:
-The Special Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-08 by Derek E. Pappas, acting as Sole Director of the Corporation.
+The Special Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 12:00 PM on 2026-12-08 by Derek E. Pappas, acting as Chair of the Board, with Mohamed Mohamed also present as a director.
 
 II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
+Directors Present:
+Derek E. Pappas (Director)
+Mohamed Mohamed (Director)
+Directors Absent: None
 
-With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law.
-Notice for the meeting had been provided or waived as required, which the Sole Director confirmed for the record.
-Remote participation was used for the Sole Director’s attendance; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement.
+With Derek E. Pappas and Mohamed Mohamed present—constituting the entire membership of the Board of Directors—a quorum was established and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law. The Corporation’s governance practice is that all directors attend each board meeting.
+The directors confirmed that notice had been duly given or validly waived for this meeting.
+The directors attended using remote communications by which each participant could hear the others, and the Board treated that participation as presence in person where permitted by applicable law and the Corporation’s bylaws.
 
 III. Resolutions:
-Upon consideration, the Sole Director adopted the following resolutions:
+Upon consideration, the Board adopted the following resolutions:
 
 Ratification of Survey Platform and Research Operations
 RESOLVED, that engineering and operations decisions affecting the Corporation’s survey tooling, sampling workflows, and research compliance posture during 2026 are hereby ratified, confirmed, and approved in all respects.
@@ -109,14 +255,19 @@ Record Date for Annual Meeting of Stockholders (DGCL §213)
 RESOLVED, that 2026-12-08 is hereby fixed as the record date for determining the stockholders entitled to notice of and to vote at the Annual Meeting of Stockholders of the Corporation to be held on 2026-12-18 commencing at 1:00 PM, in accordance with the Corporation’s bylaws and the Delaware General Corporation Law.
 
 
-After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
 
 
 IV. Adjournment:
 There being no further business to come before the Board, the meeting was adjourned.
 
-Executed by (Sole Director):
+Executed by (Director):
 Derek E. Pappas
+Date: December 08, 2026
+
+
+Executed by (Director):
+Mohamed Mohamed
 Date: December 08, 2026
 
 
@@ -165,7 +316,7 @@ IV. Notice; Waiver
 The Chairperson confirmed that this annual meeting was held in reliance on written waivers of notice for stockholders entitled to cast the votes required by applicable law and the Corporation’s bylaws, consistent with the Delaware General Corporation Law and the bylaws. Executed waivers of notice are to be filed with these minutes as Exhibit A following execution (or delivery, as applicable).
 
 V. Reports
-The Chairperson presented and summarized the Corporation’s operational and financial highlights for the fiscal year. Stockholders had a reasonable opportunity to ask questions regarding the Chairperson’s report.
+The Chairperson presented and summarized the Corporation’s operational and financial highlights for the calendar year. Stockholders had a reasonable opportunity to ask questions regarding the Chairperson’s report.
 
 VI. Election of Directors
 The following resolution was presented and adopted by the stockholders by the requisite vote under the Corporation’s bylaws and applicable law:
@@ -252,7 +403,7 @@ Action by Written Consent of Stockholders
 The undersigned, being the stockholders of SurveyTeams, Inc., a DE corporation (the "Corporation"), holding not less than the minimum number of votes that would be necessary to authorize the following action at a meeting at which all shares entitled to vote thereon were present and voted, hereby adopt the following resolutions by written consent pursuant to the Delaware General Corporation Law, effective as of the date set forth below.
 
 Ratification of Annual Board Meeting
-RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 18, 2026 (or as otherwise recorded in the minutes of such meeting), including the approval of financial statements, the budget for the ensuing fiscal year, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
+RESOLVED, that all actions taken and resolutions adopted by the Board of Directors of the Corporation at the Annual Meeting of the Board of Directors held on December 18, 2026 (or as otherwise recorded in the minutes of such meeting), including the approval of financial statements, the budget for the ensuing calendar year, officer actions, and banking authorizations, are hereby ratified, confirmed, and approved in all respects.
 
 Notice to Non-Consenting Stockholders
 RESOLVED, that the Corporation is authorized and directed to provide prompt notice of the taking of the foregoing corporate action by written consent, to the extent required by applicable law, the Corporation’s certificate of incorporation, and the Corporation’s bylaws.
@@ -270,13 +421,87 @@ Executed by (stockholders):
 
 
 
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: SurveyTeams, Inc.
+Principal Address: 30 N Gould St #58611, Sheridan, WY 82801, USA
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2026-12-18
+Time: 1:00 PM
+Place: Wayne, Pennsylvania, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+Immediately following the Annual Meeting of Stockholders of the Corporation held on 2026-12-18 commencing at 1:00 PM, The Annual Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-18 by Derek E. Pappas, acting as Chair of the Board, with Mohamed Mohamed also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Mohamed Mohamed (Director)
+
+Directors Absent:
+None
+
+Attendance by Derek E. Pappas and Mohamed Mohamed satisfied quorum as the full Board; the meeting lawfully convened under the Delaware General Corporation Law. No director was absent.
+The directors acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+
+IV. Approval of Prior Minutes
+This was the first Annual Meeting of the Board of Directors following incorporation of the Corporation in 2026; no prior annual meeting of the Board was held and no prior annual board minutes were presented for approval.
+V. Reports of Officers
+
+President’s Report:
+Mohamed Mohamed, President, reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Wayne, Pennsylvania, USA and development from Egypt; United Arab Emirates; United States (distributed), while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued development of the Corporation’s software and service offerings.  All survey instruments, weighting libraries, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including founder advances, deferred vendor invoices, and similar items that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,000,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+VI. Discussion Items
+The directors discussed survey research tooling and fieldwork coverage for 2027, including respondent privacy controls, sample-weighting methodology, and multilingual instrument delivery.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2026 are hereby approved.
+
+Approval of 2027 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2027 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Mohamed Mohamed is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at Mercury Bank, and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+Derek E. Pappas
+Date: December 18, 2026
+
+
+Executed by (Director):
+Mohamed Mohamed
+Date: December 18, 2026
+
+
+---
+
+
+
 Waiver of Notice of Meetings of the Board of Directors
 SurveyTeams, Inc.
 (Delaware corporation)
 
 Calendar year 2026
 
-The undersigned, Derek E. Pappas, Sole Director of SurveyTeams, Inc. (the “Corporation”), intending to be legally bound, waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s bylaws. This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
+The undersigned, Derek E. Pappas and Mohamed Mohamed, constituting all of the directors of SurveyTeams, Inc. (the “Corporation”), intending to be legally bound, each waives all notice of the time, place, and purposes of each meeting of the Board of Directors of the Corporation listed below, and of any postponement or adjournment of any such meeting, to the extent permitted by the Delaware General Corporation Law, the Corporation’s certificate of incorporation, and the Corporation’s bylaws. This waiver is given to supplement the minutes of the Corporation, which state that notice of each such meeting was duly given or waived.
 
 Meetings covered
 
@@ -287,193 +512,14 @@ Meetings covered
 - Special Meeting of the Board of Directors — Date: 2026-12-08; Time: 12:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
 - Annual Meeting of the Board of Directors — Date: 2026-12-18; Time: 1:00 PM; Place / remote means: Wayne, Pennsylvania, via digital communication
 
-Executed by (Sole Director):
+Executed by (Director):
 Derek E. Pappas
 Date: December 18, 2026
 
 
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2026 Q1
-SurveyTeams, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2026-04-05
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-04-05 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-Quorum being established by the attendance of the Sole Director, the meeting was duly organized for business under the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
-
-The Sole Director stated that, in approving the matters minuted here, he relied in good faith on officer-prepared financial and operational materials and on other information, opinions, reports, and statements reasonably believed reliable on subjects within the presenters’ expert or professional competence, consistent with Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Executed by (Sole Director):
-Derek E. Pappas
-Date: April 05, 2026
-
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2026 Q2
-SurveyTeams, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2026-07-05
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-07-05 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law.
-The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
-
-After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Executed by (Sole Director):
-Derek E. Pappas
-Date: July 05, 2026
-
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2026 Q3
-SurveyTeams, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2026-10-05
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-10-05 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-With Derek E. Pappas present as the Sole Director, the Board had a quorum and lawfully convened to transact business under the Delaware General Corporation Law.
-The Sole Director acknowledged on the record that notice requirements were satisfied by proper notice or waiver.
-The Sole Director participated via communications equipment by means of which all persons participating in the meeting could hear each other, and such participation constituted presence in person at the meeting.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
-
-After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Executed by (Sole Director):
-Derek E. Pappas
-Date: October 05, 2026
-
-
----
-
-
-
-Minutes of the Quarterly Governance Meeting - 2026 Q4
-SurveyTeams, Inc.
-(Board of Directors – DE corporation)
-
-Meeting Details
-Date of Meeting: 2026-12-05
-Time of Meeting: 1:00 PM
-Location of Meeting: Wayne, Pennsylvania, via digital communication
-Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
-
-I. Call to Order:
-The Quarterly Governance Meeting of the Board of Directors of SurveyTeams, Inc. (the “Corporation”) was called to order at 1:00 PM on 2026-12-05 by Derek E. Pappas, acting as Sole Director of the Corporation.
-
-II. Roll Call and Quorum:
-Director Present: Derek E. Pappas (Sole Director)
-Director Absent: None
-
-The Sole Director being present, a quorum was present, and the meeting was duly constituted to transact business in accordance with the Delaware General Corporation Law.
-The Sole Director confirmed that notice of the meeting was duly given or waived.
-The Sole Director joined the meeting by approved digital means, with audio contemporaneous among participants, and such attendance was recorded as present in person at the meeting for quorum purposes.
-
-III. Business Review:
-The Sole Director reviewed quarterly infrastructure stability and confirmed that all assets, including software and related intellectual property, created during the quarter in the development centers located in Egypt; United Arab Emirates; United States (distributed) are properly titled to and are the exclusive property of the Corporation.
-
-After reviewing the materials on file for the meeting, the Sole Director relied in good faith on information, opinions, reports, and statements—including presentations from officers of the Corporation—on matters reasonably believed to fall within such persons’ professional or expert competence, under Section 141(e) of the Delaware General Corporation Law.
-
-
-IV. Resolution:
-Upon consideration, the Sole Director adopted the following resolution:
-
-RESOLVED, that all survey tooling, data-collection, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby ratified, confirmed, and approved as assets of the Corporation.
-
-
-
-V. Adjournment:
-There being no further business to come before the Board, the meeting was adjourned.
-
-Executed by (Sole Director):
-Derek E. Pappas
-Date: December 05, 2026
+Executed by (Director):
+Mohamed Mohamed
+Date: December 18, 2026
 
 
 ---

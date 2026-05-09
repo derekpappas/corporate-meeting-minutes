@@ -1,0 +1,74 @@
+
+Minutes of the Annual Meeting of the Board of Directors
+(Delaware corporation)
+
+I. Meeting Information
+Company Name: Hippo, Inc.
+Principal Address: 30 N Gould St Ste 21106, Sheridan, WY 82801
+Address note: The principal address above is the Corporation’s designated notice and filing address on the corporate records. The Corporation is governed by the Delaware General Corporation Law; statutory references in these minutes follow that domicile. Place (and, where applicable, remote participation) reflects where the meeting was conducted for the stated date and may differ from the principal address.
+Date: 2023-12-11
+Time: 1:00 PM
+Place: Thessaloniki, Greece, via digital communication
+Type of Meeting: Annual Meeting of the Board of Directors
+
+II. Call to Order
+The Annual Meeting of the Board of Directors of Hippo, Inc. (the “Corporation”) was called to order at 1:00 PM on 2023-12-11 by Derek E. Pappas, acting as Chair of the Board, with Marija Cejovic also present as a director—all directors constituting the full membership of the Board were in attendance.
+
+III. Roll Call and Quorum
+Directors Present:
+Derek E. Pappas (Director)
+Marija Cejovic (Director)
+
+Directors Absent:
+None
+
+The directors confirmed that notice had been duly given or validly waived for this meeting.
+All directors (Derek E. Pappas, Marija Cejovic) were present, the Board was fully constituted, and quorum requirements under the Delaware General Corporation Law and the Corporation’s bylaws were satisfied. Each director is expected to attend every board meeting, and that expectation was met for this meeting.
+Remote participation was used; the means employed allowed contemporaneous hearing among participants and were treated as satisfying any applicable in-person presence requirement for each director.
+
+IV. Approval of Prior Minutes
+The minutes of the prior Annual Meeting of the Board of Directors held on 2022-12-12 were reviewed and approved by the Board.
+V. Reports of Officers
+
+President’s Report:
+The directors reported on the Corporation’s operational and engineering activities for the calendar year, including centralized management of globally distributed development and the use of operational office location(s) during the calendar year, with operations conducted from Wayne, Pennsylvania, USA; Knoxville, TN; Austin, TX; Palo Alto, California; Surrey, Canada; Belgrade, Serbia; Thessaloniki, Greece and development from Serbia; Bosnia and Herzegovina; Tunisia, while confirming that management, oversight, and decision-making remained centralized and continuously recorded through the Corporation’s official records. The directors summarized continued development of the Corporation’s software and service offerings.  The President’s report included the following accomplishments summary for the calendar year 2023: Platform evolution phase: major backend upgrades, data pipeline modernization, and introduction of real-time and media capabilities. A written addendum designated as Exhibit B for attachment to these minutes upon filing sets forth detailed accomplishments for the period covered by the President’s report, together with supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams) where applicable. All software, data models, algorithms, and related intellectual property developed during the year were reaffirmed as the exclusive property of the Corporation.
+
+Treasurer’s Report:
+The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, including notes payable and similar obligations that remain contingent on a future liquidity event, the timing of which has not yet been determined. The directors acknowledged the status of such obligations and confirmed continued oversight of these matters. Franchise taxes and registered agent fees are paid and current. The Corporation has 8,160,000 shares of common stock issued and outstanding at a par value of $.0001 per share.
+
+In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors reasonably believed were within such persons’ professional or expert competence, as contemplated by DGCL § 141(e).
+
+
+VI. Discussion Items
+The directors discussed the Corporation’s product and data roadmap for 2024, including API reliability targets, merchant integration milestones, and fraud-prevention initiatives.
+
+VII. Resolutions
+Upon consideration, the Board adopted the following resolutions:
+
+Approval of Financial Reports
+RESOLVED, that the financial statements for calendar year 2023 are hereby approved.
+
+Approval of 2024 Budget
+RESOLVED, that the operating, engineering, and marketing budget for calendar year 2024 is hereby approved.
+
+Banking Authorization
+RESOLVED, that Derek E. Pappas is authorized to open, maintain, and manage one or more corporate bank accounts in the name of the Corporation at JPMorgan Chase Bank, N.A., and any successor institution, and to act as the sole authorized signatory with full authority to execute all related documents.
+
+
+
+Stockholder Written Consent (2023)
+The Board noted that the Written Consent of Sole Stockholder dated December 11, 2023, adopting stockholder resolutions under DGCL §228 for the year 2023, will be filed with the minutes of the stockholders of the Corporation upon execution, to be designated Exhibit A upon filing.
+
+
+VIII. Adjournment
+There being no further business to come before the Board, the meeting was adjourned.
+
+Executed by (Director):
+Derek E. Pappas
+Date: 2023-12-11
+
+Executed by (Director):
+Marija Cejovic
+Date: 2023-12-11
+
+---

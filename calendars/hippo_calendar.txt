@@ -1,7 +1,10 @@
 Hippo, Inc
 
-2022-04-01
+2022-04-08
   Hippo, Inc - Quarterly Meeting (Board) Q1 - 1:00 PM
+
+2022-04-14
+  Hippo, Inc - Organizational Meeting (Board) - 10:00 AM
 
 2022-07-01
   Hippo, Inc - Quarterly Meeting (Board) Q2 - 1:00 PM
@@ -14,7 +17,7 @@ Hippo, Inc
 
 2022-12-12
   Hippo, Inc - Annual Meeting of the Board of Directors - 1:00 PM
-  Hippo, Inc - Stockholder Written Consent (DGCL §228) - 1:00 PM
+  Hippo, Inc - Stockholder Written Consent - 1:00 PM
   Hippo, Inc - Yearly Special Meeting (Board) - 12:00 PM
 
 2023-04-01
@@ -31,7 +34,7 @@ Hippo, Inc
 
 2023-12-11
   Hippo, Inc - Annual Meeting of the Board of Directors - 1:00 PM
-  Hippo, Inc - Stockholder Written Consent (DGCL §228) - 1:00 PM
+  Hippo, Inc - Stockholder Written Consent - 1:00 PM
   Hippo, Inc - Yearly Special Meeting (Board) - 12:00 PM
 
 2024-04-01
@@ -48,7 +51,7 @@ Hippo, Inc
 
 2024-12-09
   Hippo, Inc - Annual Meeting of the Board of Directors - 1:00 PM
-  Hippo, Inc - Stockholder Written Consent (DGCL §228) - 1:00 PM
+  Hippo, Inc - Stockholder Written Consent - 1:00 PM
   Hippo, Inc - Yearly Special Meeting (Board) - 12:00 PM
 
 2025-04-01
@@ -65,7 +68,7 @@ Hippo, Inc
 
 2025-12-08
   Hippo, Inc - Annual Meeting of the Board of Directors - 1:00 PM
-  Hippo, Inc - Stockholder Written Consent (DGCL §228) - 1:00 PM
+  Hippo, Inc - Stockholder Written Consent - 1:00 PM
   Hippo, Inc - Yearly Special Meeting (Board) - 12:00 PM
 
 2026-04-01
@@ -82,5 +85,5 @@ Hippo, Inc
 
 2026-12-14
   Hippo, Inc - Annual Meeting of the Board of Directors - 1:00 PM
-  Hippo, Inc - Stockholder Written Consent (DGCL §228) - 1:00 PM
+  Hippo, Inc - Stockholder Written Consent - 1:00 PM
   Hippo, Inc - Yearly Special Meeting (Board) - 12:00 PM

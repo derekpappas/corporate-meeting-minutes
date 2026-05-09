@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "description": "Cap table derived from `data/stock_ledgers/*.json`. This file is a convenience summary; the ledger is the system of record. Totals may be incomplete where ledger entries are marked pending.",
+  "as_of": "2026-05-08",
+  "companies": {
+    "Hippo, Inc.": {
+      "jurisdiction": "DE",
+      "holders": [
+        {
+          "holder": "Derek E. Pappas",
+          "shares": 8000000,
+          "status": "issued"
+        }
+      ],
+      "total_issued_shares_from_ledger": 8000000,
+      "notes": "Ledger reflects the user-provided 8,000,000 share issuance. If additional shares were issued later (e.g. per minute registry 8,160,000 in 2023+), add those issuances to the ledger to reconcile."
+    },
+    "Ritual Growth, Inc.": {
+      "jurisdiction": "DE",
+      "holders": [
+        {
+          "holder": "Derek E. Pappas",
+          "shares": 4000000,
+          "status": "issued"
+        }
+      ],
+      "total_issued_shares_from_ledger": 4000000
+    },
+    "TeamBoost.ai, Inc.": {
+      "jurisdiction": "DE",
+      "holders": [
+        {
+          "holder": "Derek E. Pappas",
+          "shares": 4000000,
+          "status": "issued"
+        }
+      ],
+      "total_issued_shares_from_ledger": 4000000,
+      "notes": "Minute registry indicates 10,000,000 issued for 2023+. Add remaining issuances to the ledger if those are real and you want the cap table to reconcile."
+    },
+    "SurveyTeams, Inc.": {
+      "jurisdiction": "DE",
+      "holders": [
+        {
+          "holder": "Derek E. Pappas",
+          "shares": 4000000,
+          "status": "issued"
+        },
+        {
+          "holder": "Mohamed Mohamed",
+          "shares": 4000000,
+          "status": "pending_details"
+        }
+      ],
+      "total_issued_shares_from_ledger": 8000000,
+      "notes": "Second holder line is pending bank/date/amount details in ledger."
+    },
+    "Loki Sports Enterprises, Inc.": {
+      "jurisdiction": "WY",
+      "holders": [
+        {
+          "holder": "Derek E. Pappas",
+          "shares": 4000000,
+          "status": "issued"
+        }
+      ],
+      "total_issued_shares_from_ledger": 4000000,
+      "notes": "Minute registry indicates 10,000,000 outstanding for 2023+. Add remaining issuances to the ledger if those are real and you want the cap table to reconcile."
+    }
+  }
+}
+

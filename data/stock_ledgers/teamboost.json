@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "company_legal_name": "TeamBoost.ai, Inc.",
+  "jurisdiction": "DE",
+  "par_value_per_share_usd": 0.0001,
+  "currency": "USD",
+  "certificate_numbering_policy": "TB-0001, TB-0002, ...",
+  "ledger_entries": [
+    {
+      "certificate_number": "TB-0001",
+      "issue_date": "2023-05-07",
+      "shareholder": "Derek E. Pappas",
+      "shares": 4000000,
+      "consideration": {
+        "type": "cash",
+        "amount": 400,
+        "currency": "USD",
+        "payment_method": "check",
+        "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+        "bank_destination": "Chase account ending in 1135 (TeamBoost.ai, Inc.)"
+      },
+      "notes": "User-provided transaction details."
+    }
+  ]
+}
+

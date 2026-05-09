@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "company_legal_name": "Loki Sports Enterprises, Inc.",
+  "jurisdiction": "WY",
+  "par_value_per_share_usd": 0.0001,
+  "currency": "USD",
+  "certificate_numbering_policy": "LOKI-0001, LOKI-0002, ...",
+  "ledger_entries": [
+    {
+      "certificate_number": "LOKI-0001",
+      "issue_date": "2023-05-07",
+      "shareholder": "Derek E. Pappas",
+      "shares": 4000000,
+      "consideration": {
+        "type": "cash",
+        "amount": 400,
+        "currency": "USD",
+        "payment_method": "check",
+        "bank_source": "Chase account ending in 8407 (Derek E. Pappas)",
+        "bank_destination": "Chase account ending in 3962 (Loki Sports Enterprises, Inc.)"
+      },
+      "notes": "User-provided transaction details."
+    }
+  ]
+}
+
