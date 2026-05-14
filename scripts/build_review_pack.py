@@ -266,8 +266,12 @@ def build_all_pack(out: Path) -> tuple[int, int, int, int]:
     ):
         if _copy(p, pdf_dir / p.name):
             copied_pdf += 1
-    agm_sample_pdfs = [p for p in sorted(_GEN.glob("*/samples/*.pdf")) if re.search(r"agm", p.name, re.I)]
-    ex_pdf = agm_sample_pdfs[-1] if agm_sample_pdfs else None
+    rep_pdfs = sorted(_GEN.glob("*/samples/*_representative_samples.pdf"))
+    ex_pdf = rep_pdfs[-1] if rep_pdfs else None
+    if not ex_pdf:
+        flat = sorted(_GEN.glob("*/samples/*.pdf"))
+        agmish = [p for p in flat if re.search(r"agm", p.name, re.I)]
+        ex_pdf = agmish[-1] if agmish else (flat[-1] if flat else None)
     if ex_pdf:
         if _copy(ex_pdf, pdf_dir / f"example_{ex_pdf.name}"):
             copied_pdf += 1

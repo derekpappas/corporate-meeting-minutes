@@ -140,7 +140,7 @@ locations_timeline = [
 # - minutes_assert_exhibits_filed — if **True**, minutes may state exhibits are **on file** / **annexed**; default **False** uses
 #   **to be filed upon execution** / **designated for attachment** wording so generated text does not over-claim filing.
 # - board_meeting_materials_acknowledgment_markdown — optional paragraph before business/resolutions (AGM after § IV;
-#   special/quarterly after roll call) stating materials the Sole Director reviewed; must match real exhibits/files (generator does not invent them).
+#   special/quarterly after roll call) stating materials the board (or sole director) reviewed; must match real exhibits/files (generator does not invent them).
 #
 # Schedule randomization (optional; reproducible with a seed):
 # - Set env `CORPORATE_MINUTES_SCHEDULE_SEED` to an int (or any string hashed to an int), or pass `--schedule-seed` to the CLI.
@@ -1540,7 +1540,7 @@ def board_remote_presence_paragraph(
 
 
 def board_meeting_materials_acknowledgment_block(co: dict) -> str:
-    """Optional paragraph: materials the Sole Director reviewed before the meeting (e.g. exhibit index).
+    """Optional paragraph: materials the board (or sole director) reviewed before the meeting (e.g. exhibit index).
 
     Set **`board_meeting_materials_acknowledgment_markdown`** to counsel-approved text that matches **real**
     records (PDFs, emails, annexed exhibits). Omit the key or use a blank string when not used. The generator does
@@ -5010,26 +5010,93 @@ def generate_master_all_companies_book(
     return out_docx, out_pdf
 
 
+def _representative_samples_markdown(co_name: str, co: dict, safe: str, y: int) -> str:
+    """Markdown for one collated sample volume (latest cycle year ``y``), mirroring prior per-PDF sample picks."""
+    cny = f"{safe}_{y}"
+    display = minutes_display_name(co_name)
+    parts: list[str] = [
+        (
+            f"**Representative samples**\n**{display}**\n"
+            f"Cycle year **{y}**: board AGM set, stockholder instrument(s) where applicable, "
+            f"and cap / stock-ledger excerpts. "
+            f"For the full compiled minute book for this company, see **`{safe}_all_meetings_book.docx`** "
+            f"(and `.pdf`) in the company folder (parent of this `samples/` directory).\n\n---"
+        ),
+        MEETING_BOOK_PAGE_BREAK_MARKER,
+        generate_agm(co_name, y).rstrip(),
+        MEETING_BOOK_PAGE_BREAK_MARKER,
+        generate_special(co_name, y).rstrip(),
+        MEETING_BOOK_PAGE_BREAK_MARKER,
+        board_waiver_of_notice_markdown(cny, y, co_name).rstrip(),
+        MEETING_BOOK_PAGE_BREAK_MARKER,
+        generate_quarterly(co_name, y, "Q1").rstrip(),
+    ]
+
+    stockholder_kind = co.get("stockholder_meeting", "written_consent")
+    if stockholder_kind == "annual_meeting_stockholders":
+        parts.extend(
+            (
+                MEETING_BOOK_PAGE_BREAK_MARKER,
+                generate_annual_meeting_stockholders(co_name, y).rstrip(),
+                MEETING_BOOK_PAGE_BREAK_MARKER,
+                stockholder_waiver_of_notice_annual_meeting_markdown(cny, y, co_name).rstrip(),
+                MEETING_BOOK_PAGE_BREAK_MARKER,
+                notice_of_annual_stockholder_meeting_markdown(cny, y, co_name).rstrip(),
+                MEETING_BOOK_PAGE_BREAK_MARKER,
+                majority_stockholder_written_consent_ratification_markdown(cny, y, co_name).rstrip(),
+            )
+        )
+    else:
+        parts.extend(
+            (
+                MEETING_BOOK_PAGE_BREAK_MARKER,
+                sole_stockholder_written_consent_markdown(co_name, y).rstrip(),
+            )
+        )
+
+    parts.extend(
+        (
+            MEETING_BOOK_PAGE_BREAK_MARKER,
+            cap_table_document_markdown(co_name, co),
+            MEETING_BOOK_PAGE_BREAK_MARKER,
+            stock_ledger_document_markdown(co_name, co),
+        )
+    )
+    return MEETING_BOOK_SEPARATOR.join(p for p in parts if p)
+
+
+def _clear_directory_contents(path: str) -> None:
+    """Remove every file and subdirectory under ``path`` (``path`` itself is kept)."""
+    if not os.path.isdir(path):
+        return
+    for name in os.listdir(path):
+        p = os.path.join(path, name)
+        if os.path.isdir(p):
+            shutil.rmtree(p, ignore_errors=True)
+        else:
+            try:
+                os.remove(p)
+            except OSError:
+                pass
+
+
 def write_samples_directory(
     output_root: str,
     years: tuple[int, ...] = (2022, 2023, 2024, 2025, 2026),
 ) -> str:
-    """Create ``generated/<safe>/samples/`` under each company with PDF samples of representative generated docs.
+    """Create ``generated/<safe>/samples/`` under each company with one collated sample volume per company.
 
     Cross-company master book and combined CSV live under ``…/all_companies/`` (rollup). Removes legacy ``generated/samples/``
     (flat), ``generated/examples/``, and ``generated/<safe>/examples/`` if present.
 
-    Picks the latest year available for each company, then emits one PDF per category:
-    - agm
-    - yearly_special_meeting
-    - written_consent_in_lieu_of_annual_meeting OR annual_meeting_of_stockholders (+ waiver/notice/ratification where present)
-    - waiver_of_notice_board_meetings
-    - one quarterly (Q1)
-    - cap_table, stock_ledger (from `generated/<safe>/cap_tables/*.docx` and `generated/<safe>/stock_ledgers/*.docx` when present)
-    - cap_table_carta_pulley.csv (copied next to those PDFs when present)
-    - all_meetings_book (compiled): copies the pre-built `generated/<safe>/<safe>_all_meetings_book.pdf` when present
+    Picks the latest year available for each company, then writes (under ``samples/``):
 
-    Standalone .docx files are converted with ReportLab (same letter layout as compiled book PDFs).
+    - ``<safe>_representative_samples.docx`` and ``<safe>_representative_samples.pdf`` — same representative content
+      that was previously emitted as separate PDFs (AGM, yearly special, board waiver, Q1 quarterly, stockholder-side
+      instruments, cap table, stock ledger), as one minute-book-style document.
+    - ``<safe>_cap_table_carta_pulley.csv`` copied from ``cap_tables/`` when present.
+
+    ``write_loki_agm_accomplishments_exhibits_pdf_bundle`` may add ``samples/agm_accomplishment_exhibits/*.pdf`` afterward.
     """
     start_cwd = os.getcwd()
     root_dir = os.path.join(start_cwd, output_root)
@@ -5046,10 +5113,6 @@ def write_samples_directory(
     if os.path.isdir(flat_samples):
         shutil.rmtree(flat_samples, ignore_errors=True)
 
-    def _emit_pdf_from_docx(src_docx: str, dst_pdf: str) -> None:
-        os.makedirs(os.path.dirname(dst_pdf), exist_ok=True)
-        _write_docx_as_simple_pdf(src_docx, dst_pdf)
-
     for co_name, co in companies.items():
         safe = sanitize_company_name(co_name)
         co_dir = os.path.join(root_dir, safe)
@@ -5062,86 +5125,23 @@ def write_samples_directory(
             continue
         y = applicable[-1]
         annual_date = annual_meeting_date_str(co, y)
-        special_date = board_special_meeting_date_str(co, y)
-        q1_date = quarterly_meeting_date_str(co, y, "Q1")
 
         out_dir = os.path.join(co_dir, "samples")
         os.makedirs(out_dir, exist_ok=True)
-        for name in os.listdir(out_dir):
-            os.remove(os.path.join(out_dir, name))
+        _clear_directory_contents(out_dir)
 
-        # Core docs (always generated) — live under ``meetings/`` (flat per company).
-        my_meetings = os.path.join(co_dir, "meetings")
-        for src in (
-            os.path.join(my_meetings, meeting_filename(co_name, annual_date, "agm", ext="docx")),
-            os.path.join(my_meetings, meeting_filename(co_name, special_date, "yearly_special_meeting", ext="docx")),
-            os.path.join(my_meetings, meeting_filename(co_name, annual_date, "waiver_of_notice_board_meetings", ext="docx")),
-            os.path.join(
-                my_meetings,
-                meeting_filename(
-                    co_name,
-                    q1_date,
-                    "quarterly",
-                    quarter="Q1",
-                    ext="docx",
-                ),
-            ),
-        ):
-            if os.path.isfile(src):
-                stem = os.path.splitext(os.path.basename(src))[0]
-                _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
-
-        # Stockholder side varies
-        stockholder_kind = co.get("stockholder_meeting", "written_consent")
-        if stockholder_kind == "annual_meeting_stockholders":
-            for src in (
-                os.path.join(my_meetings, meeting_filename(co_name, annual_date, "annual_meeting_of_stockholders", ext="docx")),
-                os.path.join(
-                    my_meetings,
-                    meeting_filename(co_name, annual_date, "waiver_of_notice_annual_stockholder_meeting", ext="docx"),
-                ),
-                os.path.join(
-                    my_meetings,
-                    meeting_filename(co_name, annual_date, "notice_of_annual_stockholder_meeting", ext="docx"),
-                ),
-                os.path.join(
-                    my_meetings,
-                    meeting_filename(
-                        co_name,
-                        annual_date,
-                        "majority_stockholders_written_consent_ratification_of_annual_board_actions",
-                        ext="docx",
-                    ),
-                ),
-            ):
-                if os.path.isfile(src):
-                    stem = os.path.splitext(os.path.basename(src))[0]
-                    _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
-        else:
-            src = os.path.join(
-                my_meetings, meeting_filename(co_name, annual_date, "written_consent_in_lieu_of_annual_meeting", ext="docx")
-            )
-            if os.path.isfile(src):
-                stem = os.path.splitext(os.path.basename(src))[0]
-                _emit_pdf_from_docx(src, os.path.join(out_dir, f"{stem}.pdf"))
+        book_md = _representative_samples_markdown(co_name, co, safe, y)
+        sample_docx = os.path.join(out_dir, f"{safe}_representative_samples.docx")
+        sample_pdf = os.path.join(out_dir, f"{safe}_representative_samples.pdf")
+        write_docx_from_minutes(
+            book_md, sample_docx, annual_date, co_name, minute_book_page_breaks=True
+        )
+        _write_minute_book_pdf(book_md, sample_pdf)
 
         cap_tables_dir = os.path.join(co_dir, "cap_tables")
-        stock_ledgers_dir = os.path.join(co_dir, "stock_ledgers")
-        cap_docx = os.path.join(cap_tables_dir, f"{safe}_cap_table.docx")
-        if os.path.isfile(cap_docx):
-            _emit_pdf_from_docx(cap_docx, os.path.join(out_dir, f"{safe}_cap_table.pdf"))
-        led_docx = os.path.join(stock_ledgers_dir, f"{safe}_stock_ledger.docx")
-        if os.path.isfile(led_docx):
-            _emit_pdf_from_docx(led_docx, os.path.join(out_dir, f"{safe}_stock_ledger.pdf"))
         csv_src = os.path.join(cap_tables_dir, f"{safe}_cap_table_carta_pulley.csv")
         if os.path.isfile(csv_src):
             shutil.copy2(csv_src, os.path.join(out_dir, f"{safe}_cap_table_carta_pulley.csv"))
-
-        # Compiled book: distribution PDF at company root.
-        book_pdf = os.path.join(co_dir, f"{safe}_all_meetings_book.pdf")
-        if os.path.isfile(book_pdf):
-            dst = os.path.join(out_dir, f"{safe}_all_meetings_book.pdf")
-            shutil.copy2(book_pdf, dst)
 
     return root_dir
 
@@ -5355,10 +5355,14 @@ def main():
     )
     parser.add_argument(
         "--write-samples",
+        "--write-examples",
         action="store_true",
+        dest="write_samples",
         help=(
-            "Create ``generated/<safe>/samples/`` under each company with PDF samples (and copied CSVs) of "
-            "representative generated docs. Master all-companies book and combined CSV stay under ``…/all_companies/``."
+            "Create ``<output-root>/<safe>/samples/`` under each company: one collated "
+            "``<safe>_representative_samples.{docx,pdf}`` plus a copied Carta/Pulley CSV when present. "
+            "Master all-companies book and combined CSV stay under ``…/all_companies/``. "
+            "``--write-examples`` is an alias for this flag."
         ),
     )
     parser.add_argument(
@@ -5406,7 +5410,10 @@ def main():
 
     if args.write_samples:
         write_samples_directory(output_root=args.output_root)
-        print(f"Wrote per-company samples under {args.output_root}/<safe>/samples/")
+        print(
+            f"Wrote per-company representative sample volume under {args.output_root}/<safe>/samples/"
+            f" (<safe>_representative_samples.docx/.pdf; CSV when present)."
+        )
 
     if args.write_loki_agm_exhibits_pdf:
         write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root=args.output_root)
