@@ -332,8 +332,8 @@ def test_agm_written_consent_cross_ref_default_pending_filing() -> None:
     md = cmm.generate_agm("Hippo, Inc", 2023)
     assert "will be filed" in md.lower()
     assert "upon execution" in md.lower()
-    assert "The Board noted" in md
-    assert "The Sole Director noted" not in md
+    assert "The Sole Director noted" in md
+    assert "The Board noted" not in md
 
 
 def test_loki_registry_has_wy_jurisdiction_no_dgcl_in_scanned_fields() -> None:
@@ -354,42 +354,24 @@ def test_loki_registry_has_wy_jurisdiction_no_dgcl_in_scanned_fields() -> None:
             assert "delaware general corporation law" not in low, key
 
 
-def test_marija_cejovic_board_after_first_chronological_meeting() -> None:
-    """Hippo / RG / TB: first *chronological* board meeting is sole director only when that meeting is not a full-board org; later pattern varies by company."""
-    q1 = cmm.generate_quarterly("Hippo, Inc", 2022, "Q1")
-    # Hippo: Q1 predates org; first meeting is sole-director and contains the appointment resolution.
-    assert "Sole Director" in q1
-    assert "Appointment of Additional Director" in q1
-    q2 = cmm.generate_quarterly("Hippo, Inc", 2022, "Q2")
-    assert "Marija Cejovic" in q2
-    assert "**Directors Present:**" in q2
-
-    hippo_org = cmm.generate_organizational("Hippo, Inc", 2022)
-    assert "Sole Director" not in hippo_org
-    assert "**Directors Present:**" in hippo_org
-    assert "Marija Cejovic" in hippo_org
-
-    tb_org = cmm.generate_organizational("TeamBoost.ai, Inc.", 2023)
-    assert "Sole Director" not in tb_org
-    assert "**Directors Present:**" in tb_org
-    assert "Marija Cejovic" in tb_org
-    assert "Appointment of Additional Director" not in tb_org
-
-    tb_q1 = cmm.generate_quarterly("TeamBoost.ai, Inc.", 2023, "Q1")
-    # TeamBoost: org (full board) is first; Q1 is already a two-director board—no director appointment text in Q1.
-    assert "Marija Cejovic" in tb_q1
-    assert "**Directors Present:**" in tb_q1
-    assert "Appointment of Additional Director" not in tb_q1
-
-    rg_agm = cmm.generate_agm("Ritual Growth, Inc.", 2022)
-    assert "Marija Cejovic" in rg_agm
-    assert "**Directors Present:**" in rg_agm
+def test_hippo_ritual_teamboost_board_minutes_exclude_removed_director_name() -> None:
+    """Hippo / Ritual / TeamBoost: sole-director board minutes must not name a former second director."""
+    for text in (
+        cmm.generate_quarterly("Hippo, Inc", 2022, "Q2"),
+        cmm.generate_organizational("Hippo, Inc", 2022),
+        cmm.generate_organizational("TeamBoost.ai, Inc.", 2023),
+        cmm.generate_quarterly("TeamBoost.ai, Inc.", 2023, "Q1"),
+        cmm.generate_agm("Ritual Growth, Inc.", 2022),
+    ):
+        low = text.lower()
+        assert "marija" not in low
+        assert "cejovic" not in low
 
 
-def test_marija_vacation_json_loads_and_blocks_august_2023() -> None:
-    ranges = cmm._load_marija_vacation_ranges()
+def test_quarterly_schedule_blocks_json_loads_and_blocks_august_2023() -> None:
+    ranges = cmm._load_quarterly_schedule_block_ranges()
     assert any(lo <= date(2023, 8, 20) <= hi for lo, hi in ranges)
-    assert "2023-08-20" in cmm._marija_vacation_blocked_iso_in_month(2023, 8)
+    assert "2023-08-20" in cmm._schedule_blocked_iso_dates_in_month(2023, 8)
 
 
 def test_board_chronological_index_orders_quarterly_before_december_annual() -> None:

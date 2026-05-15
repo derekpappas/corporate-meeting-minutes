@@ -130,8 +130,7 @@ locations_timeline = [
 #   in calendar order (across the minute series) is minuted as **sole director**; every later meeting uses the full `board_directors` list (e.g. appointment
 #   effective after the initial meeting). Waiver-of-notice instruments still name the full board when configured.
 # - organizational_meeting_full_board — optional **True**: when an organizational meeting exists (`inc_year` only), minute it with the **full** `board_directors`
-#   roster (no sole-director strip for kind `org`), and do **not** insert “Appointment of Additional Director(s)” at that meeting. Use when the board
-#   intends both directors present at the post-filing organizational meeting (e.g. TeamBoost org before Q1).
+#   roster (no sole-director strip for kind `org`), and do **not** insert “Appointment of Additional Director(s)” at that meeting.
 # - board_meeting_chair_name — optional; used for “called to order … acting as Chair of the Board” when `board_directors` is set.
 # - agm_banking_authorized_signatory — optional name in the default banking RESOLVED when the board is not sole-director (else `director_name`).
 # - agm_president_report_opening_paragraph_markdown — optional `{office_locations}` / `{dev_locations}` / `{year}` paragraph replacing the default “centralized … development” opener.
@@ -1581,18 +1580,7 @@ company_information = {
         "virtual_ok": True,
         # Engineering / contractor geography for Hippo only (not used for other registry companies).
         "development_centers_line": "Serbia; Bosnia and Herzegovina; Tunisia",
-        "board_directors": [
-            {"name": "Derek E. Pappas", "title": "Director"},
-            {"name": "Marija Cejovic", "title": "Director"},
-        ],
-        "board_meeting_chair_name": "Derek E. Pappas",
         "board_sole_director_first_chronological_meeting": True,
-        "organizational_meeting_full_board": True,
-        "board_meeting_reliance_markdown": (
-            "In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including "
-            "financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors "
-            "reasonably believed were within such persons’ professional or expert competence, as contemplated by **DGCL §141(e)**.\n"
-        ),
         "board_roll_quorum_layout": 1,
         "minute_book_compilation_preamble_markdown": (
             "**Compiled board minutes — {display_company}**\n\n"
@@ -1608,7 +1596,6 @@ company_information = {
                 "name": "Derek E. Pappas",
                 "titles": ["President", "Secretary", "Treasurer", "Chief Executive Officer"],
             },
-            {"name": "Marija Cejovic", "title": "Chief Operating Officer"},
         ],
         # Signature formatting (intentionally varied per company).
         "signature_block_style": "executed_by",
@@ -1627,7 +1614,7 @@ company_information = {
             "public APIs, analytics, and back-office tooling supporting those systems."
         ),
         "agm_discussion_items_line": (
-            "The directors discussed the Corporation’s **{next_year}** roadmap across **Hippo Shopping**, **PriceStarz**, **crawl coverage and extraction quality**, "
+            "The Sole Director discussed the Corporation’s **{next_year}** roadmap across **Hippo Shopping**, **PriceStarz**, **crawl coverage and extraction quality**, "
             "**offer-grouping and deal-linking accuracy** in the processing pipeline, merchant and marketplace reliability, and **mobile and extension release** cadence."
         ),
         "special_meeting_purpose": (
@@ -1709,7 +1696,7 @@ company_information = {
             "the Board of Directors) and **Article VIII, Section 4** (waiver of notice)"
         ),
         "agm_president_report_product_line": (
-            "The directors summarized continued **server-side and web application** engineering for **{year}**, including API services, deployment automation, "
+            "The Sole Director summarized continued **server-side and web application** engineering for **{year}**, including API services, deployment automation, "
             "and hosting integrations. The President’s report noted that **core product-development efforts were restarted in calendar years 2023, 2025, and 2026**, "
             "each time replanning architecture, backlog, and release sequencing for the Corporation’s primary web stack while preserving continuity for long-running services."
         ),
@@ -1720,7 +1707,7 @@ company_information = {
         "development_centers_line": "Poland; Romania; Portugal",
         "primary_banking_institution": "Bank of America, N.A.",
         "agm_discussion_items_line": (
-            "The directors discussed **{next_year}** delivery priorities for the Corporation’s **server-side and web stack**, including recovery planning after "
+            "The Sole Director discussed **{next_year}** delivery priorities for the Corporation’s **server-side and web stack**, including recovery planning after "
             "**development restarts in 2023, 2025, and 2026**, partner commitments, hosting footprint, and release scheduling."
         ),
         "special_meeting_purpose": (
@@ -1744,18 +1731,7 @@ company_information = {
             "**contractor and consultant arrangements** were reaffirmed as **properly titled to and the exclusive property of the Corporation**, "
             "without implying ownership of **counterparties’ equipment or premises**."
         ),
-        "board_directors": [
-            {"name": "Derek E. Pappas", "title": "Director"},
-            {"name": "Marija Cejovic", "title": "Director"},
-        ],
-        "board_meeting_chair_name": "Derek E. Pappas",
         "board_sole_director_first_chronological_meeting": True,
-        "organizational_meeting_full_board": True,
-        "board_meeting_reliance_markdown": (
-            "In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including "
-            "financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors "
-            "reasonably believed were within such persons’ professional or expert competence, as contemplated by **DGCL §141(e)**.\n"
-        ),
         "board_roll_quorum_layout": 3,
         "organizational_bylaws_exhibit_label": "Exhibit B",
         "organizational_bylaws_document_description": "By-Laws of Ritual Growth, Inc.",
@@ -1764,7 +1740,6 @@ company_information = {
                 "name": "Derek E. Pappas",
                 "titles": ["President", "Secretary", "Treasurer", "Chief Executive Officer"],
             },
-            {"name": "Marija Cejovic", "title": "Chief Operating Officer"},
         ],
         "minute_book_compilation_preamble_markdown": (
             "**{display_company} — board minute compilation**\n\n"
@@ -1895,12 +1870,12 @@ company_information = {
         ),
         "agm_president_report_product_line": {
             "2023": (
-                "The directors summarized product development for **{year}** with primary emphasis on **native mobile applications** and the Corporation’s "
+                "The Sole Director summarized product development for **{year}** with primary emphasis on **native mobile applications** and the Corporation’s "
                 "**AI-assisted company-management** direction—supported by **APIs, AI bots, background services, and owned or leased servers**—while **customer-facing "
                 "web application** engineering moved from planning into initial implementation ahead of broader **2024** web releases."
             ),
             "default": (
-                "The directors summarized continued work on an **AI platform for company management**, including the **customer-facing web application** "
+                "The Sole Director summarized continued work on an **AI platform for company management**, including the **customer-facing web application** "
                 "(scaling from **2024** alongside **native mobile clients** in production from **2023**), **AI bots and AI tooling**, **server-side services**, and "
                 "supporting cloud infrastructure for those products."
             ),
@@ -1913,7 +1888,7 @@ company_information = {
         "quarterly_meeting_time": "2:00 PM",
         "primary_banking_institution": "First Citizens Bank & Trust Company",
         "agm_discussion_items_line": (
-            "The directors discussed **{next_year}** priorities for the Corporation’s **AI-led company-management system**, including **web and mobile** delivery, "
+            "The Sole Director discussed **{next_year}** priorities for the Corporation’s **AI-led company-management system**, including **web and mobile** delivery, "
             "**AI bot** reliability, **server and toolchains** scaling, model governance, and customer onboarding."
         ),
         "special_meeting_purpose": (
@@ -1937,18 +1912,7 @@ company_information = {
             "under applicable **contractor and consultant arrangements** were reaffirmed as **properly titled to and the exclusive property of the Corporation**, "
             "without implying ownership of **counterparties’ equipment or premises**."
         ),
-        "board_directors": [
-            {"name": "Derek E. Pappas", "title": "Director"},
-            {"name": "Marija Cejovic", "title": "Director"},
-        ],
-        "board_meeting_chair_name": "Derek E. Pappas",
         "board_sole_director_first_chronological_meeting": True,
-        "organizational_meeting_full_board": True,
-        "board_meeting_reliance_markdown": (
-            "In taking the actions reflected in these minutes, the directors relied in good faith on information, opinions, reports, and statements—including "
-            "financial and operational materials prepared for this meeting and presentations from officers of the Corporation—as to matters the directors "
-            "reasonably believed were within such persons’ professional or expert competence, as contemplated by **DGCL §141(e)**.\n"
-        ),
         "board_roll_quorum_layout": 2,
         "organizational_bylaws_exhibit_label": "Exhibit A",
         "organizational_bylaws_document_description": "By-Laws of TeamBoost.ai, Inc.",
@@ -1957,7 +1921,6 @@ company_information = {
                 "name": "Derek E. Pappas",
                 "titles": ["President", "Secretary", "Treasurer", "Chief Executive Officer"],
             },
-            {"name": "Marija Cejovic", "title": "Chief Operating Officer"},
         ],
         "minute_book_compilation_preamble_markdown": (
             "**{display_company} — compiled minutes**\n\n"
@@ -2358,25 +2321,26 @@ _ACCOMPLISHMENTS_PATH = os.path.join(
 )
 _accomplishments_cache: dict | None = None
 
-_MARIJA_VACATIONS_JSON = os.path.join(
+_QUARTERLY_SCHEDULE_BLOCKS_JSON = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
     "vacations",
-    "marija_cejovic.json",
+    "quarterly_schedule_blocks.json",
 )
-_marija_vacation_ranges_cache: list[tuple[date, date]] | None = None
+_quarterly_schedule_block_ranges_cache: list[tuple[date, date]] | None = None
 
 
-def _load_marija_vacation_ranges() -> list[tuple[date, date]]:
-    """Inclusive date ranges from `vacations/marija_cejovic.json` (empty if missing)."""
-    global _marija_vacation_ranges_cache
-    if _marija_vacation_ranges_cache is not None:
-        return _marija_vacation_ranges_cache
+def _load_quarterly_schedule_block_ranges() -> list[tuple[date, date]]:
+    """Inclusive date ranges from `vacations/quarterly_schedule_blocks.json` (empty if missing)."""
+    global _quarterly_schedule_block_ranges_cache
+    if _quarterly_schedule_block_ranges_cache is not None:
+        return _quarterly_schedule_block_ranges_cache
     out: list[tuple[date, date]] = []
-    if os.path.isfile(_MARIJA_VACATIONS_JSON):
+    if os.path.isfile(_QUARTERLY_SCHEDULE_BLOCKS_JSON):
         try:
-            with open(_MARIJA_VACATIONS_JSON, encoding="utf-8") as f:
+            with open(_QUARTERLY_SCHEDULE_BLOCKS_JSON, encoding="utf-8") as f:
                 payload = json.load(f)
-            for row in payload.get("vacations") or []:
+            rows = payload.get("blocked_date_ranges") or payload.get("vacations") or []
+            for row in rows:
                 if not isinstance(row, dict):
                     continue
                 a = str(row.get("start_date") or "").strip()
@@ -2386,14 +2350,14 @@ def _load_marija_vacation_ranges() -> list[tuple[date, date]]:
                 out.append((date.fromisoformat(a), date.fromisoformat(b)))
         except (OSError, ValueError, json.JSONDecodeError):
             out = []
-    _marija_vacation_ranges_cache = out
-    return _marija_vacation_ranges_cache
+    _quarterly_schedule_block_ranges_cache = out
+    return _quarterly_schedule_block_ranges_cache
 
 
-def _marija_vacation_blocked_iso_in_month(year: int, month: int) -> set[str]:
-    """ISO dates in `year`-`month` that fall on Marija’s vacation (for schedule shifting)."""
+def _schedule_blocked_iso_dates_in_month(year: int, month: int) -> set[str]:
+    """ISO dates in `year`-`month` that fall on configured block-out ranges (for schedule shifting)."""
     blocked: set[str] = set()
-    for a, b in _load_marija_vacation_ranges():
+    for a, b in _load_quarterly_schedule_block_ranges():
         cur = a
         while cur <= b:
             if cur.year == year and cur.month == month:
@@ -2818,7 +2782,7 @@ def quarterly_meeting_date_str(co, year, quarter):
         and _board_meeting_chronological_index(co_name, co, year, quarter) > 0
     ):
         blocked = {annual_meeting_date_str(co, year), board_special_meeting_date_str(co, year)}
-        vac = _marija_vacation_blocked_iso_in_month(y, month)
+        vac = _schedule_blocked_iso_dates_in_month(y, month)
         d = _shift_date_within_month_avoiding(y, month, d, blocked | vac)
     return d.strftime("%Y-%m-%d")
 
@@ -2999,14 +2963,15 @@ def _stockholder_waiver_signature_blocks(co: dict, execution_date: str) -> str:
     if not roll:
         return """**Executed by (stockholder):**
 
+
 """
     parts = []
     for r in roll:
         parts.append(
             f"""**Executed by (stockholder):** {r["name"]}"""
         )
-    # Extra whitespace between individual executions for readability.
-    return "\n\n\n".join(parts)
+    # Extra blank line before each stockholder execution line (matches board wet-ink spacing).
+    return "\n\n".join(f"\n{p}" for p in parts)
 
 
 def stockholder_waiver_of_notice_annual_meeting_markdown(
@@ -3266,7 +3231,8 @@ def wet_signing_lines_markdown(co: dict, name: str, title: str, date_iso: str, *
         date_line = f"**{date_label}** {date_val}"
     else:
         date_line = f"**{date_label}** {rule}"
-    return f"{rule}\n**Name:** {name}\n**Title:** {title}\n{date_line}\n"
+    # One extra blank line before each signing line (rule / name / title / date) in rendered .docx.
+    return f"\n{rule}\n\n**Name:** {name}\n\n**Title:** {title}\n\n{date_line}\n"
 
 
 def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Director") -> str:
@@ -3301,19 +3267,25 @@ def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Direct
         lines.append(header)
     if print_lines:
         rule = str(co.get("signature_block_signing_rule_line") or "_______________________________").strip()
+        lines.append("")
         lines.append(rule)
+        lines.append("")
         lines.append(f"**Name:** {name}")
+        lines.append("")
         lines.append(f"**Title:** {title}")
+        lines.append("")
         if include_date:
             lines.append(f"**{date_label}** {rendered_date}")
         else:
             lines.append(f"**{date_label}** {rule}")
     else:
+        lines.append("")
         if name_prefix:
             lines.append(f"{name_prefix} {name}".rstrip())
         else:
             lines.append(name)
         if include_date:
+            lines.append("")
             lines.append(f"**{date_label}** {rendered_date}")
     lines.extend([""] * max(spacing_lines, 0))
     return "\n".join(lines)
@@ -3617,14 +3589,17 @@ def write_docx_from_minutes(
     for raw_line in content.splitlines():
         line = raw_line.rstrip()
         if minute_book_page_breaks and line.strip() == MEETING_BOOK_PAGE_BREAK_MARKER:
+            pending_keep_with_next = False
             doc.add_page_break()
             continue
         if line.strip() == SIGNATURE_BLOCK_MARKER:
             pending_keep_with_next = True
             continue
+        if line.strip() == "---":
+            pending_keep_with_next = False
         if not line.strip():
-            if pending_keep_with_next:
-                pending_keep_with_next = False
+            # Blank lines inside signature blocks must not clear `pending_keep_with_next` (extra carriage returns
+            # before rule / name / title / date lines rely on those blanks).
             doc.add_paragraph()
             continue
         # Render inline markdown-style bold using **...** into bold runs

@@ -1,8 +1,5 @@
 {
-  "person": {
-    "full_name": "Marija Cejovic"
-  },
-  "vacations": [
+  "blocked_date_ranges": [
     {
       "start_date": "2021-07-28",
       "end_date": "2021-08-06",
