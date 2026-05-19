@@ -1711,7 +1711,7 @@ company_information = {
             "The Corporation continued to operate hardware and cloud infrastructure using hosting providers including **DigitalOcean** and **Hetzner**."
         ),
         "agm_president_report_operating_exhibit_label": "Exhibit B",
-        "development_centers_line": "Poland; Romania; Portugal",
+        "development_centers_line": "Serbia; Bosnia and Herzegovina; Tunisia",
         "primary_banking_institution": "Bank of America, N.A.",
         "agm_discussion_items_line": (
             "The Sole Director discussed **{next_year}** delivery priorities for the Corporation’s **server-side and web stack**, including recovery planning after "

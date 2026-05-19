@@ -125,20 +125,20 @@
       ]
     },
     "2022": {
-      "summary": "Continued delivery on the Corporation’s web stack and APIs with contractor teams in Poland, Romania, and Portugal.",
+      "summary": "Continued delivery on the Corporation’s web stack and APIs with contractor teams in Serbia, Bosnia and Herzegovina, and Tunisia.",
       "annual_report": [
         "Maintained and extended core HTTP APIs and server-side services for the Corporation’s web applications",
         "Released iterative UI and workflow improvements on the primary web product",
-        "Coordinated contractor engineering across Poland, Romania, and Portugal",
+        "Coordinated contractor engineering across Serbia, Bosnia and Herzegovina, and Tunisia",
         "Ran staging and production workloads on DigitalOcean and Hetzner"
       ]
     },
     "2023": {
-      "summary": "Ongoing web and API development with distributed contractors in Poland, Romania, and Portugal.",
+      "summary": "Ongoing web and API development with distributed contractors in Serbia, Bosnia and Herzegovina, and Tunisia.",
       "annual_report": [
         "Extended API coverage and reliability for customer-facing web workflows",
         "Hardened authentication and session handling paths on the web stack",
-        "Continued contractor-led development in Poland, Romania, and Portugal",
+        "Continued contractor-led development in Serbia, Bosnia and Herzegovina, and Tunisia",
         "Refined deployment and monitoring on DigitalOcean and Hetzner"
       ]
     },
@@ -147,16 +147,16 @@
       "annual_report": [
         "Interns contributed to web features and QA during the summer program",
         "Maintained API and web application releases through the remainder of the year",
-        "Continued use of contractor development centers in Poland, Romania, and Portugal",
+        "Continued use of contractor development centers in Serbia, Bosnia and Herzegovina, and Tunisia",
         "Kept hosting footprint on DigitalOcean and Hetzner under review"
       ]
     },
     "2025": {
-      "summary": "Continued web/API iteration with intern support and contractor teams in Poland, Romania, and Portugal.",
+      "summary": "Continued web/API iteration with intern support and contractor teams in Serbia, Bosnia and Herzegovina, and Tunisia.",
       "annual_report": [
         "Summer interns supported feature development and testing on the web stack",
         "Shipped maintenance releases for APIs and supporting services",
-        "Sustained contractor coordination in Poland, Romania, and Portugal",
+        "Sustained contractor coordination in Serbia, Bosnia and Herzegovina, and Tunisia",
         "Documented hosting and backup posture on DigitalOcean and Hetzner"
       ]
     },
@@ -165,7 +165,7 @@
       "annual_report": [
         "Defined end-to-end system flows for upcoming releases",
         "Started data collection and aggregation prototypes aligned with the web stack",
-        "Aligned contractor roadmap across Poland, Romania, and Portugal"
+        "Aligned contractor roadmap across Serbia, Bosnia and Herzegovina, and Tunisia"
       ]
     }
   },
