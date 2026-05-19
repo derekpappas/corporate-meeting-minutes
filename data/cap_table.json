@@ -24,7 +24,8 @@
           "status": "issued"
         }
       ],
-      "total_issued_shares_from_ledger": 4000000
+      "total_issued_shares_from_ledger": 4000000,
+      "notes": "10,000,000 authorized; 4,000,000 issued per minute registry and ledger."
     },
     "TeamBoost.ai, Inc.": {
       "jurisdiction": "DE",
@@ -36,7 +37,7 @@
         }
       ],
       "total_issued_shares_from_ledger": 4000000,
-      "notes": "Minute registry indicates 10,000,000 issued for 2023+. Add remaining issuances to the ledger if those are real and you want the cap table to reconcile."
+      "notes": "10,000,000 authorized; 4,000,000 issued per minute registry and ledger."
     },
     "SurveyTeams, Inc.": {
       "jurisdiction": "DE",
@@ -65,7 +66,7 @@
         }
       ],
       "total_issued_shares_from_ledger": 4000000,
-      "notes": "Minute registry indicates 10,000,000 outstanding for 2023+. Add remaining issuances to the ledger if those are real and you want the cap table to reconcile."
+      "notes": "10,000,000 authorized; 4,000,000 issued per minute registry and ledger (LOKI-0001)."
     },
     "DATA RECORD SCIENCE, INC.": {
       "jurisdiction": "DE",
@@ -77,7 +78,7 @@
         }
       ],
       "total_issued_shares_from_ledger": 5346132,
-      "notes": "Summary aligned to `company_information.shares_issued` for the generated minute series (2022+). Historical issuances before the series belong in the official ledger and in `data/stock_ledgers/data_record_science.json` when mirrored."
+      "notes": "10,000,000 authorized; 5,346,132 issued per minute registry and ledger for the generated minute series (2022+)."
     }
   }
 }

@@ -87,6 +87,8 @@ locations_timeline = [
 # - annual_day_offset staggers annual meetings on consecutive weekdays in December
 #   (computed as Monday-based business days starting from the first Monday on or after December 8).
 # - All annual meetings for a single corporation occur on the same day, commencing at 1:00 PM (sequence is documented in minutes).
+# shares_authorized — total authorized common shares (typically 10,000,000). shares_issued — per-calendar-year issued and
+# outstanding count (usually less than authorized); used in Treasurer’s Report and stockholder meeting §VII.
 # Optional per company: voting_shares_description — phrase after "holding" in §228 written consent if not all voting power is one class.
 # minutes_display_name — legal name as it should appear in minutes (e.g. "Hippo, Inc.") when the dict key omits a period.
 # stockholders_roll_call — for annual_meeting_stockholders only: list of {"name": str, "presence": str} for roll call.
@@ -134,7 +136,10 @@ locations_timeline = [
 # - board_meeting_chair_name — optional; used for “called to order … acting as Chair of the Board” when `board_directors` is set.
 # - agm_banking_authorized_signatory — optional name in the default banking RESOLVED when the board is not sole-director (else `director_name`).
 # - agm_president_report_opening_paragraph_markdown — optional `{office_locations}` / `{dev_locations}` / `{year}` paragraph replacing the default “centralized … development” opener.
-# - quarterly_business_review_minutes_markdown — optional `{year}` / `{quarter}` / `{dev_locations}` template replacing default quarterly “development centers” review.
+# - quarterly_business_review_minutes_markdown — optional `{year}` / `{quarter}` / `{dev_locations}` template (str or dict keyed by year).
+#   Optional per-year fields in `audit_reports/all_corp_accomplishments_2021-2025.json` (under each company/year):
+#   `quarterly_business_review`, `quarterly_ratification_resolution`, optional `quarterly_graphics_design_quarter` +
+#   `quarterly_graphics_design_note`, and optional `quarterly_business_review_by_quarter`.
 # - minute_book_compilation_preamble_markdown — optional `{display_company}` / `{first_year}` / `{last_year}` cover text for the compiled book.
 # - minutes_assert_exhibits_filed — if **True**, minutes may state exhibits are **on file** / **annexed**; default **False** uses
 #   **to be filed upon execution** / **designated for attachment** wording so generated text does not over-claim filing.
@@ -1570,6 +1575,7 @@ company_information = {
         "incorporation_jurisdiction": "DE",
         "minutes_start_year": 2022,
         "director_election_standard": "plurality",
+        "shares_authorized": "10,000,000",
         "shares_issued": {2022: "8,000,000", 2023: "8,160,000", 2024: "8,160,000", 2025: "8,160,000", 2026: "8,160,000"},
         "annual_day_offset": 0,
         "meeting_stagger_day": 0,
@@ -1639,7 +1645,7 @@ company_information = {
             "All software, data models, algorithms, and related intellectual property developed **for the Corporation** during the year "
             "under applicable **contractor and consultant arrangements** (including services performed by personnel **in Serbia; Bosnia and Herzegovina; Tunisia**) "
             "were reaffirmed as **properly titled to and the exclusive property of the Corporation** under those arrangements and applicable law, "
-            "without implying ownership of **counterparties’ equipment or premises**."
+            "**counterparties’ equipment and premises remain those counterparties’ property**."
         ),
         # Cite filed Amended and Restated Bylaws (`bylaws_text/Hippo, Inc. - Bylaws.docx.pdf.txt`).
         "stockholder_consent_bylaws_acknowledgment": (
@@ -1673,6 +1679,7 @@ company_information = {
             "documents_exhibit_label": "Exhibit A",
         },
         "minutes_start_year": 2022,
+        "shares_authorized": "10,000,000",
         "shares_issued": {2022: "4,000,000", 2023: "4,000,000", 2024: "4,000,000", 2025: "4,000,000", 2026: "4,000,000"},
         "annual_day_offset": 1,
         "meeting_stagger_day": 1,
@@ -1729,7 +1736,7 @@ company_information = {
         "agm_ip_affirmation_sentence": (
             "All application code, APIs, and related intellectual property developed **for the Corporation** during the year under applicable "
             "**contractor and consultant arrangements** were reaffirmed as **properly titled to and the exclusive property of the Corporation**, "
-            "without implying ownership of **counterparties’ equipment or premises**."
+            "**counterparties’ equipment and premises remain those counterparties’ property**."
         ),
         "board_sole_director_first_chronological_meeting": True,
         "board_roll_quorum_layout": 3,
@@ -1762,6 +1769,7 @@ company_information = {
         "inc_year": 2006,
         "minutes_start_year": 2022,
         "director_election_standard": "plurality",
+        "shares_authorized": "10,000,000",
         "shares_issued": {2022: "5,346,132", 2023: "5,346,132", 2024: "5,346,132", 2025: "5,346,132", 2026: "5,346,132"},
         "annual_day_offset": 2,
         "meeting_stagger_day": 2,
@@ -1791,7 +1799,7 @@ company_information = {
             "The President reported that the Corporation is operated principally as a **Delaware patent holding company**, "
             "holding patents and related rights without conducting commercial software engineering as an operating business. "
             "Corporate administration, outside counsel coordination, and portfolio maintenance were overseen from **{office_locations}**; "
-            "the Corporation did not maintain third-party product-development centers comparable to a commercial SaaS operator during the year."
+            "the Corporation operated as a patent holding company without third-party product-development centers comparable to a commercial SaaS operator during the year."
         ),
         "agm_president_report_product_line": (
             "The Sole Director summarized patent annuity and prosecution updates, portfolio housekeeping, and counsel reporting for the year. "
@@ -1816,8 +1824,8 @@ company_information = {
         "signature_block_print_signing_lines": True,
         "quarterly_business_review_minutes_markdown": (
             "The Sole Director reviewed quarterly **franchise tax**, **registered agent**, and **minute-book** compliance, and confirmed that "
-            "the Corporation’s **patent portfolio** records remained current as reported by counsel. The Corporation did not operate product "
-            "engineering centers during **{quarter} {year}**; intellectual-property assets continued to be held at the parent level."
+            "the Corporation’s **patent portfolio** records remained current as reported by counsel. The Corporation continued patent-portfolio "
+            "administration during **{quarter} {year}** with intellectual-property assets held at the parent level."
         ),
         "primary_banking_institution": "Wells Fargo Bank, N.A.",
         "special_meeting_purpose": "Pre-annual review of corporate records, patent portfolio status, and registered-agent compliance",
@@ -1846,7 +1854,8 @@ company_information = {
         "incorporation_filed_date_iso": "2023-01-13",
         "incorporation_jurisdiction": "DE",
         "minutes_start_year": 2023,
-        "shares_issued": {2023: "10,000,000", 2024: "10,000,000", 2025: "10,000,000", 2026: "10,000,000"},
+        "shares_authorized": "10,000,000",
+        "shares_issued": {2023: "4,000,000", 2024: "4,000,000", 2025: "4,000,000", 2026: "4,000,000"},
         "annual_day_offset": 3,
         "meeting_stagger_day": 4,
         "stockholder_meeting": "written_consent",
@@ -1910,7 +1919,7 @@ company_information = {
         "agm_ip_affirmation_sentence": (
             "All web and mobile clients, **AI bots**, **AI tools**, server-side services, APIs, and related intellectual property developed **for the Corporation** during the year "
             "under applicable **contractor and consultant arrangements** were reaffirmed as **properly titled to and the exclusive property of the Corporation**, "
-            "without implying ownership of **counterparties’ equipment or premises**."
+            "**counterparties’ equipment and premises remain those counterparties’ property**."
         ),
         "board_sole_director_first_chronological_meeting": True,
         "board_roll_quorum_layout": 2,
@@ -2027,7 +2036,7 @@ company_information = {
         "agm_ip_affirmation_sentence": (
             "All survey instruments, weighting libraries, **web and server application code**, APIs, and related intellectual property developed **for the Corporation** during the year "
             "under applicable **contractor and consultant arrangements** were reaffirmed as **properly titled to and the exclusive property of the Corporation**, "
-            "without implying ownership of **counterparties’ equipment or premises**."
+            "**counterparties’ equipment and premises remain those counterparties’ property**."
         ),
         "minute_book_compilation_preamble_markdown": (
             "**SurveyTeams board minutes — compiled**\n\n"
@@ -2052,11 +2061,12 @@ company_information = {
         # WY domestic profit corporation filing (2023).
         "inc_year": 2023,
         "minutes_start_year": 2023,
+        "shares_authorized": "10,000,000",
         "shares_issued": {
-            2023: "10,000,000",
-            2024: "10,000,000",
-            2025: "10,000,000",
-            2026: "10,000,000",
+            2023: "4,000,000",
+            2024: "4,000,000",
+            2025: "4,000,000",
+            2026: "4,000,000",
         },
         "annual_day_offset": 5,
         "meeting_stagger_day": 5,
@@ -2073,10 +2083,27 @@ company_information = {
         "mailing_address": "1317 Edgewater Dr Num 1961, Orlando, FL 32804",
         "board_roll_quorum_layout": 2,
         "development_centers_line": "United States; Pakistan",
-        "agm_president_report_product_line": (
-            "The Sole Director summarized sports-media and venue-integration work during the year, including coordination with domestic (United States) "
-            "operations and **hockey stick manufacturing** run through **Pakistan**-based production partners, with inventory and quality oversight centralized through the Corporation. "
-        ),
+        "agm_president_report_product_line": {
+            "2023": (
+                "The Sole Director summarized **{year}**: engagement with **Malik/Shanco** and an agent in **Sialkot, Pakistan** (a major global center for high-quality "
+                "field hockey stick manufacturing), including obtaining **samples** and providing **manufacturer feedback**."
+            ),
+            "2024": (
+                "The Sole Director summarized **{year}**: engagement with a **second** stick manufacturer (**AliTra**) and continued work with **Malik/Shanco** through agents "
+                "in **Sialkot, Pakistan**, including **samples** and **manufacturer feedback**; the Corporation **began development** of its e-commerce website **lokihockey.com**."
+            ),
+            "2025": (
+                "The Sole Director summarized **{year}**: **purchased** field hockey sticks from **Malik/Shanco** and **AliTra**; commenced **person-to-person sales** in the "
+                "**United States** and **Europe**; and continued development of the **lokihockey.com** e-commerce website."
+            ),
+            "2026": (
+                "The Sole Director summarized **{year}** (through **June 2026**): **continued person-to-person sales** of field hockey sticks in the **United States** and **Europe**."
+            ),
+            "default": (
+                "The Sole Director summarized continued field hockey stick sourcing in **Sialkot, Pakistan**, product development, and sales activity as reflected in the "
+                "Corporation’s records for **{year}**."
+            ),
+        },
         "minute_book_compilation_preamble_markdown": (
             "**Wyoming corporation — compiled board minutes**\n\n"
             "**{display_company}** ({first_year}–{last_year}).\n\n"
@@ -2091,30 +2118,39 @@ company_information = {
         "signature_block_label_template": "**Executed and agreed:**",
         "signature_block_spacing_lines": 1,
         "signature_block_print_signing_lines": True,
+        "agm_operating_addendum_product_materials": True,
+        "agm_president_report_operating_exhibit_label": "Exhibit B",
+        "agm_president_report_include_accomplishments_list": True,
         "primary_banking_institution": "Truist Bank",
         "agm_discussion_items_line": (
-            "The Sole Director discussed fan engagement, venue partnerships, and media integrations for {next_year}, including tournament-season logistics, "
-            "rights-holder coordination, and in-venue mobile experiences."
+            "The Sole Director discussed {next_year} supplier relationships in **Sialkot, Pakistan** (Malik/Shanco, AliTra), **sample and specification** feedback, "
+            "**lokihockey.com** development and launch planning, **inventory purchases**, and **U.S. and European** sales channels (including person-to-person sales)."
         ),
-        "special_meeting_purpose": "Pre-annual review of sports media products and venue-facing integrations",
+        "special_meeting_purpose": (
+            "Pre-annual review of field hockey stick sourcing (Sialkot, Pakistan), product samples, inventory, and U.S. and European sales activity"
+        ),
         "special_meeting_ratification_resolution_markdown": (
-            "**Ratification of Sports Media and Venue Integration Work**  \n"
-            "RESOLVED, that engineering and commercial decisions affecting the Corporation’s sports media stack and venue-facing integrations during {year} "
-            "are hereby ratified, confirmed, and approved in all respects."
+            "**Ratification of Sourcing, Product, Inventory, and Sales Decisions**  \n"
+            "RESOLVED, that manufacturer and agent engagements, **sample review**, **inventory purchases**, **lokihockey.com** development, and **U.S. and European** "
+            "sales decisions (including **person-to-person** sales) affecting the Corporation’s field hockey stick business during {year} are hereby ratified, confirmed, "
+            "and approved in all respects."
         ),
         "treasurer_contingent_obligations_clause": (
             "including equipment financing and season-cycle receivables that remain contingent on a future liquidity event, "
             "the timing of which has not yet been determined."
         ),
-        "quarterly_default_ratification_resolution": (
-            "RESOLVED, that all sports-media, venue-integration, and supporting infrastructure work completed during the quarter—and related intellectual property—is hereby "
-            "ratified, confirmed, and approved as assets of the Corporation."
-        ),
-        "agm_ip_affirmation_sentence": (
-            "All sports-media software, venue-integration tooling, product designs, manufacturing specifications for hockey sticks produced through the Corporation’s "
-            "supply chain, and related intellectual property developed **for the Corporation** during the year were reaffirmed as **properly titled to and the exclusive property of the Corporation**; "
-            "the Board noted that **production partners’ facilities and equipment are not owned by the Corporation**."
-        ),
+        "agm_ip_affirmation_sentence": {
+            "2023": (
+                "All **product designs**, **manufacturing specifications**, branding, and related intellectual property for field hockey sticks "
+                "developed **for the Corporation** during the year were reaffirmed as **properly titled to and the exclusive property of the Corporation**; "
+                "the Sole Director noted that **manufacturers’ (including Malik/Shanco), agents’, and suppliers’ facilities and equipment remain those counterparties’ property**."
+            ),
+            "default": (
+                "All **product designs**, **manufacturing specifications**, branding, **lokihockey.com** website content, and related intellectual property for field hockey sticks "
+                "developed **for the Corporation** during the year were reaffirmed as **properly titled to and the exclusive property of the Corporation**; "
+                "the Sole Director noted that **manufacturers’ (including Malik/Shanco and AliTra), agents’, and suppliers’ facilities and equipment remain those counterparties’ property**."
+            ),
+        },
     },
 }
 
@@ -2306,8 +2342,8 @@ def scheduled_quarterly_meeting_time(co: dict, year: int, quarter: str) -> str:
     return _raw_scheduled_meeting_time(co, year, f"quarterly_{quarter}", nominal)
 
 
-# Accomplishments (President’s report summary + operating addendum detail) — `audit_reports/all_corp_accomplishments_2021-2025.json`.
-# Top-level keys in JSON: "Hippo", "TB", "RG", … mapped from `companies` dict keys below.
+# Accomplishments (President’s report summary + operating addendum detail):
+# - Single master file: `audit_reports/all_corp_accomplishments_2021-2025.json` (top-level keys "Hippo", "TB", "RG", "LOKI", …).
 _ACCOMPLISHMENTS_JSON_KEY: dict[str, str] = {
     "Hippo, Inc": "Hippo",
     "TeamBoost.ai, Inc.": "TB",
@@ -2462,17 +2498,19 @@ def _accomplishments_root() -> dict:
     return _accomplishments_cache
 
 
-def accomplishments_for_year(co_name: str, year: int) -> tuple[str | None, list[str]]:
-    """Return (summary text or None, cleaned detail bullets) from accomplishments JSON for this company and calendar year."""
+def _accomplishments_year_block(co_name: str, year: int) -> dict | None:
+    """Year block from the master accomplishments file for this registry company."""
     jkey = _ACCOMPLISHMENTS_JSON_KEY.get(co_name)
     if not jkey:
-        return None, []
+        return None
     block = _accomplishments_root().get(jkey)
     if not isinstance(block, dict):
-        return None, []
+        return None
     yblock = block.get(str(year))
-    if not isinstance(yblock, dict):
-        return None, []
+    return yblock if isinstance(yblock, dict) else None
+
+
+def _parse_accomplishments_year_block(yblock: dict) -> tuple[str | None, list[str]]:
     summary_raw = yblock.get("summary")
     summary = summary_raw.strip() if isinstance(summary_raw, str) and summary_raw.strip() else None
     raw_list = yblock.get("annual_report", [])
@@ -2482,6 +2520,85 @@ def accomplishments_for_year(co_name: str, year: int) -> tuple[str | None, list[
             if isinstance(x, str) and x.strip():
                 details.append(x.strip())
     return summary, details
+
+
+def accomplishments_for_year(co_name: str, year: int) -> tuple[str | None, list[str]]:
+    """Return (summary text or None, cleaned detail bullets) for this company and calendar year."""
+    yblock = _accomplishments_year_block(co_name, year)
+    if yblock is None:
+        return None, []
+    return _parse_accomplishments_year_block(yblock)
+
+
+def _resolved_quarterly_ratification_resolution(
+    co_name: str, co: dict, year: int, quarter: str
+) -> str | None:
+    """Year-specific quarterly RESOLVED line from master accomplishments JSON when present."""
+    yblock = _accomplishments_year_block(co_name, year)
+    if yblock is not None:
+        qrr = yblock.get("quarterly_ratification_resolution")
+        if isinstance(qrr, str) and qrr.strip():
+            return qrr.strip().format(year=year, quarter=quarter)
+    raw = co.get("quarterly_default_ratification_resolution")
+    if isinstance(raw, dict):
+        chunk = raw.get(str(year)) or raw.get("default")
+        if isinstance(chunk, str) and chunk.strip():
+            return chunk.strip().format(year=year, quarter=quarter)
+    elif isinstance(raw, str) and raw.strip():
+        return raw.strip().format(year=year, quarter=quarter)
+    return None
+
+
+def _resolved_quarterly_business_review_markdown(
+    co_name: str, co: dict, year: int, quarter: str, dev_locations: str
+) -> str | None:
+    """Year-specific quarterly Business Review: master accomplishments JSON, then company str/dict override."""
+    yblock = _accomplishments_year_block(co_name, year)
+    if yblock is not None:
+        by_q = yblock.get("quarterly_business_review_by_quarter")
+        if isinstance(by_q, dict):
+            chunk = by_q.get(quarter) or by_q.get(str(quarter).upper())
+            if isinstance(chunk, str) and chunk.strip():
+                return chunk.strip().format(
+                    year=year,
+                    quarter=quarter,
+                    dev_locations=dev_locations or "N/A",
+                )
+        qbr = yblock.get("quarterly_business_review")
+        if isinstance(qbr, str) and qbr.strip():
+            text = qbr.strip().format(
+                year=year,
+                quarter=quarter,
+                dev_locations=dev_locations or "N/A",
+            )
+            gfx_q = yblock.get("quarterly_graphics_design_quarter")
+            gfx_note = yblock.get("quarterly_graphics_design_note")
+            if (
+                isinstance(gfx_q, str)
+                and gfx_q.strip().upper() == str(quarter).upper()
+                and isinstance(gfx_note, str)
+                and gfx_note.strip()
+            ):
+                text += " " + gfx_note.strip().format(
+                    year=year, quarter=quarter, dev_locations=dev_locations or "N/A"
+                )
+            return text
+    raw = co.get("quarterly_business_review_minutes_markdown")
+    if isinstance(raw, dict):
+        chunk = raw.get(str(year)) or raw.get("default")
+        if isinstance(chunk, str) and chunk.strip():
+            return chunk.strip().format(
+                year=year,
+                quarter=quarter,
+                dev_locations=dev_locations or "N/A",
+            )
+    elif isinstance(raw, str) and raw.strip():
+        return raw.strip().format(
+            year=year,
+            quarter=quarter,
+            dev_locations=dev_locations or "N/A",
+        )
+    return None
 
 
 def _minutes_assert_exhibits_filed(co: dict) -> bool:
@@ -2508,14 +2625,34 @@ def _minute_book_exhibit_suffix(
 
 
 def agm_operating_addendum_markdown(
-    co_name: str, year: int, exhibit_label: str, detail_lines: list[str]
+    co_name: str,
+    year: int,
+    exhibit_label: str,
+    detail_lines: list[str],
+    *,
+    summary: str | None = None,
 ) -> str:
     """Markdown body for the AGM operating addendum (same text as standalone .docx)."""
     if not detail_lines:
         return ""
     co = companies[co_name]
     display = minutes_display_name(co_name)
+    summary_block = ""
+    if isinstance(summary, str) and summary.strip():
+        summary_block = f"**Summary**\n\n{summary.strip()}\n\n"
     bullets = "\n".join(f"- {line}" for line in detail_lines)
+    if co.get("agm_operating_addendum_product_materials"):
+        other_materials = (
+            "**Other materials**\n"
+            "To the extent maintained on the corporate record, this addendum may incorporate or reference product samples, "
+            "supplier correspondence, branding and graphics files, and related design materials."
+        )
+    else:
+        other_materials = (
+            "**Other materials**\n"
+            "To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental "
+            "technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams)."
+        )
     if _minutes_assert_exhibits_filed(co):
         purpose_attach = (
             f"This addendum supplements the **Minutes of the Annual Meeting of the Board of Directors** of the Corporation for **{year}** "
@@ -2536,10 +2673,9 @@ def agm_operating_addendum_markdown(
 
 **Detailed accomplishments ({year})**
 
-{bullets}
+{summary_block}{bullets}
 
-**Other materials**
-To the extent referenced in the minutes, this addendum may also include or incorporate by reference supplemental technical materials furnished for the meeting (including technical specifications, roadmaps, KPIs, and architecture diagrams).
+{other_materials}
 
 ---
 """.strip() + "\n"
@@ -2557,7 +2693,10 @@ def _generate_agm_operating_addendum_docx(
         return
     co = companies[co_name]
     mdate = annual_meeting_date_str(co, year)
-    content = agm_operating_addendum_markdown(co_name, year, exhibit_label, detail_lines)
+    summary, _ = accomplishments_for_year(co_name, year)
+    content = agm_operating_addendum_markdown(
+        co_name, year, exhibit_label, detail_lines, summary=summary
+    )
     path = meeting_filename(co_name, mdate, "agm_operating_addendum", ext="docx")
     print(f"Writing AGM operating addendum to {path}")
     write_docx_from_minutes(content, path, mdate, co_name)
@@ -2646,11 +2785,67 @@ def _special_meeting_primary_resolution_block(co: dict, year: int) -> str:
 RESOLVED, that all operational and management decisions made during the Corporation’s international operations cycle for the year {year} are hereby ratified, confirmed, and approved in all respects."""
 
 
-def _treasurer_report_minutes_paragraph(co: dict, issued: str) -> str:
+def _shares_authorized_display(co: dict, co_name: str | None = None) -> str:
+    """Authorized share count for narrative minutes (registry, then ledger file, else 10,000,000)."""
+    sa = co.get("shares_authorized")
+    if isinstance(sa, str) and sa.strip():
+        return sa.strip()
+    if isinstance(sa, int):
+        return f"{sa:,}"
+    if co_name:
+        ledger = _stock_ledger_payload_for_company(co_name)
+        if ledger and isinstance(ledger.get("total_authorized_shares"), int):
+            return f"{ledger['total_authorized_shares']:,}"
+    return "10,000,000"
+
+
+def _shares_issued_for_year(co: dict, year: int, default: str = "4,000,000") -> str:
+    """Issued and outstanding share count for a calendar year from `shares_issued`."""
+    si = co.get("shares_issued") or {}
+    val = si.get(year)
+    if val is None:
+        val = si.get(str(year))
+    if val is not None and str(val).strip():
+        return str(val).strip()
+    years: list[int] = []
+    for k in si:
+        if isinstance(k, int):
+            years.append(k)
+        elif isinstance(k, str) and k.isdigit():
+            years.append(int(k, 10))
+    if years:
+        ly = max(years)
+        fallback = si.get(ly) or si.get(str(ly))
+        if fallback is not None and str(fallback).strip():
+            return str(fallback).strip()
+    return default
+
+
+def _shares_capitalization_sentence(
+    co: dict, issued: str, *, authorized: str | None = None, chairperson_note: bool = False
+) -> str:
+    """Authorized vs issued/outstanding line for Treasurer’s Report and stockholder minutes."""
+    auth = (authorized or _shares_authorized_display(co)).strip()
+    par = co["par"]
+    if chairperson_note:
+        return (
+            f"as of the date of the meeting, the Corporation had {auth} shares of common stock authorized "
+            f"and {issued} shares issued and outstanding at a par value of {par} per share"
+        )
+    return (
+        f"The Corporation has {auth} shares of common stock authorized and {issued} shares issued and "
+        f"outstanding at a par value of {par} per share."
+    )
+
+
+def _treasurer_report_minutes_paragraph(
+    co: dict, issued: str, *, authorized: str | None = None
+) -> str:
     """Treasurer’s Report body in AGM minutes; optional full override or contingent-obligations clause only."""
+    auth = authorized or _shares_authorized_display(co)
     full = co.get("treasurer_report_minutes_paragraph")
     if isinstance(full, str) and full.strip():
-        return full.strip().format(issued=issued, par=co["par"])
+        return full.strip().format(issued=issued, authorized=auth, par=co["par"])
     clause = co.get(
         "treasurer_contingent_obligations_clause",
         "including notes payable, are contingent and payable upon the occurrence of a future liquidity event, the timing of which has not yet been determined.",
@@ -2660,12 +2855,12 @@ def _treasurer_report_minutes_paragraph(co: dict, issued: str) -> str:
         if len(_normalized_board_directors(co)) >= 2
         else "The Sole Director acknowledged the status of such obligations and confirmed continued oversight of these matters. "
     )
+    cap = _shares_capitalization_sentence(co, issued, authorized=auth)
     return (
         "The Treasurer reported that the Corporation remains solvent and that certain outstanding obligations, "
         f"{clause.strip()} "
         f"{ack}"
-        f"Franchise taxes and registered agent fees are paid and current. The Corporation has {issued} shares of common stock "
-        f"issued and outstanding at a par value of {co['par']} per share."
+        f"Franchise taxes and registered agent fees are paid and current. {cap}"
     )
 
 # 2. HELPER LOGIC
@@ -3232,7 +3427,7 @@ def wet_signing_lines_markdown(co: dict, name: str, title: str, date_iso: str, *
     else:
         date_line = f"**{date_label}** {rule}"
     # One extra blank line before each signing line (rule / name / title / date) in rendered .docx.
-    return f"\n{rule}\n\n**Name:** {name}\n\n**Title:** {title}\n\n{date_line}\n"
+    return f"\n{rule}\n\n**Name:** {name}\n\n**Title:** {title}\n\n{date_line}"
 
 
 def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Director") -> str:
@@ -3287,7 +3482,9 @@ def signature_block(co: dict, name: str, date: str, *, title: str = "Sole Direct
         if include_date:
             lines.append("")
             lines.append(f"**{date_label}** {rendered_date}")
-    lines.extend([""] * max(spacing_lines, 0))
+    # Wet-ink blocks already include internal spacing; avoid an extra blank line after the date.
+    if not print_lines:
+        lines.extend([""] * max(spacing_lines, 0))
     return "\n".join(lines)
 
 
@@ -3429,11 +3626,18 @@ def _agm_president_report_body(co: dict, office_locations: str, dev_locations: s
 
     summary, detail_items = accomplishments_for_year(co_name, year)
     summary_sentence = ""
+    accomplishments_list = ""
     if summary:
         art, noun = _financial_year_words(co)
         summary_sentence = (
             f" The President’s report included the following **accomplishments summary** for {art} {noun} {year}: "
             f"{summary}"
+        )
+    include_accomplishments_list = bool(co.get("agm_president_report_include_accomplishments_list"))
+    if include_accomplishments_list and detail_items:
+        bullets = "\n".join(f"- {line}" for line in detail_items)
+        accomplishments_list = (
+            f"\n\n**Accomplishments for calendar year {year}** (year-end report):\n\n{bullets}\n"
         )
 
     lab = co.get("agm_president_report_operating_exhibit_label")
@@ -3462,14 +3666,18 @@ def _agm_president_report_body(co: dict, office_locations: str, dev_locations: s
         " All software, algorithms, and intellectual property developed **for the Corporation** during the year "
         "under applicable **contractor, consultant, and employment arrangements**, regardless of where services were performed, "
         "were reaffirmed as **properly titled to and the exclusive property of the Corporation** under those arrangements and applicable law, "
-        "without implying ownership of **counterparties’ equipment, facilities, or premises**."
+        "**counterparties’ equipment, facilities, and premises remain those counterparties’ property**."
     )
-    ip_custom = co.get("agm_ip_affirmation_sentence")
+    ip_raw = co.get("agm_ip_affirmation_sentence")
+    if isinstance(ip_raw, dict):
+        ip_custom = ip_raw.get(str(year)) or ip_raw.get(year) or ip_raw.get("default")
+    else:
+        ip_custom = ip_raw
     if isinstance(ip_custom, str) and ip_custom.strip():
         ip_close = " " + ip_custom.strip()
     else:
         ip_close = ip_default
-    return base + product + infra + summary_sentence + exhibit + ip_close
+    return base + product + infra + summary_sentence + accomplishments_list + exhibit + ip_close
 
 
 def _period_phrase(co: dict) -> str:
@@ -3552,10 +3760,12 @@ def _quarterly_resolutions_block(
     if "quarterly_resolution_blocks" in render_co:
         parts = list(render_co["quarterly_resolution_blocks"])
     else:
-        qdef = render_co.get(
-            "quarterly_default_ratification_resolution",
-            "RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.",
-        )
+        qdef = _resolved_quarterly_ratification_resolution(co_name, base_co, year, quarter)
+        if not qdef:
+            qdef = render_co.get(
+                "quarterly_default_ratification_resolution",
+                "RESOLVED, that all operational, infrastructure, and intellectual property assets created during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation.",
+            )
         parts = [qdef]
     prefix = list(extra_blocks or [])
     parts = (
@@ -3640,7 +3850,8 @@ def generate_agm(co_name, year):
     eco = _effective_co_for_board_meeting(co, co_name, year, "agm")
     date = annual_meeting_date_str(co, year)
     place = meeting_place_line(co, date)
-    issued = co["shares_issued"].get(year, "4,000,000")
+    issued = _shares_issued_for_year(co, year)
+    authorized = _shares_authorized_display(co, co_name)
     display_company = minutes_display_name(co_name)
     t_stock = scheduled_stockholder_meeting_time(co, year)
     t_board = scheduled_board_agm_time(co, year)
@@ -3756,7 +3967,7 @@ This was the first Annual Meeting of the Board of Directors following incorporat
 {_agm_president_report_body(eco, office_locations, dev_locations, co_name, year)}
 
 **Treasurer’s Report:**  
-{_treasurer_report_minutes_paragraph(eco, issued)}
+{_treasurer_report_minutes_paragraph(eco, issued, authorized=authorized)}
 
 {reliance_141e_line}
 
@@ -3924,18 +4135,18 @@ def generate_quarterly(co_name, year, quarter):
     addr_note = principal_address_note_markdown(co)
     materials_ack_block = board_meeting_materials_acknowledgment_block(co)
 
-    custom_review = eco.get("quarterly_business_review_minutes_markdown")
-    if isinstance(custom_review, str) and custom_review.strip():
-        business_review = custom_review.strip().format(
-            year=year, quarter=quarter, dev_locations=dev_locations or "N/A"
-        )
+    custom_review = _resolved_quarterly_business_review_markdown(
+        co_name, eco, year, quarter, dev_locations or "N/A"
+    )
+    if custom_review:
+        business_review = custom_review
     elif multi_director_board:
         business_review = (
             "The directors reviewed quarterly infrastructure stability and confirmed that **software and related intellectual property** "
             f"developed **for the Corporation** during the quarter under its **contractor and consultant arrangements**, including services "
             f"performed by personnel **in {contractor_regions}**, **is properly titled to and is the exclusive property of the Corporation** "
             "under those arrangements and applicable law. The Board acknowledged that **consulting and contracting firms, their personnel, "
-            "and their equipment and premises are not owned by the Corporation**."
+            "and their equipment and premises remain those counterparties’ property**."
         )
     else:
         business_review = (
@@ -3943,7 +4154,7 @@ def generate_quarterly(co_name, year, quarter):
             f"developed **for the Corporation** during the quarter under its **contractor and consultant arrangements**, including services "
             f"performed by personnel **in {contractor_regions}**, **is properly titled to and is the exclusive property of the Corporation** "
             "under those arrangements and applicable law. The Sole Director acknowledged that **consulting and contracting firms, their personnel, "
-            "and their equipment and premises are not owned by the Corporation**."
+            "and their equipment and premises remain those counterparties’ property**."
         )
 
     if multi_director_board:
@@ -4095,7 +4306,8 @@ def generate_annual_meeting_stockholders(co_name, year):
     record_date = stockholder_annual_record_date_str(co, year)
     special_board_date = board_special_meeting_date_str(co, year)
     place = meeting_place_line(co, date)
-    issued = co["shares_issued"].get(year, co["shares_issued"].get(2025))
+    issued = _shares_issued_for_year(co, year)
+    authorized = _shares_authorized_display(co, co_name)
     display_company = minutes_display_name(co_name)
     t_stock = scheduled_stockholder_meeting_time(co, year)
 
@@ -4164,7 +4376,7 @@ RESOLVED, that {chair} is hereby elected as a director of the Corporation, to se
 {election_sentence}
 {vote_tab}
 **VII. Shares Outstanding**
-The Chairperson noted for the record that the Corporation had {issued} shares of common stock issued and outstanding at a par value of {co['par']} per share as of the date of the meeting.
+The Chairperson noted for the record that {_shares_capitalization_sentence(co, issued, authorized=authorized, chairperson_note=True)}.
 
 **VIII. Adjournment**
 There being no further business properly brought before the meeting, the meeting was adjourned.
@@ -4804,7 +5016,11 @@ def _markdown_chunks_for_calendar_year(company_name_year: str, co_name: str, yea
             if detail_items and not exhibit:
                 exhibit = "Exhibit B"
             if detail_items and exhibit:
-                chunks.append(agm_operating_addendum_markdown(co_name, year, exhibit, detail_items).rstrip())
+                chunks.append(
+                    agm_operating_addendum_markdown(
+                        co_name, year, exhibit, detail_items, summary=_summary
+                    ).rstrip()
+                )
 
             # Written-consent companies: attach the sole stockholder consent after the AGM on the annual date.
             if co.get("stockholder_meeting") != "annual_meeting_stockholders" and not inserted_written_consent:

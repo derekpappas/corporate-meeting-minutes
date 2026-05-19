@@ -336,6 +336,121 @@ def test_agm_written_consent_cross_ref_default_pending_filing() -> None:
     assert "The Board noted" not in md
 
 
+def test_loki_accomplishments_load_from_master_json() -> None:
+    summary, details = cmm.accomplishments_for_year("Loki Sports Enterprises, Inc.", 2025)
+    assert summary is not None
+    assert "Malik/Shanco" in summary or any("Malik/Shanco" in d for d in details)
+    assert any("person-to-person" in d.lower() for d in details)
+    assert any("lokihockey.com" in d for d in details) or "e-commerce" in (summary or "").lower()
+
+
+def test_loki_2023_accomplishments_malik_shanco_sourcing() -> None:
+    summary, details = cmm.accomplishments_for_year("Loki Sports Enterprises, Inc.", 2023)
+    blob = " ".join([summary or "", *details])
+    assert "Malik/Shanco" in blob
+    assert "samples" in blob.lower()
+
+
+def test_loki_2024_accomplishments_include_alitra_first_engagement() -> None:
+    summary, details = cmm.accomplishments_for_year("Loki Sports Enterprises, Inc.", 2024)
+    blob = " ".join([summary or "", *details])
+    assert "AliTra" in blob
+    assert "2024" in blob
+
+
+def test_loki_quarterly_business_review_is_year_specific() -> None:
+    co_name = "Loki Sports Enterprises, Inc."
+    loki = cmm.company_information[co_name]
+    q1_2023 = cmm._resolved_quarterly_business_review_markdown(
+        co_name, loki, 2023, "Q1", "United States; Pakistan"
+    )
+    q1_2025 = cmm._resolved_quarterly_business_review_markdown(
+        co_name, loki, 2025, "Q1", "United States; Pakistan"
+    )
+    assert q1_2023 is not None and q1_2025 is not None
+    assert "AliTra" not in q1_2023
+    assert "lokihockey.com" not in q1_2023
+    assert "person-to-person" not in q1_2023.lower()
+    assert "AliTra" in q1_2025
+    assert "person-to-person" in q1_2025.lower()
+
+
+def test_treasurer_report_distinguishes_authorized_and_issued() -> None:
+    loki = cmm.company_information["Loki Sports Enterprises, Inc."]
+    p = cmm._treasurer_report_minutes_paragraph(
+        loki, "4,000,000", authorized="10,000,000"
+    )
+    assert "10,000,000" in p and "authorized" in p
+    assert "4,000,000" in p and "issued and outstanding" in p
+
+
+def test_loki_shares_issued_less_than_authorized_in_registry() -> None:
+    loki = cmm.company_information["Loki Sports Enterprises, Inc."]
+    assert loki["shares_authorized"] == "10,000,000"
+    assert loki["shares_issued"][2025] == "4,000,000"
+
+
+def test_loki_quarterly_graphics_note_only_on_configured_quarter() -> None:
+    co_name = "Loki Sports Enterprises, Inc."
+    loki = cmm.company_information[co_name]
+    q3_2023 = cmm._resolved_quarterly_business_review_markdown(
+        co_name, loki, 2023, "Q3", "United States; Pakistan"
+    )
+    q1_2023 = cmm._resolved_quarterly_business_review_markdown(
+        co_name, loki, 2023, "Q1", "United States; Pakistan"
+    )
+    assert q3_2023 is not None and q1_2023 is not None
+    assert "graphics design" in q3_2023.lower()
+    assert "graphics design" not in q1_2023.lower()
+
+
+def test_loki_agm_president_report_lists_year_accomplishments() -> None:
+    body = cmm._agm_president_report_body(
+        cmm.company_information["Loki Sports Enterprises, Inc."],
+        "30 N Gould St Ste 24709, Sheridan, WY 82801",
+        "United States; Pakistan",
+        "Loki Sports Enterprises, Inc.",
+        2025,
+    )
+    assert "Accomplishments for calendar year 2025" in body
+    assert "Malik/Shanco" in body
+    assert "person-to-person" in body.lower()
+
+
+def test_loki_2023_president_report_ip_affirmation_excludes_alitra() -> None:
+    loki = cmm.company_information["Loki Sports Enterprises, Inc."]
+    body = cmm._agm_president_report_body(
+        loki,
+        "Denver, North Carolina, USA",
+        "United States; Pakistan",
+        "Loki Sports Enterprises, Inc.",
+        2023,
+    )
+    assert "AliTra" not in body
+    assert "Malik/Shanco" in body
+
+
+def test_loki_quarterly_ratification_is_year_specific() -> None:
+    co_name = "Loki Sports Enterprises, Inc."
+    loki = cmm.company_information[co_name]
+    r_2023 = cmm._resolved_quarterly_ratification_resolution(co_name, loki, 2023, "Q1")
+    r_2024 = cmm._resolved_quarterly_ratification_resolution(co_name, loki, 2024, "Q1")
+    r_2025 = cmm._resolved_quarterly_ratification_resolution(co_name, loki, 2025, "Q1")
+    assert r_2023 is not None and r_2024 is not None and r_2025 is not None
+    low_2023 = r_2023.lower()
+    low_2024 = r_2024.lower()
+    assert "inventory" not in low_2023
+    assert "person-to-person" not in low_2023
+    assert "european" not in low_2023
+    assert "lokihockey.com" not in low_2023
+    assert "inventory" not in low_2024
+    assert "person-to-person" not in low_2024
+    assert "european" not in low_2024
+    assert "lokihockey.com" in r_2024
+    assert "inventory purchases" in r_2025.lower()
+    assert "person-to-person" in r_2025.lower()
+
+
 def test_loki_registry_has_wy_jurisdiction_no_dgcl_in_scanned_fields() -> None:
     """Regression: real WY company must not keep DGCL in guardrail-scanned `company_information` strings."""
     loki = cmm.company_information["Loki Sports Enterprises, Inc."]

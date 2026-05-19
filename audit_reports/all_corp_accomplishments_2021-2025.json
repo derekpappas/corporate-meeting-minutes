@@ -129,7 +129,7 @@
       "annual_report": [
         "Maintained and extended core HTTP APIs and server-side services for the Corporation’s web applications",
         "Released iterative UI and workflow improvements on the primary web product",
-        "Coordinated contractor engineering across Poland, Romania, and Portugal (no development work was performed in Bosnia and Herzegovina)",
+        "Coordinated contractor engineering across Poland, Romania, and Portugal",
         "Ran staging and production workloads on DigitalOcean and Hetzner"
       ]
     },
@@ -171,26 +171,55 @@
   },
   "LOKI": {
     "2023": {
-      "summary": "Foundation phase: international sourcing for field hockey manufacturing through a dedicated agent in Sialkot, Pakistan.",
+      "summary": "Sialkot sourcing with Malik/Shanco; samples and feedback; initiated logo and stick graphics design.",
       "annual_report": [
-        "Commenced global sourcing by engaging a dedicated agent in Sialkot, Pakistan, a major hub for field hockey manufacturing, to identify high-quality stick manufacturers"
-      ]
+        "Engaged with field hockey stick manufacturer Malik/Shanco and an agent in Sialkot, Pakistan, where most high-quality sticks worldwide are manufactured",
+        "Obtained product samples from the manufacturer and provided feedback on specifications and quality",
+        "Initiated new graphics design for the Corporation’s logo and field hockey stick product artwork (work in progress)"
+      ],
+      "quarterly_graphics_design_quarter": "Q3",
+      "quarterly_graphics_design_note": "The Sole Director also reported that new **graphics design** for the Corporation’s **logo** and **stick** product artwork was **in progress** during the quarter.",
+      "quarterly_business_review": "During **{quarter} {year}**, the Sole Director reviewed the Corporation’s **field hockey stick** activities: engagement with stick manufacturer **Malik/Shanco** and an agent in **Sialkot, Pakistan** (where most high-quality sticks worldwide are manufactured), including obtaining **samples** and providing **manufacturer feedback**. The Sole Director confirmed that **product designs**, **manufacturing specifications**, **branding**, **website content**, and related **intellectual property** developed for the Corporation under supplier and consultant arrangements **are properly titled to and are the exclusive property of the Corporation**; **suppliers’ and consultants’ facilities, equipment, and personnel remain those counterparties’ property**.",
+      "quarterly_ratification_resolution": "RESOLVED, that all **manufacturer and agent engagements**, **sample review**, **product design**, and related **intellectual property** completed during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation."
     },
     "2024": {
-      "summary": "Strategic partnerships and logistics: executive networking in Europe and first major inbound shipment of outdoor field hockey sticks.",
+      "summary": "First engagement with AliTra in 2024 as a second Sialkot supplier alongside Malik/Shanco; lokihockey.com development begun; continued logo and stick graphics design.",
       "annual_report": [
-        "Conducted executive-level meetings with industry contacts, including Zulfiqar Malik in Belgrade, Serbia, and Ali Malik in Coventry, England",
-        "Completed a first major logistics milestone by receiving a shipment of outdoor field hockey sticks from Malik Hockey routed through Hoegaarden, Belgium"
-      ]
+        "Engaged stick manufacturer AliTra for the first time in calendar year 2024, as a second supplier alongside Malik/Shanco, through agents in Sialkot, Pakistan, where most high-quality sticks worldwide are manufactured",
+        "Obtained additional samples and provided manufacturer feedback on both supplier lines",
+        "Began development of the Corporation’s e-commerce website, lokihockey.com",
+        "Continued new graphics design for the Corporation’s logo and field hockey stick product artwork (work in progress)"
+      ],
+      "quarterly_graphics_design_quarter": "Q2",
+      "quarterly_graphics_design_note": "The Sole Director also reported that new **graphics design** for the Corporation’s **logo** and **stick** product artwork remained **in progress** during the quarter.",
+      "quarterly_business_review": "During **{quarter} {year}**, the Sole Director reviewed the Corporation’s **field hockey stick** activities: continued engagement with **Malik/Shanco** and engagement with a second manufacturer, **AliTra**, through agents in **Sialkot, Pakistan** (where most high-quality sticks worldwide are manufactured), including obtaining **samples** and providing **manufacturer feedback** on both supplier lines; and **began development** of the e-commerce website **lokihockey.com**. The Sole Director confirmed that **product designs**, **manufacturing specifications**, **branding**, **website content**, and related **intellectual property** developed for the Corporation under supplier and consultant arrangements **are properly titled to and are the exclusive property of the Corporation**; **suppliers’ and consultants’ facilities, equipment, and personnel remain those counterparties’ property**.",
+      "quarterly_ratification_resolution": "RESOLVED, that all **manufacturer and agent engagements**, **sample review**, **product design**, **lokihockey.com** development, and related **intellectual property** completed during the quarter are hereby ratified, confirmed, and approved as assets of the Corporation."
     },
     "2025": {
-      "summary": "Expansion and diversification: new partnerships in Europe and Africa, supply-chain optimization in Sialkot, U.S. market entry, and expanded transatlantic shipments to Berlin.",
+      "summary": "Inventory purchases from Malik/Shanco and AliTra; person-to-person U.S. and European sales; continued lokihockey.com development; graphics design ongoing.",
       "annual_report": [
-        "Formalized partnerships with new entities in Berlin, Germany, and Pretoria, South Africa",
-        "Diversified the supply chain by appointing a new lead agent in Sialkot and onboarding AliTra as an additional manufacturing factory in Sialkot",
-        "Launched commercial distribution of AliTra sticks in the New York market",
-        "Expanded transatlantic logistics with significant shipments to Berlin, including AliTra indoor and outdoor sticks and Malik junior outdoor sticks"
-      ]
+        "Purchased field hockey sticks from Malik/Shanco and AliTra through the Corporation’s Sialkot supply relationships",
+        "Commenced person-to-person sales of sticks in the United States",
+        "Commenced person-to-person sales of sticks in Europe",
+        "Continued development of lokihockey.com while conducting sales through person-to-person channels in the United States and Europe",
+        "Continued new graphics design for the Corporation’s logo and field hockey stick product artwork (work in progress)"
+      ],
+      "quarterly_graphics_design_quarter": "Q4",
+      "quarterly_graphics_design_note": "The Sole Director also reported that new **graphics design** for the Corporation’s **logo** and **stick** product artwork remained **in progress** during the quarter.",
+      "quarterly_business_review": "During **{quarter} {year}**, the Sole Director reviewed the Corporation’s **field hockey stick** activities: **purchase of stick inventory** from **Malik/Shanco** and **AliTra** through Sialkot supply relationships; **person-to-person sales** in the **United States** and **Europe**; and continued development of **lokihockey.com**. The Sole Director confirmed that **product designs**, **manufacturing specifications**, **branding**, **website content**, and related **intellectual property** developed for the Corporation under supplier and consultant arrangements **are properly titled to and are the exclusive property of the Corporation**; **suppliers’ and consultants’ facilities, equipment, and personnel remain those counterparties’ property**.",
+      "quarterly_ratification_resolution": "RESOLVED, that all **manufacturer and agent engagements**, **sample review**, **product design**, **inventory purchases**, **lokihockey.com** development, and **U.S. and European** sales activity (including **person-to-person** sales) completed during the quarter—and related **intellectual property**—are hereby ratified, confirmed, and approved as assets of the Corporation."
+    },
+    "2026": {
+      "summary": "Continued person-to-person U.S. and European sales through June 2026; ongoing supplier relationships and graphics design.",
+      "annual_report": [
+        "Continued person-to-person sales of field hockey sticks in the United States and Europe through June 2026",
+        "Maintained supplier relationships with Malik/Shanco and AliTra in Sialkot, Pakistan for ongoing product lines",
+        "Continued new graphics design for the Corporation’s logo and field hockey stick product artwork (work in progress)"
+      ],
+      "quarterly_graphics_design_quarter": "Q1",
+      "quarterly_graphics_design_note": "The Sole Director also reported that new **graphics design** for the Corporation’s **logo** and **stick** product artwork remained **in progress** during the quarter.",
+      "quarterly_business_review": "During **{quarter} {year}**, the Sole Director reviewed the Corporation’s **field hockey stick** activities: **continued person-to-person sales** in the **United States** and **Europe** (through **June 2026** for applicable periods in this calendar year) and ongoing supplier relationships with **Malik/Shanco** and **AliTra** in **Sialkot, Pakistan**. The Sole Director confirmed that **product designs**, **manufacturing specifications**, **branding**, **website content**, and related **intellectual property** developed for the Corporation under supplier and consultant arrangements **are properly titled to and are the exclusive property of the Corporation**; **suppliers’ and consultants’ facilities, equipment, and personnel remain those counterparties’ property**.",
+      "quarterly_ratification_resolution": "RESOLVED, that all **manufacturer and agent engagements**, **sample review**, **product design**, **inventory purchases**, **lokihockey.com** development, and **U.S. and European** sales activity (including **person-to-person** sales continuing through **June 2026**) completed during the quarter—and related **intellectual property**—are hereby ratified, confirmed, and approved as assets of the Corporation."
     }
   }
 }
