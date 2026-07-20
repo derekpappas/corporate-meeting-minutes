@@ -544,3 +544,38 @@ def test_stock_ledger_acknowledgment_first_meeting_after_purchase_date() -> None
     assert "Stock Ledger and Books and Records — HIPPO-0001" in standalone
     assert "June 01, 2022" in standalone
     assert "8,000,000" in standalone
+
+
+@pytest.mark.parametrize(
+    "co_name",
+    ["Hippo, Inc", "Ritual Growth, Inc.", "TeamBoost.ai, Inc."],
+)
+def test_contractor_geography_is_serbia_bosnia_tunisia(co_name: str) -> None:
+    """Contractor/consultant personnel regions for product-engineering corps."""
+    line = cmm.development_centers_line_for_company(cmm.company_information[co_name])
+    assert "Serbia" in line
+    assert "Bosnia" in line
+    assert "Tunisia" in line
+    for forbidden in ("Poland", "Romania", "Portugal", "Brazil", "Nigeria", "Egypt"):
+        assert forbidden not in line
+
+
+@pytest.mark.parametrize(
+    "co_name",
+    ["Hippo, Inc", "Ritual Growth, Inc.", "TeamBoost.ai, Inc."],
+)
+def test_quarterly_business_review_contractor_geography(co_name: str) -> None:
+    co = cmm.company_information[co_name]
+    start = int(co.get("minutes_start_year", co["inc_year"]))
+    md = cmm._resolved_quarterly_business_review_markdown(
+        co_name, co, start, "Q1", cmm.development_centers_line_for_company(co)
+    )
+    if md is None:
+        md = (
+            f"performed by personnel **in {cmm.development_centers_line_for_company(co)}**"
+        )
+    assert "Serbia" in md
+    assert "Bosnia" in md
+    assert "Tunisia" in md
+    for forbidden in ("Poland", "Romania", "Portugal", "Brazil", "Nigeria"):
+        assert forbidden not in md

@@ -25,7 +25,14 @@ poetry run python corporate_meeting_minutes.py --write-calendars
 poetry run python scripts/build_review_pack.py
 ```
 
-Under `generated/` you should only see registry `<safe>/` folders plus `all_companies/` (master book + combined cap-table CSV). Each company folder holds `meetings/`, `cap_tables/`, `stock_ledgers/`, optional `samples/` (from `--write-samples`), compiled `<safe>_all_meetings_book.*` at that folder’s root, and optional `stock_certificates/` if you ran `scripts/render_stock_certificates.py`.
+Under `generated/` you should only see registry `<safe>/` folders plus `all_companies/` (master book + combined cap-table CSV). Each company folder holds `meetings/`, `cap_tables/`, `stock_ledgers/`, optional `samples/` (from `--write-samples`), compiled `<safe>_all_meetings_book.*` at that folder’s root, and optional `stock_certificates/` from:
+
+```bash
+poetry run python corporate_meeting_minutes.py --output-root generated --write-stock-certificates
+# or: poetry run python scripts/render_stock_certificates.py --out generated
+```
+
+Certificates are driven by `data/stock_ledgers/*.json` (one SVG per `ledger_entries` row) and land in the same `<safe>/` folder as meeting minutes.
 
 `build_review_pack.py` writes to `review_pack/` at the **repo root** (not under `generated/`). Rebuild after calendar runs so `review_pack/all/calendars/` matches `calendars/`. For a stricter check in one step, use `--write-calendars --strict-calendars` instead of plain `--write-calendars`, then run `build_review_pack.py` again.
 

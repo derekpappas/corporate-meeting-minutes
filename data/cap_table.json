@@ -5,6 +5,7 @@
   "companies": {
     "Hippo, Inc.": {
       "jurisdiction": "DE",
+      "total_authorized_shares": 10000000,
       "holders": [
         {
           "holder": "Derek E. Pappas",
@@ -13,10 +14,11 @@
         }
       ],
       "total_issued_shares_from_ledger": 8000000,
-      "notes": "Ledger reflects the user-provided 8,000,000 share issuance. If additional shares were issued later (e.g. per minute registry 8,160,000 in 2023+), add those issuances to the ledger to reconcile."
+      "notes": "10,000,000 authorized; 8,000,000 issued on HIPPO-0001 (minute registry may show 8,160,000 from later issuances not yet in ledger JSON)."
     },
     "Ritual Growth, Inc.": {
       "jurisdiction": "DE",
+      "total_authorized_shares": 10000000,
       "holders": [
         {
           "holder": "Derek E. Pappas",
@@ -29,6 +31,7 @@
     },
     "TeamBoost.ai, Inc.": {
       "jurisdiction": "DE",
+      "total_authorized_shares": 10000000,
       "holders": [
         {
           "holder": "Derek E. Pappas",
@@ -37,10 +40,11 @@
         }
       ],
       "total_issued_shares_from_ledger": 4000000,
-      "notes": "10,000,000 authorized; 4,000,000 issued per minute registry and ledger."
+      "notes": "10,000,000 authorized; 4,000,000 issued on TB-0001 per ledger."
     },
     "SurveyTeams, Inc.": {
       "jurisdiction": "DE",
+      "total_authorized_shares": 10000000,
       "holders": [
         {
           "holder": "Derek E. Pappas",
@@ -54,10 +58,11 @@
         }
       ],
       "total_issued_shares_from_ledger": 8000000,
-      "notes": "Second holder line is pending bank/date/amount details in ledger."
+      "notes": "10,000,000 authorized; 8,000,000 issued (ST-0001, ST-0002). Second holder consideration details pending in ledger."
     },
     "Loki Sports Enterprises, Inc.": {
       "jurisdiction": "WY",
+      "total_authorized_shares": 10000000,
       "holders": [
         {
           "holder": "Derek E. Pappas",
@@ -66,10 +71,11 @@
         }
       ],
       "total_issued_shares_from_ledger": 4000000,
-      "notes": "10,000,000 authorized; 4,000,000 issued per minute registry and ledger (LOKI-0001)."
+      "notes": "10,000,000 authorized; 4,000,000 issued on LOKI-0001 per ledger."
     },
     "DATA RECORD SCIENCE, INC.": {
       "jurisdiction": "DE",
+      "total_authorized_shares": 10000000,
       "holders": [
         {
           "holder": "Derek E. Pappas",
@@ -78,8 +84,7 @@
         }
       ],
       "total_issued_shares_from_ledger": 5346132,
-      "notes": "10,000,000 authorized; 5,346,132 issued per minute registry and ledger for the generated minute series (2022+)."
+      "notes": "10,000,000 authorized; 5,346,132 issued on DRS-0001 per ledger for the generated minute series (2022+)."
     }
   }
 }
-

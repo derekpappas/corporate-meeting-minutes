@@ -33,7 +33,11 @@ _REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
-from corporate_meeting_minutes import company_information  # noqa: E402
+from corporate_meeting_minutes import (  # noqa: E402
+    _co_name_from_ledger_company_name,
+    company_information,
+    sanitize_company_name,
+)
 
 _JURISDICTION_LABEL = {
     "DE": "Delaware",
@@ -47,15 +51,22 @@ def _norm_name(s: str) -> str:
     return re.sub(r"\s+", " ", s.strip().rstrip(".")).lower()
 
 
-def _lookup_company_config(ledger_company_name: str) -> dict | None:
-    target = _norm_name(ledger_company_name)
-    for key, co in company_information.items():
-        if _norm_name(key) == target:
-            return co
-        disp = co.get("minutes_display_name")
-        if disp and _norm_name(str(disp)) == target:
-            return co
-    return None
+def _lookup_company_config(ledger_company_name: str) -> tuple[str | None, dict | None]:
+    """Return (registry company key, config dict) for a ledger `company_legal_name`."""
+    co_name = _co_name_from_ledger_company_name(ledger_company_name)
+    if co_name:
+        return co_name, company_information[co_name]
+    return None, None
+
+
+def _company_output_slug(ledger_path: Path, ledger: dict, co_name: str | None) -> str:
+    """Folder under output root — must match `sanitize_company_name` used by meeting minutes."""
+    if co_name:
+        return sanitize_company_name(co_name)
+    ovr = ledger.get("output_slug")
+    if isinstance(ovr, str) and ovr.strip():
+        return ovr.strip()
+    return _slug_from_ledger_path(ledger_path)
 
 
 def _format_int_grouped(n: int) -> str:
@@ -309,11 +320,11 @@ def render_ledger(
     if not company_name:
         raise ValueError(f"{ledger_path}: missing company_legal_name")
 
-    co = _lookup_company_config(company_name)
+    co_name, co = _lookup_company_config(company_name)
     pres, sec, treas = _signatories(ledger, co)
 
     written: list[Path] = []
-    slug = _slug_from_ledger_path(ledger_path)
+    slug = _company_output_slug(ledger_path, ledger, co_name)
     company_out = out_dir / slug / "stock_certificates"
     company_out.mkdir(parents=True, exist_ok=True)
 

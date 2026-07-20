@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "description": "January 15, 2023 DRS/Hippo actions and Q1 2023 supplemental minutes (does not replace generated/ corpus).",
+  "action_date_iso": "2023-01-15",
+  "license_agreement_date_iso": "2022-12-28",
+  "license_correction_date_iso": "2023-01-15",
+  "license_section": "2.2(a)",
+  "license_payment_original_usd": 2000000,
+  "license_payment_corrected_usd": 1000000,
+  "parties": {
+    "drs_legal_name": "DATA RECORD SCIENCE, INC.",
+    "hippo_legal_name": "Hippo, Inc.",
+    "license_agreement_party_name_original": "Data Resarch Science",
+    "license_agreement_party_name_corrected": "Data Record Science"
+  },
+  "drs_resolution_signer": {
+    "name": "Marija Cejovic",
+    "title": "Executive Officer"
+  },
+  "officers": {
+    "appointed": {
+      "name": "Marija Čejović",
+      "role": "executive officer"
+    },
+    "removed": {
+      "name": "Scott Dorland",
+      "role": "executive officer"
+    }
+  }
+}

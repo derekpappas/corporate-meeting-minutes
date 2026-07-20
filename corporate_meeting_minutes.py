@@ -362,6 +362,30 @@ def cap_table_document_markdown(co_name: str, co: dict) -> str:
         block = {}
     jur = str(block.get("jurisdiction") or _jurisdiction(co)).strip()
     lines.append(f"**Jurisdiction (summary):** {jur}")
+    ledger = _stock_ledger_payload_for_company(co_name)
+    auth_n: int | None = None
+    if ledger and isinstance(ledger.get("total_authorized_shares"), int):
+        auth_n = ledger["total_authorized_shares"]
+    elif isinstance(co.get("shares_authorized"), str) and str(co["shares_authorized"]).strip():
+        try:
+            auth_n = int(str(co["shares_authorized"]).replace(",", "").strip(), 10)
+        except ValueError:
+            auth_n = None
+    if auth_n is not None:
+        lines.append(f"**Total authorized shares:** {auth_n:,}")
+    issued_sum = 0
+    if ledger and isinstance(ledger.get("ledger_entries"), list):
+        for ent in ledger["ledger_entries"]:
+            if isinstance(ent, dict) and isinstance(ent.get("shares"), int):
+                issued_sum += ent["shares"]
+    if issued_sum:
+        lines.append(f"**Total issued shares (ledger entries):** {issued_sum:,}")
+    tot = block.get("total_issued_shares_from_ledger")
+    if isinstance(tot, int) and issued_sum and tot != issued_sum:
+        lines.append(
+            f"**Note:** `cap_table.json` total_issued_shares_from_ledger ({tot:,}) differs from "
+            f"sum of ledger entries ({issued_sum:,}) — reconcile before diligence."
+        )
     lines.append("")
     holders = block.get("holders")
     if isinstance(holders, list) and holders:
@@ -376,10 +400,9 @@ def cap_table_document_markdown(co_name: str, co: dict) -> str:
             st_part = f" — **{st}**" if st else ""
             lines.append(f"- **{hn}**: {shs} shares{st_part}")
         lines.append("")
-    tot = block.get("total_issued_shares_from_ledger")
-    if isinstance(tot, int):
+    if isinstance(tot, int) and not issued_sum:
         lines.append(f"**Total issued shares (summary field):** {tot:,}")
-    elif tot is not None and str(tot).strip():
+    elif tot is not None and str(tot).strip() and not issued_sum:
         lines.append(f"**Total issued shares (summary field):** {tot}")
     notes = str(block.get("notes") or "").strip()
     if notes:
@@ -717,6 +740,16 @@ def write_cap_table_carta_pulley_csv(filepath: str, co_name: str, co: dict) -> N
         w.writeheader()
         for r in rows:
             w.writerow({k: r.get(k, "") for k in CAP_TABLE_CARTA_PULLEY_CSV_FIELDNAMES})
+
+
+def write_stock_certificates_for_registry(output_root: str, *, write_pdf: bool = False) -> None:
+    """Run `scripts/render_stock_certificates.py` for every ledger under `data/stock_ledgers/`."""
+    repo_root = os.path.dirname(os.path.abspath(__file__))
+    script = os.path.join(repo_root, "scripts", "render_stock_certificates.py")
+    cmd = [sys.executable, script, "--out", output_root]
+    if write_pdf:
+        cmd.append("--pdf")
+    subprocess.run(cmd, cwd=repo_root, check=True)
 
 
 def write_all_companies_cap_table_carta_pulley_csv(output_root: str) -> str | None:
@@ -1893,7 +1926,7 @@ company_information = {
             "The Corporation continued to operate hardware and cloud infrastructure using hosting providers including **DigitalOcean** and **Hetzner**."
         ),
         "agm_president_report_operating_exhibit_label": "Exhibit B",
-        "development_centers_line": "Brazil; Nigeria; Portugal",
+        "development_centers_line": "Serbia; Bosnia and Herzegovina; Tunisia",
         "quarterly_meeting_time": "2:00 PM",
         "primary_banking_institution": "First Citizens Bank & Trust Company",
         "agm_discussion_items_line": (
@@ -1938,7 +1971,7 @@ company_information = {
             "---"
         ),
         "signature_block_style": "executed_by",
-        "signature_block_include_date": False,
+        "signature_block_include_date": True,
         "signature_block_include_title_in_label": False,
         "signature_block_label_template": "**Signed:**",
         "signature_block_spacing_lines": 1,
@@ -5385,15 +5418,25 @@ def write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root: str) -> str:
     return out_dir
 
 
-def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
+def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026), *, only_company: str | None = None):
     start_cwd = os.getcwd()
     print(f"Current working directory: {start_cwd}")
     root_dir = os.path.join(start_cwd, output_root)
     os.makedirs(root_dir, exist_ok=True)
-    _cleanup_legacy_output_root_top_level(root_dir)
+    if not only_company:
+        _cleanup_legacy_output_root_top_level(root_dir)
+
+    company_names = list(companies.keys())
+    if only_company:
+        matched = [n for n in company_names if only_company.lower() in n.lower() or only_company.lower() in sanitize_company_name(n)]
+        if not matched:
+            print(f"No company matching '{only_company}' found in registry.", file=sys.stderr)
+            sys.exit(1)
+        company_names = matched
+        print(f"Generating only: {', '.join(company_names)}")
 
     try:
-        for name in companies.keys():
+        for name in company_names:
             co = companies[name]
             _warn_if_non_de_company_has_delaware_snippets(name, co)
             print(f"Company {name} Current working directory: {os.getcwd()}")
@@ -5481,21 +5524,23 @@ def generate_all(output_root: str, years=(2022, 2023, 2024, 2025, 2026)):
     finally:
         os.chdir(start_cwd)
 
-    write_all_companies_cap_table_carta_pulley_csv(root_dir)
-    write_standalone_board_resolution_documents(root_dir)
+    if not only_company:
+        write_all_companies_cap_table_carta_pulley_csv(root_dir)
+        write_standalone_board_resolution_documents(root_dir)
 
     allowed_top = {sanitize_company_name(n) for n in companies} | {ROLLUP_OUTPUT_DIRECTORY}
-    for name in list(os.listdir(root_dir)):
-        if name in allowed_top or name.startswith("."):
-            continue
-        p = os.path.join(root_dir, name)
-        if os.path.isdir(p):
-            shutil.rmtree(p, ignore_errors=True)
-        elif os.path.isfile(p):
-            try:
-                os.remove(p)
-            except OSError:
-                pass
+    if not only_company:
+        for name in list(os.listdir(root_dir)):
+            if name in allowed_top or name.startswith("."):
+                continue
+            p = os.path.join(root_dir, name)
+            if os.path.isdir(p):
+                shutil.rmtree(p, ignore_errors=True)
+            elif os.path.isfile(p):
+                try:
+                    os.remove(p)
+                except OSError:
+                    pass
 
 
 def main():
@@ -5517,6 +5562,11 @@ def main():
             "With --write-calendars: exit with status 1 if unified_calendar audit finds any "
             "same date+time slot shared by more than one company (see calendar-output-dir/conflicts.txt)."
         ),
+    )
+    parser.add_argument(
+        "--company",
+        default=None,
+        help="Generate only the company whose name contains this substring (case-insensitive). Default: all companies.",
     )
     parser.add_argument(
         "--output-root",
@@ -5575,6 +5625,19 @@ def main():
             "compiled book at <output-root>/<safe>/<safe>_all_meetings_book.*)."
         ),
     )
+    parser.add_argument(
+        "--write-stock-certificates",
+        action="store_true",
+        help=(
+            "Render SVG stock certificates from `data/stock_ledgers/*.json` into "
+            "`<output-root>/<safe>/stock_certificates/` (same `<safe>` as meeting minutes)."
+        ),
+    )
+    parser.add_argument(
+        "--stock-certificates-pdf",
+        action="store_true",
+        help="With --write-stock-certificates: also write PDF via rsvg-convert.",
+    )
     args = parser.parse_args()
 
     if args.schedule_seed is not None:
@@ -5594,7 +5657,7 @@ def main():
             sys.exit(1)
         return
 
-    generate_all(output_root=args.output_root)
+    generate_all(output_root=args.output_root, only_company=args.company)
 
     if args.write_master_book:
         generate_master_all_companies_book(output_root=args.output_root)
@@ -5608,6 +5671,9 @@ def main():
 
     if args.write_loki_agm_exhibits_pdf:
         write_loki_agm_accomplishments_exhibits_pdf_bundle(output_root=args.output_root)
+
+    if args.write_stock_certificates:
+        write_stock_certificates_for_registry(output_root=args.output_root, write_pdf=args.stock_certificates_pdf)
 
     if args.extract_audit_text:
         repo_root = os.path.dirname(os.path.abspath(__file__))
